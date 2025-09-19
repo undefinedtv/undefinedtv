@@ -29,6 +29,8 @@ jobs:
           
       - name: selcuk.py Çalıştır
         run: python selcuk.py
+      - name: trgoals.py Çalıştır
+        run: python trgoals.py
       - name: birlestir.py Çalıştır
         run: python birlestir.py        
       
