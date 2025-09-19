@@ -1,6 +1,7 @@
 # Birleştirilecek dosya adları
 dosya1 = 'selcuk.m3u'
 dosya2 = 'legal.m3u'
+dosya3 = 'karma.m3u'
 cikis_dosyasi = 'karisik.m3u'
 
 # M3U dosyalarının içeriğini oku
@@ -11,9 +12,10 @@ def oku_m3u(dosya_adi):
 # İçerikleri oku
 icerik1 = oku_m3u(dosya1)
 icerik2 = oku_m3u(dosya2)
+icerik3 = oku_m3u(dosya3)
 
 # Birleştir
-birlesik_icerik = icerik1 + icerik2
+birlesik_icerik = icerik1 + icerik2 + icerik3
 
 # Yeni dosyaya yaz
 with open(cikis_dosyasi, 'w', encoding='utf-8') as f:
