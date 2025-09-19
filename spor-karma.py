@@ -394,12 +394,12 @@ def gorevi_calistir():
     all_m3u = [""]
 
     kaynaklar = [
+        NexaTVManager(),
         Dengetv54Manager(),
         XYZsportsManager(),
         TRGOALSManager(),
         SporcafeManager(),
         SalamisTVManager(),
-        NexaTVManager(),
         JustSportHDManager()
     ]
 
