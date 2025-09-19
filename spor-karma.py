@@ -390,7 +390,7 @@ class JustSportHDManager:
 # ---------------- Main Execution ----------------
 def gorevi_calistir():
     print(f"--- Görev Başlatıldı: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ---")
-    CIKTI_DOSYASI = "karma.m3u"
+    CIKTI_DOSYASI = "spor-karma.m3u"
     all_m3u = [""]
 
     kaynaklar = [
