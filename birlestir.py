@@ -17,8 +17,9 @@ birlesik_icerik = icerik1 + icerik2
 
 # Yeni dosyaya yaz
 with open(cikis_dosyasi, 'w', encoding='utf-8') as f:
-    f.write('#EXTM3U\n')  # Başlık
+    #f.write('#EXTM3U\n')  # Başlık
     for satir in birlesik_icerik:
+        print(f"satır okunuyor")
         f.write(satir + '\n')
 
 print(f"{cikis_dosyasi} dosyası başarıyla oluşturuldu.")
