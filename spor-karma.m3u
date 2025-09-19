@@ -212,6 +212,71 @@ https://four.zirvestream14.cfd/yayinex7.m3u8
 #EXTVLCOPT:http-referrer=https://dengetv66.live/
 https://four.zirvestream14.cfd/yayinex8.m3u8
 
+#EXTINF:-1 group-title="XYZSport",Bein Sports 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/bein-sports-1/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/bein-sports-2/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/bein-sports-3/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/bein-sports-4/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/bein-sports-5/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports Max 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/bein-sports-max-1/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports Max 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/bein-sports-max-2/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Smart Spor
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/smart-spor/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Smart Spor 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/smart-spor-2/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Trt Spor
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/trt-spor/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Trt Spor 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/trt-spor-2/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Aspor
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/aspor/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",S Sport
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/s-sport/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",S Sport 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/s-sport-2/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",S Sport Plus 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/s-sport-plus-1/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",S Sport Plus 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/s-sport-plus-2/playlist.m3u8
+
 #EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",BEIN Sport 1
 #EXTVLCOPT:http-referer=https://salamistv15.online/
 https://macarenatv5.com/701/mono.m3u8
@@ -312,4 +377,4 @@ https://streamnet9.xyz/?url=https://streamcdn.xyz/hls/tivibu2.m3u8
 https://streamnet9.xyz/?url=https://streamcdn.xyz/hls/tivibu3.m3u8
 
 
-# Generated: 2025-09-19T23:30:00.059549
+# Generated: 2025-09-19T23:42:40.454617
