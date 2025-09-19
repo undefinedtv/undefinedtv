@@ -29,8 +29,8 @@ jobs:
           
       - name: selcuk.py Çalıştır
         run: python selcuk.py
-      - name: karma.py Çalıştır
-        run: python karma.py
+      - name: spor-karma.py Çalıştır
+        run: python spor-karma.py
       - name: birlestir.py Çalıştır
         run: python birlestir.py        
       
