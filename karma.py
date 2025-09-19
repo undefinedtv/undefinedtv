@@ -391,7 +391,7 @@ class JustSportHDManager:
 def gorevi_calistir():
     print(f"--- Görev Başlatıldı: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ---")
     CIKTI_DOSYASI = "karma.m3u"
-    all_m3u = ["#EXTM3U"]
+    all_m3u = [""]
 
     kaynaklar = [
         Dengetv54Manager(),
