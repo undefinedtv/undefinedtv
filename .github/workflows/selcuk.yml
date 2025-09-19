@@ -5,7 +5,7 @@ concurrency:
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/10 * * * *'  
+    - cron: '*/5 * * * *'  
 jobs:
   BirlesikGuncelleme:
     runs-on: ubuntu-latest
@@ -29,7 +29,8 @@ jobs:
           
       - name: selcuk.py Çalıştır
         run: python selcuk.py
-
+      - name: birlestir.py Çalıştır
+        run: python birlestir.py        
       
       - name: Değişiklik Kontrolü
         id: degisiklik_kontrol
