@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="bein1" tvg-name="BeIN Sports 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="BEIN SPORT",BeIN Sports 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://dow16a1wo44i5e.fcb5d719e3269a80.live/live/selcukbeinsports1/playlist.m3u8
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/selcukbeinsports1/playlist.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BeIN Sports 2" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="BEIN SPORT",BeIN Sports 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/selcukbeinsports2/playlist.m3u8
@@ -10,7 +10,7 @@ https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/selcukbeinsports2/playlist.m3u
 https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/selcukbeinsports3/playlist.m3u8
 #EXTINF:-1 tvg-id="bein4" tvg-name="BeIN Sports 4" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png" group-title="BEIN SPORT",BeIN Sports 4
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://dow16a1wo44i5e.fcb5d719e3269a80.live/live/selcukbeinsports4/playlist.m3u8
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/selcukbeinsports4/playlist.m3u8
 #EXTINF:-1 tvg-id="bein5" tvg-name="BeIN Sports 5" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_5_US.png" group-title="BEIN SPORT",BeIN Sports 5
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/selcukbeinsports5/playlist.m3u8
@@ -25,7 +25,7 @@ https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/selcukbeinsportsmax2/playlist.
 https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/selcukssport/playlist.m3u8
 #EXTINF:-1 tvg-id="ssport2" tvg-name="S Sport 2" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="S SPORT",S Sport 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://dow16a1wo44i5e.fcb5d719e3269a80.live/live/selcukssport2/playlist.m3u8
+https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/selcukssport2/playlist.m3u8
 #EXTINF:-1 tvg-id="ssport" tvg-name="S Sport PLUS 1" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="S SPORT",S Sport PLUS 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dow16a1wo44i5e.a2e48a79a3e61720.live/live/sssplus1/playlist.m3u8
@@ -558,4 +558,4 @@ https://streamnet9.xyz/?url=https://streamcdn.xyz/hls/tivibu2.m3u8
 #EXTVLCOPT:http-referer=https://justsporthd43.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
 https://streamnet9.xyz/?url=https://streamcdn.xyz/hls/tivibu3.m3u8
-# Generated: 2025-09-19T20:39:54.792742
+# Generated: 2025-09-19T20:53:22.646800
