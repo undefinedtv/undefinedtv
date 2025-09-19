@@ -1,5 +1,3 @@
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rideordie16/epg/main/bin/guide.xml"
-
 #EXTINF:-1 tvg-name="Tabii Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43023.jpeg" group-title="Tabii Spor",Tabii Spor
 https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_1080p.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII2" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43008.jpeg" group-title="Tabii Spor",Tabii Spor 2
@@ -206,6 +204,7 @@ https://listen.powerapp.com.tr/plove/love.smil/chunklist_b1028000_sltur.m3u8
 https://listen.powerapp.com.tr/pturkakustik/akustik.smil/chunklist_b1028000_sltur.m3u8
 #EXTINF:-1 tvg-name="POWER TURK SLOW" tvg-id="" tvg-logo="https://i.ibb.co/R4pcKqK/powerturk-slow.png" group-title="MUZIK",POWER TURK SLOW
 https://listen.powerapp.com.tr/pturkslow/slow.smil/chunklist_b1028000_sltur.m3u8
+
 
 
 
