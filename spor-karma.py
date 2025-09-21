@@ -7,7 +7,7 @@ from httpx import Client
 class Dengetv54Manager:
     def __init__(self):
         self.httpx = Client(timeout=10, verify=False)
-        self.base_stream_url = "https://four.zirvestream14.cfd/"
+        self.base_stream_url = "https://seven.zirvedesin7.sbs/"
         self.channel_files = {
             1: "yayinzirve.m3u8", 2: "yayin1.m3u8", 3: "yayininat.m3u8", 4: "yayinb2.m3u8",
             5: "yayinb3.m3u8", 6: "yayinb4.m3u8", 7: "yayinb5.m3u8", 8: "yayinbm1.m3u8",
@@ -241,8 +241,8 @@ class SporcafeManager:
 # ---------------- SalamisTVManager ----------------
 class SalamisTVManager:
     def __init__(self):
-        self.referer_url = "https://salamistv15.online/"
-        self.base_stream_url = "https://macarenatv5.com"
+        self.referer_url = "https://yakatv9.live/"
+        self.base_stream_url = "https://zinabet.tv"
         self.logo_url = "https://i.hizliresim.com/b6xqz10.jpg"
         self.channels = [
             {"name": "BEIN Sport 1", "id": "701"}, {"name": "BEIN Sport 2", "id": "702"},
