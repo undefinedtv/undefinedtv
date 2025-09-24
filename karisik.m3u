@@ -26,6 +26,9 @@ https://dow16a1wo44i5e.f2c40a4cf34082f2.live/live/selcukssport/playlist.m3u8
 #EXTINF:-1 tvg-id="ssport2" tvg-name="S Sport 2" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="S SPORT",S Sport 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dow16a1wo44i5e.f2c40a4cf34082f2.live/live/selcukssport2/playlist.m3u8
+#EXTINF:-1 tvg-id="ssport" tvg-name="S Sport PLUS 1" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="S SPORT",S Sport PLUS 1
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
+https://dow16a1wo44i5e.f2c40a4cf34082f2.live/live/sssplus1/playlist.m3u8
 #EXTINF:-1 tvg-id="ssport" tvg-name="S Sport PLUS 2" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="S SPORT",S Sport PLUS 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dow16a1wo44i5e.f2c40a4cf34082f2.live/live/sssplus2/playlist.m3u8
@@ -555,4 +558,4 @@ https://streamnet9.xyz/?url=https://streamcdn.xyz/hls/tivibu2.m3u8
 #EXTVLCOPT:http-referer=https://justsporthd44.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
 https://streamnet9.xyz/?url=https://streamcdn.xyz/hls/tivibu3.m3u8
-# Generated: 2025-09-24T10:50:30.588749
+# Generated: 2025-09-24T11:03:00.765520
