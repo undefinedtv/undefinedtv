@@ -461,6 +461,70 @@ https://seven.zirvedesin7.sbs/yayinex7.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://dengetv66.live/
 https://seven.zirvedesin7.sbs/yayinex8.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/bein-sports-1/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/bein-sports-2/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/bein-sports-3/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/bein-sports-4/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/bein-sports-5/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports Max 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/bein-sports-max-1/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Bein Sports Max 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/bein-sports-max-2/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Smart Spor
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/smart-spor/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Smart Spor 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/smart-spor-2/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Trt Spor
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/trt-spor/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Trt Spor 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/trt-spor-2/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",Aspor
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/aspor/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",S Sport
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/s-sport/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",S Sport 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/s-sport-2/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",S Sport Plus 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/s-sport-plus-1/playlist.m3u8
+#EXTINF:-1 group-title="XYZSport",S Sport Plus 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.xyzsports248.xyz/
+https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/s-sport-plus-2/playlist.m3u8
 #EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",BEIN Sport 1
 #EXTVLCOPT:http-referer=https://yakatv9.live/
 https://zinabet.tv/701/mono.m3u8
@@ -558,4 +622,4 @@ https://streamnet9.xyz/?url=https://streamcdn.xyz/hls/tivibu2.m3u8
 #EXTVLCOPT:http-referer=https://justsporthd44.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
 https://streamnet9.xyz/?url=https://streamcdn.xyz/hls/tivibu3.m3u8
-# Generated: 2025-10-12T05:00:14.536067
+# Generated: 2025-10-12T05:27:32.965033
