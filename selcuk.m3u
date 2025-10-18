@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="bein1" tvg-name="BeIN Sports 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="BEIN SPORT",BeIN Sports 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://df16ea90s1u1080.0227f5e80acfd3ae.live/live/selcukbeinsports1/playlist.m3u8
+https://df16ea90s1u1080.00b0c0cc4ac278f4.live/live/selcukbeinsports1/playlist.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BeIN Sports 2" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="BEIN SPORT",BeIN Sports 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://df16ea90s1u1080.00b0c0cc4ac278f4.live/live/selcukbeinsports2/playlist.m3u8
