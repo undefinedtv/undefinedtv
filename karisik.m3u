@@ -52,10 +52,10 @@ https://df16ea90s1u1080.dc128087447277db.live/live/selcuksmartspor/playlist.m3u8
 https://df16ea90s1u1080.dc128087447277db.live/live/selcuksmartspor2/playlist.m3u8
 #EXTINF:-1 tvg-id="eurosport1" tvg-name="Eurosport 1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="SPOR",Eurosport 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://df16ea90s1u1080.dc128087447277db.live/live/seurosport1/playlist.m3u8
+https://dga1op10s1u4lep.7a08e61ba0315761.live/live/seurosport1/playlist.m3u8
 #EXTINF:-1 tvg-id="eurosport2" tvg-name="Eurosport 2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="SPOR",Eurosport 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://df16ea90s1u1080.dc128087447277db.live/live/seurosport2/playlist.m3u8
+https://dga1op10s1u4lep.7a08e61ba0315761.live/live/seurosport2/playlist.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43023.jpeg" group-title="Tabii Spor",Tabii Spor
 https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_1080p.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII2" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43008.jpeg" group-title="Tabii Spor",Tabii Spor 2
@@ -558,4 +558,4 @@ https://streamnet10.xyz/?url=https://streamcdn.xyz/hls/tivibu2.m3u8
 #EXTVLCOPT:http-referer=https://justsporthd45.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
 https://streamnet10.xyz/?url=https://streamcdn.xyz/hls/tivibu3.m3u8
-# Generated: 2025-10-26T15:52:56.630985
+# Generated: 2025-10-26T16:17:45.028148
