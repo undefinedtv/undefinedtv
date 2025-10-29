@@ -11,9 +11,6 @@ https://dga1op10s1u4lep.f80fcd777993c210.live/live/selcukbeinsports3/playlist.m3
 #EXTINF:-1 tvg-id="bein4" tvg-name="BeIN Sports 4" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png" group-title="BEIN SPORT",BeIN Sports 4
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u4lep.f80fcd777993c210.live/live/selcukbeinsports4/playlist.m3u8
-#EXTINF:-1 tvg-id="bein5" tvg-name="BeIN Sports 5" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_5_US.png" group-title="BEIN SPORT",BeIN Sports 5
-#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://dga1op10s1u4lep.f80fcd777993c210.live/live/selcukbeinsports5/playlist.m3u8
 #EXTINF:-1 tvg-id="beinmax1" tvg-name="BeIN Sports Max 1" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX1_DIGITAL_Mono.png" group-title="BEIN SPORT",BeIN Sports Max 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u4lep.f80fcd777993c210.live/live/selcukbeinsportsmax1/playlist.m3u8
@@ -558,4 +555,4 @@ https://streamnet10.xyz/?url=https://streamcdn.xyz/hls/tivibu2.m3u8
 #EXTVLCOPT:http-referer=https://justsporthd45.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
 https://streamnet10.xyz/?url=https://streamcdn.xyz/hls/tivibu3.m3u8
-# Generated: 2025-10-29T15:18:15.905054
+# Generated: 2025-10-29T15:43:17.056904
