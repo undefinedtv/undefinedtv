@@ -53,6 +53,9 @@ https://dga1op10s1u3lep.eaf7037ecd540a.click/live/selcuksmartspor2/playlist.m3u8
 #EXTINF:-1 tvg-id="eurosport1" tvg-name="Eurosport 1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="SPOR",Eurosport 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3lep.eaf7037ecd540a.click/live/seurosport1/playlist.m3u8
+#EXTINF:-1 tvg-id="eurosport2" tvg-name="Eurosport 2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="SPOR",Eurosport 2
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
+https://dga1op10s1u3lep.eaf7037ecd540a.click/live/seurosport2/playlist.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43023.jpeg" group-title="Tabii Spor",Tabii Spor
 https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_1080p.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII2" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43008.jpeg" group-title="Tabii Spor",Tabii Spor 2
@@ -503,4 +506,4 @@ https://zinabet.tv/nba/mono.m3u8
 #EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",SKYF1
 #EXTVLCOPT:http-referer=https://yakatv9.live/
 https://zinabet.tv/skyf1/mono.m3u8
-# Generated: 2025-11-18T16:53:00.891012
+# Generated: 2025-11-18T17:15:10.384510
