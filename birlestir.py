@@ -1,7 +1,7 @@
 # Birleştirilecek dosya adları
 dosya1 = 'goals.m3u'
-dosya2 = 'yeni.m3u'
-dosya3 = 'tabii.m3u'
+dosya2 = 'tabii.m3u'
+dosya3 = 'yeni.m3u'
 cikis_dosyasi = 'karisik.m3u'
 
 # M3U dosyalarının içeriğini oku
