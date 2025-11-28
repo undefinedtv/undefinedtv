@@ -25,17 +25,17 @@ if not domain:
 # YAPILAN DEĞİŞİKLİK BURADA:
 # Artık formatımız şu şekilde -> "id": ["Kanal İsmi", "Grup İsmi"]
 channel_ids = {
-    "yayinzirve": ["beIN Sports 1 ☪️", "BEIN SPORTS"],
-    "yayininat":  ["beIN Sports 1 ⭐", "BEIN SPORTS"],
-    "yayin1":     ["beIN Sports 1 ♾️", "BEIN SPORTS"],
+    "yayinzirve": ["beIN Sports 1 A", "BEIN SPORTS"],
+    "yayininat":  ["beIN Sports 1 B", "BEIN SPORTS"],
+    "yayin1":     ["beIN Sports 1 C️", "BEIN SPORTS"],
     "yayinb2":    ["beIN Sports 2", "BEIN SPORTS"],
     "yayinb3":    ["beIN Sports 3", "BEIN SPORTS"],
     "yayinb4":    ["beIN Sports 4", "BEIN SPORTS"],
     "yayinb5":    ["beIN Sports 5", "BEIN SPORTS"],
     "yayinbm1":   ["beIN Sports 1 Max", "BEIN SPORTS"],
     "yayinbm2":   ["beIN Sports 2 Max", "BEIN SPORTS"],
-    "yayinss":    ["Saran Sports 1", "S SPORTS"],
-    "yayinss2":   ["Saran Sports 2", "S SPORTS"],
+    "yayinss":    ["S Sports 1", "S SPORTS"],
+    "yayinss2":   ["S Sports 2", "S SPORTS"],
     "yayint1":    ["Tivibu Sports 1", "TIVIBU SPORTS"],
     "yayint2":    ["Tivibu Sports 2", "TIVIBU SPORTS"],
     "yayint3":    ["Tivibu Sports 3", "TIVIBU SPORTS"],
