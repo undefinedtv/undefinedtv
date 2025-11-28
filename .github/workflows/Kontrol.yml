@@ -29,8 +29,6 @@ jobs:
           
       - name: selcuk.py Çalıştır
         run: python selcuk.py
-      - name: spor-karma.py Çalıştır
-        run: python spor-karma.py
       - name: gbl.py Çalıştır
         run: python gbl.py        
       - name: birlestir.py Çalıştır
