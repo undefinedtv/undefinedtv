@@ -1,6 +1,6 @@
 # Birleştirilecek dosya adları
 dosya1 = 'selcuk.m3u'
-dosya2 = 'legal.m3u'
+dosya2 = 'yeni.m3u'
 dosya3 = 'spor-karma.m3u'
 cikis_dosyasi = 'karisik.m3u'
 
