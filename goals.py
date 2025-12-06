@@ -66,7 +66,7 @@ for channel_id, details in channel_ids.items():
         match = re.search(r'const baseurl = "(.*?)"', r.text)
         if match:
             baseurl = match.group(1)
-            full_url = f"{baseurl}{channel_id}.m3u8"
+            full_url = f"http://palxlendimgaliba1010.mywire.org/proxy.php?url={baseurl}{channel_id}.m3u8"
             
             # group-title kısmına yukarıdan gelen değişkeni koyduk
             m3u_content += f'#EXTINF:-1 group-title="{group_title}", {channel_name}\n'
