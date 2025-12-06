@@ -1,5 +1,6 @@
 # Birleştirilecek dosya adları
-goals = 'goals.m3u'
+#goals = 'goals.m3u'
+inattv = 'inattv.m3u'
 selcuk = 'selcuk.m3u'
 andro = 'androtv.m3u'
 tabii = 'tabii.m3u'
@@ -12,7 +13,7 @@ def oku_m3u(dosya_adi):
         return [satir.strip() for satir in f if satir.strip()]
 
 # İçerikleri oku
-icerik1 = oku_m3u(goals)
+icerik1 = oku_m3u(inattv)
 icerik2 = oku_m3u(selcuk)
 icerik3 = oku_m3u(andro)
 icerik4 = oku_m3u(tabii)
