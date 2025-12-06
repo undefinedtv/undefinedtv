@@ -27,7 +27,7 @@ first_id = m.group(1)
 # Base URL çek
 event_source = requests.get(active_domain + "event.html?id=" + first_id, timeout=10).text
 print(event_source)
-b = re.search(r'var\s+baseurls\s*=\s*\[\s*"([^"]+)"', event_source)
+b = re.search(r'const\s+baseurls\s*=\s*\[\s*"([^"]+)"', event_source)
 if not b:
     print("Base URL bulunamadı.")
 base_url = b.group(1)
