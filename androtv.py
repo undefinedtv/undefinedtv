@@ -17,6 +17,7 @@ if not active_domain:
     print("Aktif domain bulunamadı.")
 
 # İlk kanal ID'si al
+print(active_domain)
 html = requests.get(active_domain, timeout=10).text
 m = re.search(r'<iframe[^>]+id="matchPlayer"[^>]+src="event\.html\?id=([^"]+)"', html)
 if not m:
@@ -25,6 +26,7 @@ first_id = m.group(1)
 
 # Base URL çek
 event_source = requests.get(active_domain + "event.html?id=" + first_id, timeout=10).text
+print(event_source)
 b = re.search(r'var\s+baseurls\s*=\s*\[\s*"([^"]+)"', event_source)
 if not b:
     print("Base URL bulunamadı.")
