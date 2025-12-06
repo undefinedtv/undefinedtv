@@ -29,6 +29,10 @@ jobs:
           
       - name: goals.py Çalıştır
         run: python goals.py
+      - name: androtv.py Çalıştır
+        run: python androtv.py
+      - name: selcuk.py Çalıştır
+        run: python selcuk.py
       - name: gbl.py Çalıştır
         run: python gbl.py        
       - name: birlestir.py Çalıştır
