@@ -1,7 +1,9 @@
 # Birleştirilecek dosya adları
-dosya1 = 'goals.m3u'
-dosya2 = 'tabii.m3u'
-dosya3 = 'yeni.m3u'
+goals = 'goals.m3u'
+selcuk = 'selcuk.m3u'
+andro = 'androtv.m3u'
+tabii = 'tabii.m3u'
+yeni = 'yeni.m3u'
 cikis_dosyasi = 'karisik.m3u'
 
 # M3U dosyalarının içeriğini oku
@@ -10,12 +12,14 @@ def oku_m3u(dosya_adi):
         return [satir.strip() for satir in f if satir.strip()]
 
 # İçerikleri oku
-icerik1 = oku_m3u(dosya1)
-icerik2 = oku_m3u(dosya2)
-icerik3 = oku_m3u(dosya3)
+icerik1 = oku_m3u(goals)
+icerik2 = oku_m3u(selcuk)
+icerik3 = oku_m3u(andro)
+icerik4 = oku_m3u(tabii)
+icerik5 = oku_m3u(yeni)
 
 # Birleştir
-birlesik_icerik = icerik1 + icerik2 + icerik3
+birlesik_icerik = icerik1 + icerik2 + icerik3 + icerik4 + icerik5
 
 # Yeni dosyaya yaz
 with open(cikis_dosyasi, 'w', encoding='utf-8') as f:
