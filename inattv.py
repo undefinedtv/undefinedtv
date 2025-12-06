@@ -65,33 +65,33 @@ def main():
         
         # Kanal listesi
         channel_ids = {
-            "yayinzirve": ["beIN Sports 1 A", "Goals TV"],
-            "yayininat":  ["beIN Sports 1 B", "Goals TV"],
-            "yayin1":     ["beIN Sports 1 C️", "Goals TV"],
-            "yayinb2":    ["beIN Sports 2", "Goals TV"],
-            "yayinb3":    ["beIN Sports 3", "Goals TV"],
-            "yayinb4":    ["beIN Sports 4", "Goals TV"],
-            "yayinb5":    ["beIN Sports 5", "Goals TV"],
-            "yayinbm1":   ["beIN Sports 1 Max", "Goals TV"],
-            "yayinbm2":   ["beIN Sports 2 Max", "Goals TV"],
-            "yayinss":    ["S Sports 1", "Goals TV"],
-            "yayinss2":   ["S Sports 2", "Goals TV"],
-            "yayint1":    ["Tivibu Sports 1", "Goals TV"],
-            "yayint2":    ["Tivibu Sports 2", "Goals TV"],
-            "yayint3":    ["Tivibu Sports 3", "Goals TV"],
-            "yayint4":    ["Tivibu Sports 4", "Goals TV"],
-            "yayinsmarts":["Smart Sports", "Goals TV"],
-            "yayinsms2":  ["Smart Sports 2", "Goals TV"],
-            "yayineu1":  ["Euro Sport 1", "Goals TV"],
-            "yayineu2":  ["Euro Sport 2", "Goals TV"],
-            "yayinex1":   ["Tâbii 1", "Goals TV"],
-            "yayinex2":   ["Tâbii 2", "Goals TV"],
-            "yayinex3":   ["Tâbii 3", "Goals TV"],
-            "yayinex4":   ["Tâbii 4", "Goals TV"],
-            "yayinex5":   ["Tâbii 5", "Goals TV"],
-            "yayinex6":   ["Tâbii 6", "Goals TV"],
-            "yayinex7":   ["Tâbii 7", "Goals TV"],
-            "yayinex8":   ["Tâbii 8", "Goals TV"]
+            "yayinzirve": ["beIN Sports 1 A", "Inat TV"],
+            "yayininat":  ["beIN Sports 1 B", "Inat TV"],
+            "yayin1":     ["beIN Sports 1 C️", "Inat TV"],
+            "yayinb2":    ["beIN Sports 2", "Inat TV"],
+            "yayinb3":    ["beIN Sports 3", "Inat TV"],
+            "yayinb4":    ["beIN Sports 4", "Inat TV"],
+            "yayinb5":    ["beIN Sports 5", "Inat TV"],
+            "yayinbm1":   ["beIN Sports 1 Max", "Inat TV"],
+            "yayinbm2":   ["beIN Sports 2 Max", "Inat TV"],
+            "yayinss":    ["S Sports 1", "Inat TV"],
+            "yayinss2":   ["S Sports 2", "Inat TV"],
+            "yayint1":    ["Tivibu Sports 1", "Inat TV"],
+            "yayint2":    ["Tivibu Sports 2", "Inat TV"],
+            "yayint3":    ["Tivibu Sports 3", "Inat TV"],
+            "yayint4":    ["Tivibu Sports 4", "Inat TV"],
+            "yayinsmarts":["Smart Sports", "Inat TV"],
+            "yayinsms2":  ["Smart Sports 2", "Inat TV"],
+            "yayineu1":  ["Euro Sport 1", "Inat TV"],
+            "yayineu2":  ["Euro Sport 2", "Inat TV"],
+            "yayinex1":   ["Tâbii 1", "Inat TV"],
+            "yayinex2":   ["Tâbii 2", "Inat TV"],
+            "yayinex3":   ["Tâbii 3", "Inat TV"],
+            "yayinex4":   ["Tâbii 4", "Inat TV"],
+            "yayinex5":   ["Tâbii 5", "Inat TV"],
+            "yayinex6":   ["Tâbii 6", "Inat TV"],
+            "yayinex7":   ["Tâbii 7", "Inat TV"],
+            "yayinex8":   ["Tâbii 8", "Inat TV"]
         }
         
         # M3U dosyası oluştur
@@ -99,7 +99,7 @@ def main():
         lines = ["#EXTM3U"]
         for cid, details in channel_ids.items():
             name = details[0]  # Listenin ilk elemanı: Kanal Adı (Örn: beIN Sports 1 A)
-            title = details[1] # Listenin ikinci elemanı: Grup (Örn: Goals TV)
+            title = details[1] # Listenin ikinci elemanı: Grup (Örn: Inat TV)
             
             # EXTM3U satırını oluştur
             lines.append(f'#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:{name}" group-title="{title}" ,TR:{name}')
