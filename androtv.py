@@ -64,7 +64,7 @@ def main():
         
         # Kanal listesi
         channels = [
-            ("beIN Sport 1 HD","androstreamlivebs1","Andro TV"),
+            ("beIN Sport 1 HD","androstreamlivebiraz1","Andro TV"),
             ("beIN Sport 2 HD","androstreamlivebs2","Andro TV"),
             ("beIN Sport 3 HD","androstreamlivebs3","Andro TV"),
             ("beIN Sport 4 HD","androstreamlivebs4","Andro TV"),
