@@ -20,7 +20,7 @@ country_mapping = {
     "Russia": ("Rusya", "Rusça"),
 }
 
-DEFAULT_TVG_LOGO_URL = "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/v-kanallari.png"
+DEFAULT_TVG_LOGO_URL = "https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png"
 
 def sort_key(tvg_name):
     """Sıralama önceliği belirleme"""
