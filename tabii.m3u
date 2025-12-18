@@ -1,3 +1,37 @@
+#EXTINF:-1 group-title="Bein Sport", Bein Sport 1
+http://176.123.10.77:8480/b1/index.m3u8
+#EXTINF:-1 group-title="Bein Sport", Bein Sport 2
+http://176.123.10.77:8480/b2/index.m3u8
+#EXTINF:-1 group-title="Bein Sport", Bein Sport 3
+http://176.123.10.77:8480/b3/index.m3u8
+#EXTINF:-1 group-title="Bein Sport", Bein Sport 4
+http://176.123.10.77:8480/b4/index.m3u8
+#EXTINF:-1 group-title="Bein Sport", Bein Sport 5
+http://176.123.10.77:8480/b5/index.m3u8
+#EXTINF:-1 group-title="Bein Sport", Bein Sport Max 1
+http://176.123.10.77:8480/bmax1/index.m3u8
+#EXTINF:-1 group-title="Bein Sport", Bein Sport Max 2
+http://176.123.10.77:8480/bmax2/index.m3u8
+
+#EXTINF:-1 group-title="S Spor",S Spor 1
+http://176.123.10.77:8480/s1/index.m3u8
+#EXTINF:-1 group-title="S Spor",S Spor 2
+http://176.123.10.77:8480/s2/index.m3u8
+
+#EXTINF:-1 group-title="Tivibu Spor",Tivibu Spor 1
+http://176.123.10.77:8480/t1/index.m3u8
+#EXTINF:-1 group-title="Tivibu Spor",Tivibu Spor 2
+http://176.123.10.77:8480/t2/index.m3u8
+#EXTINF:-1 group-title="Tivibu Spor",Tivibu Spor 3
+http://176.123.10.77:8480/t3/index.m3u8
+#EXTINF:-1 group-title="Tivibu Spor",Tivibu Spor 4
+http://176.123.10.77:8480/t4/index.m3u8
+
+#EXTINF:-1 group-title="Smart Spor",Spor Smart 1
+http://176.123.10.77:8480/smart1/index.m3u8
+#EXTINF:-1 group-title="Smart Spor",Spor Smart 2
+http://176.123.10.77:8480/smart2/index.m3u8
+
 #EXTINF:-1 tvg-name="Tabii Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43023.jpeg" group-title="Tabii Spor",Tabii Spor
 https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_1080p.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII2" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43008.jpeg" group-title="Tabii Spor",Tabii Spor 2
