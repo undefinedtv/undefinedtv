@@ -28,16 +28,22 @@ jobs:
           pip install -U setuptools wheel Kekik httpx parsel requests
           
       - name: inattv.py Çalıştır
+        continue-on-error: true
         run: python inattv.py
       - name: vav.py Çalıştır
+        continue-on-error: true
         run: python vav.py
       - name: androtv.py Çalıştır
+        continue-on-error: true
         run: python androtv.py
       - name: selcuk.py Çalıştır
+        continue-on-error: true
         run: python selcuk.py
       - name: gbl.py Çalıştır
+        continue-on-error: true
         run: python gbl.py        
       - name: birlestir.py Çalıştır
+        continue-on-error: true
         run: python birlestir.py        
       
       - name: Değişiklik Kontrolü
