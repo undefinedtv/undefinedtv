@@ -13,14 +13,14 @@ def oku_m3u(dosya_adi):
         return [satir.strip() for satir in f if satir.strip()]
 
 # İçerikleri oku
-icerik1 = oku_m3u(inattv)
-icerik2 = oku_m3u(selcuk)
-icerik3 = oku_m3u(andro)
-icerik4 = oku_m3u(tabii)
-icerik5 = oku_m3u(yeni)
+inattv_icerik = oku_m3u(inattv)
+selcuk_icerik = oku_m3u(selcuk)
+andro_icerik = oku_m3u(andro)
+tabii_icerik = oku_m3u(tabii)
+yeni_icerik = oku_m3u(yeni)
 
 # Birleştir
-birlesik_icerik = icerik1 + icerik2 + icerik3 + icerik4 + icerik5
+birlesik_icerik = tabii_icerik + inattv_icerik + selcuk_icerik + andro_icerik + yeni_icerik
 
 # Yeni dosyaya yaz
 with open(cikis_dosyasi, 'w', encoding='utf-8') as f:
