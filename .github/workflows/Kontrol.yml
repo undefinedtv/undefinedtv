@@ -29,6 +29,8 @@ jobs:
           
       - name: inattv.py Çalıştır
         run: python inattv.py
+      - name: vav.py Çalıştır
+        run: python vav.py
       - name: androtv.py Çalıştır
         run: python androtv.py
       - name: selcuk.py Çalıştır
