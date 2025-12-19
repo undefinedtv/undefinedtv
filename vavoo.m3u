@@ -19,6 +19,8 @@ https://vavoo.to/play/662179620/index.m3u8
 https://vavoo.to/play/593493860/index.m3u8
 #EXTINF:-1 tvg-id="beinsports2(7).Türkçe" tvg-name="BEIN SPORTS 2 (7)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SPORTS 2 (7)
 https://vavoo.to/play/2509466191/index.m3u8
+#EXTINF:-1 tvg-id="beinsports2hd(1).Türkçe" tvg-name="BEIN SPORTS 2 HD (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SPORTS 2 HD (1)
+https://vavoo.to/play/2851539143/index.m3u8
 #EXTINF:-1 tvg-id="beinsports2sd(1).Türkçe" tvg-name="BEIN SPORTS 2 SD (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SPORTS 2 SD (1)
 https://vavoo.to/play/3236362911/index.m3u8
 #EXTINF:-1 tvg-id="beinsports2uhd(1).Türkçe" tvg-name="BEIN SPORTS 2 UHD (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SPORTS 2 UHD (1)
@@ -317,8 +319,6 @@ https://vavoo.to/play/2702376790/index.m3u8
 https://vavoo.to/play/805689873/index.m3u8
 #EXTINF:-1 tvg-id="4ktr:bloomberghthd(1).Türkçe" tvg-name="4K TR: BLOOMBERG HT HD (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: BLOOMBERG HT HD (1)
 https://vavoo.to/play/3152079168/index.m3u8
-#EXTINF:-1 tvg-id="4ktr:boomerang(1).Türkçe" tvg-name="4K TR: BOOMERANG (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: BOOMERANG (1)
-https://vavoo.to/play/3510107618/index.m3u8
 #EXTINF:-1 tvg-id="4ktr:cartoonnetwork(1).Türkçe" tvg-name="4K TR: CARTOON NETWORK (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: CARTOON NETWORK (1)
 https://vavoo.to/play/3278185898/index.m3u8
 #EXTINF:-1 tvg-id="4ktr:cnntrkhd(1).Türkçe" tvg-name="4K TR: CNN T RK HD (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: CNN T RK HD (1)
@@ -333,8 +333,6 @@ https://vavoo.to/play/649228722/index.m3u8
 https://vavoo.to/play/869937351/index.m3u8
 #EXTINF:-1 tvg-id="4ktr:dreamtrk(1).Türkçe" tvg-name="4K TR: DREAM T RK (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: DREAM T RK (1)
 https://vavoo.to/play/4266683025/index.m3u8
-#EXTINF:-1 tvg-id="4ktr:ducktvhd(1).Türkçe" tvg-name="4K TR: DUCK TV HD (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: DUCK TV HD (1)
-https://vavoo.to/play/1709129189/index.m3u8
 #EXTINF:-1 tvg-id="4ktr:ekoltv(1).Türkçe" tvg-name="4K TR: EKOL TV (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: EKOL TV (1)
 https://vavoo.to/play/2706210049/index.m3u8
 #EXTINF:-1 tvg-id="4ktr:englishclubtv(1).Türkçe" tvg-name="4K TR: ENGLISH CLUB TV (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: ENGLISH CLUB TV (1)
@@ -589,8 +587,6 @@ https://vavoo.to/play/962169494/index.m3u8
 https://vavoo.to/play/645431530/index.m3u8
 #EXTINF:-1 tvg-id="automoto(fr)(7).Türkçe" tvg-name="AUTOMOTO (FR) (7)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", AUTOMOTO (FR) (7)
 https://vavoo.to/play/3033512963/index.m3u8
-#EXTINF:-1 tvg-id="avtv(1).Türkçe" tvg-name="AV TV (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", AV TV (1)
-https://vavoo.to/play/154080342/index.m3u8
 #EXTINF:-1 tvg-id="avtv(7).Türkçe" tvg-name="AV TV (7)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", AV TV (7)
 https://vavoo.to/play/3343230691/index.m3u8
 #EXTINF:-1 tvg-id="babaradyoarabesk(1).Türkçe" tvg-name="BABA RADYO ARABESK (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BABA RADYO ARABESK (1)
@@ -691,6 +687,10 @@ https://vavoo.to/play/3772333925/index.m3u8
 https://vavoo.to/play/1358616385/index.m3u8
 #EXTINF:-1 tvg-id="bestturk(1).Türkçe" tvg-name="BEST TURK (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEST TURK (1)
 https://vavoo.to/play/1196198280/index.m3u8
+#EXTINF:-1 tvg-id="bestwestern(1).Türkçe" tvg-name="BEST WESTERN (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEST WESTERN (1)
+https://vavoo.to/play/1324126222/index.m3u8
+#EXTINF:-1 tvg-id="bestyesilcam(1).Türkçe" tvg-name="BEST YESILCAM (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEST YESILCAM (1)
+https://vavoo.to/play/3652347263/index.m3u8
 #EXTINF:-1 tvg-id="beyazhd+sd(1).Türkçe" tvg-name="BEYAZ HD+ SD (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEYAZ HD+ SD (1)
 https://vavoo.to/play/1020985035/index.m3u8
 #EXTINF:-1 tvg-id="beyaztv(7).Türkçe" tvg-name="BEYAZ TV (7)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEYAZ TV (7)
@@ -857,6 +857,8 @@ https://vavoo.to/play/1894175147/index.m3u8
 https://vavoo.to/play/4072031866/index.m3u8
 #EXTINF:-1 tvg-id="dinamiksalon9(1).Türkçe" tvg-name="DINAMIK SALON 9 (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DINAMIK SALON 9 (1)
 https://vavoo.to/play/3486937034/index.m3u8
+#EXTINF:-1 tvg-id="dinamiksavas(1).Türkçe" tvg-name="DINAMIK SAVAS (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DINAMIK SAVAS (1)
+https://vavoo.to/play/3251354376/index.m3u8
 #EXTINF:-1 tvg-id="dinamiksenersen(1).Türkçe" tvg-name="DINAMIK SENER SEN (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DINAMIK SENER SEN (1)
 https://vavoo.to/play/2809722762/index.m3u8
 #EXTINF:-1 tvg-id="dinamikturk(1).Türkçe" tvg-name="DINAMIK TURK (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DINAMIK TURK (1)
@@ -883,8 +885,6 @@ https://vavoo.to/play/970098662/index.m3u8
 https://vavoo.to/play/3698852323/index.m3u8
 #EXTINF:-1 tvg-id="discoverysciencehd+(1).Türkçe" tvg-name="DISCOVERY SCIENCE HD+ (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DISCOVERY SCIENCE HD+ (1)
 https://vavoo.to/play/2818684271/index.m3u8
-#EXTINF:-1 tvg-id="disneychannel(7).Türkçe" tvg-name="DISNEY CHANNEL (7)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DISNEY CHANNEL (7)
-https://vavoo.to/play/1161899432/index.m3u8
 #EXTINF:-1 tvg-id="disneychannelhd(1).Türkçe" tvg-name="DISNEY CHANNEL HD (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DISNEY CHANNEL HD (1)
 https://vavoo.to/play/3578544716/index.m3u8
 #EXTINF:-1 tvg-id="disneyjr(7).Türkçe" tvg-name="DISNEY JR (7)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DISNEY JR (7)
@@ -947,8 +947,6 @@ https://vavoo.to/play/2483365482/index.m3u8
 https://vavoo.to/play/855745980/index.m3u8
 #EXTINF:-1 tvg-id="dreamdram(1).Türkçe" tvg-name="DREAM DRAM (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DREAM DRAM (1)
 https://vavoo.to/play/3548409764/index.m3u8
-#EXTINF:-1 tvg-id="dreamkemalsunal(1).Türkçe" tvg-name="DREAM KEMAL SUNAL (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DREAM KEMAL SUNAL (1)
-https://vavoo.to/play/95010505/index.m3u8
 #EXTINF:-1 tvg-id="dreamkomedi(1).Türkçe" tvg-name="DREAM KOMEDI (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DREAM KOMEDI (1)
 https://vavoo.to/play/3301226362/index.m3u8
 #EXTINF:-1 tvg-id="dreamkorku(1).Türkçe" tvg-name="DREAM KORKU (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DREAM KORKU (1)
@@ -1093,6 +1091,8 @@ https://vavoo.to/play/2089556265/index.m3u8
 https://vavoo.to/play/2267707661/index.m3u8
 #EXTINF:-1 tvg-id="filmboxkadirinanir(7).Türkçe" tvg-name="FILMBOX KADIR INANIR (7)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", FILMBOX KADIR INANIR (7)
 https://vavoo.to/play/3268085547/index.m3u8
+#EXTINF:-1 tvg-id="filmboxyesilcam(7).Türkçe" tvg-name="FILMBOX YESILCAM (7)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", FILMBOX YESILCAM (7)
+https://vavoo.to/play/649037744/index.m3u8
 #EXTINF:-1 tvg-id="filmbox+(7).Türkçe" tvg-name="FILMBOX+ (7)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", FILMBOX+ (7)
 https://vavoo.to/play/2600387615/index.m3u8
 #EXTINF:-1 tvg-id="fixcinemaaction(1).Türkçe" tvg-name="FIX CINEMA ACTION (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", FIX CINEMA ACTION (1)
