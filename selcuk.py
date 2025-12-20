@@ -66,7 +66,7 @@ def fetch_streams(domain, referer):
 
 def write_m3u(links, filename="selcuk.m3u", referer=""):
     print(f"\n M3U dosyası yazılıyor: {filename}")
-    lines = ["#EXTM3U"]
+    lines = [""]
     for ch, url in links:
         lines.append(f'#EXTINF:-1 tvg-id="{ch["id"]}" tvg-name="{ch["name"]}" tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}')
         lines.append(f"#EXTVLCOPT:http-referrer={referer}")
