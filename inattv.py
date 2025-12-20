@@ -96,7 +96,7 @@ def main():
         
         # M3U dosyası oluştur
         print("📝 M3U dosyası oluşturuluyor...")
-        lines = ["#EXTM3U"]
+        lines = []
         for cid, details in channel_ids.items():
             name = details[0]  # Listenin ilk elemanı: Kanal Adı (Örn: beIN Sports 1 A)
             title = details[1] # Listenin ikinci elemanı: Grup (Örn: Inat TV)
@@ -135,3 +135,4 @@ def create_empty_m3u():
 if __name__ == "__main__":
     exit_code = main()
     sys.exit(exit_code)
+
