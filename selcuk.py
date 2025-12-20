@@ -4,7 +4,8 @@ import re
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 CHANNELS = [
-    {"id": "bein1", "source_id": "selcukbeinsports1", "name": "BeIN Sports 1", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png", "group": "Selcuk TV"},
+    {"id": "bein1", "source_id": "selcukbeinsports1", "name": "BeIN Sports 1 A", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png", "group": "Selcuk TV"},
+    {"id": "bein1", "source_id": "selcukobs1", "name": "BeIN Sports 1 B", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png", "group": "Selcuk TV"},
     {"id": "bein2", "source_id": "selcukbeinsports2", "name": "BeIN Sports 2", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png", "group": "Selcuk TV"},
     {"id": "bein3", "source_id": "selcukbeinsports3", "name": "BeIN Sports 3", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png", "group": "Selcuk TV"},
     {"id": "bein4", "source_id": "selcukbeinsports4", "name": "BeIN Sports 4", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png", "group": "Selcuk TV"},
