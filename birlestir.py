@@ -6,6 +6,7 @@ andro = 'androtv.m3u'
 sabit = 'sabit.m3u'
 yeni = 'yeni.m3u'
 vavoo = 'vavoo.m3u'
+rec = 'rec.m3u'
 cikis_dosyasi = 'karisik.m3u'
 
 # M3U dosyalarının içeriğini oku
@@ -20,9 +21,10 @@ andro_icerik = oku_m3u(andro)
 sabit_icerik = oku_m3u(sabit)
 yeni_icerik = oku_m3u(yeni)
 vavoo_icerik = oku_m3u(vavoo)
+rec_icerik = oku_m3u(rec)
 
 # Birleştir
-birlesik_icerik = sabit_icerik + inattv_icerik + selcuk_icerik + andro_icerik + vavoo_icerik + yeni_icerik
+birlesik_icerik = sabit_icerik + inattv_icerik + selcuk_icerik + andro_icerik + rec_icerik + vavoo_icerik + yeni_icerik
 
 # Yeni dosyaya yaz
 with open(cikis_dosyasi, 'w', encoding='utf-8') as f:
