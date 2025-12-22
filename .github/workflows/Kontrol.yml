@@ -39,9 +39,9 @@ jobs:
       - name: selcuk.py Çalıştır
         continue-on-error: true
         run: python selcuk.py
-      - name: rectv.py Çalıştır
+      - name: rec.py Çalıştır
         continue-on-error: true
-        run: python rectv.py
+        run: python rec.py
       - name: gbl.py Çalıştır
         continue-on-error: true
         run: python gbl.py        
