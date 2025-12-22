@@ -183,7 +183,7 @@ def create_m3u_content(main_url, sw_key, user_agent, referer, source):
                             if 'categories' in content and isinstance(content['categories'], list):
                                 categories = ', '.join([cat.get('title', '') for cat in content['categories']])
 
-                            if category != "Spor":
+                            if categories != "Spor":
                                 continue
                                 
                             # M3U girişi ekle
