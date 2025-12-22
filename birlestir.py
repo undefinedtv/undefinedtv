@@ -24,7 +24,7 @@ vavoo_icerik = oku_m3u(vavoo)
 rec_icerik = oku_m3u(rec)
 
 # Birleştir
-birlesik_icerik = inattv_icerik + selcuk_icerik + andro_icerik + rec_icerik + tabii_icerik + vavoo_icerik + yeni_icerik
+birlesik_icerik = rec_icerik + inattv_icerik + selcuk_icerik + andro_icerik + tabii_icerik + vavoo_icerik + yeni_icerik
 
 # Yeni dosyaya yaz
 with open(cikis_dosyasi, 'w', encoding='utf-8') as f:
