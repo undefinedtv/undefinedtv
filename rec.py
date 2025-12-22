@@ -182,7 +182,10 @@ def create_m3u_content(main_url, sw_key, user_agent, referer, source):
                             categories = ''
                             if 'categories' in content and isinstance(content['categories'], list):
                                 categories = ', '.join([cat.get('title', '') for cat in content['categories']])
-                            
+
+                            if category != "Spor":
+                                continue
+                                
                             # M3U girişi ekle
                             m3u_content += f'#EXTINF:-1 tvg-id="{content.get("id", "")}" tvg-name="{title}" tvg-logo="{image}" group-title="Rec Tv", {title}\n'
                             m3u_content += f'#EXTVLCOPT:http-user-agent={M3U_USER_AGENT}\n'
@@ -198,6 +201,7 @@ def create_m3u_content(main_url, sw_key, user_agent, referer, source):
     print(f"Toplam: {total_channels} kanal eklendi")
     
     # FİLMLER
+    """
     print("\nFilmler alınıyor...")
     movie_apis = {
         "api/movie/by/filtres/0/created/SAYFA/": "Son Filmler",
@@ -307,7 +311,7 @@ def create_m3u_content(main_url, sw_key, user_agent, referer, source):
                 break
         
         print(f"{category_name}: {total_series} dizi eklendi")
-    
+    """
     return m3u_content
 
 # ==================== ANA PROGRAM ====================
