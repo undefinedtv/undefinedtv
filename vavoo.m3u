@@ -497,8 +497,6 @@
  https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/4225961715/index.m3u8
 #EXTINF:-1 tvg-id="adatv(6).Türkçe" tvg-name="ADA TV (6)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ADA TV (6)
  https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/2134735285/index.m3u8
-#EXTINF:-1 tvg-id="adanatv(1).Türkçe" tvg-name="ADANA TV (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ADANA TV (1)
- https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/225124967/index.m3u8
 #EXTINF:-1 tvg-id="adanatva(6).Türkçe" tvg-name="ADANA TV A (6)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ADANA TV A (6)
  https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/256115676/index.m3u8
 #EXTINF:-1 tvg-id="adibesamasallari(1).Türkçe" tvg-name="ADIBESA MASALLARI (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ADIBESA MASALLARI (1)
@@ -1169,6 +1167,8 @@
  https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/562681030/index.m3u8
 #EXTINF:-1 tvg-id="globalboxvizyon(1).Türkçe" tvg-name="GLOBAL BOX VIZYON (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", GLOBAL BOX VIZYON (1)
  https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/2960112808/index.m3u8
+#EXTINF:-1 tvg-id="globalboxyeilam(1).Türkçe" tvg-name="GLOBAL BOX YE IL AM (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", GLOBAL BOX YE IL AM (1)
+ https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/2046943434/index.m3u8
 #EXTINF:-1 tvg-id="globalboxyerli(1).Türkçe" tvg-name="GLOBAL BOX YERLI (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", GLOBAL BOX YERLI (1)
  https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/2322262210/index.m3u8
 #EXTINF:-1 tvg-id="globalhaberhd(1).Türkçe" tvg-name="GLOBAL HABER HD (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", GLOBAL HABER HD (1)
@@ -1707,6 +1707,8 @@
  https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/3726238957/index.m3u8
 #EXTINF:-1 tvg-id="semerkandtv(6).Türkçe" tvg-name="SEMERKAND TV (6)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SEMERKAND TV (6)
  https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/786317112/index.m3u8
+#EXTINF:-1 tvg-id="semerkandtvhd(1).Türkçe" tvg-name="SEMERKAND TV HD (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SEMERKAND TV HD (1)
+ https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/4096268883/index.m3u8
 #EXTINF:-1 tvg-id="sercekustv(1).Türkçe" tvg-name="SERCE KUS TV (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SERCE KUS TV (1)
  https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/224476833/index.m3u8
 #EXTINF:-1 tvg-id="sevimlidostlar(1).Türkçe" tvg-name="SEVIMLI DOSTLAR (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SEVIMLI DOSTLAR (1)
@@ -2073,8 +2075,6 @@
  https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/3537946048/index.m3u8
 #EXTINF:-1 tvg-id="ultrakorku(1).Türkçe" tvg-name="ULTRA KORKU (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ULTRA KORKU (1)
  https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/3563562547/index.m3u8
-#EXTINF:-1 tvg-id="ultraturk(1).Türkçe" tvg-name="ULTRA TURK (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ULTRA TURK (1)
- https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/1868001587/index.m3u8
 #EXTINF:-1 tvg-id="ulusalkanal(1).Türkçe" tvg-name="ULUSAL KANAL (1)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ULUSAL KANAL (1)
  https://tfms-xyz-4b32.onrender.com/proxy/m3u?url=https://vavoo.to/play/1910048817/index.m3u8
 #EXTINF:-1 tvg-id="ulusalkanal(7).Türkçe" tvg-name="ULUSAL KANAL (7)" tvg-logo="https://w7.pngwing.com/pngs/1004/75/png-transparent-logo-tv-television-channel-this-tv-tv-shows-miscellaneous-television-heart.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ULUSAL KANAL (7)
