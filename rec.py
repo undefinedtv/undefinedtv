@@ -184,7 +184,7 @@ def create_m3u_content(main_url, sw_key, user_agent, referer, source):
                                 categories = ', '.join([cat.get('title', '') for cat in content['categories']])
                             
                             # M3U girişi ekle
-                            m3u_content += f'#EXTINF:-1 tvg-id="{content.get("id", "")}" tvg-name="{title}" tvg-logo="{image}" group-title="{categories}", {title}\n'
+                            m3u_content += f'#EXTINF:-1 tvg-id="{content.get("id", "")}" tvg-name="{title}" tvg-logo="{image}" group-title="Rec Tv", {title}\n'
                             m3u_content += f'#EXTVLCOPT:http-user-agent={M3U_USER_AGENT}\n'
                             m3u_content += f'#EXTVLCOPT:http-referrer={referer}\n'
                             m3u_content += f"{source_item['url']}\n"
@@ -295,7 +295,7 @@ def create_m3u_content(main_url, sw_key, user_agent, referer, source):
                                     image = urljoin(main_url + '/', image.lstrip('/'))
                                 
                                 # M3U girişi ekle
-                                m3u_content += f'#EXTINF:-1 tvg-id="{content.get("id", "")}" tvg-name="{title}" tvg-logo="{image}" group-title="{category_name}", {title}\n'
+                                m3u_content += f'#EXTINF:-1 tvg-id="{content.get("id", "")}" tvg-name="{title}" tvg-logo="{image}" group-title="Rec TV", {title}\n'
                                 m3u_content += f'#EXTVLCOPT:http-user-agent={M3U_USER_AGENT}\n'
                                 m3u_content += f'#EXTVLCOPT:http-referrer={referer}\n'
                                 m3u_content += f"{source_item['url']}\n"
