@@ -390,7 +390,7 @@ def main():
     m3u_content = create_m3u_content(main_url, sw_key, user_agent, referer, source)
     
     # 5. Dosyaya kaydet
-    with open('rec.m3u', 'w', encoding='utf-8') as f:
+    with open('rec2.m3u', 'w', encoding='utf-8') as f:
         f.write(m3u_content)
     
     print(f"\nOluşturulan M3U dosyası: rectv.m3u")
