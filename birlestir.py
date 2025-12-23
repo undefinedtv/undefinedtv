@@ -7,6 +7,7 @@ tabii = 'tabii.m3u'
 yeni = 'yeni.m3u'
 vavoo = 'vavoo.m3u'
 rec = 'rec.m3u'
+rec2 = 'rec2.m3u'
 cikis_dosyasi = 'karisik.m3u'
 
 # M3U dosyalarının içeriğini oku
@@ -22,9 +23,10 @@ tabii_icerik = oku_m3u(tabii)
 yeni_icerik = oku_m3u(yeni)
 vavoo_icerik = oku_m3u(vavoo)
 rec_icerik = oku_m3u(rec)
+rec2_icerik = oku_m3u(rec2)
 
 # Birleştir
-birlesik_icerik = rec_icerik + inattv_icerik + selcuk_icerik + andro_icerik + tabii_icerik + vavoo_icerik + yeni_icerik
+birlesik_icerik = rec_icerik + rec2_icerik + inattv_icerik + selcuk_icerik + andro_icerik + tabii_icerik + vavoo_icerik + yeni_icerik
 
 # Yeni dosyaya yaz
 with open(cikis_dosyasi, 'w', encoding='utf-8') as f:
