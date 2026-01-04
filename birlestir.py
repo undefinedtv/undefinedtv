@@ -28,7 +28,7 @@ rec2_icerik = oku_m3u(rec2)
 karsilasmalar_icerik = oku_m3u(karsilasmalar)
 
 # Birleştir
-birlesik_icerik = karsilasmalar + rec_icerik + rec2_icerik + inattv_icerik + selcuk_icerik + andro_icerik + tabii_icerik + yeni_icerik
+birlesik_icerik = karsilasmalar_icerik + rec_icerik + rec2_icerik + inattv_icerik + selcuk_icerik + andro_icerik + tabii_icerik + yeni_icerik
 
 # Yeni dosyaya yaz
 with open(cikis_dosyasi, 'w', encoding='utf-8') as f:
