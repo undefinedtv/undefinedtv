@@ -19,23 +19,14 @@ def oku_m3u(dosya_adi):
 
 # İçerikleri oku
 empty_icerik = oku_m3u(empty)
-print({empty_icerik})
 karsilasmalar_icerik = oku_m3u(karsilasmalar)
-print({karsilasmalar_icerik})
 rec_icerik = oku_m3u(rec)
-print({rec_icerik})
 rec2_icerik = oku_m3u(rec2)
-print({rec2_icerik})
 inattv_icerik = oku_m3u(inattv)
-print({inattv_icerik})
 selcuk_icerik = oku_m3u(selcuk)
-print({selcuk_icerik})
 andro_icerik = oku_m3u(andro)
-print({andro_icerik})
 tabii_icerik = oku_m3u(tabii)
-print({tabii_icerik})
 yeni_icerik = oku_m3u(yeni)
-print({yeni_icerik})
 vavoo_icerik = oku_m3u(vavoo)
 
 # Birleştir
