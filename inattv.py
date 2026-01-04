@@ -101,7 +101,7 @@ def main():
             title = details[1] # Listenin ikinci elemanı: Grup (Örn: Inat TV)
             
             # EXTM3U satırını oluştur
-            lines.append(f'#EXTINF:-1 group-title="Inat TV" ,TR:{name}')
+            lines.append(f'#EXTINF:-1 group-title="Inat TV" ,{name}')
             lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)')
             lines.append(f'#EXTVLCOPT:http-referrer={active_domain}')
             
@@ -134,6 +134,7 @@ def create_empty_m3u():
 if __name__ == "__main__":
     exit_code = main()
     sys.exit(exit_code)
+
 
 
 
