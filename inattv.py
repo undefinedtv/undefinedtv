@@ -47,7 +47,6 @@ def main():
         print("🔗 Base URL alınıyor...")
         try:
             event_source = requests.get(active_domain + "channel.html?id=" + first_id, timeout=10).text
-            print(event_source)
             b = re.search(r'const\s+BASE_URL\s*=\s*"([^"]+)"', event_source)
             
             if not b:
@@ -135,5 +134,6 @@ def create_empty_m3u():
 if __name__ == "__main__":
     exit_code = main()
     sys.exit(exit_code)
+
 
 
