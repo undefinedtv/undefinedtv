@@ -1,108 +1,129 @@
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 1 A" group-title="Inat TV" ,TR:beIN Sports 1 A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinzirve.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 1 B" group-title="Inat TV" ,TR:beIN Sports 1 B
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayininat.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 1 C️" group-title="Inat TV" ,TR:beIN Sports 1 C️
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayin1.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 2" group-title="Inat TV" ,TR:beIN Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb2.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 3" group-title="Inat TV" ,TR:beIN Sports 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb3.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 4" group-title="Inat TV" ,TR:beIN Sports 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb4.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 5" group-title="Inat TV" ,TR:beIN Sports 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb5.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 1 Max" group-title="Inat TV" ,TR:beIN Sports 1 Max
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinbm1.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 2 Max" group-title="Inat TV" ,TR:beIN Sports 2 Max
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinbm2.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:S Sports 1" group-title="Inat TV" ,TR:S Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:S Sports 2" group-title="Inat TV" ,TR:S Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinss2.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sports 1" group-title="Inat TV" ,TR:Tivibu Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayint1.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sports 2" group-title="Inat TV" ,TR:Tivibu Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayint2.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sports 3" group-title="Inat TV" ,TR:Tivibu Sports 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayint3.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sports 4" group-title="Inat TV" ,TR:Tivibu Sports 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayint4.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Smart Sports" group-title="Inat TV" ,TR:Smart Sports
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinsmarts.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Smart Sports 2" group-title="Inat TV" ,TR:Smart Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinsms2.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Euro Sport 1" group-title="Inat TV" ,TR:Euro Sport 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayineu1.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Euro Sport 2" group-title="Inat TV" ,TR:Euro Sport 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayineu2.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 1" group-title="Inat TV" ,TR:Tâbii 1
+#EXTM3U
+#EXTINF:-1 group-title="Maç Yayınları" ,01:00 | Miami Heat - Minnesota
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
 https://ogr.d72577a9dd0ec6.sbs/yayinex1.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 2" group-title="Inat TV" ,TR:Tâbii 2
+#EXTINF:-1 group-title="Maç Yayınları" ,04:30 | Dallas - Houston
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex2.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 3" group-title="Inat TV" ,TR:Tâbii 3
+https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Anadolu Efes - Mersin Spor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex3.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 4" group-title="Inat TV" ,TR:Tâbii 4
+https://ogr.d72577a9dd0ec6.sbs/yayinb5.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Lazio - Napoli
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex4.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 5" group-title="Inat TV" ,TR:Tâbii 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex5.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 6" group-title="Inat TV" ,TR:Tâbii 6
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex6.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 7" group-title="Inat TV" ,TR:Tâbii 7
+https://ogr.d72577a9dd0ec6.sbs/yayint1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Birmingham - Coventry
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
 https://ogr.d72577a9dd0ec6.sbs/yayinex7.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 8" group-title="Inat TV" ,TR:Tâbii 8
+#EXTINF:-1 group-title="Maç Yayınları" ,15:30 | Leeds Utd - Man Utd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex8.m3u8
+https://ogr.d72577a9dd0ec6.sbs/yayinb3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,15:30 | Merkezefendi B. - BÃ¼yÃ¼kÃ§ekmece
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinb5.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Sevilla - Levante
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Fiorentina - Cremonese
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayint1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Marsilya - Nantes
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinb4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Everton - Brentford
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinbm2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Fulham - Liverpool
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinb3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Newcastle - Crystal Palace
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinbm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Tottenham - Sunderland
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinb2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Norwich City - Stoke City
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex7.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Manisa Basket - Galatasaray MCT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinb5.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:15 | Real Madrid - Real Betis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Fas - Tanzanya
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex7.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:15 | Brest - Auxerre
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinb4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Hellas Verona - Torino
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayint1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Man City - Chelsea
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinb3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Mallorca - Girona
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Alaves - Real Oviedo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Damac FC - Al Hilal Riyadh
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayintrtspor.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | BeÅiktaÅ - FenerbahÃ§e Beko
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinb5.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Santa Clara - Porto
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayint2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | GÃ¼ney Afrika - Kamerun
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex7.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Cleveland - Detroit
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Inter - Bologna
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayint1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:45 | PSG - Paris FC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinb4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Real Sociedad - Atletico Madrid
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Deportivo - Cadiz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex1.m3u8
