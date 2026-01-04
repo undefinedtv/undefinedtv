@@ -1,4 +1,5 @@
 #EXTM3U
+#EXTM3U
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Verona - Torino | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivebirazts1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Beşiktaş GAİN - Fenerbahçe Beko | Basketbol Süper Ligi
@@ -39,7 +40,6 @@ https://andro.226503.xyz/checklist/androstreamliveht.m3u8
 https://andro.226503.xyz/checklist/androstreamliveatv.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Montpellier - Dunkerque HB | Fransa Ligue 2
 https://andro.226503.xyz/checklist/androstreamlivebirazb4.m3u8
-#EXTM3U
 #EXTINF:-1 group-title="Rec Tv",BeIN Sports 1 A
 https://cloudlyticsapp.lol/static/bs11.m3u8
 #EXTINF:-1 group-title="Rec Tv",BeIN Sports 1 B
@@ -68,240 +68,218 @@ https://cloudlyticsapp.lol/static/pl4.m3u8
 https://cloudlyticsapp.lol/static/pl5.m3u8
 #EXTINF:-1 group-title="Rec Tv",S SPORT+ PLUS HD 6
 https://cloudlyticsapp.lol/static/pl6.m3u8
-#EXTM3U
 #EXTINF:-1 tvg-id="157" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="Rec Tv", TABİİ SPOR
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi.m3u8?&ad=random?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://1.cf32-2c8.workers.dev/static/tabi.m3u8?&ad=random?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="157" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="Rec Tv", TABİİ SPOR
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv-trtspor1.medya.trt.com.tr/master.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="157" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="Rec Tv", TABİİ SPOR
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv-trt1.medya.trt.com.tr/master.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://tv-trt1.medya.trt.com.tr/master.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="157" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="Rec Tv", TABİİ SPOR
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi1.m3u8?&ad=random?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://1.cf32-2c8.workers.dev/static/tabi1.m3u8?&ad=random?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="157" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="Rec Tv", TABİİ SPOR
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi2.m3u8?&ad=random?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://1.cf32-2c8.workers.dev/static/tabi2.m3u8?&ad=random?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="157" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="Rec Tv", TABİİ SPOR
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi3.m3u8?&ad=random?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://1.cf32-2c8.workers.dev/static/tabi3.m3u8?&ad=random?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="157" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="Rec Tv", TABİİ SPOR
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi4.m3u8?&ad=random?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://1.cf32-2c8.workers.dev/static/tabi4.m3u8?&ad=random?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="157" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="Rec Tv", TABİİ SPOR
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi5.m3u8?&ad=random?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://1.cf32-2c8.workers.dev/static/tabi5.m3u8?&ad=random?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="157" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="Rec Tv", TABİİ SPOR
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi6.m3u8?&ad=random?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://1.cf32-2c8.workers.dev/static/tabi6.m3u8?&ad=random?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="139" tvg-name="Spor Smart 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/e4e94b5f588beff702dfe39729379251.png" group-title="Rec Tv", Spor Smart 1
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/smart1/index.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://ds.ayakkabiparti.lol/smart1/index.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="138" tvg-name="Spor Smart 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cabc0eca8d8333d022305c01b433f367.png" group-title="Rec Tv", Spor Smart 2
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/smart2/index.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://ds.ayakkabiparti.lol/smart2/index.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="137" tvg-name="Euro Sport 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/f40c9c2ad62bd4e3ff87d5859ea2bb54.jpg" group-title="Rec Tv", Euro Sport 1
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/euro1/index.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://ds.ayakkabiparti.lol/euro1/index.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="135" tvg-name="Euro Sport 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/8802d4e354a9ca77d6aa3bbd8362e3e8.png" group-title="Rec Tv", Euro Sport 2
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/euro2/index.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://ds.ayakkabiparti.lol/euro2/index.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="134" tvg-name="Tivibu Spor 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/e0837009bbe1e595a7c7364aa45d02f7.jpg" group-title="Rec Tv", Tivibu Spor 1
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/t1/index.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://ds.ayakkabiparti.lol/t1/index.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="133" tvg-name="Tivibu Spor 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8c23cd76a1f7c2b12ab4e757b45ca87f.jpg" group-title="Rec Tv", Tivibu Spor 2
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/t2/index.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://ds.ayakkabiparti.lol/t2/index.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="132" tvg-name="Tivibu Spor 3" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/2dd58a06227ac0410461a0be92123f12.jpg" group-title="Rec Tv", Tivibu Spor 3
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/t3/index.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://ds.ayakkabiparti.lol/t3/index.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="131" tvg-name="Trt Spor HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/c9aa0ea0e7cf2e4ec3523352f7dfd8ff.jpg" group-title="Rec Tv", Trt Spor HD
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv-trtspor1.medya.trt.com.tr/master.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="130" tvg-name="A Spor HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/b8582c521e6d1bf91ef06f34b7c58c37.jpg" group-title="Rec Tv", A Spor HD
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="129" tvg-name="GS TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/155c62b2d55c69b9abbb2d9867adc1b8.jpg" group-title="Rec Tv", GS TV
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://owifavo5.rocketcdn.com/gstv/gstv.smil/chunklist_b1828000_sltur.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://owifavo5.rocketcdn.com/gstv/gstv.smil/chunklist_b1828000_sltur.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="128" tvg-name="FB TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/56c7f2499a5ba8bab88be9cebaedd6be.jpg" group-title="Rec Tv", FB TV
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/fbtv/index.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://ds.ayakkabiparti.lol/fbtv/index.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="127" tvg-name="Nba TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/7b8b88c5d436a3cdecf4facb78342019.jpg" group-title="Rec Tv", Nba TV
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/yayinnbatv/index.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://ds.ayakkabiparti.lol/yayinnbatv/index.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="126" tvg-name="HT SPOR HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/3173922d598840a24005bc0c04cc926e.jpg" group-title="Rec Tv", HT SPOR HD
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&ppid=675956db19f9bb686edda21d15d911e8&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&ppid=675956db19f9bb686edda21d15d911e8&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="122" tvg-name="Sports TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/d3fa136e0548a46e2b55393a00a93296.jpg" group-title="Rec Tv", Sports TV
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://live.sportstv.com.tr/hls/low/sportstv.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://live.sportstv.com.tr/hls/low/sportstv.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="121" tvg-name="EKOL SPORT" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/80d8999029533191ed8383fb12ccf042.jpg" group-title="Rec Tv", EKOL SPORT
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8?token=xfJ4g_oB5FY0uhVNGglx6Q&tms=1767639478
+https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8?token=vfeVsUR-qD0ZwcuQ4hG8FA&tms=1767639928
 #EXTINF:-1 tvg-id="13" tvg-name="TİVİBU SPOR 4" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/921670222d56e1af5cde5b3474185425.jpg" group-title="Rec Tv", TİVİBU SPOR 4
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/t4/index.m3u8?token=z6A0QfGdcCn46-k9G-swCA&tms=1767639481
+https://ds.ayakkabiparti.lol/t4/index.m3u8?token=OynmTsZPjbUMZuOwPXlcQA&tms=1767639930
 #EXTINF:-1 tvg-id="12" tvg-name="TRT SPOR YILDIZ" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/ddc793321e06b9f205e7b99ebca71e4b.jpg" group-title="Rec Tv", TRT SPOR YILDIZ
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor?token=z6A0QfGdcCn46-k9G-swCA&tms=1767639481
-#EXTM3U
-#EXTINF:-1 group-title="Maç Yayınları" ,01:00 | Miami Heat - Minnesota
+https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor?token=OynmTsZPjbUMZuOwPXlcQA&tms=1767639930
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 1 A" group-title="Inat TV" ,TR:beIN Sports 1 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,04:30 | Dallas - Houston
+https://ogr.d72577a9dd0ec6.sbs/yayinzirve.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 1 B" group-title="Inat TV" ,TR:beIN Sports 1 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Anadolu Efes - Mersin Spor
+https://ogr.d72577a9dd0ec6.sbs/yayininat.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 1 C️" group-title="Inat TV" ,TR:beIN Sports 1 C️
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb5.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Lazio - Napoli
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayint1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Birmingham - Coventry
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex7.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,15:30 | Leeds Utd - Man Utd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb3.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,15:30 | Merkezefendi B. - BÃ¼yÃ¼kÃ§ekmece
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb5.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Sevilla - Levante
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Fiorentina - Cremonese
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayint1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Marsilya - Nantes
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Everton - Brentford
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinbm2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Fulham - Liverpool
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb3.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Newcastle - Crystal Palace
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinbm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Tottenham - Sunderland
+https://ogr.d72577a9dd0ec6.sbs/yayin1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 2" group-title="Inat TV" ,TR:beIN Sports 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
 https://ogr.d72577a9dd0ec6.sbs/yayinb2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Norwich City - Stoke City
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex7.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Manisa Basket - Galatasaray MCT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb5.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:15 | Real Madrid - Real Betis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Fas - Tanzanya
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex7.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,19:15 | Brest - Auxerre
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Hellas Verona - Torino
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayint1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Man City - Chelsea
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 3" group-title="Inat TV" ,TR:beIN Sports 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
 https://ogr.d72577a9dd0ec6.sbs/yayinb3.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Mallorca - Girona
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Alaves - Real Oviedo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Damac FC - Al Hilal Riyadh
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayintrtspor.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | BeÅiktaÅ - FenerbahÃ§e Beko
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb5.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Santa Clara - Porto
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayint2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | GÃ¼ney Afrika - Kamerun
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex7.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Cleveland - Detroit
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Inter - Bologna
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayint1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:45 | PSG - Paris FC
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 4" group-title="Inat TV" ,TR:beIN Sports 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
 https://ogr.d72577a9dd0ec6.sbs/yayinb4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Real Sociedad - Atletico Madrid
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 5" group-title="Inat TV" ,TR:beIN Sports 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinb5.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 1 Max" group-title="Inat TV" ,TR:beIN Sports 1 Max
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinbm1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sports 2 Max" group-title="Inat TV" ,TR:beIN Sports 2 Max
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinbm2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:S Sports 1" group-title="Inat TV" ,TR:S Sports 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
 https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Deportivo - Cadiz
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:S Sports 2" group-title="Inat TV" ,TR:S Sports 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinss2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sports 1" group-title="Inat TV" ,TR:Tivibu Sports 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayint1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sports 2" group-title="Inat TV" ,TR:Tivibu Sports 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayint2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sports 3" group-title="Inat TV" ,TR:Tivibu Sports 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayint3.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sports 4" group-title="Inat TV" ,TR:Tivibu Sports 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayint4.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Smart Sports" group-title="Inat TV" ,TR:Smart Sports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinsmarts.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Smart Sports 2" group-title="Inat TV" ,TR:Smart Sports 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinsms2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Euro Sport 1" group-title="Inat TV" ,TR:Euro Sport 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayineu1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Euro Sport 2" group-title="Inat TV" ,TR:Euro Sport 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayineu2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 1" group-title="Inat TV" ,TR:Tâbii 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
 https://ogr.d72577a9dd0ec6.sbs/yayinex1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 2" group-title="Inat TV" ,TR:Tâbii 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 3" group-title="Inat TV" ,TR:Tâbii 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex3.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 4" group-title="Inat TV" ,TR:Tâbii 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex4.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 5" group-title="Inat TV" ,TR:Tâbii 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex5.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 6" group-title="Inat TV" ,TR:Tâbii 6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex6.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 7" group-title="Inat TV" ,TR:Tâbii 7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex7.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tâbii 8" group-title="Inat TV" ,TR:Tâbii 8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex8.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BeIN Sports 1 A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Selcuk TV",BeIN Sports 1 A
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.38f3bb9511487c.click/live/selcukbeinsports1/playlist.m3u8
@@ -362,7 +340,6 @@ https://dga1op10s1u3leo.38f3bb9511487c.click/live/seurosport1/playlist.m3u8
 #EXTINF:-1 tvg-id="eurosport2" tvg-name="Eurosport 2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Selcuk TV",Eurosport 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.38f3bb9511487c.click/live/seurosport2/playlist.m3u8
-#EXTM3U
 #EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sport 1 HD" group-title="Andro TV" ,TR:beIN Sport 1 HD
 https://andro.226503.xyz/checklist/androstreamlivebiraz1.m3u8
 #EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sport 2 HD" group-title="Andro TV" ,TR:beIN Sport 2 HD
