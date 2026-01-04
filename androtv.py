@@ -104,7 +104,7 @@ def main():
         
         # M3U dosyası oluştur
         print("📝 M3U dosyası oluşturuluyor...")
-        lines = ["#EXTM3U"]
+        lines = [""]
         for name, cid, title in channels:
             lines.append(f'#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:{name}" group-title="{title}" ,TR:{name}')
             full_url = f"{base_url}{cid}.m3u8"
