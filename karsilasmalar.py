@@ -111,7 +111,7 @@ def main():
         
         # M3U dosyası oluştur
         print("📝 M3U dosyası oluşturuluyor...")
-        lines = ["#EXTM3U"]
+        lines = []
         
         for channel in channels:
             cid = channel['cid']
