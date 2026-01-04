@@ -138,7 +138,7 @@ def create_m3u_content(main_url, sw_key, user_agent, referer, source):
     print(f"M3U User-Agent: {M3U_USER_AGENT}")
     
     print("\n=== M3U OLUŞTURULUYOR ===")
-    m3u_content = "#EXTM3U\n"
+    m3u_content = "\n"
     
     headers = {
         'User-Agent': user_agent,
