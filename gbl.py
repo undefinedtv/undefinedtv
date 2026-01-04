@@ -43,7 +43,7 @@ def get_canli_tv_m3u():
         print(f"✅ {len(channels)} kanal bulundu")
         
         with open("yeni.m3u", "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
+            f.write("\n")
             
             kanal_sayisi = 0
             kanal_index = 1  
