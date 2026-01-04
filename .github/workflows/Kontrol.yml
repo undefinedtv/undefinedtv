@@ -45,6 +45,9 @@ jobs:
       - name: rec2.py Çalıştır
         continue-on-error: true
         run: python rec2.py
+      - name: karsilasmalar.py Çalıştır
+        continue-on-error: true
+        run: python karsilasmalar.py
       - name: gbl.py Çalıştır
         continue-on-error: true
         run: python gbl.py        
