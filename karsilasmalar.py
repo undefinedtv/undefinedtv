@@ -1,19 +1,18 @@
 import requests
 import re
 import sys
+from bs4 import BeautifulSoup
 
 def main():
     try:
-        # Domain aralığı (25–1000)
+        # Domain aralığı
         active_domain = None
         print("🔍 Aktif domain aranıyor...")
         
-        for i in range(43, 1000):
-            url = f"https://birazcikspor{i}.xyz/"
-            print(f"{url}")
+        for i in range(1212, 2000):
+            url = f"https://inattv{i}.xyz/"
             try:
                 r = requests.head(url, timeout=5)
-                print(f"{r.status_code}")                
                 if r.status_code == 200:
                     active_domain = url
                     print(f"✅ Aktif domain bulundu: {active_domain}")
@@ -22,147 +21,139 @@ def main():
                 continue
         
         if not active_domain:
-            print("⚠️  Aktif domain bulunamadı.")
-            return 1
-        
-        # İlk karşılaşma ID'si al
-        print("📡 Karşılaşma ID'si alınıyor...")
-        try:
-            html = requests.get(active_domain, timeout=10).text
-            m = re.search(r'<iframe[^>]+id="matchPlayer"[^>]+src="event\.html\?id=([^"]+)"', html)
-            
-            if not m:
-                print("⚠️  Karşılaşma ID bulunamadı.")
-                return 1
-            
-            first_id = m.group(1)
-            print(f"✅ Karşılaşma ID bulundu: {first_id}")
-            
-        except Exception as e:
-            print(f"⚠️  HTML alınırken hata: {str(e)}")
-            return 1
+            print("⚠️  Aktif domain bulunamadı. Boş M3U dosyası oluşturuluyor...")
+            create_empty_m3u()
+            return 0
         
         # Base URL çek
         print("🔗 Base URL alınıyor...")
         try:
-            event_source = requests.get(active_domain + "event.html?id=" + first_id, timeout=10).text
-            b = re.search(r'const\s+baseurls\s*=\s*\[\s*"([^"]+)"', event_source)
+            # Ana sayfadan ilk kanal ID'sini bul
+            main_html = requests.get(active_domain, timeout=10).text
+            m = re.search(r'<iframe[^>]+id="customIframe"[^>]+src="/channel.html\?id=([^"]+)"', main_html)
+            
+            if not m:
+                print("⚠️  İlk kanal ID bulunamadı. Boş M3U dosyası oluşturuluyor...")
+                create_empty_m3u()
+                return 0
+            
+            first_id = m.group(1)
+            
+            # Base URL'i al
+            channel_url = active_domain + "channel.html?id=" + first_id
+            channel_html = requests.get(channel_url, timeout=10).text
+            
+            b = re.search(r'const\s+BASE_URL\s*=\s*"([^"]+)"', channel_html)
             
             if not b:
-                print("⚠️  Base URL bulunamadı.")
-                return 1
+                print("⚠️  Base URL bulunamadı. Boş M3U dosyası oluşturuluyor...")
+                create_empty_m3u()
+                return 0
             
             base_url = b.group(1)
             print(f"✅ Base URL bulundu: {base_url}")
             
         except Exception as e:
-            print(f"⚠️  Event source alınırken hata: {str(e)}")
-            return 1
+            print(f"⚠️  Base URL alınırken hata: {str(e)}")
+            create_empty_m3u()
+            return 0
         
-        # Script.js'den karşılaşmalar listesini çek
-        print("⚽ Karşılaşmalar listesi alınıyor...")
+        # Ana sayfadan dinamik kanal listesi çek
+        print("📡 Dinamik kanal listesi alınıyor...")
         try:
-            script_url = active_domain + "script.js"
-            script_response = requests.get(script_url, timeout=10)
-            script_response.encoding = 'utf-8'
-            script_content = script_response.text
+            html = requests.get(active_domain, timeout=10).text
+            print(f"✅ Base URL bulundu: {html}")
+            soup = BeautifulSoup(html, 'html.parser')
             
-            # karsilasmalar array'ini bul
-            karsilasmalar_match = re.search(
-                r'const\s+karsilasmalar\s*=\s*(\[[\s\S]*?\n\];)',
-                script_content
-            )
+            # matches-tab class'ı altındaki tüm a elementlerini bul
+            matches_tab = soup.find(id='matches-tab')
             
-            if not karsilasmalar_match:
-                print("⚠️  Karşılaşmalar listesi bulunamadı.")
-                return 1
+            if not matches_tab:
+                print("⚠️  matches-tab bulunamadı. Boş M3U dosyası oluşturuluyor...")
+                return 0
             
-            karsilasmalar_text = karsilasmalar_match.group(1)
+            channel_links = matches_tab.find_all('a', href=re.compile(r'/channel\.html\?id='))
             
-            # JavaScript object'lerini manuel olarak parse et
-            karsilasmalar = []
-            # Her object bloğunu bul - daha esnek pattern
-            object_pattern = r'\{\s*"tarih":\s*"([^"]*)",\s*"time":\s*"([^"]*)",\s*"league":\s*"([^"]*)",\s*"title":\s*"([^"]*)",\s*"url":\s*"([^"]*)",\s*"live":\s*(true|false)\s*\}'
+            if not channel_links:
+                print("⚠️  Kanal linki bulunamadı. Boş M3U dosyası oluşturuluyor...")
+                create_empty_m3u()
+                return 0
             
-            for match in re.finditer(object_pattern, karsilasmalar_text):
-                tarih = match.group(1)
-                time = match.group(2)
-                league = match.group(3)
-                title = match.group(4)
-                url = match.group(5)
-                live = match.group(6) == 'true'
+            channels = []
+            for link in channel_links:
+                # href'den id'yi çıkar
+                href = link.get('href', '')
+                id_match = re.search(r'id=([^&]+)', href)
                 
-                # Türkçe karakter sorununu çöz
-                try:
-                    league = league.encode('cp1252').decode('utf-8')
-                except (UnicodeDecodeError, UnicodeEncodeError):
-                    pass
+                if not id_match:
+                    continue
                 
-                try:
-                    title = title.encode('cp1252').decode('utf-8')
-                except (UnicodeDecodeError, UnicodeEncodeError):
-                    pass
+                cid = id_match.group(1)
                 
-                karsilasmalar.append({
-                    'tarih': tarih,
-                    'time': time,
-                    'league': league,
-                    'title': title,
-                    'url': url,
-                    'live': live
+                # Kanal adını ve saati al
+                channel_name_elem = link.find(class_='channel-name')
+                channel_status_elem = link.find(class_='channel-status')
+                
+                if not channel_name_elem or not channel_status_elem:
+                    continue
+                
+                # İsimden ikon kısmını temizle
+                channel_name = channel_name_elem.get_text(strip=True)
+                channel_time = channel_status_elem.get_text(strip=True)
+                
+                # Format: "01:00 | Miami Heat - Minnesota"
+                display_name = f"{channel_time} | {channel_name}"
+                
+                channels.append({
+                    'cid': cid,
+                    'name': display_name
                 })
             
-            if not karsilasmalar:
-                print("⚠️  Karşılaşma bulunamadı.")
-                return 1
-            
-            print(f"✅ {len(karsilasmalar)} karşılaşma bulundu")
+            print(f"✅ {len(channels)} kanal bulundu")
             
         except Exception as e:
-            print(f"⚠️  Karşılaşmalar listesi alınırken hata: {str(e)}")
-            return 1
+            print(f"⚠️  Kanal listesi alınırken hata: {str(e)}")
+            create_empty_m3u()
+            return 0
         
         # M3U dosyası oluştur
         print("📝 M3U dosyası oluşturuluyor...")
         lines = ["#EXTM3U"]
         
-        for match in karsilasmalar:
-            try:
-                time = match.get('time', '')
-                title = match.get('title', '')
-                league = match.get('league', '')
-                url = match.get('url', '')
-                
-                # URL'den ID'yi çıkar: /event.html?id=androstreamlivebirazb5 -> androstreamlivebirazb5
-                id_match = re.search(r'\?id=([^&"]+)', url)
-                if not id_match:
-                    print(f"⚠️  '{title}' için ID bulunamadı, atlanıyor...")
-                    continue
-                
-                match_id = id_match.group(1)
-                
-                # M3U title formatı: time | title | league
-                m3u_title = f"{time} | {title} | {league}"
-                
-                # M3U satırlarını ekle
-                lines.append(f'#EXTINF:-1 group-title="Maç Yayınları" ,{m3u_title}')
-                full_url = f"{base_url}{match_id}.m3u8"
-                lines.append(full_url)
-                
-            except Exception as e:
-                print(f"⚠️  Karşılaşma işlenirken hata ({title}): {str(e)}")
-                continue
+        for channel in channels:
+            cid = channel['cid']
+            name = channel['name']
+            
+            # EXTM3U satırını oluştur
+            lines.append(f'#EXTINF:-1 group-title="Inat TV" ,{name}')
+            lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)')
+            lines.append(f'#EXTVLCOPT:http-referrer={active_domain}')
+            
+            # URL satırını oluştur
+            full_url = f"{base_url}{cid}.m3u8"
+            lines.append(full_url)
         
-        with open("karsilasmalar.m3u", "w", encoding="utf-8") as f:
+        with open("inattv.m3u", "w", encoding="utf-8") as f:
             f.write("\n".join(lines))
         
-        match_count = (len(lines) - 1) // 2  # Başlık satırını çıkar ve her karşılaşma 2 satır
-        print(f"✅ karsilasmalar.m3u başarıyla oluşturuldu ({match_count} karşılaşma)")
+        print(f"✅ inattv.m3u başarıyla oluşturuldu ({len(channels)} kanal)")
         return 0
         
     except Exception as e:
         print(f"❌ Beklenmeyen hata: {str(e)}")
-        return 1
+        print("⚠️  Boş M3U dosyası oluşturuluyor...")
+        create_empty_m3u()
+        return 0
+
+def create_empty_m3u():
+    """Hata durumunda boş/placeholder M3U dosyası oluştur"""
+    try:
+        with open("karsilasmalar.m3u", "w", encoding="utf-8") as f:
+            f.write("#EXTM3U\n")
+            f.write("# Kanal listesi şu anda kullanılamıyor\n")
+        print("✅ Placeholder M3U dosyası oluşturuldu")
+    except Exception as e:
+        print(f"❌ M3U dosyası oluşturulamadı: {str(e)}")
 
 if __name__ == "__main__":
     exit_code = main()
