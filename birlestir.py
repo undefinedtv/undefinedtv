@@ -1,5 +1,6 @@
 # Birleştirilecek dosya adları
 #goals = 'goals.m3u'
+empty = 'empty.m3u'
 inattv = 'inattv.m3u'
 selcuk = 'selcuk.m3u'
 andro = 'androtv.m3u'
@@ -17,6 +18,7 @@ def oku_m3u(dosya_adi):
         return [satir.strip() for satir in f if satir.strip()]
 
 # İçerikleri oku
+empty_icerik = oku_m3u(empty)
 inattv_icerik = oku_m3u(inattv)
 selcuk_icerik = oku_m3u(selcuk)
 andro_icerik = oku_m3u(andro)
@@ -28,7 +30,7 @@ rec2_icerik = oku_m3u(rec2)
 karsilasmalar_icerik = oku_m3u(karsilasmalar)
 
 # Birleştir
-birlesik_icerik = karsilasmalar_icerik + rec_icerik + rec2_icerik + inattv_icerik + selcuk_icerik + andro_icerik + tabii_icerik + yeni_icerik
+birlesik_icerik = empty_icerik + karsilasmalar_icerik + rec_icerik + rec2_icerik + inattv_icerik + selcuk_icerik + andro_icerik + tabii_icerik + yeni_icerik
 
 # Yeni dosyaya yaz
 with open(cikis_dosyasi, 'w', encoding='utf-8') as f:
