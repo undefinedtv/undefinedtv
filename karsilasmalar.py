@@ -57,7 +57,9 @@ def main():
         # Ana sayfadan dinamik kanal listesi çek
         print("📡 Dinamik kanal listesi alınıyor...")
         try:
-            html = requests.get(active_domain, timeout=10).text
+            response = requests.get(active_domain, timeout=10)
+            response.encoding = 'utf-8'  # veya 'iso-8859-9' (Türkçe için)
+            html = response.text
             soup = BeautifulSoup(html, 'html.parser')
             
             # matches-tab class'ı altındaki tüm a elementlerini bul
