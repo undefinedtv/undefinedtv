@@ -58,7 +58,7 @@ def main():
         print("📡 Dinamik kanal listesi alınıyor...")
         try:
             response = requests.get(active_domain, timeout=10)
-            response.encoding = 'utf-8'  # veya 'iso-8859-9' (Türkçe için)
+            response.encoding = 'iso-8859-9'  # veya 'iso-8859-9' (Türkçe için)
             html = response.text
             soup = BeautifulSoup(html, 'html.parser')
             
