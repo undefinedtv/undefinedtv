@@ -58,7 +58,7 @@ def main():
         print("📡 Dinamik kanal listesi alınıyor...")
         try:
             response = requests.get(active_domain, timeout=10)
-            response.encoding = 'iso-8859-9'  # veya 'iso-8859-9' (Türkçe için)
+            response.encoding = 'utf-8'  # veya 'iso-8859-9' (Türkçe için)
             html = response.text
             soup = BeautifulSoup(html, 'html.parser')
             
@@ -120,7 +120,6 @@ def main():
             name = channel['name']
             
             # EXTM3U satırını oluştur
-            name = name.encode('cp1252', errors='ignore').decode('cp1252')
             lines.append(f'#EXTINF:-1 group-title="Maç Yayınları" ,{name}')
             lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)')
             lines.append(f'#EXTVLCOPT:http-referrer={active_domain}')
