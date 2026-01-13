@@ -1,32 +1,64 @@
-#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Al Hilal Riyadh - Al Nassr
+#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Fethiyespor - Galatasaray
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinex1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Büyükçekmece - Anadolu Efes
+https://ogr.d72577a9dd0ec6.sbs/yayinas.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Alanyaspor - Karagümrük
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinb5.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Manisa FK - Ümraniyespor
+https://ogr.d72577a9dd0ec6.sbs/yayinas.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,15:30 | Başakşehir - Boluspor
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinas.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Gaziantep FK - Kocaelispor
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinas.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Bahçeşehir - Basquet Manresa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
 https://ogr.d72577a9dd0ec6.sbs/yayintrtspor.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Genoa - Cagliari
+#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Stuttgart - E.Frankfurt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
 https://ogr.d72577a9dd0ec6.sbs/yayint1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Juventus - Cremonese
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayint1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Liverpool - Barnsley
+#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Damac FC - Al Ittihad
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
 https://ogr.d72577a9dd0ec6.sbs/yayinex1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Sevilla - Celta Vigo
+#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Dortmund - W.Bremen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:10 | PSG - Paris FC
+https://ogr.d72577a9dd0ec6.sbs/yayint2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Mainz 05 - Heidenheim
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayint4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Hamburg - Leverkusen
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayint3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Roma - Torino
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayintrtspor.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | FC Bayeux - Marsilya
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
 https://ogr.d72577a9dd0ec6.sbs/yayinb4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Newcastle - Man City
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Deportivo - Atletico Madrid
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | CyD Leonesa - Athletic Bilbao
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Real Sociedad - Osasuna
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
+https://ogr.d72577a9dd0ec6.sbs/yayinex5.m3u8
