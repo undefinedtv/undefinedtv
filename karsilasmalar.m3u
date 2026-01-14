@@ -1,11 +1,3 @@
-#EXTINF:-1 group-title="Maç Yayınları" ,04:00 | Oklahoma - San Antonio
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,07:00 | Golden State - Portland
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinss.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:30 | B. Yeniçarşı - Fenerbahçe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
@@ -18,10 +10,10 @@ https://ogr.d72577a9dd0ec6.sbs/yayinex2.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
 https://ogr.d72577a9dd0ec6.sbs/yayinex3.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | İstanbulspor - Trabzonspor
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Nijerya - Fas
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
-https://ogr.d72577a9dd0ec6.sbs/yayinas.m3u8
+https://ogr.d72577a9dd0ec6.sbs/yayinex6.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Aliağa F.A.Ş. - Samsunspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://inattv1212.xyz/
