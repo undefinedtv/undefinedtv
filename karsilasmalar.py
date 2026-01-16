@@ -41,7 +41,7 @@ def main():
             channel_url = active_domain + "channel.html?id=" + first_id
             channel_html = requests.get(channel_url, timeout=10).text
             
-            b = re.search(r'const\s+BASE_URL\s*=\s*"([^"]+)"', channel_html)
+            b = re.search(r'B_URL\s*=\s*["\']([^"\']+)["\']', channel_html)
             
             if not b:
                 print("⚠️  Base URL bulunamadı. Boş M3U dosyası oluşturuluyor...")
