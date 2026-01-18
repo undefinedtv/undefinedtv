@@ -8,8 +8,8 @@ def main():
         active_domain = None
         print("🔍 Aktif domain aranıyor...")
         
-        for i in range(1204, 2000):
-            url = f"https://inattv{i}.xyz/"
+        for i in range(1497, 2000):
+            url = f"https://trgoals{i}.xyz/"
             try:
                 r = requests.head(url, timeout=5)
                 if r.status_code == 200:
@@ -23,7 +23,7 @@ def main():
             print("⚠️  Aktif domain bulunamadı. Boş M3U dosyası oluşturuluyor...")
             return 0
         
-        # İlk kanal ID'si al
+        """
         print("📡 Kanal ID'si alınıyor...")
         try:
             html = requests.get(active_domain, timeout=10).text
@@ -39,11 +39,12 @@ def main():
         except Exception as e:
             print(f"⚠️  HTML alınırken hata: {str(e)}")
             return 0
+        """
         
         # Base URL çek
         print("🔗 Base URL alınıyor...")
         try:
-            event_source = requests.get(active_domain + "channel.html?id=" + first_id, timeout=10).text
+            event_source = requests.get(active_domain + "channel.html?id=" + "yayinzirve", timeout=10).text
             b = re.search(r'B_URL\s*=\s*["\']([^"\']+)["\']', event_source)
             
             if not b:
@@ -118,6 +119,7 @@ def main():
 if __name__ == "__main__":
     exit_code = main()
     sys.exit(exit_code)
+
 
 
 
