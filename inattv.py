@@ -21,7 +21,6 @@ def main():
         
         if not active_domain:
             print("⚠️  Aktif domain bulunamadı. Boş M3U dosyası oluşturuluyor...")
-            create_empty_m3u()
             return 0
         
         # İlk kanal ID'si al
@@ -32,7 +31,6 @@ def main():
             
             if not m:
                 print("⚠️  Kanal ID bulunamadı. Boş M3U dosyası oluşturuluyor...")
-                create_empty_m3u()
                 return 0
             
             first_id = m.group(1)
@@ -40,7 +38,6 @@ def main():
             
         except Exception as e:
             print(f"⚠️  HTML alınırken hata: {str(e)}")
-            create_empty_m3u()
             return 0
         
         # Base URL çek
@@ -51,7 +48,6 @@ def main():
             
             if not b:
                 print("⚠️  Base URL bulunamadı. Boş M3U dosyası oluşturuluyor...")
-                create_empty_m3u()
                 return 0
             
             base_url = b.group(1)
@@ -59,7 +55,6 @@ def main():
             
         except Exception as e:
             print(f"⚠️  Event source alınırken hata: {str(e)}")
-            create_empty_m3u()
             return 0
         
         # Kanal listesi
@@ -118,22 +113,12 @@ def main():
     except Exception as e:
         print(f"❌ Beklenmeyen hata: {str(e)}")
         print("⚠️  Boş M3U dosyası oluşturuluyor...")
-        create_empty_m3u()
         return 0
-
-def create_empty_m3u():
-    """Hata durumunda boş/placeholder M3U dosyası oluştur"""
-    try:
-        with open("inattv.m3u", "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
-            f.write("# Kanal listesi şu anda kullanılamıyor\n")
-        print("✅ Placeholder M3U dosyası oluşturuldu")
-    except Exception as e:
-        print(f"❌ M3U dosyası oluşturulamadı: {str(e)}")
 
 if __name__ == "__main__":
     exit_code = main()
     sys.exit(exit_code)
+
 
 
 
