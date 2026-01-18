@@ -9,8 +9,8 @@ def main():
         active_domain = None
         print("🔍 Aktif domain aranıyor...")
         
-        for i in range(1212, 2000):
-            url = f"https://inattv{i}.xyz/"
+        for i in range(1497, 2000):
+            url = f"https://trgoals{i}.xyz/"
             try:
                 r = requests.head(url, timeout=5)
                 if r.status_code == 200:
@@ -23,10 +23,11 @@ def main():
         if not active_domain:
             print("⚠️  Aktif domain bulunamadı. Boş M3U dosyası oluşturuluyor...")
             return 0
-        
+
         # Base URL çek
         print("🔗 Base URL alınıyor...")
         try:
+            """
             # Ana sayfadan ilk kanal ID'sini bul
             main_html = requests.get(active_domain, timeout=10).text
             m = re.search(r'<iframe[^>]+id="customIframe"[^>]+src="/channel.html\?id=([^"]+)"', main_html)
@@ -36,9 +37,9 @@ def main():
                 return 0
             
             first_id = m.group(1)
-            
+            """
             # Base URL'i al
-            channel_url = active_domain + "channel.html?id=" + first_id
+            channel_url = active_domain + "channel.html?id=" + "yayinzirve"
             channel_html = requests.get(channel_url, timeout=10).text
             
             b = re.search(r'B_URL\s*=\s*["\']([^"\']+)["\']', channel_html)
