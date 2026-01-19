@@ -45,7 +45,7 @@ def main():
         print("🔗 Base URL alınıyor...")
         try:
             event_source = requests.get(active_domain + "channel.html?id=" + "yayinzirve", timeout=10).text
-            b = re.search(r'baseUrl\s*=\s*["\']([^"\']+)["\']', event_source)
+            b = re.search(r'baseUrl\s*[:=]\s*["\']([^"\']+)["\']', event_source)
             
             if not b:
                 print("⚠️  Base URL bulunamadı. Boş M3U dosyası oluşturuluyor...")
@@ -119,6 +119,7 @@ def main():
 if __name__ == "__main__":
     exit_code = main()
     sys.exit(exit_code)
+
 
 
 
