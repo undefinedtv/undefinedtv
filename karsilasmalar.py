@@ -40,7 +40,7 @@ def main():
             """
             # Base URL'i al
             channel_url = active_domain + "channel.html?id=" + "yayinzirve"
-            channel_html = requests.get(channel_url, timeout=10).text
+            event_source = requests.get(channel_url, timeout=10).text
             
             b = re.search(r'baseUrl\s*[:=]\s*["\']([^"\']+)["\']', event_source)
             
