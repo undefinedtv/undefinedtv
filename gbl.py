@@ -34,7 +34,7 @@ def get_canli_tv_m3u():
             content = response.content.decode('utf-8')
         
         data = json.loads(content)
-        print(f"✅ {data}")
+        
         if not data.get('IsSucceeded') or not data.get('Data', {}).get('AllChannels'):
             print("❌ CanliTV API'den geçerli veri alınamadı!")
             return False
