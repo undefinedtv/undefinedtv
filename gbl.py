@@ -34,7 +34,7 @@ def get_canli_tv_m3u():
             content = response.content.decode('utf-8')
         
         data = json.loads(content)
-        
+        print(f"✅ {data}")
         if not data.get('IsSucceeded') or not data.get('Data', {}).get('AllChannels'):
             print("❌ CanliTV API'den geçerli veri alınamadı!")
             return False
@@ -76,7 +76,44 @@ def get_canli_tv_m3u():
         
     except Exception as e:
         print(f"❌ Hata: {e}")
-        return False
+        print("🔄 Yedek kaynaktan m3u indiriliyor...")
+        
+        try:
+            # İlk yedek kaynak
+            response = requests.get("https://mth.tc/boncuktv", timeout=10)
+            response.raise_for_status()
+            
+            # İlk satırı atla
+            lines = response.text.split('\n')
+            content = '\n'.join(lines[1:]) if lines else response.text
+            
+            with open("yeni.m3u", "w", encoding="utf-8") as f:
+                f.write(content)
+            print("✅ Yedek kaynaktan m3u başarıyla indirildi (boncuktv)")
+            return True
+            
+        except Exception as e2:
+            print(f"❌ İlk yedek kaynak (boncuk tv) hatası: {e2}")
+            print("🔄 İkinci yedek kaynaktan m3u indiriliyor...")
+            
+            try:
+                # İkinci yedek kaynak
+                response = requests.get("https://goldvod.org/get.php?username=hpgdiscoo&password=123456&type=m3u_plus", timeout=10)
+                response.raise_for_status()
+                
+                # İlk satırı atla
+                lines = response.text.split('\n')
+                content = '\n'.join(lines[1:]) if lines else response.text
+                
+                with open("yeni.m3u", "w", encoding="utf-8") as f:
+                    f.write(content)
+                print("✅ İkinci yedek kaynaktan m3u başarıyla indirildi (goldvod)")
+                return True
+                
+            except Exception as e3:
+                print(f"❌ İkinci yedek kaynak (goldvod) hatası: {e3}")
+                print("❌ Tüm kaynaklar başarısız oldu")
+                return False
 
 if __name__ == "__main__":
     get_canli_tv_m3u()
