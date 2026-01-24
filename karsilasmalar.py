@@ -120,7 +120,7 @@ def main():
             cid = channel['cid']
             name = channel['name']
 
-            if cid == "yayin1"
+            if cid == "yayin1":
                 cid = "yayinzirve"
             
             # EXTM3U satırını oluştur
