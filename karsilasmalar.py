@@ -119,6 +119,9 @@ def main():
         for channel in channels:
             cid = channel['cid']
             name = channel['name']
+
+            if cid == "yayin1"
+                cid = "yayinzirve"
             
             # EXTM3U satırını oluştur
             lines.append(f'#EXTINF:-1 group-title="Maç Yayınları" ,{name}')
