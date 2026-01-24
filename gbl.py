@@ -98,7 +98,7 @@ def get_canli_tv_m3u():
             
             try:
                 # İkinci yedek kaynak
-                response = requests.get("https://goldvod.org/get.php?username=hpgdiscoo&password=123456&type=m3u_plus", timeout=10)
+                response = requests.get("https://goldvod.org/get.php?username=hpgdisco&password=123456&type=m3u_plus", timeout=10)
                 response.raise_for_status()
                 
                 # İlk satırı atla
