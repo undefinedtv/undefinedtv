@@ -9,8 +9,8 @@ def main():
         active_domain = None
         print("🔍 Aktif domain aranıyor...")
         
-        for i in range(1497, 2000):
-            url = f"https://trgoals{i}.xyz/"
+        for i in range(1233, 2000):
+            url = f"https://inattv{i}.xyz/"
             try:
                 r = requests.head(url, timeout=5)
                 if r.status_code == 200:
@@ -120,7 +120,7 @@ def main():
             cid = channel['cid']
             name = channel['name']
 
-            if cid == "yayin1":
+            if cid == "yayin1" or cid == "yayininat":
                 cid = "yayinzirve"
             
             # EXTM3U satırını oluştur
