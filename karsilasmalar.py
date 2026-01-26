@@ -129,7 +129,7 @@ def main():
             lines.append(f'#EXTVLCOPT:http-referrer={active_domain}')
             
             # URL satırını oluştur
-            full_url = f"{base_url}{cid}.m3u8"
+            full_url = f"{base_url}{cid}.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)&Referer={active_domain}"
             lines.append(full_url)
         
         with open("karsilasmalar.m3u", "w", encoding="utf-8") as f:
