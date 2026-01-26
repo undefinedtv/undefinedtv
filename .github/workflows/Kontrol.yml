@@ -30,9 +30,6 @@ jobs:
       - name: inattv.py Çalıştır
         continue-on-error: true
         run: python inattv.py
-      - name: vav.py Çalıştır
-        continue-on-error: true
-        run: python vav.py
       - name: androtv.py Çalıştır
         continue-on-error: true
         run: python androtv.py
