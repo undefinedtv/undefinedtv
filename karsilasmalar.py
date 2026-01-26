@@ -125,10 +125,13 @@ def main():
             
             # EXTM3U satırını oluştur
             lines.append(f'#EXTINF:-1 group-title="Maç Yayınları" ,{name}')
+            lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36')
+            lines.append(f'#EXTVLCOPT:http-referrer={active_domain}')
+            lines.append(f'#EXTVLCOPT:http-origin={active_domain}')
 
             
             # URL satırını oluştur
-            full_url = f"{base_url}{cid}.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)&Referer={active_domain}"
+            full_url = f"{base_url}{cid}.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36&Referer={active_domain}&Origin={active_domain}"
             lines.append(full_url)
         
         with open("karsilasmalar.m3u", "w", encoding="utf-8") as f:
