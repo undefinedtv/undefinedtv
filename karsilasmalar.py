@@ -131,6 +131,7 @@ def main():
             # URL satırını oluştur
             full_url = full_url = f'{base_url}{cid}.m3u8|Referer={active_domain}&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin={active_domain}'
             print(f"{full_url }")
+            lines.append(full_url)
         
         with open("karsilasmalar.m3u", "w", encoding="utf-8") as f:
             f.write("\n".join(lines))
