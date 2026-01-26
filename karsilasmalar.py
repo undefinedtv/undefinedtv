@@ -125,8 +125,7 @@ def main():
             
             # EXTM3U satırını oluştur
             lines.append(f'#EXTINF:-1 group-title="Maç Yayınları" ,{name}')
-            lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)')
-            lines.append(f'#EXTVLCOPT:http-referrer={active_domain}')
+
             
             # URL satırını oluştur
             full_url = f"{base_url}{cid}.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)&Referer={active_domain}"
