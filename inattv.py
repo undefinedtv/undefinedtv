@@ -8,8 +8,8 @@ def main():
         active_domain = None
         print("🔍 Aktif domain aranıyor...")
         
-        for i in range(1233, 2000):
-            url = f"https://inattv{i}.xyz/"
+        for i in range(1517, 2000):
+            url = f"https://trgoals{i}.xyz/"
             try:
                 r = requests.head(url, timeout=5)
                 if r.status_code == 200:
@@ -119,6 +119,7 @@ def main():
 if __name__ == "__main__":
     exit_code = main()
     sys.exit(exit_code)
+
 
 
 
