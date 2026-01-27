@@ -102,7 +102,7 @@ def main():
             lines.append(f'#EXTVLCOPT:http-referrer={active_domain}')
             
             # URL satırını oluştur (Sözlük anahtarı olan 'cid' kullanılıyor)
-            full_url = f'https://shy-smoke-d9c7.undefined-proxy.workers.dev/?url={base_url}{cid}.m3u8&ref={active_domain}'
+            full_url = f'https://shy-smoke-d9c7.undefined-proxy.workers.dev/?url=https://pq4.d72577a9dd0ec4.sbs/{cid}.m3u8&ref={active_domain}'
             lines.append(full_url)
         
         with open("inattv.m3u", "w", encoding="utf-8") as f:
@@ -119,6 +119,7 @@ def main():
 if __name__ == "__main__":
     exit_code = main()
     sys.exit(exit_code)
+
 
 
 
