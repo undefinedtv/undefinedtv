@@ -8,8 +8,8 @@ def main():
         active_domain = None
         print("🔍 Aktif domain aranıyor...")
         
-        for i in range(25, 1000):
-            url = f"https://birazcikspor{i}.xyz/"
+        for i in range(24, 1000):
+            url = f"https://taraftarium{i}.xyz/"
             try:
                 r = requests.head(url, timeout=5)
                 if r.status_code == 200:
@@ -22,12 +22,12 @@ def main():
         if not active_domain:
             print("⚠️  Aktif domain bulunamadı.")
             return 1
-        
+        """
         # İlk karşılaşma ID'si al
         print("📡 Karşılaşma ID'si alınıyor...")
         try:
             html = requests.get(active_domain, timeout=10).text
-            m = re.search(r'<iframe[^>]+id="matchPlayer"[^>]+src="event\.html\?id=([^"]+)"', html)
+            m = re.search(r'<iframe[^>]+id="customIframe"[^>]+src="event\.html\?id=([^"]+)"', html)
             
             if not m:
                 print("⚠️  Karşılaşma ID bulunamadı.")
@@ -39,11 +39,11 @@ def main():
         except Exception as e:
             print(f"⚠️  HTML alınırken hata: {str(e)}")
             return 1
-        
+        """
         # Base URL çek
         print("🔗 Base URL alınıyor...")
         try:
-            event_source = requests.get(active_domain + "event.html?id=" + first_id, timeout=10).text
+            event_source = requests.get(active_domain + "event.html?id=" + "androstreamlivebs1", timeout=10).text
             b = re.search(r'const\s+baseurls\s*=\s*\[\s*"([^"]+)"', event_source)
             
             if not b:
@@ -60,7 +60,7 @@ def main():
         # Script.js'den karşılaşmalar listesini çek
         print("⚽ Karşılaşmalar listesi alınıyor...")
         try:
-            script_url = active_domain + "script.js"
+            script_url = active_domain + "script2.js"
             script_response = requests.get(script_url, timeout=10)
             script_response.encoding = 'utf-8'
             script_content = script_response.text
