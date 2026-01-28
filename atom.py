@@ -156,7 +156,7 @@ def create_m3u(working_channels, base_domain):
     print(f"\nM3U dosyası oluşturuluyor...")
     
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
+        f.write("")
         
         for channel in working_channels:
             channel_id = channel["id"]
