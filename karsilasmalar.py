@@ -122,7 +122,7 @@ def main():
         
         # M3U dosyası oluştur
         print("📝 M3U dosyası oluşturuluyor...")
-        lines = ["#EXTM3U"]
+        lines = [""]
         
         for match in karsilasmalar:
             try:
