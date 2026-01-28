@@ -33,6 +33,9 @@ jobs:
       - name: androtv.py Çalıştır
         continue-on-error: true
         run: python androtv.py
+      - name: atom.py Çalıştır
+        continue-on-error: true
+        run: python atom.py
       - name: selcuk.py Çalıştır
         continue-on-error: true
         run: python selcuk.py
