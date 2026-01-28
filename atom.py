@@ -97,7 +97,7 @@ def get_all_possible_channels():
         ("bein-sports-4", "BEIN SPORTS 4"),
         ("bein-sports-5", "BEIN SPORTS 5"),
         ("bein-sports-max-1", "BEIN SPORTS MAX 1"),
-        ("bein-sports-max-1", "BEIN SPORTS MAX 2"),
+        ("bein-sports-max-2", "BEIN SPORTS MAX 2"),
         
         # S SPORT
         ("s-sport", "S SPORT"),
