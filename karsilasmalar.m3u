@@ -1,4 +1,4 @@
-#EXTM3U
+
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | TFL Altekma - Benfica | CEV Erkekler Challenge Cup
 https://andro.2385437.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Isparta 32 Spor - Menemenspor | TFF 2. Lig
@@ -69,12 +69,22 @@ https://andro.2385437.xyz/checklist/androstreamlivess1.m3u8
 https://andro.2385437.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,05:30 | Houston Rockets - SA Spurs | NBA
 https://andro.2385437.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Triay/ Ortega - Salazar/Goenaga | Hexagon Kupasi
+https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Coello/Nieto - Navarro/Guerrero | Hexagon Kupasi
+https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Gonzalez/Caldera - Fernandez/Icardo | Hexagon Kupasi
+https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Yanguas/Leal - Libaak/Garrido | Hexagon Kupasi
+https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Galatasaray HDIS - Halkbank | CEV Erkekler Şampiyonlar Ligi
 https://andro.2385437.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Al Qadsiah - Al Hilal | Suudi Arabistan Pro Lig
 https://andro.2385437.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Fenerbahçe Beko - Anadolu Efes | Euroleague
 https://andro.2385437.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Araujo/Jensen - Ustero/Sanchez | Hexagon Kupasi
+https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Benfica - Fenerbahçe Medicana | CEV Kadinlar Şampiyonlar Ligi
 https://andro.2385437.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:05 | Hapoel Tel Aviv - Bayern Münih | Euroleague
@@ -85,21 +95,23 @@ https://andro.2385437.xyz/checklist/androstreamlivess2.m3u8
 https://andro.2385437.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Valencia Basket - Maccabi Fox | Euroleague
 https://andro.2385437.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Lyon - PAOK | UEFA Avrupa Ligi
-https://andro.2385437.xyz/checklist/androstreamlivetb7.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Aston Villa - Salzburg | UEFA Avrupa Ligi
+https://andro.2385437.xyz/checklist/androstreamlivetb2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Ruiz/Stupaczuk - Nenno/Tello | Hexagon Kupasi
+https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Lille - Freiburg | UEFA Avrupa Ligi
+https://andro.2385437.xyz/checklist/androstreamlivetb3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Basel - Viktoria Plzen | UEFA Avrupa Ligi
 https://andro.2385437.xyz/checklist/androstreamlivetb6.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Porto - Glasgow Rangers | UEFA Avrupa Ligi
 https://andro.2385437.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | FCSB - Fenerbahçe | UEFA Avrupa Ligi
 https://andro.2385437.xyz/checklist/androstreamlivetrt1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Lille - Freiburg | UEFA Avrupa Ligi
-https://andro.2385437.xyz/checklist/androstreamlivetb3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Lyon - PAOK | UEFA Avrupa Ligi
+https://andro.2385437.xyz/checklist/androstreamlivetb7.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Nottingham Forest - Ferencvaros | UEFA Avrupa Ligi
 https://andro.2385437.xyz/checklist/androstreamlivetb1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Panathinaikos - Roma | UEFA Avrupa Ligi
 https://andro.2385437.xyz/checklist/androstreamlivetb5.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Stuttgart - Young Boys | UEFA Avrupa Ligi
 https://andro.2385437.xyz/checklist/androstreamlivetb4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Aston Villa - Salzburg | UEFA Avrupa Ligi
-https://andro.2385437.xyz/checklist/androstreamlivetb2.m3u8
