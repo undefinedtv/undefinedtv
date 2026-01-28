@@ -1,7 +1,9 @@
 #EXTM3U
-#EXTM3U
 #EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Arnavutköy Bld. - Bursaspor | TFF 2. Lig
-https://andro.2385437.xyz/checklist/androstreamlivebikanal.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://trgoals1517.xyz/
+#EXTVLCOPT:http-origin=https://trgoals1517.xyz
+https://0vy.d72577a9dd0ec19.sbs/yayin1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Batman Petrol - 24 Erzincanspor | TFF 2. Lig
 https://andro.2385437.xyz/checklist/androstreamlivesifir.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Araujo/Jensen - Josemaria/Alonso | Hexagon Kupasi
