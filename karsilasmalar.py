@@ -43,16 +43,16 @@ def main():
         # Base URL çek
         print("🔗 Base URL alınıyor...")
         try:
-            for i in range(24, 1000):
-            url = f"https://taraftarium{i}.xyz/"
-            try:
-                r = requests.head(url, timeout=5)
-                if r.status_code == 200:
-                    eventsource_domain = url
-                    print(f"✅ Aktif domain bulundu: {active_domain}")
-                    break
-            except Exception as e:
-                continue
+            for i in range(43, 1000):
+                url = f"https://birazcikspor{i}.xyz/"
+                try:
+                    r = requests.head(url, timeout=5)
+                    if r.status_code == 200:
+                        eventsource_domain = url
+                        print(f"✅ Aktif domain bulundu: {active_domain}")
+                        break
+                except Exception as e:
+                    continue
             event_source = requests.get(eventsource_domain + "event.html?id=" + "androstreamlivebs2", timeout=10).text
             b = re.search(r'const\s+baseurls\s*=\s*\[\s*"([^"]+)"', event_source)
             
