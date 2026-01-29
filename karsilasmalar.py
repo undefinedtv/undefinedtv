@@ -22,7 +22,7 @@ def main():
         if not active_domain:
             print("⚠️  Aktif domain bulunamadı.")
             return 1
-        """
+        
         # İlk karşılaşma ID'si al
         print("📡 Karşılaşma ID'si alınıyor...")
         try:
@@ -39,11 +39,11 @@ def main():
         except Exception as e:
             print(f"⚠️  HTML alınırken hata: {str(e)}")
             return 1
-        """
+        
         # Base URL çek
         print("🔗 Base URL alınıyor...")
         try:
-            event_source = requests.get(active_domain + "event.html?id=" + "androstreamlivebs1", timeout=10).text
+            event_source = requests.get(active_domain + "event.html?id=" + first_id, timeout=10).text
             b = re.search(r'const\s+baseurls\s*=\s*\[\s*"([^"]+)"', event_source)
             
             if not b:
