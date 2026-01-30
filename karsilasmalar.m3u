@@ -3,20 +3,14 @@
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Kasimpaşa - Samsunspor | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Yanguas/Leal - Tapia/Sanz | Hexagon Kupasi
-https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Qabala - Imisli | Azerbaycan Premier Ligi
 https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Kahramanmaraş İstiklal - iLab Basketbol | Basketbol 1. Ligi
 https://andro.226503.xyz/checklist/androstreamliveht.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Brea/Calvo - Josemaria/Alonso | Hexagon Kupasi
-https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Yenimahalle Bld. - Üsküdar Bld. | Hentbol Kadinlar Süper Ligi
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Büyükçekmece - Beşiktaş GAİN | Basketbol Süper Ligi
-https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Navarro/Guerrero - Libaak/Garrido | Hexagon Kupasi
-https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
+https://andro.226503.xyz/checklist/androstreamlivebsh.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Team Chunkz - Team Aboflah | Gösteri
 https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | İstanbulspor - Hatayspor | Trendyol 1. Lig
@@ -32,11 +26,11 @@ https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Al Kholood - Al Nassr | Suudi Arabistan Pro Lig
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:30 | Monaco - Virtus Bologna | Euroleague
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+https://andro.226503.xyz/checklist/androstreamliveexn3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Kizilyildiz - Dubai Basket | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Baskonia - Zalgiris Kaunas | Euroleague
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+https://andro.226503.xyz/checklist/androstreamliveexn2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Köln - Wolfsburg | Almanya Bundesliga
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Asvel Villeurbanne - Panathinaikos | Euroleague
@@ -46,7 +40,9 @@ https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Lazio - Genoa | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Espanyol - Alaves | İspanya La Liga
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+https://andro.226503.xyz/checklist/androstreamliveidm.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Bristol City - Derby County | İngiltere Championship
+https://andro.226503.xyz/checklist/androstreamliveexn.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Alanyaspor - Eyüpspor | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Rams Başakşehir - Ç.Rizespor | Trendyol Süper Lig
