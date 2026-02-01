@@ -180,7 +180,7 @@ def get_smart_m3u():
         file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), OUTPUT_FILENAME)
         
         with open(file_path, "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
+            f.write("")
             
             order_to_write = category_order + ["Diğer"]
             total_channels = 0
