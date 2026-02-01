@@ -4,22 +4,12 @@ import gzip
 import os
 from io import BytesIO
 
-# =============================================================================
-# KAYNAK SIRALAMA AYARI - İstediğiniz sırayı buradan değiştirebilirsiniz
-# =============================================================================
-# Kullanılabilir kaynaklar: "kablo", "dsmart", "boncuktv", "goldvod"
-# İlk kaynak başarısız olursa sırayla diğerlerine geçer
+# CALMA OC
 
-SOURCE_ORDER = ["dsmart", "kablo", "boncuktv", "goldvod"]
+SOURCE_ORDER = ["smart", "kablo", "boncuktv", "goldvod"]
 
-# =============================================================================
-# GENEL AYARLAR
-# =============================================================================
 OUTPUT_FILENAME = "yeni.m3u"
 
-# =============================================================================
-# KABLO (CanliTV) KAYNAĞI
-# =============================================================================
 def get_kablo_m3u():
     """CanliTV API'den m3u verisi çeker"""
     
@@ -98,17 +88,17 @@ def get_kablo_m3u():
         return False
 
 # =============================================================================
-# DSMART KAYNAĞI
+# SMART KAYNAĞI
 # =============================================================================
-def get_dsmart_m3u():
-    """DSmart API'den m3u verisi çeker"""
+def get_smart_m3u():
+    """Smart API'den m3u verisi çeker"""
     
     api_url = "https://service-dsmartv2.erstream.com/api/GetFilteredVideos"
     image_base_url = "https://dsmart-static-v2.ercdn.net//resize-width/500"
     
     category_order = [
-        "Ulusal", "Film", "Dizi", "Spor", "Çocuk", "Belgesel",
-        "Haber", "Müzik", "Eğlence", "Uluslararası", "Eğitim", "Çoklu Kanallar"
+        "Ulusal", "Haber", "Belgesel", "Spor", "Film", "Dizi",  "Çocuk", 
+         "Müzik", "Eğlence", "Uluslararası", "Eğitim", "Çoklu Kanallar"
     ]
     
     payload = {
@@ -129,21 +119,21 @@ def get_dsmart_m3u():
     }
     
     try:
-        print("📡 DSmart API'den veri alınıyor...")
+        print("📡 Smart API'den veri alınıyor...")
         
         response = requests.post(api_url, json=payload, headers=headers, timeout=30)
         
         if response.status_code != 200:
-            print(f"❌ DSmart API Hatası: {response.status_code}")
+            print(f"❌ Smart API Hatası: {response.status_code}")
             return False
         
         items = response.json().get("Items", [])
         
         if not items:
-            print("❌ DSmart: Veri bulunamadı")
+            print("❌ Smart: Veri bulunamadı")
             return False
         
-        print(f"✅ DSmart: {len(items)} kanal bulundu")
+        print(f"✅ Smart: {len(items)} kanal bulundu")
         
         # Kanalları kategorilerine göre grupla
         grouped_channels = {cat: [] for cat in category_order}
@@ -203,11 +193,11 @@ def get_dsmart_m3u():
                         f.write(f"{ch['url']}\n")
                         total_channels += 1
         
-        print(f"✅ DSmart: {OUTPUT_FILENAME} başarıyla oluşturuldu! ({total_channels} kanal)")
+        print(f"✅ Smart: {OUTPUT_FILENAME} başarıyla oluşturuldu! ({total_channels} kanal)")
         return True
         
     except Exception as e:
-        print(f"❌ DSmart hatası: {e}")
+        print(f"❌ Smart hatası: {e}")
         return False
 
 # =============================================================================
@@ -275,10 +265,9 @@ def get_goldvod_m3u():
 def main():
     """Belirlenen sıraya göre kaynakları dener"""
     
-    # Kaynak fonksiyonları mapping
     sources = {
         "kablo": get_kablo_m3u,
-        "dsmart": get_dsmart_m3u,
+        "smart": get_smart_m3u,
         "boncuktv": get_boncuktv_m3u,
         "goldvod": get_goldvod_m3u
     }
