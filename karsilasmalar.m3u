@@ -1,12 +1,4 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,15:30 | Fatih Karagümrük - Rams Başakşehir | Ziraat Türkiye Kupasi ZTK
-https://andro.226503.xyz/checklist/androstreamliveas.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | B.Bencic - Sonay Kartal | WTA Abu Dabi
-https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,16:30 | Ziraat Bankkart - TFL Altekma | TVF Erkekler Kupa Volley
-https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,17:30 | A.Sasnovich - A.Eala | WTA Abu Dabi
-https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Gençlerbirliği - Eyüpspor | Ziraat Türkiye Kupasi ZTK
 https://andro.226503.xyz/checklist/androstreamliveas.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Fenerbahçe Medicana - Budowlani Lodz | CEV Kadinlar Şampiyonlar Ligi
@@ -73,22 +65,22 @@ https://andro.226503.xyz/checklist/androstreamliveas.m3u8
 https://andro.226503.xyz/checklist/androstreamliveas.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Fenerbahçe Koleji - Pizzabulls Cedi Osman | Basketbol 1. Ligi
 https://andro.226503.xyz/checklist/androstreamliveht.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Kocaelispor - Beşiktaş | Ziraat Türkiye Kupasi ZTK
-https://andro.226503.xyz/checklist/androstreamliveas.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Fenerbahçe Medicana - Spor Toto SK | TVF Erkekler Kupa Volley
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Kocaelispor - Beşiktaş | Ziraat Türkiye Kupasi ZTK
+https://andro.226503.xyz/checklist/androstreamliveas.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Dubai Basket - Real Madrid | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:30 | Panathinaikos - ÇBK Mersin | Eurocup Kadinlar Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Al Okhdood - Al Hilal | Suudi Arabistan Pro Lig
-https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Fenerbahçe - Erzurumspor | Ziraat Türkiye Kupasi ZTK
 https://andro.226503.xyz/checklist/androstreamliveatv.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Zaragoza - Petkimspor | FIBA Europe Cup
-https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Al Okhdood - Al Hilal | Suudi Arabistan Pro Lig
+https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Hapoel Tel Aviv - Valencia Basket | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Zaragoza - Petkimspor | FIBA Europe Cup
+https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | SC Telstar - GA Eagles | Hollanda KNVB Beker Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamlivesifir.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Partizan - Panathinaikos | Euroleague
@@ -97,9 +89,9 @@ https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Paris - Fenerbahçe Beko | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Strasbourg - Monaco | Fransa Kupasi
-https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Atalanta - Juventus | İtalya Kupasi Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Strasbourg - Monaco | Fransa Kupasi
+https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Real Betis - Atletico Madrid | İspanya Kral Kupasi Copa Del Rey Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
