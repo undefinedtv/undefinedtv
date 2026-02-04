@@ -21,7 +21,6 @@ def main():
 
         if not active_domain:
             print("⚠️  Aktif domain bulunamadı. Boş M3U dosyası oluşturuluyor...")
-            create_empty_m3u()
             return 0
 
         # İlk kanal ID'si al
@@ -32,7 +31,6 @@ def main():
 
             if not m:
                 print("⚠️  Kanal ID bulunamadı. Boş M3U dosyası oluşturuluyor...")
-                create_empty_m3u()
                 return 0
 
             first_id = m.group(1)
@@ -40,7 +38,6 @@ def main():
 
         except Exception as e:
             print(f"⚠️  HTML alınırken hata: {str(e)}")
-            create_empty_m3u()
             return 0
 
         # Base URL çek
@@ -51,7 +48,6 @@ def main():
 
             if not b:
                 print("⚠️  Base URL bulunamadı. Boş M3U dosyası oluşturuluyor...")
-                create_empty_m3u()
                 return 0
 
             base_url = b.group(1)
@@ -59,7 +55,6 @@ def main():
 
         except Exception as e:
             print(f"⚠️  Event source alınırken hata: {str(e)}")
-            create_empty_m3u()
             return 0
 
         # Kanal listesi
@@ -139,7 +134,6 @@ def main():
     except Exception as e:
         print(f"❌ Beklenmeyen hata: {str(e)}")
         print("⚠️  Boş M3U dosyası oluşturuluyor...")
-        create_empty_m3u()
         return 0
 
 def create_empty_m3u():
