@@ -32,6 +32,7 @@ jobs:
         env:
           INAT_AES_KEY: ${{ secrets.INAT_AES_KEY }}
           INAT_MAIN_URL: ${{ secrets.INAT_MAIN_URL }}
+          WORKER_URL: ${{ secrets.WORKER_URL }}
         run: python inadina.py
       - name: androtv.py Çalıştır
         continue-on-error: true
