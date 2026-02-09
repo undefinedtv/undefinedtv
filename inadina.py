@@ -20,6 +20,7 @@ class InatBox:
     def __init__(self):
         self.aes_key = os.getenv("INAT_AES_KEY")
         self.main_page_url = os.getenv("INAT_MAIN_URL")
+        self.worker_url = os.getenv("WORKER_URL")
         
     # ── Yardımcı Metodlar ─────────────────────────────────────────────
 
@@ -142,9 +143,10 @@ class InatBox:
                 "X-Requested-With": "com.bp.box",
                 "User-Agent": "speedrestapi"
             }
-
+            
+            request_url = f"{self.worker_url}{url}"
             async with session.post(
-                url,
+                request_url,
                 headers=headers,
                 data=body,
                 timeout=aiohttp.ClientTimeout(total=60),
@@ -222,7 +224,8 @@ class InatBox:
 
             # ── Adım 1: Ana kanal listesini al ──
             logger.info("Kanal listesi alınıyor...")
-            json_response = await self._make_request(session, self.main_page_url)
+            request_url = f"{self.worker_url}{self.main_page_url}"
+            json_response = await self._make_request(session, request_url)
 
             if not json_response:
                 logger.error("Kanal listesi alınamadı!")
