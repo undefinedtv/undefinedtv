@@ -25,11 +25,14 @@ jobs:
       - name: Gereksinimleri Kur
         run: |
           python -m pip install --upgrade pip
-          pip install -U setuptools wheel Kekik httpx parsel requests cloudscraper beautifulsoup4
+          pip install -U setuptools wheel Kekik httpx parsel requests cloudscraper beautifulsoup4 pycryptodome aiohttp
           
-      - name: inattv.py Çalıştır
+      - name: inadina.py Çalıştır
         continue-on-error: true
-        run: python inattv.py
+        env:
+          INAT_AES_KEY: ${{ secrets.INAT_AES_KEY }}
+          INAT_MAIN_URL: ${{ secrets.INAT_MAIN_URL }}
+        run: python inadina.py
       - name: androtv.py Çalıştır
         continue-on-error: true
         run: python androtv.py
