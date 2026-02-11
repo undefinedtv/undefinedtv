@@ -1,34 +1,26 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,10:30 | Türkiye - Çekya | Badminton Avrupa Takim Şampiyonasi Kadinlar
-https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,10:30 | Türkiye - İsveç | Badminton Avrupa Takim Şampiyonasi Erkekler
-https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:00 | S.Tsitsipas - A.Rinderknech | ATP Rotterdam
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Gangwon - Shanghai Port | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Ulsan Hyundai - Melbourne City | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,15:00 | M.Andreeva - V.Mboko | WTA Doha
-https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | V.Gracheva - M.Sakkari | WTA Doha
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:15 | Cong An Ha Noi - Tampines | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,16:30 | I.Swiatek - D.Kasatkina | WTA Doha
-https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:45 | Arkadag - Al Nassr | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Petkimspor - Peristeri | FIBA Europe Cup
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Q.Zheng - E.Rybakina | WTA Doha
-https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Test Yarişlari Gün 1 | Bilinmiyor
+https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Türk Telekom - Chemnitz | Eurocup
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Zalau - TFL Altekma | CEV Erkekler Challenge Cup
 https://andro.226503.xyz/checklist/androstreamlivetb5.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Sepahan FC - Al Ahli Doha | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,19:30 | A.Kalinskaya - E.Svitolina | WTA Doha
-https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Neptunas - Bahçeşehir Klj | Eurocup
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | S.Korda - F.Tiafoe | ATP Dallas
@@ -61,12 +53,12 @@ https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,06:00 | GS Warriors - SA Spurs | NBA
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,07:00 | Test Yarişlari Gün 2 | Bilinmiyor
-https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Pohang - Gamba Osaka | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:15 | Bangkok Utd - Macarthur Bulls | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Test Yarişlari Gün 2 | Bilinmiyor
+https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | ÇBK Mersin - Panathinaikos | Eurocup Kadinlar Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:30 | Halkbank - Lublin | CEV Erkekler Şampiyonlar Ligi
