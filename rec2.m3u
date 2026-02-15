@@ -95,11 +95,11 @@ https://live.sportstv.com.tr/hls/low/sportstv.m3u8?token=H22jvkcigP6kMB-lWnaGPQ&
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8?token=H22jvkcigP6kMB-lWnaGPQ&tms=1771277240
-#EXTINF:-1 tvg-id="13" tvg-name="TİVİBU SPOR 4" tvg-logo="https://m.prectv61.lol/uploads/cache/channel_thumb/uploads/jpg/921670222d56e1af5cde5b3474185425.jpg" group-title="Rec Tv", TİVİBU SPOR 4
+#EXTINF:-1 tvg-id="13" tvg-name="TİVİBU SPOR 4" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/921670222d56e1af5cde5b3474185425.jpg" group-title="Rec Tv", TİVİBU SPOR 4
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://mss.ayakkabiparti.lol/t4/index.m3u8?token=ISzUIn4McWJZKwkM224iTQ&tms=1771275091
-#EXTINF:-1 tvg-id="12" tvg-name="TRT SPOR YILDIZ" tvg-logo="https://m.prectv61.lol/uploads/cache/channel_thumb/uploads/jpg/ddc793321e06b9f205e7b99ebca71e4b.jpg" group-title="Rec Tv", TRT SPOR YILDIZ
+https://mss.ayakkabiparti.lol/t4/index.m3u8?token=Oyy8grmMEq17-nTTTE1WaA&tms=1771282401
+#EXTINF:-1 tvg-id="12" tvg-name="TRT SPOR YILDIZ" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/ddc793321e06b9f205e7b99ebca71e4b.jpg" group-title="Rec Tv", TRT SPOR YILDIZ
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor?token=ISzUIn4McWJZKwkM224iTQ&tms=1771275091
+https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor?token=Oyy8grmMEq17-nTTTE1WaA&tms=1771282401
