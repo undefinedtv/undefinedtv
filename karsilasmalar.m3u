@@ -1,8 +1,4 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | FC Seoul - Hiroshima | AFC Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Machida - Chengdu Rongcheng | AFC Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Hatayspor - Iğdirspor | Trendyol 1. Lig
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:15 | Buriram - Shanghai Shenhua | AFC Şampiyonlar Ligi
@@ -41,7 +37,7 @@ https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,03:00 | NC State - North Carolina | NCAA
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,07:00 | Test Yarişlari Gün 1 | Bilinmiyor
+#EXTINF:-1 group-title="Maç Yayınları" ,10:00 | Test Yarişlari Gün 1 | Bilinmiyor
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Melbourne City - Gangwon | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
@@ -51,6 +47,8 @@ https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Serik Bld. - Çorum FK | Trendyol 1. Lig
 https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Test Yarişlari Gün 1 Yayin 2 | Bilinmiyor
+https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:15 | Tampines - Cong An Ha Noi | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:15 | Persib Bandung - Ratchaburi | AFC Şampiyonlar Ligi
@@ -75,17 +73,19 @@ https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Trentino - Ziraat Bankkart | CEV Erkekler Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Roeselare - Halkbank | CEV Erkekler Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Lublin - Galatasaray HDIS | CEV Erkekler Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Aberdeen - Motherwell | İskoçya Kupasi
-https://andro.226503.xyz/checklist/androstreamlivesifir.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Roeselare - Halkbank | CEV Erkekler Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Milan - Como | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Aberdeen - Motherwell | İskoçya Kupasi
+https://andro.226503.xyz/checklist/androstreamlivesifir.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Bodo Glimt - Inter | UEFA Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Olympiakos - Bayer Leverkusen | UEFA Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Club Brugge - Atletico Madrid | UEFA Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Bodo Glimt - Inter | UEFA Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Wolverhampton - Arsenal | İngiltere Premier Lig
+https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
