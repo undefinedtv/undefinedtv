@@ -33,8 +33,6 @@ https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 https://andro.226503.xyz/checklist/androstreamliveht.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Boluspor - İstanbulspor | Trendyol 1. Lig
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Yari Final Maç 1 | Yari Final
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Troyes - Pau FC | Fransa Ligue 2
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Menemenspor - Bursaspor | TFF 2. Lig
@@ -57,8 +55,6 @@ https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
 https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Chelsea - Burnley | İngiltere Premier Lig
 https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Yari Final Maç 2 | Yari Final
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Neftçi Bakü - Karabağ | Azerbaycan Premier Ligi
 https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:15 | Real Betis - Rayo Vallecano | İspanya La Liga
@@ -85,7 +81,7 @@ https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Benfica - AVS | Portekiz Liga NOS
 https://andro.226503.xyz/checklist/androstreamlivets4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Final | Final
+#EXTINF:-1 group-title="Maç Yayınları" ,21:00 | C.Alcaraz - A.Fils | ATP Doha Final
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Nimes - St.Raphael | Fransa Hentbol Ligi
 https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
@@ -101,6 +97,8 @@ https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Ajax - NEC Nijmegen | Hollanda Eredivisie
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | T.M.Etcheverry - V.Kopriva | ATP Rio de Janeiro Yari Final
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Yari Final Maç 1 | Yari Final
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:05 | PSG - Metz | Fransa Ligue 1
@@ -115,6 +113,8 @@ https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Beşiktaş - Göztepe | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,00:30 | Yari Final Maç 2 | Yari Final
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,01:00 | Phoenix Suns - Orlando Magic | NBA
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,02:30 | Michigan Wolverines - Duke | NCAA
@@ -203,6 +203,8 @@ https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Bodrumspor - Manisa FK | Trendyol 1. Lig
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Fenerbahçe Beko - Beşiktaş GAİN | TBF Erkekler Türkiye Kupasi Final
+https://andro.226503.xyz/checklist/androstreamliveas.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Celta Vigo - Mallorca | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | OKC Thunder - Cleveland Cavaliers | NBA
