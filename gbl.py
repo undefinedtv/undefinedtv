@@ -258,7 +258,7 @@ def get_goldvod_m3u():
             "https://goldvod.site/get.php?username=hpgdisco&password=123456&type=m3u_plus",
             headers=headers,
             timeout=30
-        ))
+        )
         response.raise_for_status()
         
         # İlk satırı atla
