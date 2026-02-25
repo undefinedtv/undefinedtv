@@ -6,7 +6,7 @@ from io import BytesIO
 
 # CALMA OC
 
-SOURCE_ORDER = ["goldvod", "boncuktv", "kablo", "smart"]
+SOURCE_ORDER = ["boncuktv","goldvod", "kablo", "smart"]
 
 OUTPUT_FILENAME = "yeni.m3u"
 
