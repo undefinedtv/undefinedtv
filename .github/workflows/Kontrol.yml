@@ -53,6 +53,8 @@ jobs:
         continue-on-error: true
         run: python karsilasmalar.py
       - name: gbl.py Çalıştır
+        env:
+          SMART_API: ${{ secrets.SMART_API }}
         continue-on-error: true
         run: python gbl.py        
       - name: birlestir.py Çalıştır
