@@ -6,7 +6,7 @@ from io import BytesIO
 
 # CALMA OC
 
-SOURCE_ORDER = ["boncuktv","goldvod", "kablo", "smart"]
+SOURCE_ORDER = ["uzun", "boncuktv","goldvod", "kablo", "smart"]
 
 OUTPUT_FILENAME = "yeni.m3u"
 
@@ -278,6 +278,41 @@ def get_goldvod_m3u():
         return False
 
 # =============================================================================
+# UZUN YEDEK KAYNAĞI
+# =============================================================================
+def get_uzun_m3u():
+    """UZUN yedek kaynağından m3u indirir"""
+    
+    try:
+        print("📡 UZUN yedek kaynağından indiriliyor...")
+        
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+        response = requests.get(
+            "https://streams.uzunmuhalefet.com/lists/tr.m3u",
+            headers=headers,
+            timeout=30
+        )
+        response.raise_for_status()
+        
+        # İlk satırı atla
+        lines = response.text.split('\n')
+        content = '\n'.join(lines[1:]) if lines else response.text
+        
+        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), OUTPUT_FILENAME)
+        
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(content)
+        
+        print(f"✅ UZUN: {OUTPUT_FILENAME} başarıyla indirildi!")
+        return True
+        
+    except Exception as e:
+        print(f"❌ UZUN hatası: {e}")
+        return False
+
+# =============================================================================
 # ANA FONKSİYON
 # =============================================================================
 def main():
@@ -287,7 +322,8 @@ def main():
         "kablo": get_kablo_m3u,
         "smart": get_smart_m3u,
         "boncuktv": get_boncuktv_m3u,
-        "goldvod": get_goldvod_m3u
+        "goldvod": get_goldvod_m3u,
+        "uzun": get_uzun_m3u
     }
     
     print("=" * 60)
