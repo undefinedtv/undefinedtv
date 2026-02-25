@@ -93,8 +93,27 @@ def get_kablo_m3u():
 def get_smart_m3u():
     """Smart API'den m3u verisi çeker"""
     
-    api_url = "https://service-dsmartv2.erstream.com/api/GetFilteredVideos"
-    image_base_url = "https://dsmart-static-v2.ercdn.net//resize-width/500"
+    url = os.getenv("SMART_API")
+    headers = {
+        "accept": "application/json, text/plain, */*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9,tr;q=0.8",
+        "apikey": "a8fbff0087d146ddbfa26a13ebbf83c6",
+        "cache-control": "no-cache",
+        "content-type": "application/json",
+        "langcode": "tr",
+        "origin": "https://www.dsmartgo.com.tr",
+        "pragma": "no-cache",
+        "priority": "u=1, i",
+        "referer": "https://www.dsmartgo.com.tr/",
+        "sec-ch-ua": '"Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"',
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    }
     
     category_order = [
         "Ulusal", "Haber", "Belgesel", "Spor", "Film", "Dizi",  "Çocuk", 
@@ -102,32 +121,27 @@ def get_smart_m3u():
     ]
     
     payload = {
-        "Categories": [118],
-        "PageSize": 200,
-        "PageIndex": 0,
-        "Language": "",
-        "ContentTypes": [7],
-        "CustomFilters": [],
-        "SortDirection": "ASC",
-        "SortType": "Custom",
-        "CustomSortField": "order"
-    }
-    
-    headers = {
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        "displayCount": 150,
+        "contentTypeIds": [27819],
+        "customFilters": [],
+        "sort": {
+            "field": "CustomFieldOrder",
+            "order": "asc",
+            "namespace": "Order"
+        },
+        "include": ["customField"],
+        "pageNumber": 1
     }
     
     try:
         print("📡 Smart API'den veri alınıyor...")
         
-        response = requests.post(api_url, json=payload, headers=headers, timeout=30)
-        
+        response = requests.post(url, headers=headers, json=payload)
         if response.status_code != 200:
             print(f"❌ Smart API Hatası: {response.status_code}")
             return False
         
-        items = response.json().get("Items", [])
+        items = response.json().get("data", [])
         
         if not items:
             print("❌ Smart: Veri bulunamadı")
@@ -140,13 +154,13 @@ def get_smart_m3u():
         grouped_channels["Diğer"] = []
         
         for item in items:
-            name = item.get("Name", "Bilinmeyen Kanal")
+            name = item.get("name", "Bilinmeyen Kanal")
             
             # Kategori bul
             group = "Diğer"
-            for meta in item.get("Metadata", []):
-                if meta.get("NameSpace") == "genres":
-                    val = meta.get("Value")
+            for meta in item.get("customFields", []):
+                if meta.get("namespace") == "genres":
+                    val = meta.get("value")
                     if val in category_order:
                         group = val
                     else:
@@ -157,14 +171,14 @@ def get_smart_m3u():
             logo_url = ""
             for img in item.get("Images", []):
                 if img.get("ImageType") == "Thumbnail":
-                    logo_url = f"{image_base_url}{img.get('ImageUrl', '')}"
+                    logo_url = img.get('url')
                     break
             
             # Stream URL bul
             stream_url = ""
-            for cdn in item.get("CdnUrls", []):
-                if cdn.get("ContentType") == 7:
-                    stream_url = cdn.get("ContentUrl", "")
+            for cdn in item.get("videos", []):
+                if cdn.get("type") == 'HLS-Auto':
+                    stream_url = cdn.get("url") + "?e=1772026853&rid=530176d0c648e51185fe5bce9e47bc23&st=gJ7G-sLtC62WAy48-xBY5g&userid=ed255453&sid=8740o1bzlcqk&app=4caf18fc-b51a-40c1-94d1-2940555a42f9&ce=2"
                     break
             
             if stream_url:
