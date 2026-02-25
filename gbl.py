@@ -6,7 +6,7 @@ from io import BytesIO
 
 # CALMA OC
 
-SOURCE_ORDER = ["boncuktv", "goldvod", "kablo", "smart"]
+SOURCE_ORDER = ["goldvod", "boncuktv", "kablo", "smart"]
 
 OUTPUT_FILENAME = "yeni.m3u"
 
@@ -251,10 +251,14 @@ def get_goldvod_m3u():
     try:
         print("📡 GoldVOD yedek kaynağından indiriliyor...")
         
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
         response = requests.get(
-            "https://goldvod.org/get.php?username=hpgdisco&password=123456&type=m3u_plus",
+            "https://goldvod.site/get.php?username=hpgdisco&password=123456&type=m3u_plus",
+            headers=headers,
             timeout=30
-        )
+        ))
         response.raise_for_status()
         
         # İlk satırı atla
