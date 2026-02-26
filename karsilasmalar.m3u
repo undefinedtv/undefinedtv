@@ -1,10 +1,4 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,03:00 | F.Tiafoe - A.Kovacevic | ATP Acapulco
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,03:00 | A.Zverev - M.Kecmanovic | ATP Acapulco
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,03:30 | OKC Thunder - Detroit Pistons | NBA
-https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,06:00 | V.Vacherot - G.Monfils | ATP Acapulco
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,06:00 | Denver Nuggets - Boston Celtics | NBA
@@ -15,21 +9,21 @@ https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Galatasaray HDIS - Ziraat Bankkart | TVF Efeler Ligi
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Kizilyildiz - Lille | UEFA Avrupa Ligi
+#EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Fiorentina - Jagiellonia | UEFA Avrupa Konferans Ligi Son 16
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Ferencvaros - Ludogorets | UEFA Avrupa Ligi
+#EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Rijeka - Omonia | UEFA Avrupa Konferans Ligi Son 16
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Samsunspor - Shkendija | UEFA Avrupa Konferans Ligi Son 16
 https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Rijeka - Omonia | UEFA Avrupa Konferans Ligi Son 16
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Fiorentina - Jagiellonia | UEFA Avrupa Konferans Ligi Son 16
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:45 | NK Celje - FC Drita | UEFA Avrupa Konferans Ligi Son 16
+#EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Stuttgart - Celtic | UEFA Avrupa Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Viktoria Plzen - Panathinaikos | UEFA Avrupa Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Stuttgart - Celtic | UEFA Avrupa Ligi
+#EXTINF:-1 group-title="Maç Yayınları" ,20:45 | NK Celje - FC Drita | UEFA Avrupa Konferans Ligi Son 16
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Ferencvaros - Ludogorets | UEFA Avrupa Ligi
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Kizilyildiz - Lille | UEFA Avrupa Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:30 | Monaco - Maccabi Fox | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
@@ -43,19 +37,65 @@ https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Real Madrid - Bayern Münih | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Nottingham Forest - Fenerbahçe | UEFA Avrupa Ligi
+https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | AZ Alkmaar - Noah | UEFA Avrupa Konferans Ligi Son 16
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Lech Poznan - KuPS | UEFA Avrupa Konferans Ligi Son 16
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | FC Lausanne - Sigma Olomouc | UEFA Avrupa Konferans Ligi Son 16
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Genk - Dinamo Zagreb | UEFA Avrupa Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Celta Vigo - PAOK | UEFA Avrupa Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Bologna - Brann | UEFA Avrupa Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Lech Poznan - KuPS | UEFA Avrupa Konferans Ligi Son 16
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | FC Lausanne - Sigma Olomouc | UEFA Avrupa Konferans Ligi Son 16
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Crystal Palace - Zrinjski | UEFA Avrupa Konferans Ligi Son 16
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | AZ Alkmaar - Noah | UEFA Avrupa Konferans Ligi Son 16
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Rams Başakşehir - Konyaspor | Trendyol Süper Lig
+https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Trabzonspor - Fatih Karagümrük | Trendyol Süper Lig
+https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,06:45 | Serbest Antrenman 1 | Tayland GP
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,11:00 | Antrenman | Tayland GP
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Kapaz - Sumqayit | Azerbaycan Premier Ligi
+https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Esenler Erokspor - Boluspor | Trendyol 1. Lig
+https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Ukrayna - İspanya | FIBA Dünya Kupasi Elemeleri
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Araz - Zira | Azerbaycan Premier Ligi
+https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | iLab Basketbol - Final Spor | Basketbol 1. Ligi
+https://andro.226503.xyz/checklist/androstreamliveht.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:30 | Fenerbahçe Gelişim - Edirne DSİ | Kadinlar Basketbol 1. Ligi
+https://andro.226503.xyz/checklist/androstreamliveht.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Macaristan - Fransa | FIBA Dünya Kupasi Elemeleri
+https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | İstanbulspor - Iğdirspor | Trendyol 1. Lig
+https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Fortuna Düsseldorf - Bochum | Almanya Bundesliga 2
+https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Dynamo Dresden - Darmstadt 98 | Almanya Bundesliga 2
+https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Sirbistan - Türkiye | FIBA Dünya Kupasi Elemeleri
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Porto - Arouca | Portekiz Liga NOS
+https://andro.226503.xyz/checklist/androstreamlivets4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Al Shabab - Al Hilal | Suudi Arabistan Pro Lig
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Nottingham Forest - Fenerbahçe | UEFA Avrupa Ligi
-https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Hirvatistan - Almanya | FIBA Dünya Kupasi Elemeleri
+https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Augsburg - Köln | Almanya Bundesliga
+https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Belçika - Finlandiya | FIBA Dünya Kupasi Elemeleri
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Parma - Cagliari | İtalya Serie A
+https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Levante - Alaves | İspanya La Liga
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:45 | Sporting Lisbon - Estoril | Portekiz Liga NOS
+https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
