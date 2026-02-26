@@ -35,7 +35,7 @@ class RecTVUrlFetcher:
             domains_str = response.json().get("entries", {}).get("ab_rotating_live_tv_domains", "[]")
             domains_list = json.loads(domains_str)
             main_url = domains_list[0] if domains_list else "https://cloudlyticsapp.lol"
-            base_domain = main_url
+            base_domain = "https://" + main_url
             print(f"🟢 Güncel RecTV domain alındı: {base_domain}")
             return base_domain
         except Exception as e:
@@ -84,4 +84,5 @@ if __name__ == "__main__":
     
     if domain:
         # M3U dosyasını güncelle
+
         fetcher.update_m3u_domains("rec.m3u", domain)
