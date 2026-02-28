@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Al Fayhaa - Al Nassr | Suudi Arabistan Pro Lig
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Pau - St. Etienne | Fransa Ligue 2
-https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Limoges - St.Raphael | Fransa Hentbol Ligi
-https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Greuther Fürth - Schalke 04 | Almanya Bundesliga 2
 https://andro.226503.xyz/checklist/androstreamlivets4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Inter - Genoa | İtalya Serie A
@@ -15,14 +9,20 @@ https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:05 | Le Havre - PSG | Fransa Ligue 1
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:45 | Boca Juniors - Gimnasia La Plata | Arjantin Primera Division
+https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Gençlerbirliği - Kayserispor | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Samsunspor - Gaziantep FK | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Antalyaspor - Fenerbahçe | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,00:00 | F.Cerundolo - Y.Hanfmann | ATP Santiago
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,02:00 | Tennessee - Alabama | NCAA
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,02:00 | S.Baez - L.Darderi | ATP Santiago
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,04:00 | S.Luna - A.Pacheco | UFC Dövüş Serisi
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,04:30 | GS Warriors - LA Lakers | NBA
@@ -34,6 +34,8 @@ https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,05:30 | D.Zellhuber - K.Green | UFC Dövüş Serisi
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,06:00 | M.Vera - D.Martinez | UFC Dövüş Serisi
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,06:00 | F.Cobolli - F.Tiafoe | ATP Acapulco
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,06:30 | B.Moreno - L.Kavanagh | UFC Dövüş Serisi
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
