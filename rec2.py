@@ -11,7 +11,7 @@ from urllib.parse import urljoin
 
 # ==================== YAPILANDIRMA ====================
 # Varsayılan değerler (SADECE BAŞARISIZLIK DURUMUNDA)
-DEFAULT_MAIN_URL = 'https://m.prectv60.lol'
+DEFAULT_MAIN_URL = 'https://a.prectv67.lol'
 DEFAULT_SW_KEY = '4F5A9C3D9A86FA54EACEDDD635185/c3c5bd17-e37b-4b94-a944-8a3688a30452/'
 DEFAULT_USER_AGENT = 'okhttp/4.12.0/'
 DEFAULT_REFERER = 'https://twitter.com/'
