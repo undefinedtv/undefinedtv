@@ -1,10 +1,10 @@
 
 #EXTINF:-1 tvg-id="bein1" tvg-name="BeIN Sports 1 A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Selcuk TV",BeIN Sports 1 A
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://dga1op10s1u3leo.7af32068d38fdf.click/live/selcukbeinsports1/playlist.m3u8
+https://dga1op10s1u3leo.7af32068d38fdf.click/live/sbeinsports-1/playlist.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BeIN Sports 1 B" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Selcuk TV",BeIN Sports 1 B
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://dga1op10s1u3leo.7af32068d38fdf.click/live/selcukobs1/playlist.m3u8
+https://dga1op10s1u3leo.7af32068d38fdf.click/live/selcukbeinsports1/playlist.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BeIN Sports 2" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="Selcuk TV",BeIN Sports 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.7af32068d38fdf.click/live/selcukbeinsports2/playlist.m3u8

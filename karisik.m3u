@@ -3,14 +3,6 @@
 https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Galatasaray - Alanyaspor | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Burnley - Brentford | İngiltere Premier Lig
-https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Liverpool - West Ham | İngiltere Premier Lig
-https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Newcastle - Everton | İngiltere Premier Lig
-https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Preston North - Millwall | İngiltere Championship
-https://andro.226503.xyz/checklist/androstreamliveexn.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:15 | Barcelona - Villarreal | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Rennes - Toulouse | Fransa Ligue 1
@@ -357,10 +349,10 @@ https://andro.226503.xyz/checklist/androstreamliveexn7.m3u8
 https://andro.226503.xyz/checklist/androstreamliveexn8.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BeIN Sports 1 A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Selcuk TV",BeIN Sports 1 A
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://dga1op10s1u3leo.7af32068d38fdf.click/live/selcukbeinsports1/playlist.m3u8
+https://dga1op10s1u3leo.7af32068d38fdf.click/live/sbeinsports-1/playlist.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BeIN Sports 1 B" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Selcuk TV",BeIN Sports 1 B
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://dga1op10s1u3leo.7af32068d38fdf.click/live/selcukobs1/playlist.m3u8
+https://dga1op10s1u3leo.7af32068d38fdf.click/live/selcukbeinsports1/playlist.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BeIN Sports 2" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="Selcuk TV",BeIN Sports 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.7af32068d38fdf.click/live/selcukbeinsports2/playlist.m3u8
