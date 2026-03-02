@@ -346,9 +346,11 @@ def get_canak_m3u():
         "kanal 7": ("Ulusal", 7),
         "tv8": ("Ulusal", 8), "tv 8": ("Ulusal", 8),
         "star tv": ("Ulusal", 9),
-        "360 tv": ("Ulusal", 10), "360": ("Ulusal", 10),
+        "360 tv": ("Ulusal", 10),
         "tv 100": ("Ulusal", 11), "tv100": ("Ulusal", 11),
         "tyt turk": ("Ulusal", 12),
+        "a2": ("Eğlence", 13), "a2 tv": ("Eğlence", 13),
+        "teve2": ("Eğlence", 14), "teve 2": ("Eğlence", 14),
 
         # ─────────────── Haber ───────────────
         "trt haber": ("Haber", 1),
@@ -402,13 +404,9 @@ def get_canak_m3u():
 
         # ─────────────── Eğlence ───────────────
         "trt 2": ("Eğlence", 1), "trt2": ("Eğlence", 1),
-        "a2": ("Eğlence", 2), "a2 tv": ("Eğlence", 2),
-        "teve2": ("Eğlence", 3), "teve 2": ("Eğlence", 3),
         "show max": ("Eğlence", 4), "showmax": ("Eğlence", 4),
         "tv 8.5": ("Eğlence", 5), "tv8,5": ("Eğlence", 5),
         "tv8 5": ("Eğlence", 5), "tv 8 5": ("Eğlence", 5),
-        "tlc": ("Eğlence", 6), "tlc tv": ("Eğlence", 6),
-        "dmax": ("Eğlence", 7), "d-max": ("Eğlence", 7),
         "tv 4": ("Eğlence", 8), "tv4": ("Eğlence", 8),
         "gzt tv": ("Eğlence", 9),
         "tivi6": ("Eğlence", 10), "tivi 6": ("Eğlence", 10),
@@ -466,6 +464,10 @@ def get_canak_m3u():
         "tv em": ("Müzik", 22), "muzik tr": ("Müzik", 23),
 
         # ─────────────── Belgesel ───────────────
+        "national geographic": ("Belgesel", 1),
+        "nat geo wild": ("Belgesel", 2),
+        "tlc": ("Eğlence", 3), "tlc tv": ("Eğlence", 3),
+        "dmax": ("Eğlence", 4), "d-max": ("Eğlence", 4),
         "trt belgesel": ("Belgesel", 1),
         "tgrt belgesel": ("Belgesel", 2),
         "cgtn belgesel": ("Belgesel", 3),
@@ -473,8 +475,6 @@ def get_canak_m3u():
         "ciftci tv": ("Belgesel", 5),
         "koy tv": ("Belgesel", 6),
         "toprak tv": ("Belgesel", 7),
-        "national geographic": ("Belgesel", 8),
-        "nat geo wild": ("Belgesel", 9),
         "discovery channel": ("Belgesel", 10),
         "animal planet": ("Belgesel", 11),
         "history channel": ("Belgesel", 12),
@@ -929,16 +929,50 @@ def get_canak_m3u():
 
 
 def youtube_to_m3u8(youtube_url):
-    """YouTube URL'sini doğrudan m3u8 linkine çevirir"""
-    try:
-        result = subprocess.run(
-            ['yt-dlp', '-g', '-f', 'best', '--no-warnings', youtube_url],
-            capture_output=True, text=True, timeout=30
-        )
-        if result.returncode == 0 and result.stdout.strip():
-            return result.stdout.strip()
-    except Exception as e:
-        print(f"  ⚠️ yt-dlp hatası: {e}")
+    """YouTube URL'sini doğrudan m3u8 linkine çevirir - GitHub Actions uyumlu"""
+    import subprocess
+    import os
+    
+    # GitHub Actions için cache dizini
+    cache_dir = os.environ.get('RUNNER_TEMP', '/tmp') + '/yt-dlp-cache'
+    os.makedirs(cache_dir, exist_ok=True)
+    
+    # Retry mekanizması
+    for attempt in range(3):
+        try:
+            result = subprocess.run(
+                [
+                    'yt-dlp',
+                    '--no-warnings',
+                    '--no-check-certificate',
+                    '--no-playlist',
+                    '-f', 'best',
+                    '-g',
+                    '--cache-dir', cache_dir,
+                    youtube_url
+                ],
+                capture_output=True,
+                text=True,
+                timeout=45
+            )
+            
+            if result.returncode == 0 and result.stdout.strip():
+                return result.stdout.strip()
+            
+            # Rate limit kontrolü
+            if "429" in result.stderr or "Too Many Requests" in result.stderr:
+                import time
+                time.sleep((attempt + 1) * 5)
+                continue
+                
+        except subprocess.TimeoutExpired:
+            if attempt < 2:
+                continue
+        except Exception as e:
+            print(f"⚠️ Hata: {e}")
+            if attempt < 2:
+                continue
+    
     return None
     
 # =============================================================================
