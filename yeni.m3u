@@ -83,14 +83,14 @@ https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8
 https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8?ex=0&sid=85ddcy3v0o4e&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
 #EXTINF:-1 group-title="Spor",Tabii Spor 6
 https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Belgesel",TRT Belgesel
-https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Belgesel",GRT
-https://live.artidijitalmedya.com/artidijital_grt/grt1/playlist.m3u8
 #EXTINF:-1 group-title="Belgesel",National Geographic
 https://saran-live.ercdn.net/natgeohd/index.m3u8
 #EXTINF:-1 group-title="Belgesel",National Geographic Wild
 https://saran-live.ercdn.net/natgeowild/index.m3u8
+#EXTINF:-1 group-title="Belgesel",TRT Belgesel
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Belgesel",GRT
+https://live.artidijitalmedya.com/artidijital_grt/grt1/playlist.m3u8
 #EXTINF:-1 group-title="Belgesel",CGTN Documentary
 https://mn-nl.mncdn.com/dogusdyg_drone/cgtn/playlist.m3u8
 #EXTINF:-1 group-title="Ulusal - Yurt Dışı",TRT Turk
@@ -105,18 +105,18 @@ https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Eğlence",TRT 2
 https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Eğlence",A2 TV
-https://trkvz.daioncdn.net/a2tv/a2tv_1080p.m3u8?e=1770374116&st=CH0JjkQa9dJ2IdhOSrVGwg&sid=856hnmzmw99u&app=59363a60-be96-4f73-9eff-355d0ff2c758&ce=3
-#EXTINF:-1 group-title="Eğlence",TV 8.5
-https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_360p.m3u8
 #EXTINF:-1 group-title="Eğlence",TLC
 https://dogus.daioncdn.net/tlc/tlc_720p.m3u8?token=dzJxNytaVDZZSHExSG1aQldHOHhqalpaWkRJVG43Y2NiSk51NnRDdFdDQT0=&sid=85hcvibnewir&app=1aca0aa1-06e3-41ff-a8e5-38d7df475469&ce=3
 #EXTINF:-1 group-title="Eğlence",DMAX
 https://dogus.daioncdn.net/dmax/dmax_360p.m3u8?token=Mk5Fc041SExSRlNVbEY0c05DaTlTZktNSUIrWXpaV213aE1lSEoyVERUST0=&sid=86onrhu1ljqq&app=5a02c599-d17e-4982-9b04-090934d51af7&ce=3
+#EXTINF:-1 group-title="Eğlence",TV 8.5
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_360p.m3u8
 #EXTINF:-1 group-title="Eğlence",GZT
 https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8
 #EXTINF:-1 group-title="Eğlence",Tivi 6
 https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
+#EXTINF:-1 group-title="Eğlence",A2 TV
+https://trkvz.daioncdn.net/a2tv/a2tv_1080p.m3u8?e=1770374116&st=CH0JjkQa9dJ2IdhOSrVGwg&sid=856hnmzmw99u&app=59363a60-be96-4f73-9eff-355d0ff2c758&ce=3
 #EXTINF:-1 group-title="Müzik",TRT Müzik
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Müzik",Dream Türk
