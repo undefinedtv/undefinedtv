@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV M3U8 Düzenleyici</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .scrollbar-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+        .scrollbar-thin::-webkit-scrollbar-track { background: rgba(255,255,255,0.1); }
+        .scrollbar-thin::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.3); border-radius: 3px; }
+        .drag-over { border-color: #8b5cf6 !important; background: rgba(139, 92, 246, 0.1) !important; }
+        .channel-item.dragging { opacity: 0.5; }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
+    <div class="container mx-auto px-4 py-6 max-w-7xl">
+        
+        <!-- Header -->
+        <div class="bg-white/10 backdrop-blur-md rounded-2xl p-6 mb-6 border border-white/20">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <div>
+                    <h1 class="text-3xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+                        📺 IPTV M3U8 Düzenleyici
+                    </h1>
+                    <p class="text-slate-300 mt-1">Kanalları düzenleyin, grupları yönetin ve M3U8 formatında indirin</p>
+                </div>
+                
+                <div class="flex flex-wrap gap-3">
+                    <input type="file" id="fileInput" accept=".m3u,.m3u8" class="hidden">
+                    <button onclick="document.getElementById('fileInput').click()" 
+                        class="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-xl transition-colors">
+                        📂 Dosya Yükle
+                    </button>
+                    <button onclick="downloadM3U()" id="downloadBtn" disabled
+                        class="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed rounded-xl transition-colors">
+                        ⬇️ M3U8 İndir
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Stats -->
+            <div class="flex flex-wrap gap-4 mt-4 pt-4 border-t border-white/10">
+                <div class="bg-white/5 px-4 py-2 rounded-lg">
+                    <span class="text-slate-400">Toplam Gruplar:</span>
+                    <span class="ml-2 font-bold text-purple-400" id="totalGroups">0</span>
+                </div>
+                <div class="bg-white/5 px-4 py-2 rounded-lg">
+                    <span class="text-slate-400">Toplam Kanallar:</span>
+                    <span class="ml-2 font-bold text-blue-400" id="totalChannels">0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Actions Bar -->
+        <div id="actionsBar" class="hidden bg-white/10 backdrop-blur-md rounded-xl p-4 mb-6 border border-white/20">
+            <div class="flex flex-col md:flex-row gap-4">
+                <!-- Search -->
+                <div class="relative flex-1">
+                    <span class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Kanal ara... (isim, grup, ID, URL)"
+                        class="w-full pl-10 pr-4 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white placeholder-slate-400">
+                </div>
+                
+                <!-- Actions -->
+                <div class="flex gap-2 flex-wrap">
+                    <button onclick="deleteSelected()" id="deleteSelectedBtn" class="hidden flex items-center gap-2 px-4 py-2 bg-red-600 hover:bg-red-700 rounded-lg transition-colors">
+                        🗑️ Seçili (<span id="selectedCount">0</span>) Sil
+                    </button>
+                    <button onclick="toggleSelectAll()" class="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors">
+                        ✓ Tümünü Seç
+                    </button>
+                    <button onclick="showAddGroupModal()" class="flex items-center gap-2 px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg transition-colors">
+                        ➕ Yeni Grup
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add Group Modal -->
+        <div id="addGroupModal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4 hidden">
+            <div class="bg-slate-800 rounded-2xl p-6 w-full max-w-md border border-white/20">
+                <h3 class="text-xl font-bold mb-4">Yeni Grup Ekle</h3>
+                <input type="text" id="newGroupName" placeholder="Grup adı (örn: Haber, Spor, Ulusal)"
+                    class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl mb-4 focus:outline-none focus:ring-2 focus:ring-purple-500 text-white placeholder-slate-400">
+                <div class="flex gap-3 justify-end">
+                    <button onclick="hideAddGroupModal()" class="px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg">İptal</button>
+                    <button onclick="addGroup()" class="px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg">Ekle</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Edit Channel Modal -->
+        <div id="editChannelModal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4 hidden">
+            <div class="bg-slate-800 rounded-2xl p-6 w-full max-w-2xl border border-white/20 max-h-[90vh] overflow-y-auto">
+                <h3 class="text-xl font-bold mb-4">Kanal Düzenle</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm text-slate-400 mb-1">Kanal Adı</label>
+                        <input type="text" id="editName" class="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white">
+                    </div>
+                    <div>
+                        <label class="block text-sm text-slate-400 mb-1">Grup (group-title)</label>
+                        <input type="text" id="editGroupTitle" class="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white">
+                    </div>
+                    <div class="md:col-span-2">
+                        <label class="block text-sm text-slate-400 mb-1">Stream URL</label>
+                        <input type="text" id="editUrl" class="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white font-mono text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-sm text-slate-400 mb-1">Logo URL (tvg-logo)</label>
+                        <input type="text" id="editTvgLogo" class="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white">
+                    </div>
+                    <div>
+                        <label class="block text-sm text-slate-400 mb-1">Kanal ID (tvg-id)</label>
+                        <input type="text" id="editTvgId" class="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white">
+                    </div>
+                    <div class="md:col-span-2">
+                        <label class="block text-sm text-slate-400 mb-1">Bilgi URL (tvg-url)</label>
+                        <input type="text" id="editTvgUrl" class="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white">
+                    </div>
+                </div>
+                <div id="logoPreview" class="hidden flex items-center gap-3 p-3 bg-white/5 rounded-lg mt-4">
+                    <img id="logoPreviewImg" src="" alt="Logo" class="w-10 h-8 object-contain">
+                    <span class="text-sm text-slate-400">Logo önizleme</span>
+                </div>
+                <div class="flex gap-3 justify-end mt-4">
+                    <button onclick="hideEditChannelModal()" class="px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg">İptal</button>
+                    <button onclick="saveChannel()" class="px-4 py-2 bg-green-600 hover:bg-green-700 rounded-lg">💾 Kaydet</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add Channel Modal -->
+        <div id="addChannelModal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4 hidden">
+            <div class="bg-slate-800 rounded-2xl p-6 w-full max-w-2xl border border-white/20">
+                <h3 class="text-xl font-bold mb-4">Yeni Kanal Ekle</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm text-slate-400 mb-1">Kanal Adı</label>
+                        <input type="text" id="addName" placeholder="TRT 1" class="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white placeholder-slate-400">
+                    </div>
+                    <div>
+                        <label class="block text-sm text-slate-400 mb-1">Grup</label>
+                        <select id="addGroupSelect" class="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white">
+                        </select>
+                    </div>
+                    <div class="md:col-span-2">
+                        <label class="block text-sm text-slate-400 mb-1">Stream URL</label>
+                        <input type="text" id="addUrl" placeholder="https://..." class="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white placeholder-slate-400 font-mono text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-sm text-slate-400 mb-1">Logo URL (tvg-logo)</label>
+                        <input type="text" id="addTvgLogo" placeholder="https://..." class="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white placeholder-slate-400">
+                    </div>
+                    <div>
+                        <label class="block text-sm text-slate-400 mb-1">Kanal ID (tvg-id)</label>
+                        <input type="text" id="addTvgId" placeholder="TRT1.tr" class="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white placeholder-slate-400">
+                    </div>
+                    <div class="md:col-span-2">
+                        <label class="block text-sm text-slate-400 mb-1">Bilgi URL (tvg-url)</label>
+                        <input type="text" id="addTvgUrl" placeholder="https://..." class="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white placeholder-slate-400">
+                    </div>
+                </div>
+                <div class="flex gap-3 justify-end mt-4">
+                    <button onclick="hideAddChannelModal()" class="px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg">İptal</button>
+                    <button onclick="addChannel()" class="px-4 py-2 bg-green-600 hover:bg-green-700 rounded-lg">➕ Ekle</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="bg-white/10 backdrop-blur-md rounded-2xl p-12 text-center border border-white/20">
+            <div class="text-6xl mb-4">📁</div>
+            <h2 class="text-2xl font-bold mb-2">M3U8 Dosyası Yükleyin</h2>
+            <p class="text-slate-400 mb-6">IPTV kanal listenizi yükleyerek düzenlemeye başlayın</p>
+            <button onclick="document.getElementById('fileInput').click()" 
+                class="inline-flex items-center gap-2 px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-xl transition-colors">
+                📤 Dosya Seç
+            </button>
+            
+            <div class="mt-8 text-left max-w-2xl mx-auto bg-slate-800/50 rounded-xl p-4 text-sm">
+                <h3 class="font-bold mb-2 text-purple-400">Desteklenen Özellikler:</h3>
+                <ul class="text-slate-400 space-y-1">
+                    <li>✓ <code class="bg-white/10 px-1 rounded">group-title</code> - Kanal grubu</li>
+                    <li>✓ <code class="bg-white/10 px-1 rounded">tvg-logo</code> - Kanal logosu</li>
+                    <li>✓ <code class="bg-white/10 px-1 rounded">tvg-url</code> - Kanal bilgi URL</li>
+                    <li>✓ <code class="bg-white/10 px-1 rounded">tvg-id</code> - Kanal ID</li>
+                    <li>✓ Grup ekleme/silme/sıralama</li>
+                    <li>✓ Kanal ekleme/silme/sıralama</li>
+                    ✓ Grup değiştirme (kanalı bir gruptan diğerine taşıma)</li>
+                    <li>✓ Arama ve filtreleme</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Search Results -->
+        <div id="searchResults" class="hidden bg-white/10 backdrop-blur-md rounded-xl p-4 mb-6 border border-white/20">
+            <h3 class="font-bold mb-3">🔍 Arama Sonuçları: "<span id="searchTerm"></span>" (<span id="searchCount">0</span> kanal)</h3>
+            <div id="searchResultsList" class="space-y-2 max-h-60 overflow-y-auto scrollbar-thin">
+            </div>
+        </div>
+
+        <!-- Groups Container -->
+        <div id="groupsContainer"></div>
+
+    </div>
+
+    <script>
+        // Global state
+        let groups = [];
+        let selectedChannels = new Set();
+        let editingChannelId = null;
+        let addChannelToGroupId = null;
+        let isSelectAll = false;
+
+        // Initialize
+        document.getElementById('fileInput').addEventListener('change', handleFileUpload);
+        document.getElementById('searchInput').addEventListener('input', handleSearch);
+        document.getElementById('newGroupName').addEventListener('keypress', (e) => e.key === 'Enter' && addGroup());
+        
+        // Logo preview
+        document.getElementById('editTvgLogo').addEventListener('input', (e) => {
+            const preview = document.getElementById('logoPreview');
+            const img = document.getElementById('logoPreviewImg');
+            if (e.target.value) {
+                img.src = e.target.value;
+                preview.classList.remove('hidden');
+            } else {
+                preview.classList.add('hidden');
+            }
+        });
+
+        // Parse M3U8 file
+        function parseM3U(content) {
+            const lines = content.split(/\r?\n/);
+            const groupsMap = new Map();
+            let currentChannel = null;
+
+            if (!groupsMap.has('Ungrouped')) {
+                groupsMap.set('Ungrouped', []);
+            }
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                
+                if (line.startsWith('#EXTINF:')) {
+                    const durationMatch = line.match(/^#EXTINF:(-?\d+)/);
+                    const groupTitleMatch = line.match(/group-title="([^"]*)"/);
+                    const tvgLogoMatch = line.match(/tvg-logo="([^"]*)"/);
+                    const tvgUrlMatch = line.match(/tvg-url="([^"]*)"/);
+                    const tvgIdMatch = line.match(/tvg-id="([^"]*)"/);
+                    const nameMatch = line.match(/,(.+)$/);
+
+                    currentChannel = {
+                        id: 'channel-' + Date.now() + '-' + i,
+                        duration: durationMatch ? durationMatch[1] : '-1',
+                        groupTitle: groupTitleMatch ? groupTitleMatch[1] : 'Ungrouped',
+                        tvgLogo: tvgLogoMatch ? tvgLogoMatch[1] : '',
+                        tvgUrl: tvgUrlMatch ? tvgUrlMatch[1] : '',
+                        tvgId: tvgIdMatch ? tvgIdMatch[1] : '',
+                        name: nameMatch ? nameMatch[1].trim() : '',
+                        order: 0,
+                    };
+                } else if (line && !line.startsWith('#') && currentChannel) {
+                    currentChannel.url = line;
+                    
+                    const groupTitle = currentChannel.groupTitle || 'Ungrouped';
+                    if (!groupsMap.has(groupTitle)) {
+                        groupsMap.set(groupTitle, []);
+                    }
+                    
+                    currentChannel.order = groupsMap.get(groupTitle).length;
+                    groupsMap.get(groupTitle).push(currentChannel);
+                    currentChannel = null;
+                }
+            }
+
+            const result = [];
+            let groupOrder = 0;
+            groupsMap.forEach((channels, title) => {
+                result.push({
+                    id: 'group-' + title,
+                    title,
+                    order: groupOrder++,
+                    channels,
+                    isExpanded: true,
+                });
+            });
+
+            return result.sort((a, b) => a.title.localeCompare(b.title));
+        }
+
+        // Generate M3U8 content
+        function generateM3U() {
+            let output = '#EXTM3U x-tvg-url=""\n';
+            
+            const sortedGroups = [...groups].sort((a, b) => a.order - b.order);
+            
+            for (const group of sortedGroups) {
+                const sortedChannels = [...group.channels].sort((a, b) => a.order - b.order);
+                
+                for (const channel of sortedChannels) {
+                    output += `#EXTINF:-1`;
+                    if (channel.tvgLogo) output += ` tvg-logo="${channel.tvgLogo}"`;
+                    if (channel.tvgUrl) output += ` tvg-url="${channel.tvgUrl}"`;
+                    if (channel.tvgId) output += ` tvg-id="${channel.tvgId}"`;
+                    output += ` group-title="${channel.groupTitle}"`;
+                    output += `,${channel.name}\n`;
+                    output += `${channel.url}\n`;
+                }
+            }
+            
+            return output;
+        }
+
+        // Handle file upload
+        function handleFileUpload(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                const content = event.target.result;
+                groups = parseM3U(content);
+                selectedChannels = new Set();
+                renderAll();
+            };
+            reader.readAsText(file);
+            e.target.value = '';
+        }
+
+        // Download M3U8
+        function downloadM3U() {
+            const content = generateM3U();
+            const blob = new Blob([content], { type: 'application/vnd.apple.mpegurl;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'playlist.m3u8';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            
+            setTimeout(() => URL.revokeObjectURL(url), 100);
+        }
+
+        // Render all
+        function renderAll() {
+            const totalGroups = groups.length;
+            const totalChannels = groups.reduce((acc, g) => acc + g.channels.length, 0);
+            
+            document.getElementById('totalGroups').textContent = totalGroups;
+            document.getElementById('totalChannels').textContent = totalChannels;
+            document.getElementById('downloadBtn').disabled = totalChannels === 0;
+            
+            const hasContent = totalChannels > 0;
+            document.getElementById('emptyState').classList.toggle('hidden', hasContent);
+            document.getElementById('actionsBar').classList.toggle('hidden', !hasContent);
+            document.getElementById('searchResults').classList.add('hidden');
+            
+            renderGroups();
+            updateSelectedCount();
+        }
+
+        // Render groups
+        function renderGroups() {
+            const container = document.getElementById('groupsContainer');
+            container.innerHTML = '';
+
+            const sortedGroups = [...groups].sort((a, b) => a.order - b.order);
+            
+            sortedGroups.forEach((group, groupIdx) => {
+                const groupEl = document.createElement('div');
+                groupEl.className = 'bg-white/10 backdrop-blur-md rounded-xl mb-4 border border-white/20 overflow-hidden';
+                groupEl.dataset.groupId = group.id;
+
+                const sortedChannels = [...group.channels].sort((a, b) => a.order - b.order);
+
+                groupEl.innerHTML = `
+                    <div class="flex items-center justify-between p-4 bg-white/5 cursor-pointer hover:bg-white/10 transition-colors" onclick="toggleGroup('${group.id}')">
+                        <div class="flex items-center gap-3">
+                            <span class="text-slate-500 cursor-grab" title="Sıralamak için sürükleyin">☰</span>
+                            ${group.isExpanded ? '▼' : '▶'}
+                            <h3 class="text-lg font-bold">${group.title}</h3>
+                            <span class="text-sm text-slate-400">(${group.channels.length} kanal)</span>
+                        </div>
+                        
+                        <div class="flex items-center gap-2" onclick="event.stopPropagation()">
+                            <button onclick="moveGroup('${group.id}', 'up')" ${group.order === 0 ? 'disabled' : ''} 
+                                class="p-2 hover:bg-white/10 rounded-lg disabled:opacity-30" title="Grubu yukarı taşı">⬆️</button>
+                            <button onclick="moveGroup('${group.id}', 'down')" ${group.order === groups.length - 1 ? 'disabled' : ''} 
+                                class="p-2 hover:bg-white/10 rounded-lg disabled:opacity-30" title="Grubu aşağı taşı">⬇️</button>
+                            <button onclick="showAddChannelModal('${group.id}')" class="p-2 hover:bg-white/10 rounded-lg text-green-400" title="Gruba kanal ekle">➕</button>
+                            ${group.title !== 'Ungrouped' ? `
+                            <button onclick="deleteGroup('${group.id}')" class="p-2 hover:bg-white/10 rounded-lg text-red-400" title="Grubu sil">🗑️</button>
+                            ` : ''}
+                        </div>
+                    </div>
+                `;
+
+                if (group.isExpanded) {
+                    const channelsContainer = document.createElement('div');
+                    channelsContainer.className = 'border-t border-white/10';
+                    
+                    if (sortedChannels.length === 0) {
+                        channelsContainer.innerHTML = '<div class="p-4 text-center text-slate-400">Bu grupta kanal yok</div>';
+                    } else {
+                        sortedChannels.forEach((channel, idx) => {
+                            const channelEl = document.createElement('div');
+                            channelEl.className = `p-4 border-t border-white/10 hover:bg-white/5 transition-colors channel-item ${selectedChannels.has(channel.id) ? 'bg-purple-500/20' : ''}`;
+                            channelEl.dataset.channelId = channel.id;
+                            channelEl.draggable = true;
+
+                            channelEl.innerHTML = `
+                                <div class="flex items-center gap-4">
+                                    <div class="flex flex-col gap-1">
+                                        <button onclick="moveChannel('${group.id}', '${channel.id}', 'up')" ${idx === 0 ? 'disabled' : ''} 
+                                            class="p-1 hover:bg-white/10 rounded disabled:opacity-30 text-xs">⬆️</button>
+                                        <button onclick="moveChannel('${group.id}', '${channel.id}', 'down')" ${idx === group.channels.length - 1 ? 'disabled' : ''} 
+                                            class="p-1 hover:bg-white/10 rounded disabled:opacity-30 text-xs">⬇️</button>
+                                    </div>
+                                    
+                                    <input type="checkbox" ${selectedChannels.has(channel.id) ? 'checked' : ''} 
+                                        onchange="toggleChannelSelection('${channel.id}')" class="w-5 h-5">
+                                    
+                                    ${channel.tvgLogo ? `
+                                        <img src="${channel.tvgLogo}" alt="" class="w-12 h-8 object-contain rounded bg-white/10">
+                                    ` : `
+                                        <div class="w-12 h-8 bg-white/10 rounded flex items-center justify-center">📺</div>
+                                    `}
+                                    
+                                    <div class="flex-1 min-w-0">
+                                        <div class="flex items-center gap-2">
+                                            <span class="font-bold truncate">${channel.name}</span>
+                                            ${channel.tvgId ? `<span class="text-xs bg-blue-500/30 px-2 py-0.5 rounded">ID: ${channel.tvgId}</span>` : ''}
+                                        </div>
+                                        <div class="text-sm text-slate-400 truncate">${channel.url}</div>
+                                    </div>
+                                    
+                                    <div class="flex items-center gap-2">
+                                        <button onclick="changeChannelGroup('${group.id}', '${channel.id}')" 
+                                            class="p-2 hover:bg-white/10 rounded-lg text-orange-400" title="Grubu değiştir">📤</button>
+                                        <button onclick="editChannel('${channel.id}')" 
+                                            class="p-2 hover:bg-white/10 rounded-lg text-blue-400" title="Düzenle">✏️</button>
+                                        <button onclick="deleteChannel('${group.id}', '${channel.id}')" 
+                                            class="p-2 hover:bg-white/10 rounded-lg text-red-400" title="Sil">🗑️</button>
+                                    </div>
+                                </div>
+                            `;
+
+                            // Drag events
+                            channelEl.addEventListener('dragstart', (e) => {
+                                e.dataTransfer.setData('text/plain', JSON.stringify({ channelId: channel.id, groupId: group.id }));
+                                channelEl.classList.add('dragging');
+                            });
+                            channelEl.addEventListener('dragend', () => channelEl.classList.remove('dragging'));
+                            channelEl.addEventListener('dragover', (e) => {
+                                e.preventDefault();
+                                channelEl.classList.add('drag-over');
+                            });
+                            channelEl.addEventListener('dragleave', () => channelEl.classList.remove('drag-over'));
+                            channelEl.addEventListener('drop', (e) => {
+                                e.preventDefault();
+                                channelEl.classList.remove('drag-over');
+                                const data = JSON.parse(e.dataTransfer.getData('text/plain'));
+                                if (data.channelId !== channel.id) {
+                                    reorderChannel(data.groupId, data.channelId, group.id, channel.id);
+                                }
+                            });
+
+                            channelsContainer.appendChild(channelEl);
+                        });
+                    }
+                    
+                    groupEl.appendChild(channelsContainer);
+                }
+
+                container.appendChild(groupEl);
+            });
+        }
+
+        // Toggle group
+        function toggleGroup(groupId) {
+            groups = groups.map(g => g.id === groupId ? { ...g, isExpanded: !g.isExpanded } : g);
+            renderGroups();
+        }
+
+        // Move group
+        function moveGroup(groupId, direction) {
+            const idx = groups.findIndex(g => g.id === groupId);
+            if (idx < 0) return;
+            if (direction === 'up' && idx === 0) return;
+            if (direction === 'down' && idx === groups.length - 1) return;
+
+            const newGroups = [...groups];
+            const targetIdx = direction === 'up' ? idx - 1 : idx + 1;
+            
+            const temp = newGroups[idx].order;
+            newGroups[idx].order = newGroups[targetIdx].order;
+            newGroups[targetIdx].order = temp;
+            
+            groups = newGroups.sort((a, b) => a.order - b.order);
+            renderAll();
+        }
+
+        // Move channel
+        function moveChannel(groupId, channelId, direction) {
+            groups = groups.map(group => {
+                if (group.id === groupId) {
+                    const idx = group.channels.findIndex(ch => ch.id === channelId);
+                    if (idx < 0) return group;
+                    if (direction === 'up' && idx === 0) return group;
+                    if (direction === 'down' && idx === group.channels.length - 1) return group;
+
+                    const newChannels = [...group.channels];
+                    const targetIdx = direction === 'up' ? idx - 1 : idx + 1;
+                    
+                    const temp = newChannels[idx].order;
+                    newChannels[idx].order = newChannels[targetIdx].order;
+                    newChannels[targetIdx].order = temp;
+                    
+                    return { ...group, channels: newChannels.sort((a, b) => a.order - b.order) };
+                }
+                return group;
+            });
+            renderGroups();
+        }
+
+        // Reorder channel (drag & drop)
+        function reorderChannel(fromGroupId, channelId, toGroupId, targetChannelId) {
+            const fromGroup = groups.find(g => g.id === fromGroupId);
+            const toGroup = groups.find(g => g.id === toGroupId);
+            if (!fromGroup || !toGroup) return;
+
+            const channel = fromGroup.channels.find(ch => ch.id === channelId);
+            if (!channel) return;
+
+            const targetIdx = toGroup.channels.findIndex(ch => ch.id === targetChannelId);
+            if (targetIdx < 0) return;
+
+            // Remove from old group
+            groups = groups.map(g => {
+                if (g.id === fromGroupId) {
+                    return { ...g, channels: g.channels.filter(ch => ch.id !== channelId) };
+                }
+                return g;
+            });
+
+            // Add to new group at position
+            groups = groups.map(g => {
+                if (g.id === toGroupId) {
+                    const newChannels = [...g.channels];
+                    // Shift orders
+                    for (let i = targetIdx; i < newChannels.length; i++) {
+                        newChannels[i].order = i + 1;
+                    }
+                    channel.order = targetIdx;
+                    channel.groupTitle = g.title;
+                    newChannels.splice(targetIdx, 0, channel);
+                    return { ...g, channels: newChannels };
+                }
+                return g;
+            });
+
+            renderAll();
+        }
+
+        // Toggle channel selection
+        function toggleChannelSelection(channelId) {
+            if (selectedChannels.has(channelId)) {
+                selectedChannels.delete(channelId);
+            } else {
+                selectedChannels.add(channelId);
+            }
+            updateSelectedCount();
+            renderGroups();
+        }
+
+        // Toggle select all
+        function toggleSelectAll() {
+            const allChannelIds = [];
+            groups.forEach(g => g.channels.forEach(ch => allChannelIds.push(ch.id)));
+            
+            if (isSelectAll) {
+                selectedChannels = new Set();
+                isSelectAll = false;
+            } else {
+                selectedChannels = new Set(allChannelIds);
+                isSelectAll = true;
+            }
+            updateSelectedCount();
+            renderGroups();
+        }
+
+        // Update selected count
+        function updateSelectedCount() {
+            document.getElementById('selectedCount').textContent = selectedChannels.size;
+            const deleteBtn = document.getElementById('deleteSelectedBtn');
+            if (selectedChannels.size > 0) {
+                deleteBtn.classList.remove('hidden');
+            } else {
+                deleteBtn.classList.add('hidden');
+            }
+        }
+
+        // Delete selected channels
+        function deleteSelected() {
+            groups = groups.map(group => ({
+                ...group,
+                channels: group.channels.filter(ch => !selectedChannels.has(ch.id))
+            }));
+            // Clean up empty groups except Ungrouped
+            groups = groups.filter(g => g.title === 'Ungrouped' || g.channels.length > 0);
+            selectedChannels = new Set();
+            isSelectAll = false;
+            renderAll();
+        }
+
+        // Delete channel
+        function deleteChannel(groupId, channelId) {
+            groups = groups.map(group => {
+                if (group.id === groupId) {
+                    return { ...group, channels: group.channels.filter(ch => ch.id !== channelId) };
+                }
+                return group;
+            });
+            // Clean up empty groups
+            groups = groups.filter(g => g.title === 'Ungrouped' || g.channels.length > 0);
+            selectedChannels.delete(channelId);
+            renderAll();
+        }
+
+        // Delete group
+        function deleteGroup(groupId) {
+            if (groups.find(g => g.id === groupId)?.title === 'Ungrouped') {
+                alert('Ungrouped grubu silinemez!');
+                return;
+            }
+            groups = groups.filter(g => g.id !== groupId);
+            renderAll();
+        }
+
+        // Search
+        function handleSearch(e) {
+            const term = e.target.value.trim();
+            const resultsContainer = document.getElementById('searchResults');
+            const resultsList = document.getElementById('searchResultsList');
+            
+            if (!term) {
+                resultsContainer.classList.add('hidden');
+                return;
+            }
+
+            const termLower = term.toLowerCase();
+            const filtered = [];
+            
+            groups.forEach(group => {
+                group.channels.forEach(channel => {
+                    if (
+                        channel.name.toLowerCase().includes(termLower) ||
+                        channel.groupTitle.toLowerCase().includes(termLower) ||
+                        channel.tvgId.toLowerCase().includes(termLower) ||
+                        channel.url.toLowerCase().includes(termLower)
+                    ) {
+                        filtered.push({ ...channel, groupName: group.title });
+                    }
+                });
+            });
+
+            document.getElementById('searchTerm').textContent = term;
+            document.getElementById('searchCount').textContent = filtered.length;
+            
+            resultsList.innerHTML = filtered.map(channel => `
+                <div class="flex items-center gap-3 bg-white/5 p-2 rounded-lg">
+                    <input type="checkbox" ${selectedChannels.has(channel.id) ? 'checked' : ''} 
+                        onchange="toggleChannelSelection('${channel.id}')" class="w-4 h-4">
+                    ${channel.tvgLogo ? `<img src="${channel.tvgLogo}" alt="" class="w-8 h-6 object-contain rounded">` : '📺'}
+                    <span class="flex-1 font-medium">${channel.name}</span>
+                    <span class="text-xs bg-purple-500/30 px-2 py-1 rounded">${channel.groupName}</span>
+                </div>
+            `).join('');
+
+            resultsContainer.classList.remove('hidden');
+        }
+
+        // Add group modal
+        function showAddGroupModal() {
+            document.getElementById('addGroupModal').classList.remove('hidden');
+            document.getElementById('newGroupName').value = '';
+            document.getElementById('newGroupName').focus();
+        }
+
+        function hideAddGroupModal() {
+            document.getElementById('addGroupModal').classList.add('hidden');
+        }
+
+        function addGroup() {
+            const name = document.getElementById('newGroupName').value.trim();
+            if (!name) return;
+            
+            const newGroup = {
+                id: 'group-' + Date.now(),
+                title: name,
+                order: groups.length,
+                channels: [],
+                isExpanded: true,
+            };
+            
+            groups.push(newGroup);
+            hideAddGroupModal();
+            renderAll();
+        }
+
+        // Edit channel modal
+        function editChannel(channelId) {
+            editingChannelId = channelId;
+            
+            let channel = null;
+            let groupTitle = '';
+            
+            for (const g of groups) {
+                const ch = g.channels.find(c => c.id === channelId);
+                if (ch) {
+                    channel = ch;
+                    groupTitle = g.title;
+                    break;
+                }
+            }
+            
+            if (!channel) return;
+            
+            document.getElementById('editName').value = channel.name;
+            document.getElementById('editGroupTitle').value = groupTitle;
+            document.getElementById('editUrl').value = channel.url;
+            document.getElementById('editTvgLogo').value = channel.tvgLogo;
+            document.getElementById('editTvgId').value = channel.tvgId;
+            document.getElementById('editTvgUrl').value = channel.tvgUrl;
+            
+            const preview = document.getElementById('logoPreview');
+            if (channel.tvgLogo) {
+                document.getElementById('logoPreviewImg').src = channel.tvgLogo;
+                preview.classList.remove('hidden');
+            } else {
+                preview.classList.add('hidden');
+            }
+            
+            document.getElementById('editChannelModal').classList.remove('hidden');
+        }
+
+        function hideEditChannelModal() {
+            document.getElementById('editChannelModal').classList.add('hidden');
+            editingChannelId = null;
+        }
+
+        function saveChannel() {
+            if (!editingChannelId) return;
+            
+            const updates = {
+                name: document.getElementById('editName').value,
+                groupTitle: document.getElementById('editGroupTitle').value,
+                url: document.getElementById('editUrl').value,
+                tvgLogo: document.getElementById('editTvgLogo').value,
+                tvgId: document.getElementById('editTvgId').value,
+                tvgUrl: document.getElementById('editTvgUrl').value,
+            };
+            
+            // Find current group and update
+            let found = false;
+            for (const g of groups) {
+                const idx = g.channels.findIndex(c => c.id === editingChannelId);
+                if (idx >= 0) {
+                    const channel = g.channels[idx];
+                    const newGroupTitle = updates.groupTitle;
+                    
+                    // Check if group changed
+                    if (newGroupTitle !== g.title) {
+                        // Remove from current group
+                        groups = groups.map(grp => {
+                            if (grp.id === g.id) {
+                                return { ...grp, channels: grp.channels.filter(c => c.id !== editingChannelId) };
+                            }
+                            return grp;
+                        });
+                        
+                        // Add to new group or create it
+                        let targetGroup = groups.find(grp => grp.title === newGroupTitle);
+                        if (!targetGroup) {
+                            targetGroup = {
+                                id: 'group-' + newGroupTitle,
+                                title: newGroupTitle,
+                                order: groups.length,
+                                channels: [],
+                                isExpanded: true,
+                            };
+                            groups.push(targetGroup);
+                        }
+                        
+                        // Add channel to new group
+                        groups = groups.map(grp => {
+                            if (grp.id === targetGroup.id) {
+                                return { 
+                                    ...grp, 
+                                    channels: [...grp.channels, { ...channel, groupTitle: newGroupTitle }]
+                                };
+                            }
+                            return grp;
+                        });
+                    } else {
+                        // Just update in place
+                        groups = groups.map(grp => {
+                            if (grp.id === g.id) {
+                                return {
+                                    ...grp,
+                                    channels: grp.channels.map(ch => 
+                                        ch.id === editingChannelId ? { ...ch, ...updates } : ch
+                                    )
+                                };
+                            }
+                            return grp;
+                        });
+                    }
+                    found = true;
+                    break;
+                }
+            }
+            
+            // Clean up empty groups
+            groups = groups.filter(g => g.title === 'Ungrouped' || g.channels.length > 0);
+            
+            hideEditChannelModal();
+            renderAll();
+        }
+
+        // Add channel modal
+        function showAddChannelModal(groupId) {
+            addChannelToGroupId = groupId;
+            
+            const group = groups.find(g => g.id === groupId);
+            
+            // Populate group select
+            const select = document.getElementById('addGroupSelect');
+            select.innerHTML = groups.map(g => 
+                `<option value="${g.title}" ${g.id === groupId ? 'selected' : ''}>${g.title}</option>`
+            ).join('');
+            
+            document.getElementById('addChannelModal').classList.remove('hidden');
+            document.getElementById('addName').focus();
+        }
+
+        function hideAddChannelModal() {
+            document.getElementById('addChannelModal').classList.add('hidden');
+            addChannelToGroupId = null;
+        }
+
+        function addChannel() {
+            const name = document.getElementById('addName').value.trim();
+            const groupTitle = document.getElementById('addGroupSelect').value;
+            const url = document.getElementById('addUrl').value.trim();
+            const tvgLogo = document.getElementById('addTvgLogo').value.trim();
+            const tvgId = document.getElementById('addTvgId').value.trim();
+            const tvgUrl = document.getElementById('addTvgUrl').value.trim();
+            
+            if (!name || !url) {
+                alert('Lütfen kanal adı ve URL girin!');
+                return;
+            }
+            
+            const newChannel = {
+                id: 'channel-' + Date.now(),
+                name,
+                groupTitle,
+                url,
+                tvgLogo,
+                tvgId,
+                tvgUrl,
+                duration: '-1',
+                order: 0,
+            };
+            
+            // Find or create group
+            let targetGroup = groups.find(g => g.title === groupTitle);
+            if (!targetGroup) {
+                targetGroup = {
+                    id: 'group-' + groupTitle,
+                    title: groupTitle,
+                    order: groups.length,
+                    channels: [],
+                    isExpanded: true,
+                };
+                groups.push(targetGroup);
+            }
+            
+            newChannel.order = targetGroup.channels.length;
+            
+            // Add channel to group
+            groups = groups.map(g => {
+                if (g.title === groupTitle) {
+                    return { ...g, channels: [...g.channels, newChannel] };
+                }
+                return g;
+            });
+            
+            // Reset form
+            document.getElementById('addName').value = '';
+            document.getElementById('addUrl').value = '';
+            document.getElementById('addTvgLogo').value = '';
+            document.getElementById('addTvgId').value = '';
+            document.getElementById('addTvgUrl').value = '';
+            
+            hideAddChannelModal();
+            renderAll();
+        }
+
+        // Change channel group
+        function changeChannelGroup(groupId, channelId) {
+            const currentGroup = groups.find(g => g.id === groupId);
+            if (!currentGroup) return;
+            
+            const channel = currentGroup.channels.find(ch => ch.id === channelId);
+            if (!channel) return;
+            
+            // Show group selection
+            const otherGroups = groups.filter(g => g.id !== groupId);
+            if (otherGroups.length === 0) {
+                alert('Henüz başka grup yok! Önce yeni bir grup ekleyin.');
+                return;
+            }
+            
+            const selectedGroup = prompt(
+                `Kanal "${channel.name}" hangi gruba taşinsın?\n\nMevcut gruplar:\n` + 
+                groups.filter(g => g.id !== groupId).map((g, i) => `${i + 1}. ${g.title}`).join('\n') +
+                `\n\nGrup numarasını girin:`,
+                '1'
+            );
+            
+            if (!selectedGroup) return;
+            
+            const groupIdx = parseInt(selectedGroup) - 1;
+            const targetGroup = groups.filter(g => g.id !== groupId)[groupIdx];
+            
+            if (!targetGroup) {
+                alert('Geçersiz grup seçimi!');
+                return;
+            }
+            
+            // Remove from current group
+            groups = groups.map(g => {
+                if (g.id === groupId) {
+                    return { ...g, channels: g.channels.filter(ch => ch.id !== channelId) };
+                }
+                return g;
+            });
+            
+            // Add to target group
+            channel.groupTitle = targetGroup.title;
+            channel.order = targetGroup.channels.length;
+            
+            groups = groups.map(g => {
+                if (g.id === targetGroup.id) {
+                    return { ...g, channels: [...g.channels, channel] };
+                }
+                return g;
+            });
+            
+            // Clean up empty groups
+            groups = groups.filter(g => g.title === 'Ungrouped' || g.channels.length > 0);
+            
+            renderAll();
+        }
+
+        // Initial render
+        renderAll();
+    </script>
+</body>
+</html>
