@@ -10,7 +10,7 @@ import subprocess
 
 # CALMA OC
 
-SOURCE_ORDER = ["uzun", "canak", "boncuktv","goldvod", "kablo", "smart"]
+SOURCE_ORDER = ["legal", "uzun", "canak", "boncuktv","goldvod", "kablo", "smart"]
 
 OUTPUT_FILENAME = "yeni.m3u"
 
@@ -279,6 +279,37 @@ def get_goldvod_m3u():
         
     except Exception as e:
         print(f"❌ GoldVOD hatası: {e}")
+        return False
+
+# =============================================================================
+# LEGAL YEDEK KAYNAĞI
+# =============================================================================
+def get_legal_m3u():
+    """LEGAL yedek kaynağından m3u indirir"""
+    
+    try:
+        print("📡 LEGAL yedek kaynağından indiriliyor...")
+        
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+        response = requests.get(
+            "https://raw.githubusercontent.com/undefinedtv/undefinedtv/refs/heads/main/legal.m3u",
+            headers=headers,
+            timeout=30
+        )
+        response.raise_for_status()
+        content = response.text
+        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), OUTPUT_FILENAME)
+        
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(content)
+        
+        print(f"✅ LEGAL: {OUTPUT_FILENAME} başarıyla indirildi!")
+        return True
+        
+    except Exception as e:
+        print(f"❌ LEGAL hatası: {e}")
         return False
 
 # =============================================================================
@@ -987,7 +1018,8 @@ def main():
         "boncuktv": get_boncuktv_m3u,
         "goldvod": get_goldvod_m3u,
         "uzun": get_uzun_m3u,
-        "canak": get_canak_m3u
+        "canak": get_canak_m3u,
+        "legal": get_legal_m3u
     }
     
     print("=" * 60)
