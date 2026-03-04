@@ -1,16 +1,4 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Hamburg - Bayer Leverkusen | Almanya Bundesliga
-https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Aston Villa - Chelsea | İngiltere Premier Lig
-https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Brighton - Arsenal | İngiltere Premier Lig
-https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Fulham - West Ham | İngiltere Premier Lig
-https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Manchester City - Nottingham Forest | İngiltere Premier Lig
-https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Premier Lig Maç Önü | Bilinmiyor
-https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Real Sociedad - Athletic Bilbao | İspanya Kral Kupasi Copa Del Rey Yari Final
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Lazio - Atalanta | İtalya Kupasi Yari Final
@@ -25,12 +13,12 @@ https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,02:00 | M.Berrettini - A.Mannarino | ATP Indian Wells
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,03:00 | New York Knicks - OKC Thunder | NBA
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,03:00 | Lanus - Boca Juniors | Arjantin Primera Division
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,03:00 | Arkansas - Texas | NCAA
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,03:00 | New York Knicks - OKC Thunder | NBA
-https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,05:30 | Milwaukee Bucks - Atlanta Hawks | NBA
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,06:00 | Filipinler - Güney Kore | AFC Kadinlar Asya Kupasi
@@ -39,8 +27,14 @@ https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,12:00 | İran - Avustralya | AFC Kadinlar Asya Kupasi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Prieto/Fallada - Saez/Alarza | Premier Padel
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Kapaz - Turan | Azerbaycan Kupasi Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Collombon/Cabruja - Martin/Fernandez | Premier Padel
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Goenaga/Lacabe - Chingotto/Galan | Premier Padel
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:15 | Bangkok Utd - Tampines | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Qabala - Sabah Bakü | Azerbaycan Kupasi Çeyrek Final
@@ -55,12 +49,12 @@ https://andro.226503.xyz/checklist/androstreamliveas.m3u8
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:05 | Maccabi Fox - Hapoel Tel Aviv | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Olimpia Milano - Barcelona | Euroleague
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Partizan - Dubai Basket | Euroleague
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Valencia Basket - Zalgiris Kaunas | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Partizan - Dubai Basket | Euroleague
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Olimpia Milano - Barcelona | Euroleague
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Real Madrid - Virtus Bologna | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Tottenham - Crystal Palace | İngiltere Premier Lig
