@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Almeria - Leonesa | İspanya La Liga 2
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | West Ham - Brentford | İngiltere FA Cup
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Lazio - Sassuolo | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Dunkerque HB - Reims | Fransa Ligue 2
@@ -15,11 +11,9 @@ https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,05:30 | D.Medvedev - S.Baez | ATP Indian Wells
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Japonya - Vietnam | AFC Kadinlar Asya Kupasi
-https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Hindistan - Tayvan | AFC Kadinlar Asya Kupasi
 https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Machida - Gangwon | AFC Şampiyonlar Ligi
+#EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Japonya - Vietnam | AFC Kadinlar Asya Kupasi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Vanspor - Adana Demirspor | Trendyol 1. Lig
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
@@ -38,17 +32,17 @@ https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:15 | Al Hilal - Al Sadd | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:15 | Al Ittihad - Al Wahda | AFC Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
+https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Vero Volley Monza - Vakifbank | CEV Kadinlar Şampiyonlar Ligi Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Paris - Olympiakos | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Newcastle - Barcelona | UEFA Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Atletico Madrid - Tottenham | UEFA Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Atalanta - Bayern Münih | UEFA Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Atletico Madrid - Tottenham | UEFA Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Newcastle - Barcelona | UEFA Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Rec Tv",BeIN Sports 1 A
 #EXTVLCOPT:http-user-agent=googleusercontent
 https://kaktusimparatoru.lol/static/bs11.m3u8
