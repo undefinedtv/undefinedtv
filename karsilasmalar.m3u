@@ -23,9 +23,9 @@ https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,02:30 | OKC Thunder - Denver Nuggets | NBA
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Hindistan - Tayvan | AFC Kadinlar Asya Kupasi
-https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Japonya - Vietnam | AFC Kadinlar Asya Kupasi
+https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Hindistan - Tayvan | AFC Kadinlar Asya Kupasi
 https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Machida - Gangwon | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
@@ -43,15 +43,17 @@ https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Galatasaray - Liverpool | UEFA Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,21:15 | Al Ittihad - Al Wahda | AFC Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:15 | Al Hilal - Al Sadd | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:15 | Al Ittihad - Al Wahda | AFC Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Vero Volley Monza - Vakifbank | CEV Kadinlar Şampiyonlar Ligi Çeyrek Final
+https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Paris - Olympiakos | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Atalanta - Bayern Münih | UEFA Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+https://andro.226503.xyz/checklist/androstreamlivetb1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Atletico Madrid - Tottenham | UEFA Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Newcastle - Barcelona | UEFA Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
