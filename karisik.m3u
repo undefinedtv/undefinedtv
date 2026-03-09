@@ -1,16 +1,14 @@
 #EXTM3U
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Eyüpspor - Kocaelispor | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Alanyaspor - Gençlerbirliği | Trendyol Süper Lig
-https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Kayserispor - Trabzonspor | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Alanyaspor - Gençlerbirliği | Trendyol Süper Lig
+https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Kuzey Kore - Çin | AFC Kadinlar Asya Kupasi
+https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Bangladeş - Özbekistan | AFC Kadinlar Asya Kupasi
 https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Kuzey Kore - Çin | AFC Kadinlar Asya Kupasi
-https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,14:00 | Tractor Sazi - Al Ahli | AFC Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:30 | Zira - Kapaz | Azerbaycan Premier Ligi
 https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Manisa BB - Anadolu Efes | Basketbol Süper Ligi
@@ -27,8 +25,6 @@ https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Espanyol - Real Oviedo | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:30 | Al Ahli - Al Duhail | AFC Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,02:30 | OKC Thunder - Denver Nuggets | NBA
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Hindistan - Tayvan | AFC Kadinlar Asya Kupasi
