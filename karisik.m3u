@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Machida - Gangwon | AFC Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Vanspor - Adana Demirspor | Trendyol 1. Lig
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:15 | Buriram - Melbourne City | AFC Şampiyonlar Ligi
@@ -27,28 +25,30 @@ https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,03:00 | SA Spurs - Boston Celtics | NBA
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,04:00 | J.Fonseca - J.Sinner | ATP Indian Wells
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,06:00 | LA Lakers - Minnesota TW | NBA
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Vissel Kobe - FC Seoul | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Hiroshima - Johor Darul | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Hatayspor - Sivasspor | Trendyol 1. Lig
-https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:30 | İstanbulspor - Amedspor | Trendyol 1. Lig
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Hatayspor - Sivasspor | Trendyol 1. Lig
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Arjantin - Avustralya | FIBA Kadinlar Dünya Kupasi Elemeleri
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Ümraniyespor - Erzurumspor | Trendyol 1. Lig
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Eczacibasi - Rzeszow | CEV Kadinlar Şampiyonlar Ligi Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | AEK Athens - Tofaş | FIBA Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Türk Telekom - Manresa | Eurocup Play Off
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Keçiörengücü - Sakaryaspor | Trendyol 1. Lig
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Türk Telekom - Manresa | Eurocup Play Off
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | AEK Athens - Tofaş | FIBA Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Zeren Spor - Imoco Volley Conegliano | CEV Kadinlar Şampiyonlar Ligi Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:15 | Petkimspor - Bilbao Basket | FIBA Europe Cup Çeyrek Final
@@ -61,12 +61,12 @@ https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Virtus Bologna - Partizan | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Bodo Glimt - Sporting Lisbon | UEFA Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | PSG - Chelsea | UEFA Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivetb1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Real Madrid - Manchester City | UEFA Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | PSG - Chelsea | UEFA Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivetb1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Bodo Glimt - Sporting Lisbon | UEFA Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
 #EXTINF:-1 group-title="Rec Tv",BeIN Sports 1 A
 #EXTVLCOPT:http-user-agent=googleusercontent
 https://kaktusimparatoru.lol/static/bs11.m3u8
