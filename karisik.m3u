@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Eczacibasi - Rzeszow | CEV Kadinlar Şampiyonlar Ligi Çeyrek Final
-https://andro.226503.xyz/checklist/androstreamlivetb7.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Keçiörengücü - Sakaryaspor | Trendyol 1. Lig
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Türk Telekom - Manresa | Eurocup Play Off
@@ -25,8 +23,10 @@ https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetb1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Real Madrid - Manchester City | UEFA Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | D.Medvedev - A.Michelsen | ATP Indian Wells
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Coventry - Preston North | İngiltere Championship
+https://andro.226503.xyz/checklist/androstreamliveexn.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Bodo Glimt - Sporting Lisbon | UEFA Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:30 | Argentinos Jrs. - Rosario Central | Arjantin Primera Division
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,01:00 | Atletico Mineiro - Internacional | Brezilya Serie A
