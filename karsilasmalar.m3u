@@ -1,12 +1,12 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Hiroshima - Johor Darul | AFC Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Vissel Kobe - FC Seoul | AFC Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Hatayspor - Sivasspor | Trendyol 1. Lig
-https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Hiroshima - Johor Darul | AFC Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:30 | İstanbulspor - Amedspor | Trendyol 1. Lig
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Hatayspor - Sivasspor | Trendyol 1. Lig
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Arjantin - Avustralya | FIBA Kadinlar Dünya Kupasi Elemeleri
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:15 | Ratchaburi - Gamba Osaka | AFC Şampiyonlar Ligi
@@ -35,12 +35,12 @@ https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Virtus Bologna - Partizan | Euroleague
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Bodo Glimt - Sporting Lisbon | UEFA Şampiyonlar Ligi
-https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | PSG - Chelsea | UEFA Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Real Madrid - Manchester City | UEFA Şampiyonlar Ligi
 https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Bodo Glimt - Sporting Lisbon | UEFA Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,02:30 | Orlando Magic - Cleveland Cavaliers | NBA
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,05:00 | Denver Nuggets - Houston Rockets | NBA
