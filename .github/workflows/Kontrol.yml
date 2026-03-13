@@ -25,16 +25,8 @@ jobs:
       - name: Gereksinimleri Kur
         run: |
           python -m pip install --upgrade pip
-          pip install -U setuptools wheel Kekik httpx parsel requests cloudscraper beautifulsoup4 pycryptodome aiohttp yt-dlp
-          sudo apt-get install -y ffmpeg
+          pip install -U setuptools wheel Kekik httpx parsel requests cloudscraper beautifulsoup4 pycryptodome aiohttp
           
-      - name: inadina.py Çalıştır
-        continue-on-error: true
-        env:
-          INAT_AES_KEY: ${{ secrets.INAT_AES_KEY }}
-          INAT_MAIN_URL: ${{ secrets.INAT_MAIN_URL }}
-          WORKER_URL: ${{ secrets.WORKER_URL }}
-        run: python inadina.py
       - name: androtv.py Çalıştır
         continue-on-error: true
         run: python androtv.py
@@ -44,12 +36,6 @@ jobs:
       - name: selcuk.py Çalıştır
         continue-on-error: true
         run: python selcuk.py
-      - name: rec.py Çalıştır
-        continue-on-error: true
-        run: python rec.py
-      - name: rec2.py Çalıştır
-        continue-on-error: true
-        run: python rec2.py
       - name: karsilasmalar.py Çalıştır
         continue-on-error: true
         run: python karsilasmalar.py
