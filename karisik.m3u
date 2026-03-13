@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Torino - Parma | İtalya Serie A
-https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:45 | Marsilya - Auxerre | Fransa Ligue 1
-https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Alaves - Villarreal | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Kocaelispor - Konyaspor | Trendyol Süper Lig
@@ -129,54 +125,6 @@ https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:30 | Yari Final Maç 1 | Yari Final
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Inat TV" ,beIN Sports 1
-https://api.hitnova.net/s/zirve/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,beIN Sports 2
-https://api.hitnova.net/s/b2/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,beIN Sports 3
-https://api.hitnova.net/s/b3/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,beIN Sports 4
-https://api.hitnova.net/s/b4/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,beIN Sports 5
-https://api.hitnova.net/s/b5/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,beIN Sports 1 Max
-https://api.hitnova.net/s/bm1/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,beIN Sports 2 Max
-https://api.hitnova.net/s/bm2/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,S Sports 1
-https://api.hitnova.net/s/ss/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,S Sports 2
-https://api.hitnova.net/s/ss2/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,Tivibu Sports 1
-https://api.hitnova.net/s/t1/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,Tivibu Sports 2
-https://api.hitnova.net/s/t2/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,Tivibu Sports 3
-https://api.hitnova.net/s/t3/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,Tivibu Sports 4
-https://api.hitnova.net/s/t4/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,Smart Sports
-https://api.hitnova.net/s/smarts/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,Smart Sports 2
-https://api.hitnova.net/s/sms2/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,Euro Sport 1
-https://api.hitnova.net/s/eu1/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,Euro Sport 2
-https://api.hitnova.net/s/eu2/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,Trt Spor
-https://api.hitnova.net/s/trtspor/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,Trt Spor Yıldız
-https://api.hitnova.net/s/trtspor2/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,Trt1
-https://api.hitnova.net/s/trt1/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,A Spor
-https://api.hitnova.net/s/as/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,Atv
-https://api.hitnova.net/s/atv/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,TV8
-https://api.hitnova.net/s/tv8/mono.m3u8
-#EXTINF:-1 group-title="Inat TV" ,TV8 5
-https://api.hitnova.net/s/tv85/mono.m3u8
 #EXTINF:-1 tvg-id="bein-sports-1" tvg-name="BEIN SPORTS 1" group-title="Atom TV",BEIN SPORTS 1
 #EXTVLCOPT:http-referrer=https://www.atomsportv492.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
