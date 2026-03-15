@@ -18,6 +18,7 @@ yeni = 'yeni.m3u'
 vavoo = 'vavoo.m3u'
 atom = 'atom.m3u'
 zz = 'zz.m3u'
+gold = 'gold.m3u'
 
 # M3U dosyalarının içeriğini oku
 def oku_m3u(dosya_adi):
@@ -37,11 +38,12 @@ yeni_icerik = oku_m3u(yeni)
 vavoo_icerik = oku_m3u(vavoo)
 atom_icerik = oku_m3u(atom)
 zz_icerik = oku_m3u(zz)
+gold_icerik = oku_m3u(gold)
 
 # Birleştir
 birlesik_icerik = (
     empty_icerik + karsilasmalar_icerik + zz_icerik +
-    atom_icerik + andro_icerik + selcuk_icerik +
+    atom_icerik + andro_icerik + selcuk_icerik + gold_icerik +
     tabii_icerik 
 )
 
