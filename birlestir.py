@@ -1,5 +1,11 @@
+from github import Github
+
+# GitHub Token
+TOKEN = "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"
+REPO = "undefinedtv/undefined_tv"
+HEDEF_DOSYA = "test.m3u"
+
 # Birleştirilecek dosya adları
-#goals = 'goals.m3u'
 empty = 'empty.m3u'
 karsilasmalar = 'karsilasmalar.m3u'
 rec = 'rec.m3u'
@@ -12,7 +18,6 @@ yeni = 'yeni.m3u'
 vavoo = 'vavoo.m3u'
 atom = 'atom.m3u'
 zz = 'zz.m3u'
-cikis_dosyasi = 'karisik.m3u'
 
 # M3U dosyalarının içeriğini oku
 def oku_m3u(dosya_adi):
@@ -34,11 +39,35 @@ atom_icerik = oku_m3u(atom)
 zz_icerik = oku_m3u(zz)
 
 # Birleştir
-birlesik_icerik = empty_icerik + karsilasmalar_icerik + zz_icerik + atom_icerik + andro_icerik + selcuk_icerik  + tabii_icerik + yeni_icerik
+birlesik_icerik = (
+    empty_icerik + karsilasmalar_icerik + zz_icerik +
+    atom_icerik + andro_icerik + selcuk_icerik +
+    tabii_icerik + yeni_icerik
+)
 
-# Yeni dosyaya yaz
-with open(cikis_dosyasi, 'w', encoding='utf-8') as f:
-    for satir in birlesik_icerik:
-        f.write(satir + '\n')
+# GitHub'a yaz
+g = Github(TOKEN)
+repo = g.get_repo(REPO)
 
-print(f"{cikis_dosyasi} dosyası başarıyla oluşturuldu.")
+yeni_icerik_str = '\n'.join(birlesik_icerik) + '\n'
+
+try:
+    # Dosya zaten varsa güncelle
+    mevcut = repo.get_contents(HEDEF_DOSYA)
+    repo.update_file(
+        path=HEDEF_DOSYA,
+        message="test.m3u güncellendi",
+        content=yeni_icerik_str,
+        sha=mevcut.sha,
+        branch="main"
+    )
+    print(f"✅ {HEDEF_DOSYA} güncellendi.")
+except Exception:
+    # Dosya yoksa oluştur
+    repo.create_file(
+        path=HEDEF_DOSYA,
+        message="test.m3u oluşturuldu",
+        content=yeni_icerik_str,
+        branch="main"
+    )
+    print(f"✅ {HEDEF_DOSYA} oluşturuldu.")
