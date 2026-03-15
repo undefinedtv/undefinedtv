@@ -43,11 +43,9 @@ jobs:
       - name: karsilasmalar.py Çalıştır
         continue-on-error: true
         run: python karsilasmalar.py
-      - name: gbl.py Çalıştır
-        env:
-          SMART_API: ${{ secrets.SMART_API }}
+      - name: gold.py Çalıştır
         continue-on-error: true
-        run: python gbl.py        
+        run: python gold.py        
       - name: birlestir.py Çalıştır
         continue-on-error: true
         run: python birlestir.py        
