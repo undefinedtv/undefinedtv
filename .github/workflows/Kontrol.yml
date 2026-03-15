@@ -27,6 +27,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -U setuptools wheel Kekik httpx parsel requests cloudscraper beautifulsoup4 pycryptodome aiohttp
           
+      - name: zz.py Çalıştır
+        continue-on-error: true
+        run: python zz.py
       - name: androtv.py Çalıştır
         continue-on-error: true
         run: python androtv.py
