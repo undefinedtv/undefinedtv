@@ -42,7 +42,7 @@ zz_icerik = oku_m3u(zz)
 birlesik_icerik = (
     empty_icerik + karsilasmalar_icerik + zz_icerik +
     atom_icerik + andro_icerik + selcuk_icerik +
-    tabii_icerik + yeni_icerik
+    tabii_icerik 
 )
 
 # GitHub'a yaz
