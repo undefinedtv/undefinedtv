@@ -15,7 +15,6 @@ class XSportScraper:
             "xtivibuspor-3", "xtivibuspor-4", "xssport", "xssport2", "xtabiispor1",
             "xtabiispor2", "xtabiispor3", "xtabiispor4", "xtabiispor5", "xtabiispor6", "xtabiispor7"
         ]
-        self.logo = "https://i.hizliresim.com/b6xqz10.jpg"
 
     def check_domain(self, index):
         url = self.base_pattern.format(index)
@@ -66,7 +65,7 @@ class XSportScraper:
                 
                 if final_url:
                     name = cid.replace("x", "").replace("-", "").upper()
-                    m3u_content += f'#EXTINF:-1 tvg-id="" tvg-name="TR: {name} HD" tvg-logo="{self.logo}" group-title="xsportv",TR: {name} HD\n'
+                    m3u_content += f'#EXTINF:-1 group-title="XSpor TV",TR: {name} HD\n'
                     m3u_content += f"#EXTVLCOPT:http-referer={domain}\n"
                     m3u_content += f"{final_url}\n"
 
