@@ -33,7 +33,7 @@ def get_goldvod_m3u():
         while i < len(lines):
             line = lines[i].strip()
             
-            if line.startswith('#EXTINF'):
+            if line.startswith(''):
                 # group-title değerini kontrol et (büyük/küçük harf duyarsız)
                 match = re.search(r'group-title="([^"]*)"', line, re.IGNORECASE)
                 
