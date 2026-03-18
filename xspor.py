@@ -54,7 +54,7 @@ class XSportScraper:
             return
 
         response = requests.get(domain, headers=self.headers)
-        m3u_content = "#EXTM3U\n"
+        m3u_content = ""
 
         for cid in self.channel_ids:
             pattern = rf'data-url="(.*?id={cid}.*?)"'
