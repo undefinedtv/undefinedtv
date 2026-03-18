@@ -34,8 +34,8 @@ https://zeustv432423.info/tivibu3/index.m3u8
 https://zeustv432423.info/xtrtspor/index.m3u8
 #EXTINF:-1 group-title="Zeus TV" ,TRT Spor Yıldız
 https://zeustv432423.info/trtyildiz/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,TRT 1 Yedek
-https://zeustv432423.info/trt1yedek/index.m3u8
+#EXTINF:-1 group-title="Zeus TV" ,TRT 1
+https://zeustv432423.info/xtrt1/index.m3u8
 #EXTINF:-1 group-title="Zeus TV" ,A Spor
 https://zeustv432423.info/xaspor/index.m3u8
 #EXTINF:-1 group-title="Zeus TV" ,ATV
@@ -70,5 +70,7 @@ https://zeustv432423.info/xexxen/index.m3u8
 https://zeustv432423.info/xexxen1/index.m3u8
 #EXTINF:-1 group-title="Zeus TV" ,Bein Yedek 2
 https://zeustv432423.info/b1local/index.m3u8
+#EXTINF:-1 group-title="Zeus TV" ,TRT 1 Yedek
+https://zeustv432423.info/trt1yedek/index.m3u8
 #EXTINF:-1 group-title="Zeus TV" ,A Haber
 https://zeustv432423.info/xahaber/index.m3u8
