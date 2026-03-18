@@ -65,7 +65,7 @@ def get_goldvod_m3u():
         file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), OUTPUT_FILENAME)
         
         with open(file_path, "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
+            f.write("\n")
             f.write('\n'.join(filtered_entries))
             f.write('\n')
         
