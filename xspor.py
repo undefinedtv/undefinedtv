@@ -11,8 +11,8 @@ class XSportScraper:
         }
         self.channel_ids = [
             "xbeinsports-1", "xbeinsports-2", "xbeinsports-3", "xbeinsports-4", "xbeinsports-5",
-            "xbeinsportsmax-1", "xbeinsportsmax-2", "xtivibuspor-1", "xtivibuspor-2",
-            "xtivibuspor-3", "xtivibuspor-4", "xssport", "xssport2", "xtabiispor1",
+            "xbeinsportsmax-1", "xbeinsportsmax-2", "xssport", "xssport2", "xtivibuspor-1", "xtivibuspor-2",
+            "xtivibuspor-3", "xtivibuspor-4",  "xtabiispor1",
             "xtabiispor2", "xtabiispor3", "xtabiispor4", "xtabiispor5", "xtabiispor6", "xtabiispor7"
         ]
 
