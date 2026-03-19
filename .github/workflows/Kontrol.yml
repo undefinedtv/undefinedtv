@@ -46,9 +46,9 @@ jobs:
       - name: gold.py Çalıştır
         continue-on-error: true
         run: python gold.py        
-      - name: xspor.py Çalıştır
+      - name: rec.py Çalıştır
         continue-on-error: true
-        run: python xspor.py   
+        run: python rec.py   
       - name: birlestir.py Çalıştır
         continue-on-error: true
         run: python birlestir.py        
