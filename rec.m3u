@@ -1,9 +1,9 @@
 #EXTINF:-1 group-title="Rec Tv",BeIN Sports 1 A
 #EXTVLCOPT:http-user-agent=googleusercontent
-https://kaktusimparatoru.lol/static/bs11.m3u8
+https://kaktusimparatoru.lol/static/bs1.m3u8
 #EXTINF:-1 group-title="Rec Tv",BeIN Sports 1 B
 #EXTVLCOPT:http-user-agent=googleusercontent
-https://kaktusimparatoru.lol/static/bs1.m3u8
+https://kaktusimparatoru.lol/static/bs11.m3u8
 #EXTINF:-1 group-title="Rec Tv",BeIN Sports 2
 #EXTVLCOPT:http-user-agent=googleusercontent
 https://kaktusimparatoru.lol/static/bs2.m3u8
