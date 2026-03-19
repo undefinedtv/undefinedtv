@@ -37,9 +37,9 @@ jobs:
       - name: atom.py Çalıştır
         continue-on-error: true
         run: python atom.py
-      - name: selcuk.py Çalıştır
+      - name: cafe.py Çalıştır
         continue-on-error: true
-        run: python selcuk.py
+        run: python cafe.py
       - name: karsilasmalar.py Çalıştır
         continue-on-error: true
         run: python karsilasmalar.py
