@@ -82,7 +82,7 @@ def generate_m3u(info):
     for _, ch in sorted(info["channels"].items(), key=lambda x: x[1]["name"]):
         out.append(
             f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{ch["name"]}" '
-            f'tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}'
+            f'tvg-logo="{ch["logo"]}" group-title="Selcuk TV",{ch["name"]}'
         )
         out.append(f'#EXTVLCOPT:http-referrer={info["referer"]}')
         out.append(ch["url"])
@@ -102,7 +102,10 @@ def main():
         {"id": "sbeinsports-3", "name": "BeIN Sports 3", "tvg_id": "bein3", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png", "group": "BEIN SPORTS"},
         {"id": "sbeinsports-4", "name": "BeIN Sports 4", "tvg_id": "bein4", "logo": "https://i.postimg.cc/0yjyF10x/bein4.png", "group": "BEIN SPORTS"},
         {"id": "sbeinsports-5", "name": "BeIN Sports 5", "tvg_id": "bein5", "logo": "https://i.postimg.cc/BvjF7hx5/bein5.png", "group": "BEIN SPORTS"},
-        {"id": "sbeinsportshaber", "name": "BeIN Sports Haber", "tvg_id": "beinhd", "logo": "https://i.postimg.cc/x14Fs2kw/beinhd.png", "group": "BEIN SPORTS"},
+        {"id": "sssport", "name": "S Sport", "tvg_id": "ssport", "logo": "https://i.postimg.cc/TYcZT4zR/ssport.png", "group": "S SPORT"},
+        {"id": "sssport2", "name": "S Sport 2", "tvg_id": "ssport2", "logo": "https://i.postimg.cc/WbftnShM/ssport2.png", "group": "S SPORT"},
+        {"id": "sssplus1", "name": "S Sport Plus 1", "tvg_id": "ssportplus", "logo": "https://i.postimg.cc/rmK04Jxr/ssportplus.png", "group": "S SPORT"},
+        {"id": "sssplus2", "name": "S Sport Plus 2", "tvg_id": "ssportplus", "logo": "https://i.postimg.cc/rmK04Jxr/ssportplus.png", "group": "S SPORT"},
         {"id": "sdazn1", "name": "DAZN 1", "tvg_id": "dazn1", "logo": "https://i.postimg.cc/QMgmHh7x/dazn1.png", "group": "DAZN"},
         {"id": "sdazn2", "name": "DAZN 2", "tvg_id": "dazn2", "logo": "https://i.postimg.cc/XY5YQvSd/dazn2.png", "group": "DAZN"},
         {"id": "saspor", "name": "A Spor", "tvg_id": "aspor", "logo": "https://i.postimg.cc/gJMK4kTN/aspor.png", "group": "YEREL SPOR"},
@@ -114,6 +117,10 @@ def main():
         {"id": "stv8", "name": "TV8", "tvg_id": "tv8", "logo": "https://i.postimg.cc/CLpftN9Y/tv8.png", "group": "DİĞER"},
         {"id": "sexxen-1", "name": "Exxen Spor 1", "tvg_id": "exxen1", "logo": "https://i.postimg.cc/B6t4z1d3/exxen.png", "group": "EXXEN"},
         {"id": "sexxen-2", "name": "Exxen Spor 2", "tvg_id": "exxen2", "logo": "https://i.postimg.cc/B6t4z1d3/exxen.png", "group": "EXXEN"},
+        {"id": "sexxen-3", "name": "Exxen Spor 3", "tvg_id": "exxen2", "logo": "https://i.postimg.cc/B6t4z1d3/exxen.png", "group": "EXXEN"},
+        {"id": "sexxen-4", "name": "Exxen Spor 4", "tvg_id": "exxen2", "logo": "https://i.postimg.cc/B6t4z1d3/exxen.png", "group": "EXXEN"},
+        {"id": "sexxen-5", "name": "Exxen Spor 5", "tvg_id": "exxen2", "logo": "https://i.postimg.cc/B6t4z1d3/exxen.png", "group": "EXXEN"},
+        {"id": "sexxen-6", "name": "Exxen Spor 6", "tvg_id": "exxen2", "logo": "https://i.postimg.cc/B6t4z1d3/exxen.png", "group": "EXXEN"},
         {"id": "ssmartspor", "name": "Smart Spor", "tvg_id": "smartspor", "logo": "https://i.postimg.cc/7YNxxHgM/smartspor.png", "group": "DİĞER"},
         {"id": "ssmartspor2", "name": "Smart Spor 2", "tvg_id": "smartspor2", "logo": "https://i.postimg.cc/7YNxxHgM/smartspor.png", "group": "DİĞER"},
         {"id": "stivibuspor-1", "name": "Tivibu Spor 1", "tvg_id": "tivibu1", "logo": "https://i.postimg.cc/G2xMf9Gn/tivibu.png", "group": "TİVİBU"},
@@ -126,6 +133,7 @@ def main():
         {"id": "stabiispor-4", "name": "Tabii Spor 4", "tvg_id": "tabii4", "logo": "https://i.postimg.cc/9MpztRQF/tabii.png", "group": "TABII"},
         {"id": "stabiispor-5", "name": "Tabii Spor 5", "tvg_id": "tabii5", "logo": "https://i.postimg.cc/9MpztRQF/tabii.png", "group": "TABII"},
         {"id": "strt1", "name": "TRT 1", "tvg_id": "trt1", "logo": "https://i.postimg.cc/XYJkFyqV/trt1.png", "group": "TRT"},
+        {"id": "sbeinsportshaber", "name": "BeIN Sports Haber", "tvg_id": "beinhd", "logo": "https://i.postimg.cc/x14Fs2kw/beinhd.png", "group": "BEIN SPORTS"},
     ]
 
     print(f"📺 {len(channels)} kanal işlenecek")
