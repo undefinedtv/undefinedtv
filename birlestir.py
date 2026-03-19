@@ -44,8 +44,8 @@ xsportv_icerik = oku_m3u(xsportv)
 
 # Birleştir
 birlesik_icerik = (
-    empty_icerik + karsilasmalar_icerik + zz_icerik +
-    atom_icerik + andro_icerik + selcuk_icerik + xsportv_icerik + gold_icerik +
+    empty_icerik + karsilasmalar_icerik + rec_icerik + zz_icerik +
+    atom_icerik + selcuk_icerik + gold_icerik + andro_icerik +
     tabii_icerik 
 )
 
