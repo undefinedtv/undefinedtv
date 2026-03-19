@@ -77,7 +77,7 @@ def get_stream_links(channels):
 
 
 def generate_m3u(info):
-    out = ["#EXTM3U"]
+    out = [""]
 
     for _, ch in sorted(info["channels"].items(), key=lambda x: x[1]["name"]):
         out.append(
