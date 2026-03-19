@@ -97,7 +97,8 @@ def main():
     print("=" * 60)
 
     channels = [
-        {"id": "sbeinsports-1", "name": "BeIN Sports 1", "tvg_id": "bein1", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png", "group": "BEIN SPORTS"},
+        {"id": "sbeinsports-1", "name": "BeIN Sports 1 A", "tvg_id": "bein1", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png", "group": "BEIN SPORTS"},
+        {"id": "selcukobs1", "name": "BeIN Sports 1 B", "tvg_id": "bein1", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png", "group": "BEIN SPORTS"},
         {"id": "sbeinsports-2", "name": "BeIN Sports 2", "tvg_id": "bein2", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png", "group": "BEIN SPORTS"},
         {"id": "sbeinsports-3", "name": "BeIN Sports 3", "tvg_id": "bein3", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png", "group": "BEIN SPORTS"},
         {"id": "sbeinsports-4", "name": "BeIN Sports 4", "tvg_id": "bein4", "logo": "https://i.postimg.cc/0yjyF10x/bein4.png", "group": "BEIN SPORTS"},
