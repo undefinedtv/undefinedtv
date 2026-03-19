@@ -20,6 +20,8 @@ atom = 'atom.m3u'
 zz = 'zz.m3u'
 gold = 'gold.m3u'
 xsportv = 'xsportv.m3u'
+sporcafe = 'sporcafe.m3u'
+
 
 # M3U dosyalarının içeriğini oku
 def oku_m3u(dosya_adi):
@@ -41,11 +43,12 @@ atom_icerik = oku_m3u(atom)
 zz_icerik = oku_m3u(zz)
 gold_icerik = oku_m3u(gold)
 xsportv_icerik = oku_m3u(xsportv)
+sporcafe_icerik = oku_m3u(sporcafe)
 
 # Birleştir
 birlesik_icerik = (
     empty_icerik + karsilasmalar_icerik + rec_icerik + zz_icerik +
-    atom_icerik + selcuk_icerik + gold_icerik + andro_icerik +
+    atom_icerik + sporcafe_icerik + gold_icerik + andro_icerik +
     tabii_icerik 
 )
 
