@@ -22,6 +22,7 @@ gold = 'gold.m3u'
 xsportv = 'xsportv.m3u'
 sporcafe = 'sporcafe.m3u'
 
+legal = 'legal.m3u'
 
 # M3U dosyalarının içeriğini oku
 def oku_m3u(dosya_adi):
@@ -45,11 +46,13 @@ gold_icerik = oku_m3u(gold)
 xsportv_icerik = oku_m3u(xsportv)
 sporcafe_icerik = oku_m3u(sporcafe)
 
+legal_icerik = oku_m3u(legal)
+
 # Birleştir
 birlesik_icerik = (
     empty_icerik + karsilasmalar_icerik + rec_icerik + zz_icerik +
     atom_icerik + sporcafe_icerik + gold_icerik + andro_icerik +
-    tabii_icerik 
+    tabii_icerik + legal_icerik
 )
 
 # GitHub'a yaz
