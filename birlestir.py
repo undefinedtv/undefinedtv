@@ -52,7 +52,7 @@ legal_icerik = oku_m3u(legal)
 birlesik_icerik = (
     empty_icerik + karsilasmalar_icerik + rec_icerik + zz_icerik +
     atom_icerik + sporcafe_icerik + gold_icerik + andro_icerik +
-    tabii_icerik + legal_icerik
+    tabii_icerik 
 )
 
 # GitHub'a yaz
