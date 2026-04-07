@@ -21,9 +21,6 @@ class InatBox:
         self.aes_key = os.getenv("INAT_AES_KEY")
         self.main_page_url = os.getenv("INAT_MAIN_URL")
         self.worker_url = os.getenv("WORKER_URL")
-        print(f"AES Key: {os.getenv('INAT_AES_KEY')}")
-        print(f"Main URL: {os.getenv('INAT_MAIN_URL')}")
-        print(f"Worker URL: {os.getenv('WORKER_URL')}")
         
     # ── Yardımcı Metodlar ─────────────────────────────────────────────
 
