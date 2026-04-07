@@ -28,9 +28,6 @@ jobs:
           pip install -U setuptools wheel Kekik httpx parsel requests cloudscraper beautifulsoup4 pycryptodome aiohttp
           pip install PyGithub
           
-      - name: inadina.py Çalıştır
-        continue-on-error: true
-        run: python inadina.py
       - name: zz.py Çalıştır
         continue-on-error: true
         run: python zz.py
