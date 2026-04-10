@@ -1,100 +1,103 @@
 
 #EXTINF:-1 tvg-id="sbeinsports-1" tvg-name="BeIN Sports 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Selcuk TV",BeIN Sports 1
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sbeinsports-1/playlist.m3u8
+#EXTINF:-1 tvg-id="sbeinsports-2" tvg-name="BeIN Sports 2" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="Selcuk TV",BeIN Sports 2
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
+https://dga1op10s1u3leo.c539563fc750f8.click/live/sbeinsports-2/playlist.m3u8
 #EXTINF:-1 tvg-id="sbeinsports-3" tvg-name="BeIN Sports 3" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png" group-title="Selcuk TV",BeIN Sports 3
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sbeinsports-3/playlist.m3u8
 #EXTINF:-1 tvg-id="sbeinsports-4" tvg-name="BeIN Sports 4" tvg-logo="https://i.postimg.cc/0yjyF10x/bein4.png" group-title="Selcuk TV",BeIN Sports 4
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sbeinsports-4/playlist.m3u8
 #EXTINF:-1 tvg-id="sbeinsports-5" tvg-name="BeIN Sports 5" tvg-logo="https://i.postimg.cc/BvjF7hx5/bein5.png" group-title="Selcuk TV",BeIN Sports 5
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sbeinsports-5/playlist.m3u8
 #EXTINF:-1 tvg-id="sssport" tvg-name="S Sport" tvg-logo="https://i.postimg.cc/TYcZT4zR/ssport.png" group-title="Selcuk TV",S Sport
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sssport/playlist.m3u8
 #EXTINF:-1 tvg-id="sssport2" tvg-name="S Sport 2" tvg-logo="https://i.postimg.cc/WbftnShM/ssport2.png" group-title="Selcuk TV",S Sport 2
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sssport2/playlist.m3u8
 #EXTINF:-1 tvg-id="sssplus1" tvg-name="S Sport Plus 1" tvg-logo="https://i.postimg.cc/rmK04Jxr/ssportplus.png" group-title="Selcuk TV",S Sport Plus 1
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sssplus1/playlist.m3u8
 #EXTINF:-1 tvg-id="sssplus2" tvg-name="S Sport Plus 2" tvg-logo="https://i.postimg.cc/rmK04Jxr/ssportplus.png" group-title="Selcuk TV",S Sport Plus 2
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sssplus2/playlist.m3u8
 #EXTINF:-1 tvg-id="stivibuspor-1" tvg-name="Tivibu Spor 1" tvg-logo="https://i.postimg.cc/G2xMf9Gn/tivibu.png" group-title="Selcuk TV",Tivibu Spor 1
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/stivibuspor-1/playlist.m3u8
 #EXTINF:-1 tvg-id="stivibuspor-2" tvg-name="Tivibu Spor 2" tvg-logo="https://i.postimg.cc/G2xMf9Gn/tivibu.png" group-title="Selcuk TV",Tivibu Spor 2
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/stivibuspor-2/playlist.m3u8
 #EXTINF:-1 tvg-id="stivibuspor-3" tvg-name="Tivibu Spor 3" tvg-logo="https://i.postimg.cc/G2xMf9Gn/tivibu.png" group-title="Selcuk TV",Tivibu Spor 3
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/stivibuspor-3/playlist.m3u8
 #EXTINF:-1 tvg-id="stivibuspor-4" tvg-name="Tivibu Spor 4" tvg-logo="https://i.postimg.cc/G2xMf9Gn/tivibu.png" group-title="Selcuk TV",Tivibu Spor 4
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/stivibuspor-4/playlist.m3u8
 #EXTINF:-1 tvg-id="ssmartspor" tvg-name="Smart Spor" tvg-logo="https://i.postimg.cc/7YNxxHgM/smartspor.png" group-title="Selcuk TV",Smart Spor
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/ssmartspor/playlist.m3u8
 #EXTINF:-1 tvg-id="ssmartspor2" tvg-name="Smart Spor 2" tvg-logo="https://i.postimg.cc/7YNxxHgM/smartspor.png" group-title="Selcuk TV",Smart Spor 2
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/ssmartspor2/playlist.m3u8
 #EXTINF:-1 tvg-id="sexxen-1" tvg-name="Exxen Spor 1" tvg-logo="https://i.postimg.cc/B6t4z1d3/exxen.png" group-title="Selcuk TV",Exxen Spor 1
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sexxen-1/playlist.m3u8
 #EXTINF:-1 tvg-id="sexxen-2" tvg-name="Exxen Spor 2" tvg-logo="https://i.postimg.cc/B6t4z1d3/exxen.png" group-title="Selcuk TV",Exxen Spor 2
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sexxen-2/playlist.m3u8
 #EXTINF:-1 tvg-id="sexxen-3" tvg-name="Exxen Spor 3" tvg-logo="https://i.postimg.cc/B6t4z1d3/exxen.png" group-title="Selcuk TV",Exxen Spor 3
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sexxen-3/playlist.m3u8
 #EXTINF:-1 tvg-id="sexxen-4" tvg-name="Exxen Spor 4" tvg-logo="https://i.postimg.cc/B6t4z1d3/exxen.png" group-title="Selcuk TV",Exxen Spor 4
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sexxen-4/playlist.m3u8
 #EXTINF:-1 tvg-id="sexxen-5" tvg-name="Exxen Spor 5" tvg-logo="https://i.postimg.cc/B6t4z1d3/exxen.png" group-title="Selcuk TV",Exxen Spor 5
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sexxen-5/playlist.m3u8
 #EXTINF:-1 tvg-id="sexxen-6" tvg-name="Exxen Spor 6" tvg-logo="https://i.postimg.cc/B6t4z1d3/exxen.png" group-title="Selcuk TV",Exxen Spor 6
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sexxen-6/playlist.m3u8
 #EXTINF:-1 tvg-id="stabiispor-1" tvg-name="Tabii Spor 1" tvg-logo="https://i.postimg.cc/9MpztRQF/tabii.png" group-title="Selcuk TV",Tabii Spor 1
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/stabiispor-1/playlist.m3u8
 #EXTINF:-1 tvg-id="stabiispor-2" tvg-name="Tabii Spor 2" tvg-logo="https://i.postimg.cc/9MpztRQF/tabii.png" group-title="Selcuk TV",Tabii Spor 2
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/stabiispor-2/playlist.m3u8
 #EXTINF:-1 tvg-id="stabiispor-3" tvg-name="Tabii Spor 3" tvg-logo="https://i.postimg.cc/9MpztRQF/tabii.png" group-title="Selcuk TV",Tabii Spor 3
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/stabiispor-3/playlist.m3u8
 #EXTINF:-1 tvg-id="stabiispor-4" tvg-name="Tabii Spor 4" tvg-logo="https://i.postimg.cc/9MpztRQF/tabii.png" group-title="Selcuk TV",Tabii Spor 4
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/stabiispor-4/playlist.m3u8
 #EXTINF:-1 tvg-id="stabiispor-5" tvg-name="Tabii Spor 5" tvg-logo="https://i.postimg.cc/9MpztRQF/tabii.png" group-title="Selcuk TV",Tabii Spor 5
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/stabiispor-5/playlist.m3u8
 #EXTINF:-1 tvg-id="strt1" tvg-name="TRT 1" tvg-logo="https://i.postimg.cc/XYJkFyqV/trt1.png" group-title="Selcuk TV",TRT 1
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/strt1/playlist.m3u8
 #EXTINF:-1 tvg-id="strtspor" tvg-name="TRT Spor" tvg-logo="https://i.postimg.cc/jjTfdSTL/trtspor.png" group-title="Selcuk TV",TRT Spor
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/strtspor/playlist.m3u8
 #EXTINF:-1 tvg-id="strtspor2" tvg-name="TRT Spor 2" tvg-logo="https://i.postimg.cc/wvsvstyn/trtspor2.png" group-title="Selcuk TV",TRT Spor 2
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/strtspor2/playlist.m3u8
 #EXTINF:-1 tvg-id="saspor" tvg-name="A Spor" tvg-logo="https://i.postimg.cc/gJMK4kTN/aspor.png" group-title="Selcuk TV",A Spor
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/saspor/playlist.m3u8
 #EXTINF:-1 tvg-id="stv8" tvg-name="TV8" tvg-logo="https://i.postimg.cc/CLpftN9Y/tv8.png" group-title="Selcuk TV",TV8
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/stv8/playlist.m3u8
 #EXTINF:-1 tvg-id="sdazn1" tvg-name="DAZN 1" tvg-logo="https://i.postimg.cc/QMgmHh7x/dazn1.png" group-title="Selcuk TV",DAZN 1
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sdazn1/playlist.m3u8
 #EXTINF:-1 tvg-id="sdazn2" tvg-name="DAZN 2" tvg-logo="https://i.postimg.cc/XY5YQvSd/dazn2.png" group-title="Selcuk TV",DAZN 2
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sdazn2/playlist.m3u8
 #EXTINF:-1 tvg-id="sbeinsportshaber" tvg-name="BeIN Sports Haber" tvg-logo="https://i.postimg.cc/x14Fs2kw/beinhd.png" group-title="Selcuk TV",BeIN Sports Haber
-#EXTVLCOPT:http-referrer=https://www.sporcafe15.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.c539563fc750f8.click/live/sbeinsportshaber/playlist.m3u8
