@@ -5,14 +5,6 @@ https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Galatasaray - Kocaelispor | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,05:00 | K.Holland - R.Brown | UFC Dövüş Serisi
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,05:30 | M.Gamrot - E.Ribovics | UFC Dövüş Serisi
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,06:00 | C.Swanson - N.Landwehr | UFC Dövüş Serisi
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,06:30 | P.Pitbull - A.Pico | UFC Dövüş Serisi
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,07:00 | A.Murzakanov - P.Costa | UFC Dövüş Serisi
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,07:30 | D.Reyes - J.Walker | UFC Dövüş Serisi
@@ -34,9 +26,11 @@ https://andro.226503.xyz/checklist/androstreamlivefb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Vanspor - Manisa FK | Trendyol 1. Lig
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Genoa - Sassuolo | İtalya Serie A
-https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
+https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:00 | Falkirk - Glasgow Rangers | İskoçya Premier Lig
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,14:00 | Birmingham - Wrexham | Championship Normal Sezon
+https://andro.226503.xyz/checklist/androstreamliveexn.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Elversberg - Schalke 04 | Almanya Bundesliga 2
 https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Paderborn - Magdeburg | Almanya Bundesliga 2
@@ -64,7 +58,7 @@ https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Ziraat Bankkart - Spor Toto SK | TVF Efeler Ligi
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Parma - Napoli | İtalya Serie A
-https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
+https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Final | Final
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Tayland - Güney Kore | AFC U20 Kadinlar Asya Kupasi Çeyrek Final
@@ -73,6 +67,8 @@ https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
 https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Turan - Sumqayit | Azerbaycan Premier Ligi
 https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,14:00 | Luton Town - Stockport | EFL Trophy Kupası Final
+https://andro.226503.xyz/checklist/androstreamliveexn.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:15 | Mallorca - Rayo Vallecano | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:45 | AZ Alkmaar - Heerenveen | Hollanda Eredivisie
@@ -94,7 +90,7 @@ https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Halkbank - Galatasaray HDIS | TVF Efeler Ligi
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Bologna - Lecce | İtalya Serie A
-https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
+https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:30 | Celta Vigo - Real Oviedo | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Benfica - Nacional | Portekiz Liga NOS
@@ -106,10 +102,50 @@ https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Lyon - Lorient | Fransa Ligue 1
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Como - Inter | İtalya Serie A
-https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
+https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Athletic Bilbao - Villarreal | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:15 | Maccabi Fox - Hapoel Tel Aviv | Euroleague
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+https://andro.226503.xyz/checklist/androstreamliveexn2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Estoril - Porto | Portekiz Liga NOS
 https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Ç.Rizespor - Gaziantep FK | Trendyol Süper Lig
+https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Eyüpspor - Samsunspor | Trendyol Süper Lig
+https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,01:00 | New York Knicks - Charlotte Hornets | NBA
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,03:30 | LA Clippers - GS Warriors | NBA
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Fenerbahçe Medicana - Bursa BB | TVF Efeler Ligi
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Sivasspor - İstanbulspor | Trendyol 1. Lig
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Erzurumspor - Boluspor | Trendyol 1. Lig
+https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Pizzabulls Cedi Osman - Göztepe | Basketbol 1. Ligi
+https://andro.226503.xyz/checklist/androstreamliveht.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,17:45 | Al Ahli - Al Duhail | AFC Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Vakifbank - Fenerbahçe Medicana | TVF Sultanlar Ligi Play-Off Final
+https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Anadolu Efes - Fenerbahçe Beko | Basketbol Süper Ligi
+https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | İstanbul Gençlik - TFL Altekma | TVF Efeler Ligi
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Amedspor - Ümraniyespor | Trendyol 1. Lig
+https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Sakaryaspor - Esenler Erokspor | Trendyol 1. Lig
+https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Al Hilal - Al Sadd | AFC Şampiyonlar Ligi
+https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:30 | Valladolid - Eibar | İspanya La Liga 2
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Rodez - Troyes | Fransa Ligue 2
+https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Fiorentina - Lazio | İtalya Serie A
+https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Levante - Getafe | İspanya La Liga
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Manchester Utd - Leeds United | İngiltere Premier Lig
+https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
