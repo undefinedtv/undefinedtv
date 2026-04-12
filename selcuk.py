@@ -113,7 +113,7 @@ def create_m3u(filename="selcuk.m3u"):
 
     print(f"📺 {len(players)} kanal bulundu")
 
-    m3u = ["#EXTM3U"]
+    m3u = [""]
     ok = 0
 
     for ch in players:
