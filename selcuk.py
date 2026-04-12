@@ -96,7 +96,7 @@ def normalize_tvg_id(name):
     name = re.sub(r"[^a-zA-Z0-9\-]", "", name)
     return name.lower()
 
-def create_m3u(filename="selcukk.m3u"):
+def create_m3u(filename="selcuk.m3u"):
     print("🔍 Domain aranıyor...")
     domain, html = find_active_domain()
 
