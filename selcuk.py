@@ -1,94 +1,142 @@
-import requests
 import re
+from urllib.request import Request, urlopen
+from bs4 import BeautifulSoup
 
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+headers = {"User-Agent": "Mozilla/5.0"}
 
-CHANNELS = [
-    {"id": "bein1", "source_id": "sbeinsports-1", "name": "BeIN Sports 1 A", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png", "group": "Selcuk TV"},
-    {"id": "bein1", "source_id": "selcukbeinsports1", "name": "BeIN Sports 1 B", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png", "group": "Selcuk TV"},
-    {"id": "bein2", "source_id": "selcukbeinsports2", "name": "BeIN Sports 2", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png", "group": "Selcuk TV"},
-    {"id": "bein3", "source_id": "selcukbeinsports3", "name": "BeIN Sports 3", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png", "group": "Selcuk TV"},
-    {"id": "bein4", "source_id": "selcukbeinsports4", "name": "BeIN Sports 4", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png", "group": "Selcuk TV"},
-    {"id": "bein5", "source_id": "selcukbeinsports5", "name": "BeIN Sports 5", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_5_US.png", "group": "Selcuk TV"},
-    {"id": "beinmax1", "source_id": "selcukbeinsportsmax1", "name": "BeIN Sports Max 1", "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX1_DIGITAL_Mono.png", "group": "Selcuk TV"},
-    {"id": "beinmax2", "source_id": "selcukbeinsportsmax2", "name": "BeIN Sports Max 2", "logo": "http://tvprofil.com/img/kanali-logo/beIN_Sports_MAX_2_TR_logo_v2.png?1734011568", "group": "Selcuk TV"},
-    {"id": "ssport1", "source_id": "selcukssport", "name": "S Sport 1", "logo": "https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png", "group": "Selcuk TV"},
-    {"id": "ssport2", "source_id": "selcukssport2", "name": "S Sport 2", "logo": "https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png", "group": "Selcuk TV"},
-    {"id": "ssport", "source_id": "sssplus1", "name": "S Sport PLUS 1", "logo": "https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png", "group": "Selcuk TV"},
-    {"id": "ssport", "source_id": "sssplus2", "name": "S Sport PLUS 2", "logo": "https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png", "group": "Selcuk TV"},
-    {"id": "tivibu1", "source_id": "selcuktivibuspor1", "name": "Tivibu Spor 1", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/qadnsi1642604437.png", "group": "Selcuk TV"},
-    {"id": "tivibu2", "source_id": "selcuktivibuspor2", "name": "Tivibu Spor 2", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/kuasdm1642604455.png", "group": "Selcuk TV"},
-    {"id": "tivibu3", "source_id": "selcuktivibuspor3", "name": "Tivibu Spor 3", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/slwrz41642604502.png", "group": "Selcuk TV"},
-    {"id": "tivibu4", "source_id": "selcuktivibuspor4", "name": "Tivibu Spor 4", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/59bqi81642604517.png", "group": "Selcuk TV"},
-    {"id": "smart1", "source_id": "selcuksmartspor", "name": "Smart Spor 1", "logo": "https://dsmart-static-v2.ercdn.net//resize-width/1920/content/p/el/11909/Thumbnail.png", "group": "Selcuk TV"},
-    {"id": "smart2", "source_id": "selcuksmartspor2", "name": "Smart Spor 2", "logo": "https://www.dsmart.com.tr/api/v1/public/images/kanallar/SPORSMART2-gri.png", "group": "Selcuk TV"},
-    {"id": "eurosport1", "source_id": "seurosport1", "name": "Eurosport 1", "logo": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png", "group": "Selcuk TV"},
-    {"id": "eurosport2", "source_id": "seurosport2", "name": "Eurosport 2", "logo": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png", "group": "Selcuk TV"},
-]
-
-def find_working_domain(start=6, end=100):
-    print("sporcafe domainleri taranıyor")
-    for i in range(start, end + 1):
-        url = f"https://www.sporcafe{i}.xyz/"
+def find_active_domain(start=1825, end=1880):
+    for i in range(start, end+1):
+        url = f"https://www.selcuksportshd{i}.xyz/"
         try:
-            res = requests.get(url, headers=HEADERS, timeout=5)
-            if res.status_code == 200 and "uxsyplayer" in res.text:
-                print(f"Aktif domain: {url}")
-                return res.text, url
+            req = Request(url, headers=headers)
+            html = urlopen(req, timeout=5).read().decode()
+
+            if "uxsyplayer" in html:
+                print(f"✅ Aktif domain bulundu: {url}")
+                return url, html
         except:
             continue
-    print(" Aktif domain bulunamadı.")
     return None, None
 
-def find_stream_domain(html):
-    match = re.search(r'https?://(main\.uxsyplayer[0-9a-zA-Z\-]+\.click)', html)
-    return f"https://{match.group(1)}" if match else None
+def get_player_links(html):
+    soup = BeautifulSoup(html, "html.parser")
+    links = []
 
-def extract_base_url(html):
-    match = re.search(r'this\.adsBaseUrl\s*=\s*[\'"]([^\'"]+)', html)
-    return match.group(1) if match else None
+    for a in soup.find_all("a", attrs={"data-url": True}):
+        data_url = a["data-url"].strip()
 
-def fetch_streams(domain, referer):
-    result = []
-    for ch in CHANNELS:
-        full_url = f"{domain}/index.php?id={ch['source_id']}"
-        try:
-            r = requests.get(full_url, headers={**HEADERS, "Referer": referer}, timeout=5)
-            if r.status_code == 200:
-                base = extract_base_url(r.text)
-                if base:
-                    stream = f"{base}{ch['source_id']}/playlist.m3u8"
-                    print(f" {ch['name']} → {stream}")
-                    result.append((ch, stream))
-        except:
-            pass
-    return result
+        # relative URL ise düzelt
+        if data_url.startswith("/"):
+            data_url = "https://" + data_url.lstrip("/")
 
-def write_m3u(links, filename="selcuk.m3u", referer=""):
-    print(f"\n M3U dosyası yazılıyor: {filename}")
-    lines = [""]
-    for ch, url in links:
-        lines.append(f'#EXTINF:-1 tvg-id="{ch["id"]}" tvg-name="{ch["name"]}" tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}')
-        lines.append(f"#EXTVLCOPT:http-referrer={referer}")
-        lines.append(url)
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
-    print(" Tamamlandı. Kanal sayısı:", len(links))
+        name = a.text.strip()
+        if not name:
+            # fallback
+            if "id=" in data_url:
+                name = data_url.split("id=")[-1]
+            else:
+                name = "Kanal"
 
-def main():
-    html, referer = find_working_domain()
+        links.append({"url": data_url, "name": name})
+
+    return links
+
+def get_m3u8_url(player_url, referer):
+    try:
+        req = Request(player_url, headers={"User-Agent": headers["User-Agent"], "Referer": referer})
+        html = urlopen(req, timeout=10).read().decode()
+
+        # baseStreamUrl bul
+        patterns = [
+            r'this\.baseStreamUrl\s*=\s*"([^"]+)"',
+            r"this\.baseStreamUrl\s*=\s*'([^']+)'",
+            r'baseStreamUrl\s*:\s*"([^"]+)"',
+            r"baseStreamUrl\s*:\s*'([^']+)'"
+        ]
+
+        base_url = None
+        for p in patterns:
+            m = re.search(p, html)
+            if m:
+                base_url = m.group(1)
+                break
+
+        if not base_url:
+            print(f"❌ baseStreamUrl bulunamadı: {player_url}")
+            return None
+
+        # ID'yi çek
+        m_id = re.search(r"id=([a-zA-Z0-9]+)", player_url)
+        if not m_id:
+            print(f"❌ stream ID bulunamadı: {player_url}")
+            return None
+
+        stream_id = m_id.group(1)
+
+        # sonunda / yoksa ekle
+        if not base_url.endswith("/"):
+            base_url += "/"
+
+        final_m3u8 = f"{base_url}{stream_id}/playlist.m3u8"
+        print(f"🎯 M3U8 bulundu: {final_m3u8}")
+        return final_m3u8
+
+    except Exception as e:
+        print(f"❌ Player okunamadı: {e}")
+        return None
+
+def normalize_tvg_id(name):
+    rep = {
+        'ç':'c','Ç':'C','ş':'s','Ş':'S','ı':'i','İ':'I','ğ':'g','Ğ':'G',
+        'ü':'u','Ü':'U','ö':'o','Ö':'O'
+    }
+    for k,v in rep.items():
+        name = name.replace(k, v)
+    name = name.replace(" ", "-").replace(":", "-")
+    name = re.sub(r"[^a-zA-Z0-9\-]", "", name)
+    return name.lower()
+
+def create_m3u(filename="selcukk.m3u"):
+    print("🔍 Domain aranıyor...")
+    domain, html = find_active_domain()
+
     if not html:
+        print("❌ Çalışan domain bulunamadı!")
         return
-    stream_domain = find_stream_domain(html)
-    if not stream_domain:
-        print(" Yayın domaini bulunamadı.")
+
+    referer = domain
+    players = get_player_links(html)
+
+    if not players:
+        print("❌ Player link yok!")
         return
-    print(f"Yayın domaini: {stream_domain}")
-    streams = fetch_streams(stream_domain, referer)
-    if streams:
-        write_m3u(streams, referer=referer)
-    else:
-        print("Hiçbir yayın alınamadı.")
+
+    print(f"📺 {len(players)} kanal bulundu")
+
+    m3u = ["#EXTM3U"]
+    ok = 0
+
+    for ch in players:
+        print(f"⏳ İşleniyor: {ch['name']}")
+
+        m3u8 = get_m3u8_url(ch["url"], referer)
+        if not m3u8:
+            continue
+
+        tvg_id = normalize_tvg_id(ch["name"])
+
+        m3u.append(f'#EXTINF:-1 tvg-id="{tvg_id}" group-title="Spor",{ch["name"]}')
+        m3u.append(f"#EXTVLCOPT:http-referrer={referer}")
+        m3u.append(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}")
+        m3u.append(m3u8)
+
+        ok += 1
+
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("\n".join(m3u))
+
+    print(f"\n✅ M3U oluşturuldu: {filename}")
+    print(f"📊 Başarılı: {ok}/{len(players)}")
 
 if __name__ == "__main__":
-    main()
+    create_m3u()
