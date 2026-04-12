@@ -25,6 +25,9 @@ def get_player_links(html):
     for a in soup.find_all("a", attrs={"data-url": True}):
         data_url = a["data-url"].strip()
 
+        if "7/24" not in name:
+            continue
+
         # relative URL ise düzelt
         if data_url.startswith("/"):
             data_url = "https://" + data_url.lstrip("/")
