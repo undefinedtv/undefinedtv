@@ -12,7 +12,7 @@ def main():
         print("🔍 Aktif domain aranıyor...")
         
         for i in range(238, 2000):
-            url = f"https://zeustv{i}.com/"
+            url = f"https://zeustv{i}.vip/"
             try:
                 r = requests.head(url, timeout=5)
                 if r.status_code == 200:
