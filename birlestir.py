@@ -21,6 +21,7 @@ zz = 'zz.m3u'
 gold = 'gold.m3u'
 xsportv = 'xsportv.m3u'
 sporcafe = 'sporcafe.m3u'
+selcuk = 'selcuk.m3u'
 
 legal = 'legal.m3u'
 
@@ -45,13 +46,14 @@ zz_icerik = oku_m3u(zz)
 gold_icerik = oku_m3u(gold)
 xsportv_icerik = oku_m3u(xsportv)
 sporcafe_icerik = oku_m3u(sporcafe)
+selcuk_icerik = oku_m3u(selcuk)
 
 legal_icerik = oku_m3u(legal)
 
 # Birleştir
 birlesik_icerik = (
     empty_icerik + karsilasmalar_icerik + rec_icerik + zz_icerik +
-    atom_icerik + sporcafe_icerik + gold_icerik + andro_icerik +
+    atom_icerik + selcuk_icerik + gold_icerik + andro_icerik +
     tabii_icerik 
 )
 
