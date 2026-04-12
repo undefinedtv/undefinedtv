@@ -135,7 +135,7 @@ def create_m3u_direct(channels, base_domain):
     print(f"\nM3U dosyası oluşturuluyor ({len(channels)} kanal)...")
     written = 0
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
+        f.write("")
         for i, channel in enumerate(channels):
             channel_id   = channel["id"]
             channel_name = channel["name"]
