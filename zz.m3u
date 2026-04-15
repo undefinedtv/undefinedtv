@@ -50,8 +50,8 @@ https://zeustv453269.info/sifirtv/index.m3u8
 https://zeustv453269.info/euro1/index.m3u8
 #EXTINF:-1 group-title="Zeus TV" ,Euro Sport 2
 https://zeustv453269.info/euro2/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tabi Yedek
-https://zeustv453269.info/tabiiyedek/index.m3u8
+#EXTINF:-1 group-title="Zeus TV" ,Tabii Spor
+https://zeustv453269.info/tabiispor/index.m3u8
 #EXTINF:-1 group-title="Zeus TV" ,Tabii Spor 1
 https://zeustv453269.info/tabii1/index.m3u8
 #EXTINF:-1 group-title="Zeus TV" ,Tabii Spor 2
@@ -68,6 +68,8 @@ https://zeustv453269.info/tabii6/index.m3u8
 https://zeustv453269.info/xexxen/index.m3u8
 #EXTINF:-1 group-title="Zeus TV" ,Exxen 1
 https://zeustv453269.info/xexxen1/index.m3u8
+#EXTINF:-1 group-title="Zeus TV" ,Tabi Yedek
+https://zeustv453269.info/tabiiyedek/index.m3u8
 #EXTINF:-1 group-title="Zeus TV" ,Bein Yedek 2
 https://zeustv453269.info/b1local/index.m3u8
 #EXTINF:-1 group-title="Zeus TV" ,TRT 1 Yedek
