@@ -40,3 +40,25 @@ https://st1.lol/static/pl5.m3u8
 #EXTINF:-1 group-title="Rec Tv",S SPORT+ PLUS HD 6
 #EXTVLCOPT:http-user-agent=googleusercontent
 https://st1.lol/static/pl6.m3u8
+
+#EXTINF:-1 group-title="Rec Tv", Tabii Spor
+#EXTVLCOPT:http-user-agent=googleusercontent
+https://st1.lol/static/tabi.m3u8
+#EXTINF:-1 group-title="Rec Tv", Tabii Spor 1
+#EXTVLCOPT:http-user-agent=googleusercontent
+https://st1.lol/static/tabi1.m3u8
+#EXTINF:-1 group-title="Rec Tv", Tabii Spor 2
+#EXTVLCOPT:http-user-agent=googleusercontent
+https://st1.lol/static/tabi2.m3u8
+#EXTINF:-1 group-title="Rec Tv", Tabii Spor 3
+#EXTVLCOPT:http-user-agent=googleusercontent
+https://st1.lol/static/tabi3.m3u8
+#EXTINF:-1 group-title="Rec Tv", Tabii Spor 4
+#EXTVLCOPT:http-user-agent=googleusercontent
+https://st1.lol/static/tabi4.m3u8
+#EXTINF:-1 group-title="Rec Tv", Tabii Spor 5
+#EXTVLCOPT:http-user-agent=googleusercontent
+https://st1.lol/static/tabi5.m3u8
+#EXTINF:-1 group-title="Rec Tv", Tabii Spor 6
+#EXTVLCOPT:http-user-agent=googleusercontent
+https://st1.lol/static/tabi6.m3u8
