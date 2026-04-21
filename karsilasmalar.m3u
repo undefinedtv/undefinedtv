@@ -1,8 +1,4 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,01:30 | San Lorenzo - Velez Sarsfield | Arjantin Primera Division
-https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,03:00 | New York Knicks - Atlanta Hawks | NBA Play-Off
-https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Ziraat Bankkart - Galatasaray HDIS | TVF Efeler Ligi Play-Off Final
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:15 | Machida - Al Ahli Dubai | AFC Şampiyonlar Ligi Yari Final
@@ -17,9 +13,47 @@ https://andro.226503.xyz/checklist/androstreamliveatv.m3u8
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Barcelona - Kizilyildiz | Euroleague Play-Off Yari Final
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Brighton - Chelsea | İngiltere Premier Lig
+https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Inter - Como | İtalya Kupasi Yari Final
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:10 | Lens - Toulouse | Fransa Kupasi Yari Final
+https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Real Madrid - Alaves | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Girona - Real Betis | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,05:30 | LA Lakers - Houston Rockets | NBA Play-Off
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Fenerbahçe - Çekmeköy Bilgidoğa | Turkcell Kadinlar Futbol Ligi
+https://andro.226503.xyz/checklist/androstreamlivefb.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Kahramanmaraş İstiklal - TED Kolejliler | Basketbol 1. Ligi Play-Off
+https://andro.226503.xyz/checklist/androstreamliveht.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Al Nassr - Al Ahli Doha | AFC Şampiyonlar Ligi Yari Final
+https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Pizzabulls Cedi Osman - Darüşşafaka | Basketbol 1. Ligi Play-Off
+https://andro.226503.xyz/checklist/androstreamliveht.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Halkbank - Spor Toto SK | TVF Efeler Ligi Play-Off 3 üncülük
+https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Beşiktaş GAİN - JL Bourg | Eurocup Final
+https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Elche - Atletico Madrid | İspanya La Liga
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | PSG - Nantes | Fransa Ligue 1
+https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Galatasaray - Gençlerbirliği | Ziraat Türkiye Kupasi ZTK Çeyrek Final
+https://andro.226503.xyz/checklist/androstreamliveatv.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Real Sociedad - Getafe | İspanya La Liga
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Bayer Leverkusen - Bayern Münih | Almanya Kupasi DFB Pokal Yari Final
+https://andro.226503.xyz/checklist/androstreamlivesifir.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Burnley - Manchester City | İngiltere Premier Lig
+https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Bournemouth - Leeds United | İngiltere Premier Lig
+https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Atalanta - Lazio | İtalya Kupasi Yari Final
+https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Strasbourg - Nice | Fransa Kupasi Yari Final
+https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | Barcelona - Celta Vigo | İspanya La Liga
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
