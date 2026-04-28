@@ -1,8 +1,4 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | A.Sabalenka - H.Baptiste | WTA Madrid Çeyrek Final
-https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | V.Kopriva - R.Jodar | ATP Madrid
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Halkbank - Spor Toto SK | TVF Efeler Ligi Play-Off 3 üncülük
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Eskişehirspor - Balikesirspor | TFF 3. Lig Play-Off
@@ -18,7 +14,7 @@ https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Olympiakos - Monaco | Euroleague Play-Off Final
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Al Hilal - Damac | Suudi Arabistan Pro Lig
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Valencia Basket - Panathinaikos | Euroleague Play-Off Final
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Southampton - Ipswich Town | İngiltere Championship
@@ -29,10 +25,16 @@ https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,02:00 | Boston Celtics - Philadelphia 76ers | NBA Play-Off
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,14:00 | K.Pliskova - A.Potapova | WTA Madrid Çeyrek Final
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Bandirma Bordo - TED Kolejliler | Basketbol 1. Ligi Play-Off Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamliveht.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | J.Sinner - R.Jodar | ATP Madrid
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | OGM Orman - Göztepe | Basketbol 1. Ligi Play-Off Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamliveht.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:00 | M.Kostyuk - L.Noskova | WTA Madrid Çeyrek Final
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Al Nassr - Al Ahli | Suudi Arabistan Pro Lig
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Real Madrid - Hapoel Tel Aviv | Euroleague Play-Off Final
@@ -41,3 +43,5 @@ https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:15 | Sporting Lisbon - Tondela | Portekiz Liga NOS
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:30 | A.Fils - J.Lehecka | ATP Madrid
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
