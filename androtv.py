@@ -2,6 +2,15 @@ import requests
 import re
 import sys
 
+headers = {
+    'Accept': '*/*',
+    'Accept-Encoding': 'gzip, deflate',
+    'Accept-Language': 'tr-TR,tr;q=0.8',
+    'Connection': 'keep-alive',
+    'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36',
+    'Referer': 'https://url24.link/'
+}
+
 def main():
     try:
         # Domain aralığı (25–99)
@@ -122,6 +131,7 @@ def main():
             name = channel["title"]
             cid = channel["url"]
             lines.append(f'#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:{name}" group-title="Andro TV" ,{name}')
+            lines.append(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
             full_url = f"{base_url}{cid}.m3u8"
             lines.append(full_url)
 
