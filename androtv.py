@@ -131,7 +131,7 @@ def main():
             name = channel["title"]
             cid = channel["url"]
             lines.append(f'#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:{name}" group-title="Andro TV" ,{name}')
-            lines.append(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
+            lines.append(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}')
             full_url = f"{base_url}{cid}.m3u8"
             lines.append(full_url)
 
