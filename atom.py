@@ -117,7 +117,12 @@ def get_m3u8(resource_id, base_domain):
         h['Origin'] = base_domain
         resp2 = requests.get(fetch_url, headers=h, timeout=10)
         data = resp2.text
-        for pat in [r'"deismackanal":"(.*?)"', r'"stream":\s*"(.*?)"', r'"url":\s*"(.*?\.m3u8[^"]*)"', r'(https?://[^\s"\']+\.m3u8[^\s"\']*)']:
+        for pat in [
+                        r'"deismackanal":"(.*?)"',
+                        r'"url":\s*"(.*?\.m3u8[^"]*)"',          # .m3u8 içerenleri önce dene
+                        r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',   # tam http url
+                        r'"stream":\s*"(https?://[^"]+)"',        # stream ama sadece tam URL ise
+                    ]:
             mm = re.search(pat, data)
             if mm: return mm.group(1).replace('\\/', '/').replace('\\', '')
         return None
