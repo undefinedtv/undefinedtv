@@ -111,8 +111,8 @@ def get_stream_from_id(video_id, base_domain):
             headers={
                 'Accept': '*/*',
                 'Content-Type': 'application/json',
-                'Origin': {base_domain},
-                'Referer': {base_domain},
+                'Origin': base_domain,
+                'Referer': base_domain,
             },
             json={
                 "AppId": "5000",
