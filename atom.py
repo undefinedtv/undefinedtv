@@ -109,7 +109,7 @@ def get_m3u8(resource_id, base_domain):
         h['Referer'] = f"{base_domain}/"
         resp = requests.get(f"{base_domain}/matches?id={resource_id}", headers=h, timeout=10)
         fetch_m = re.search(r'fetch\(\s*["\']([^"\']+)["\']', resp.text)
-        if not fetch_m: 
+        if not fetch_m:
             print(f"  [DEBUG] fetch URL bulunamadı")
             return None
         
@@ -119,10 +119,17 @@ def get_m3u8(resource_id, base_domain):
         h['Origin'] = base_domain
         resp2 = requests.get(fetch_url, headers=h, timeout=10)
         
-        # ── BUNU EKLE ──
         print(f"  [DEBUG] fetch_url: {fetch_url}")
         print(f"  [DEBUG] resp2: {resp2.text[:500]}")
-        # ───────────────
+
+        data = resp2.text
+        for pat in [r'"deismackanal":"(.*?)"', r'"stream":\s*"(.*?)"', r'"url":\s*"(.*?\.m3u8[^"]*)"', r'(https?://[^\s"\']+\.m3u8[^\s"\']*)']:
+            mm = re.search(pat, data)
+            if mm: return mm.group(1).replace('\\/', '/').replace('\\', '')
+        return None
+    except Exception as e:
+        print(f"  [DEBUG] Exception: {e}")
+        return None
 
 def build_m3u(working_matches, working_channels, base_domain):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
