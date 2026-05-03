@@ -103,29 +103,57 @@ def get_matches():
         print(f"Hata: {e}")
         return []
 
+def get_stream_from_id(video_id):
+    """Sadece ID döndüğünde streamsport365'ten gerçek URL'i çek."""
+    try:
+        resp = requests.post(
+            "https://streamsport365.com/cinema",
+            headers={
+                'Accept': '*/*',
+                'Content-Type': 'application/json',
+                'Origin': {base_domain},
+                'Referer': {base_domain},
+            },
+            json={
+                "AppId": "5000",
+                "AppVer": "1",
+                "VpcVer": "1.0.12",
+                "Language": "en",
+                "Token": "",
+                "VideoId": str(video_id)
+            },
+            timeout=10
+        )
+        data = resp.json()
+        url = data.get("URL", "").replace('\\/', '/')
+        return url if url else None
+    except Exception as e:
+        print(f"  [DEBUG] streamsport365 hatası: {e}")
+        return None
+
 def get_m3u8(resource_id, base_domain):
     try:
         h = headers.copy()
         h['Referer'] = f"{base_domain}/"
         resp = requests.get(f"{base_domain}/matches?id={resource_id}", headers=h, timeout=10)
         fetch_m = re.search(r'fetch\(\s*["\']([^"\']+)["\']', resp.text)
-        if not fetch_m:
-            print(f"  [DEBUG] fetch URL bulunamadı")
-            return None
-        
+        if not fetch_m: return None
+
         fetch_url = fetch_m.group(1).strip()
         if not fetch_url.endswith(resource_id): fetch_url += resource_id
 
         h['Origin'] = base_domain
         resp2 = requests.get(fetch_url, headers=h, timeout=10)
-        
-        print(f"  [DEBUG] fetch_url: {fetch_url}")
-        print(f"  [DEBUG] resp2: {resp2.text[:500]}")
-
         data = resp2.text
+
         for pat in [r'"deismackanal":"(.*?)"', r'"stream":\s*"(.*?)"', r'"url":\s*"(.*?\.m3u8[^"]*)"', r'(https?://[^\s"\']+\.m3u8[^\s"\']*)']:
             mm = re.search(pat, data)
-            if mm: return mm.group(1).replace('\\/', '/').replace('\\', '')
+            if mm:
+                result = mm.group(1).replace('\\/', '/').replace('\\', '')
+                # Sadece ID döndüyse (http içermiyorsa) ikinci API'ye sor
+                if result and not result.startswith('http'):
+                    result = get_stream_from_id(result)
+                return result
         return None
     except Exception as e:
         print(f"  [DEBUG] Exception: {e}")
