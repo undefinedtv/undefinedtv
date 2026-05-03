@@ -109,24 +109,20 @@ def get_m3u8(resource_id, base_domain):
         h['Referer'] = f"{base_domain}/"
         resp = requests.get(f"{base_domain}/matches?id={resource_id}", headers=h, timeout=10)
         fetch_m = re.search(r'fetch\(\s*["\']([^"\']+)["\']', resp.text)
-        if not fetch_m: return None
+        if not fetch_m: 
+            print(f"  [DEBUG] fetch URL bulunamadı")
+            return None
         
         fetch_url = fetch_m.group(1).strip()
         if not fetch_url.endswith(resource_id): fetch_url += resource_id
 
         h['Origin'] = base_domain
         resp2 = requests.get(fetch_url, headers=h, timeout=10)
-        data = resp2.text
-        for pat in [
-                        r'"deismackanal":"(.*?)"',
-                        r'"url":\s*"(.*?\.m3u8[^"]*)"',          # .m3u8 içerenleri önce dene
-                        r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',   # tam http url
-                        r'"stream":\s*"(https?://[^"]+)"',        # stream ama sadece tam URL ise
-                    ]:
-            mm = re.search(pat, data)
-            if mm: return mm.group(1).replace('\\/', '/').replace('\\', '')
-        return None
-    except: return None
+        
+        # ── BUNU EKLE ──
+        print(f"  [DEBUG] fetch_url: {fetch_url}")
+        print(f"  [DEBUG] resp2: {resp2.text[:500]}")
+        # ───────────────
 
 def build_m3u(working_matches, working_channels, base_domain):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
