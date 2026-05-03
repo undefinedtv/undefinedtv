@@ -103,7 +103,7 @@ def get_matches():
         print(f"Hata: {e}")
         return []
 
-def get_stream_from_id(video_id):
+def get_stream_from_id(video_id, base_domain):
     """Sadece ID döndüğünde streamsport365'ten gerçek URL'i çek."""
     try:
         resp = requests.post(
@@ -152,7 +152,7 @@ def get_m3u8(resource_id, base_domain):
                 result = mm.group(1).replace('\\/', '/').replace('\\', '')
                 # Sadece ID döndüyse (http içermiyorsa) ikinci API'ye sor
                 if result and not result.startswith('http'):
-                    result = get_stream_from_id(result)
+                    result = get_stream_from_id(result, base_domain)
                 return result
         return None
     except Exception as e:
