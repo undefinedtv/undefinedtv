@@ -5,6 +5,8 @@ https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivets.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Muğlaspor - Şanliurfaspor | TFF 2. Lig Play-Off
 https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Chelsea - Nottingham Forest (Azeri) | İngiltere Premier Lig
+https://andro.226503.xyz/checklist/androstreamliveidm.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Chelsea - Nottingham Forest | İngiltere Premier Lig
 https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Ayvalikgücü Bld. - Eskişehirspor | TFF 3. Lig Play-Off
@@ -17,6 +19,8 @@ https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:30 | Cremonese - Lazio | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:30 | Cremonese - Lazio (Yedek) | İtalya Serie A
+https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Elaziğspor - Adana 01 FK | TFF 2. Lig Play-Off
 https://andro.226503.xyz/checklist/androstreamlivets.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Yeşilyurt Bld. - Erciyes 38 FK | TFF 3. Lig Play-Off
@@ -27,8 +31,12 @@ https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Roma - Fiorentina | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Roma - Fiorentina (Yedek) | İtalya Serie A
+https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Sevilla - Real Sociedad | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Everton - Manchester City (Azeri) | İngiltere Premier Lig
+https://andro.226503.xyz/checklist/androstreamliveidm.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Everton - Manchester City | İngiltere Premier Lig
 https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:15 | Sporting Lisbon - Guimaraes | Portekiz Liga NOS
