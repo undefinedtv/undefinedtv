@@ -1,12 +1,4 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,14:00 | D.Altmaier - A.Zverev | ATP Roma
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,14:00 | N.Osaka - E.Lys | WTA Roma
-https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,14:30 | J.Pegula - Zeynep Sönmez | WTA Roma
-https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,15:30 | Imisli - Zira | Azerbaycan Premier Ligi
-https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Çorluspor 1947 - Küçükçekmece Sinop | TFF 3. Lig Play-Off
 https://andro.226503.xyz/checklist/androstreamlivets.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Antrenman | Fransa GP
@@ -65,12 +57,12 @@ https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Hull City - Millwall | İngiltere Championship Play-Off Yari Final
 https://andro.226503.xyz/checklist/androstreamliveexn.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Gençlerbirliği - Kasimpaşa | Trendyol Süper Lig
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Galatasaray - Antalyaspor | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Beşiktaş - Trabzonspor | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Gençlerbirliği - Kasimpaşa | Trendyol Süper Lig
-https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Rams Başakşehir - Samsunspor | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Konyaspor - Fenerbahçe | Trendyol Süper Lig
@@ -85,32 +77,34 @@ https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,12:30 | Yariş 1 | İtalya GP
 https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,14:00 | Holstein Kiel - Magdeburg | Almanya Bundesliga 2
-https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:00 | Bochum - Hannover 96 | Almanya Bundesliga 2
 https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:00 | Braunschweig - Dynamo Dresden | Almanya Bundesliga 2
 https://andro.226503.xyz/checklist/androstreamlivets4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Middlesbrough - Southampton | İngiltere Championship Play-Off Yari Final
-https://andro.226503.xyz/checklist/androstreamliveexn.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,14:00 | Holstein Kiel - Magdeburg | Almanya Bundesliga 2
+https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Liverpool - Chelsea | İngiltere Premier Lig
 https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Middlesbrough - Southampton | İngiltere Championship Play-Off Yari Final
+https://andro.226503.xyz/checklist/androstreamliveexn.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:40 | Siralama Turlari | Fransa GP
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Elche - Alaves | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:30 | Beşiktaş - Nilüfer Bld. | THF Federasyon Kupasi Final
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Qabala - Karabağ | Azerbaycan Premier Ligi
-https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Sprint Yarişlari | Fransa GP
-https://andro.226503.xyz/checklist/androstreamlivets4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Cagliari - Udinese | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,16:30 | Hoffenheim - Werder Bremen | Almanya Bundesliga
-https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Sprint Yarişlari | Fransa GP
+https://andro.226503.xyz/checklist/androstreamlivets4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Qabala - Karabağ | Azerbaycan Premier Ligi
+https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Bandirma Bordo - Göztepe | Basketbol 1. Ligi Play-Off Yari Final
+https://andro.226503.xyz/checklist/androstreamliveht.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:30 | Augsburg - Monchengladbach | Almanya Bundesliga
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:30 | Hoffenheim - Werder Bremen | Almanya Bundesliga
+https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:30 | Leipzig - St.Pauli | Almanya Bundesliga
 https://andro.226503.xyz/checklist/androstreamlivets4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:30 | Stuttgart - Bayer Leverkusen | Almanya Bundesliga
@@ -141,11 +135,11 @@ https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Lecce - Juventus | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Cleveland Cavaliers - Detroit Pistons | NBA Play-Off Çeyrek Final
-https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Motherwell - Hearts | İskoçya Premier Lig
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Real Sociedad - Real Betis | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Motherwell - Hearts | İskoçya Premier Lig
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Cleveland Cavaliers - Detroit Pistons | NBA Play-Off Çeyrek Final
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:30 | Sonsio GP | Bilinmiyor
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
