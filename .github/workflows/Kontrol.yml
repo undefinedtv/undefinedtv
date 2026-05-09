@@ -43,9 +43,9 @@ jobs:
       - name: karsilasmalar.py Çalıştır
         continue-on-error: true
         run: python karsilasmalar.py
-      - name: gold.py Çalıştır
+      - name: xspor.py Çalıştır
         continue-on-error: true
-        run: python gold.py        
+        run: python xspor.py        
       - name: rec.py Çalıştır
         continue-on-error: true
         run: python rec.py   
