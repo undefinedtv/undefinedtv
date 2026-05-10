@@ -188,7 +188,7 @@ def main():
     base_domain = get_base_domain()
     print(f"Ana Domain: {base_domain}")
     
-    matches = [] #get_matches()
+    matches = get_matches()
     working_matches = []
     print(f"\n{YELLOW}Maçlar test ediliyor...{RESET}")
     for m in matches:
