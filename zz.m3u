@@ -1,78 +1,57 @@
-
-
-#EXTINF:-1 group-title="Zeus TV" ,Bein 1
-https://zeustv453269.info/b1/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Bein 2
-https://zeustv453269.info/b2/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Bein 3
-https://zeustv453269.info/b3/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Bein 4
-https://zeustv453269.info/b4/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Bein 5
-https://zeustv453269.info/bein5/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Bein 1 Max
-https://zeustv453269.info/b1max/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Bein 2 Max
-https://zeustv453269.info/b2max/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,S Spor 1
-https://zeustv453269.info/s1/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,S Spor 2
-https://zeustv453269.info/s2/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Smart Spor 1
-https://zeustv453269.info/smart1/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Smart Spor 2
-https://zeustv453269.info/smart2/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tivibu Spor 1
-https://zeustv453269.info/tivibu/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tivibu Spor 2
-https://zeustv453269.info/tivibu1/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tivibu Spor 3
-https://zeustv453269.info/tivibu2/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tivibu Spor 4
-https://zeustv453269.info/tivibu3/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,TRT Spor
-https://zeustv453269.info/xtrtspor/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,TRT Spor Yıldız
-https://zeustv453269.info/trtyildiz/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,TRT 1
-https://zeustv453269.info/xtrt1/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,A Spor
-https://zeustv453269.info/xaspor/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,ATV
-https://zeustv453269.info/xatv/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tv 8
-https://zeustv453269.info/xtv8/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tv 8,5
-https://zeustv453269.info/xtv85/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Sıfır Tv
-https://zeustv453269.info/sifirtv/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Euro Sport 1
-https://zeustv453269.info/euro1/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Euro Sport 2
-https://zeustv453269.info/euro2/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tabii Spor
-https://zeustv453269.info/tabiispor/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tabii Spor 1
-https://zeustv453269.info/tabii1/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tabii Spor 2
-https://zeustv453269.info/tabii2/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tabii Spor 3
-https://zeustv453269.info/tabii3/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tabii Spor 4
-https://zeustv453269.info/tabii4/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tabii Spor 5
-https://zeustv453269.info/tabii5/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tabii Spor 6
-https://zeustv453269.info/tabii6/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Exxen
-https://zeustv453269.info/xexxen/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Exxen 1
-https://zeustv453269.info/xexxen1/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Tabi Yedek
-https://zeustv453269.info/tabiiyedek/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,Bein Yedek 2
-https://zeustv453269.info/b1local/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,TRT 1 Yedek
-https://zeustv453269.info/trt1yedek/index.m3u8
-#EXTINF:-1 group-title="Zeus TV" ,A Haber
-https://zeustv453269.info/xahaber/index.m3u8
+#EXTM3U
+#EXTINF:-1 group-title="Zeus Tv", B1
+https://zeus324232.cfd/b1/index.txt
+#EXTINF:-1 group-title="Zeus Tv", B1LOCAL
+https://zeus324232.cfd/b1local/index.txt
+#EXTINF:-1 group-title="Zeus Tv", B2
+https://zeus324232.cfd/b2/index.txt
+#EXTINF:-1 group-title="Zeus Tv", B3
+https://zeus324232.cfd/b3/index.txt
+#EXTINF:-1 group-title="Zeus Tv", B4
+https://zeus324232.cfd/b4/index.txt
+#EXTINF:-1 group-title="Zeus Tv", BEIN5
+https://zeus324232.cfd/bein5/index.txt
+#EXTINF:-1 group-title="Zeus Tv", B1MAX
+https://zeus324232.cfd/b1max/index.txt
+#EXTINF:-1 group-title="Zeus Tv", B2MAX
+https://zeus324232.cfd/b2max/index.txt
+#EXTINF:-1 group-title="Zeus Tv", S1
+https://zeus324232.cfd/s1/index.txt
+#EXTINF:-1 group-title="Zeus Tv", S2
+https://zeus324232.cfd/s2/index.txt
+#EXTINF:-1 group-title="Zeus Tv", SMART1
+https://zeus324232.cfd/smart1/index.txt
+#EXTINF:-1 group-title="Zeus Tv", SMART2
+https://zeus324232.cfd/smart2/index.txt
+#EXTINF:-1 group-title="Zeus Tv", TIVIBU
+https://zeus324232.cfd/tivibu/index.txt
+#EXTINF:-1 group-title="Zeus Tv", TIVIBU1
+https://zeus324232.cfd/tivibu1/index.txt
+#EXTINF:-1 group-title="Zeus Tv", TIVIBU2
+https://zeus324232.cfd/tivibu2/index.txt
+#EXTINF:-1 group-title="Zeus Tv", TIVIBU3
+https://zeus324232.cfd/tivibu3/index.txt
+#EXTINF:-1 group-title="Zeus Tv", SIFIRTV
+https://zeus324232.cfd/sifirtv/index.txt
+#EXTINF:-1 group-title="Zeus Tv", EURO1
+https://zeus324232.cfd/euro1/index.txt
+#EXTINF:-1 group-title="Zeus Tv", EURO2
+https://zeus324232.cfd/euro2/index.txt
+#EXTINF:-1 group-title="Zeus Tv", TABIIYEDEK
+https://zeus324232.cfd/tabiiyedek/index.txt
+#EXTINF:-1 group-title="Zeus Tv", TABII1
+https://zeus324232.cfd/tabii1/index.txt
+#EXTINF:-1 group-title="Zeus Tv", TABII2
+https://zeus324232.cfd/tabii2/index.txt
+#EXTINF:-1 group-title="Zeus Tv", TABII3
+https://zeus324232.cfd/tabii3/index.txt
+#EXTINF:-1 group-title="Zeus Tv", TABII4
+https://zeus324232.cfd/tabii4/index.txt
+#EXTINF:-1 group-title="Zeus Tv", TABII5
+https://zeus324232.cfd/tabii5/index.txt
+#EXTINF:-1 group-title="Zeus Tv", TABII6
+https://zeus324232.cfd/tabii6/index.txt
+#EXTINF:-1 group-title="Zeus Tv", XEXXEN
+https://zeus324232.cfd/xexxen/index.txt
+#EXTINF:-1 group-title="Zeus Tv", XEXXEN1
+https://zeus324232.cfd/xexxen1/index.txt
