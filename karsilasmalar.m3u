@@ -1,9 +1,7 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,01:00 | Gremio - Santos | Brezilya Serie A
-https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,01:05 | Ters Grid Yarişi | Kanada GP
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,03:00 | Cleveland Cavaliers - New York Knicks | NBA Play-Off Konferans Finali
+#EXTINF:-1 group-title="Maç Yayınları" ,03:45 | Cleveland Cavaliers - New York Knicks | NBA Play-Off Konferans Finali
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,10:00 | Yariş 3 | İtalya GP
 https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
@@ -15,8 +13,6 @@ https://andro.226503.xyz/checklist/androstreamlivefb.m3u8
 https://andro.226503.xyz/checklist/androstreamliveexn.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Parma - Sassuolo | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Parma - Sassuolo (Yedek) | İtalya Serie A
-https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | M.Yahya - M.Saadi | PFL Dövüş Serisi
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:45 | Yariş 4 | İtalya GP
@@ -35,8 +31,6 @@ https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Napoli - Udinese | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Napoli - Udinese (Yedek) | İtalya Serie A
-https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Esenler Erokspor - Çorum FK | Trendyol 1. Lig Play Off
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Gaziantep Basket - Bandirma Bordo | Basketbol 1. Ligi Play-Off Final
@@ -63,3 +57,9 @@ https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Kanada GP | Bilinmiyor
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Notts County - Salford | İngiltere EFL League 2 Play-Off Final
+https://andro.226503.xyz/checklist/androstreamliveexn.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:30 | Paderborn - Wolfsburg | Almanya Bundesliga Play-Out
+https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | St.Mirren - Partick Thistle | İskoçya Premier Lig Final
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
