@@ -1,12 +1,4 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,13:15 | Ajax - Utrecht | Hollanda Eredivisie Play Out Final
-https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Lleida - Morabanc Andorra | İspanya Basketbol Ligi
-https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Zaragoza - Murcia | İspanya Basketbol Ligi
-https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,14:00 | Fatih Vatanspor - Fenerbahçe | Turkcell Kadinlar Futbol Ligi
-https://andro.226503.xyz/checklist/androstreamlivefb.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Bolton Wanderers - Stockport | İngiltere EFL League 1 Play-Off Final
 https://andro.226503.xyz/checklist/androstreamliveexn.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Türkiye Drift Şampiyonası | İstanbul
@@ -25,6 +17,8 @@ https://andro.226503.xyz/checklist/androstreamlivenba.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Brighton - Manchester Utd | İngiltere Premier Lig
 https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | PFL MMA | PFL Dövüş Serisi
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Crystal Palace - Arsenal | İngiltere Premier Lig
 https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Manchester City - Aston Villa | İngiltere Premier Lig
@@ -67,16 +61,22 @@ https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 https://andro.226503.xyz/checklist/androstreamliveexn2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:30 | Sporting Gijon - Almeria | İspanya La Liga 2
 https://andro.226503.xyz/checklist/androstreamliveexn3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | PFL MMA | PFL Dövüş Serisi
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Club Balobman Atletico Guardes - MSK IUVENTA Michalovce | EHF Kadınlar Avrupa Kupası
 https://andro.226503.xyz/checklist/androstreamlivetb6.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Kupa Töreni | İngiltere Premier Lig
 https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Olympiakos - Real Madrid | Euroleague Final Four Final
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Olympiakos - Real Madrid (Yedek) | Euroleague Final Four Final
+https://andro.226503.xyz/checklist/androstreamlivetb3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:30 | River Plate - Belgrano | Arjantin Primera Division
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,21:30 | Start Line | Bilinmiyor
+#EXTINF:-1 group-title="Maç Yayınları" ,21:30 | Start Line | Formula 1 Kanada Grand Prix
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:30 | Start Line (Yedek) | Formula 1 Kanada Grand Prix
+https://andro.226503.xyz/checklist/androstreamlivenba.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Milan - Cagliari | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Cremonese - Como | İtalya Serie A
@@ -84,7 +84,7 @@ https://andro.226503.xyz/checklist/androstreamlivets4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Cremonese - Como (Yedek) | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Lecce - Genoa | İtalya Serie A
-https://andro.226503.xyz/checklist/androstreamlivetb3.m3u8
+https://andro.226503.xyz/checklist/androstreamlivetb4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Torino - Juventus | İtalya Serie A
 https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Verona - Roma | İtalya Serie A
