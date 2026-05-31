@@ -1,238 +1,214 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="Atom TV",Elina Svitolina - Belinda Bencic [13:45]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284125/1/mediaplaylist.m3u8?s=8e5511cfdd516b9474b4341b5e4ff97b219741403fe934e372e47ff2535a58c6&t=1780231866082&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/b636551e477a9e5d0c6937851bc21091.png | https://stream.prod.wisegaming.com/logos/f99b236129f8b5c46ec126343df9a719.png
-
-#EXTINF:-1 group-title="Atom TV",Thanh Hoa F.C. - Ninh Binh [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284286/1/mediaplaylist.m3u8?s=1ce02161ccda5ffbd0212a9ac04a83b7d1d84127309ce61d212683c5ebffe091&t=1780231867803&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/4c29ee8f3ac3650087398ba7b7f1c7f4.png | https://stream.prod.wisegaming.com/logos/b5b7580ebec88d25a2a04f5691e4c3f6.png
-
 #EXTINF:-1 group-title="Atom TV",Rafael Jodar - Pablo Carreno Busta [14:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284251/1/mediaplaylist.m3u8?s=fb03d88fa5f9e81d8a8971254f898bb8f7ffc8bdcfb530026643f71abecf03d7&t=1780231869002&ai=5000&av=1&ui=0
+https://edge2.xmediaget.com/hls-live/19284251/1/mediaplaylist.m3u8?s=7575719bdf4d451dafbb81a1aba6610a78ea9dfa7c9e32b070480f998f42bf47&t=1780237682842&ai=5000&av=1&ui=0
 # İki logo: https://stream.prod.wisegaming.com/logos/7ad885ccc86c936355739cb8c398e8f7.png | https://stream.prod.wisegaming.com/logos/a49ce0ae3ade6a7592210501213a5400.png
-
-#EXTINF:-1 group-title="Atom TV",Rebeka Masarova - Celine Naef [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284283/1/mediaplaylist.m3u8?s=31a52f0a7032fa1f1d209217c1d0e33cc3a5c47f1cee8ab34f2d1e6f25b8a623&t=1780231869704&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/71af58e4c0966258928627189eb9e532.png | https://stream.prod.wisegaming.com/logos/194716a504d5e71f4201b2efd4d8d15a.png
-
-#EXTINF:-1 group-title="Atom TV",Hanoi Police - Becamex Ho Chi Minh City [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284285/1/mediaplaylist.m3u8?s=1c099266127902642835d4509d28e8ba8aba27c6df146dc97b500695822bcfd7&t=1780231871001&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/184059dc317a18e5217c5ac0bd065d50.png | https://stream.prod.wisegaming.com/logos/9ebba2bb055dfea7e7d939a9d3ddad82.png
-
-#EXTINF:-1 group-title="Atom TV",IL Sandviken - Brattvåg IL [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284298/1/mediaplaylist.m3u8?s=193984da3e30d3a30c7851ee58821532b29bbac26394b2652f00544f89d33355&t=1780231871856&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/ac55b64b87540e4c83e91497de159e04.png | https://stream.prod.wisegaming.com/logos/54179.png
-
-#EXTINF:-1 group-title="Atom TV",Grorud IL - Trygg Lade [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284299/1/mediaplaylist.m3u8?s=a545b955b759951247dea7cb6734b0a96112800c67fea3a9ef8a15fcefa869ac&t=1780231872691&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/14149.png | https://stream.prod.wisegaming.com/logos/326185.png
-
-#EXTINF:-1 group-title="Atom TV",Nam Dinh F.C. - Song Lam Nghe An F.C. [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284289/1/mediaplaylist.m3u8?s=2e5fe1df21fadeb185515c98ceaec519bbe97e8d932f3ec1a1b810d956006da2&t=1780231873309&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/e872c457dd7e257ab2f0efc18d34483c.png | https://stream.prod.wisegaming.com/logos/ab53b7870ea4a8e35e882bd05743f439.png
-
-#EXTINF:-1 group-title="Atom TV",PVF-CAND - Vicem Hai Phong F.C. [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284288/1/mediaplaylist.m3u8?s=b49f0382a02fe0d20728e85f64d2ad9e053ddbb09426f468a868d33d07f86315&t=1780231874105&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/0dacbbe676c59f2462ccda19eb4e14a5.png | https://stream.prod.wisegaming.com/logos/76e2fa282e3246f8c913f6fc5e5e9a4f.PNG
-
-#EXTINF:-1 group-title="Atom TV",Tianjin Tiger - Dalian Yingbo [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284101/1/mediaplaylist.m3u8?s=2241ac102600824e81699538ed85a3961641f4fcc08bbac8167a46b03cd68900&t=1780231874747&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/4f41a316abd992b23fda868be6720573.png | https://stream.prod.wisegaming.com/logos/339bc03f219bb79621f33a1cc43cbc9c.png
-
-#EXTINF:-1 group-title="Atom TV",Costa Adeje Tenerife (Bayanlar) - Deportivo La Coruna (Bayanlar) [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284300/1/mediaplaylist.m3u8?s=c2752e9b06a407e0d5e82a8e19c88e3ce3f5710bd073dbcc364694f0716f61f2&t=1780231875361&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/bd504179179aef48685bba8418bc699b.png | https://stream.prod.wisegaming.com/logos/396387.png
-
-#EXTINF:-1 group-title="Atom TV",Nepal (Bayanlar) - Sri Lanka (Kızlar) [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284221/1/mediaplaylist.m3u8?s=d1836c8df556d37aa1134024db9dfb21900bb79e09d6137f82c20e28fa8f8cbc&t=1780231876168&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/298983.png | https://stream.prod.wisegaming.com/logos/165195.png
-
-#EXTINF:-1 group-title="Atom TV",TSG 1899 Hoffenheim U19 - 1 FC Cologne U19 [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284184/1/mediaplaylist.m3u8?s=f19ad46a1004c696b1e81ac1d304c9a30a278bb30f8db3c105d93bcf140b643f&t=1780231876813&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/2a705c9648c8e67c73559126e6be5dd5.png | https://stream.prod.wisegaming.com/logos/36c4d79e5d59422823eeed0d16df24f1.PNG
-
-#EXTINF:-1 group-title="Atom TV",Hoang Anh Gia Lai F.C. - Hanoi FC [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284290/1/mediaplaylist.m3u8?s=4433a073cae0fc1739901c2ddf658f2720b40b2209600c1033d16a3e15a44805&t=1780231877422&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/5844f2c345e1146326298ee6db17155f.png | https://stream.prod.wisegaming.com/logos/39d1c89b4993350940fbfc6503d809f7.png
-
-#EXTINF:-1 group-title="Atom TV",1. FC Slovácko - Artis Brno [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284174/1/mediaplaylist.m3u8?s=92d3fb9b86a99640cb7a0da4fc4279dc531cc67eff0ad1e3ef06c309418c62c3&t=1780231878042&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/12055.png | https://stream.prod.wisegaming.com/logos/60cff434085198d2db1388e61583a364.png
-
-#EXTINF:-1 group-title="Atom TV",Clermont Foot U19 - Monaco U19 [14:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284236/1/mediaplaylist.m3u8?s=acc89dae6d802ee61d1c787dee0daa9b655e95cd4e8ee7ab8c873ef6aa179595&t=1780231878752&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/e9fb7adbbc29940fe8e60cbb79586bdd.png | https://stream.prod.wisegaming.com/logos/fc7991fd0cb76c6cfd8be6481495722f.png
-
-#EXTINF:-1 group-title="Atom TV",Mihalikova/Nicholls - Kempen/Klepac [14:15]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284320/1/mediaplaylist.m3u8?s=75447730462b8468f034ddb7afdcdad2edc7b1bf2394be864b5062248282fdc1&t=1780231879407&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/f95537307bb8b6ec96e83e8c887b46b4.png | https://stream.prod.wisegaming.com/logos/0778c8dba5da4aeb02a51ff869c0e278.png
-
-#EXTINF:-1 group-title="Atom TV",Zalgiris Kaunas - VMFD Zalgiris Vilnius [14:15]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284273/1/mediaplaylist.m3u8?s=8226417e61db3aafed3e66356717349db29b4114d56baec8f016bcc5d63d74d4&t=1780231880120&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/0767c7e0dbb2ae607456d38dda70f645.png | https://stream.prod.wisegaming.com/logos/6979f61bb9b3c245844aca9d34e6cb6b.png
-
-#EXTINF:-1 group-title="Atom TV",Tereza Martincova - Mingge Xu [14:15]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284282/1/mediaplaylist.m3u8?s=7d6cca2a11615bc7d4ea7fdfefef059278f0918594958b6d4326d4f1ba44976f&t=1780231880734&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/080fe5cba671ccbdcdeb5c23c23cfa6d.png | https://stream.prod.wisegaming.com/logos/4ca3041f46c6c07ee57eea1bc34322fd.png
-
-#EXTINF:-1 group-title="Atom TV",TNT Tropang 5G - Meralco Bolts [14:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284421/1/mediaplaylist.m3u8?s=aab463473165ac1dc50ea91aadf9f671aea3e45e49bd187c8c1369d709b7ec3a&t=1780231881353&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/56f9dbf078e8f3d1b64bb60cc4d47051.png | https://stream.prod.wisegaming.com/logos/7d56d3545752c0e6e25f93e1342fe845.png
-
-#EXTINF:-1 group-title="Atom TV",Singapur - Moğolistan [14:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284352/1/mediaplaylist.m3u8?s=d74bb419b04c1db5b2fe28cc7c71426da2b5d3314391c6b2940981b0e4ed93bb&t=1780231881964&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/13023.png | https://stream.prod.wisegaming.com/logos/168125.png
-
-#EXTINF:-1 group-title="Atom TV",Zhejiang Lions - Shanghai Dongfang Sharks [14:35]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284376/1/mediaplaylist.m3u8?s=79b7cdd9419c7d30d8a79082185267d050d531e5784534930535f6eebbf205ee&t=1780231882579&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/317680cd253c6e5109e7816d249f5f16.png | https://stream.prod.wisegaming.com/logos/acd0fe0c93bebc872ef81804053ddd22.png
-
-#EXTINF:-1 group-title="Atom TV",Wuhan Three Towns - Yunnan Yukun [14:35]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284334/1/mediaplaylist.m3u8?s=cddf43b88dcdd2e2815d4828595c6a277fe90cb2f84ab6334f7b344e96eefc7a&t=1780231883752&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/2493945.png | https://stream.prod.wisegaming.com/logos/38b68671783b0103c73a9c0a6fe69560.png
-
-#EXTINF:-1 group-title="Atom TV",Paul/Willis - Bolelli/Vavassori [14:45]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284506/1/mediaplaylist.m3u8?s=c7a8c8ecbb5bd267eaa9bd2e439bd339f5e0cbf2d26f1011ec3a08f0716dca81&t=1780231884364&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/602323ea43795e7dfa1c861147d5843f.png | https://stream.prod.wisegaming.com/logos/c64e96600a1b0c9e5967082639910ac9.png
-
-#EXTINF:-1 group-title="Atom TV",Lola Radivojevic - Laura Samson [14:45]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284566/1/mediaplaylist.m3u8?s=7e5c6a37b11e5c2147300fd68c3efd6204c7a7205704dcc705c5d452c345244d&t=1780231884978&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/c6fee592d90f93e951a51be94743d191.png | https://stream.prod.wisegaming.com/logos/22e8007f4c3cc60cb2d9bd091f013762.png
-
-#EXTINF:-1 group-title="Atom TV",Max Schoenhaus - Mika Petkovic [15:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284632/1/mediaplaylist.m3u8?s=65d52cbea2cdd659928f5d1f7ede40ba05887092c30279894f6b9af200de8e5e&t=1780231885595&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/3e0755831c2220a1e7413575ae226dcc.png | https://stream.prod.wisegaming.com/logos/e83cbcca7c228681d3fd6a445f7cbf4e.png
-
-#EXTINF:-1 group-title="Atom TV",Degerfors IF - IF Bromharitaojkarna [15:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284569/1/mediaplaylist.m3u8?s=4b8f519abc4178ee826d6053d4c5e48c11a144a62afac057cc89fb93861f7aa6&t=1780231886230&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/5728.png | https://stream.prod.wisegaming.com/logos/5686.png
 
 #EXTINF:-1 group-title="Atom TV",Buriram United F.C. - Prachuap F.C. [15:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284592/1/mediaplaylist.m3u8?s=7b564dfbe21b416d65279582f07433b3452f1ad544c17f687192faafd3649e41&t=1780231886935&ai=5000&av=1&ui=0
+https://edge2.xmediaget.com/hls-live/19284592/1/mediaplaylist.m3u8?s=a8fe48882af259ff53c375581249a56d5590fd7426f32af2cfc9492c2c2d944e&t=1780237683889&ai=5000&av=1&ui=0
 # İki logo: https://stream.prod.wisegaming.com/logos/13585.png | https://stream.prod.wisegaming.com/logos/081b87bb4804ecd54767dc27700efbe5.png
-
-#EXTINF:-1 group-title="Atom TV",Vasteras SK - IFK Göteborg [15:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284570/1/mediaplaylist.m3u8?s=69c26bfbb3dbf8fd18a2ee8b4921617a59e553d59025c544159cd9fdd859c041&t=1780231887675&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/5a993d3000d96aaff621e1cc185ea245.png | https://stream.prod.wisegaming.com/logos/5676.png
-
-#EXTINF:-1 group-title="Atom TV",Piteå IF - Stockholm Internazionale [15:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284587/1/mediaplaylist.m3u8?s=5523fcf7e6c3e2de8d4f2132c54674c524ebe24749b79b6622f38545169a46bc&t=1780231888391&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/debb8b057371271f107e97e07f7260ff.png | https://stream.prod.wisegaming.com/logos/335411.png
-
-#EXTINF:-1 group-title="Atom TV",Hønefoss BK - Lørenskog IF [15:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284691/1/mediaplaylist.m3u8?s=c4f4db483591d6470e1f27ccabb9c3c2bf8ad793a447e97913f3a45e81d55727&t=1780231889002&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/4294.png | https://stream.prod.wisegaming.com/logos/14309.png
-
-#EXTINF:-1 group-title="Atom TV",BK Häcken - Hammarby IF [15:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284571/1/mediaplaylist.m3u8?s=8f3776a4efe69da2ff85674cf2ca7d1ad0c034aeadb5707be96752ff07e398a5&t=1780231889623&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/5702.png | https://stream.prod.wisegaming.com/logos/a8be6d9601f0f93e07803c994026fe84.png
 
 #EXTINF:-1 group-title="Atom TV",Huracan Del Paso De La Arena - La Luz [15:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284868/1/mediaplaylist.m3u8?s=4f7f3440f4238495a8d439a25fc42b1747a0277b0a45f6551c2021c14a18bfe6&t=1780231890251&ai=5000&av=1&ui=0
+https://edge2.xmediaget.com/hls-live/19284868/1/mediaplaylist.m3u8?s=294448f3d1ec8ba9c0ed9159db3449b25f8f7fb994742bb6da2840c1c1909165&t=1780237685051&ai=5000&av=1&ui=0
 # İki logo: https://stream.prod.wisegaming.com/logos/51479.png | https://stream.prod.wisegaming.com/logos/273747.png
-
-#EXTINF:-1 group-title="Atom TV",Lyn (Bayanlar) - Vålerenga Fotball (Bayanlar) [15:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284827/1/mediaplaylist.m3u8?s=a0eb62005b4f1b039d878a224222984563fb255aa0d6ef99ef2747c04c7ccdf1&t=1780231890922&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/71721.png | https://stream.prod.wisegaming.com/logos/13425.png
-
-#EXTINF:-1 group-title="Atom TV",Umeå FC - IFK Stocksund [15:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284803/1/mediaplaylist.m3u8?s=e2fd93854ed69660424ad2f5195f29d65a094ff856b9e5cf8a16bfe7a94f0e28&t=1780231891555&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/a7b5d7ea611cef7fd43a32cd2752f824.png | https://stream.prod.wisegaming.com/logos/643655.png
 
 #EXTINF:-1 group-title="Atom TV",Reyes-Varela/Tabilo - Reymond/Sanchez [15:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284823/1/mediaplaylist.m3u8?s=ee8348247a53aa0e27c9824764180bae27cc4abf7dfda019b37e79d5dbbd3a47&t=1780231892166&ai=5000&av=1&ui=0
+https://edge2.xmediaget.com/hls-live/19284823/1/mediaplaylist.m3u8?s=8766f3bba9077b5132a7a626c4630724452ef5025d894087f3a5db3560cc53aa&t=1780237686052&ai=5000&av=1&ui=0
 # İki logo: https://stream.prod.wisegaming.com/logos/7c59cb32cdeb83338d7cb9bf5d914481.png | https://stream.prod.wisegaming.com/logos/10a4ea70351dd2803232952c4ed9bb52.png
 
-#EXTINF:-1 group-title="Atom TV",Alexis Galarneau - Marc-Andrea Huesler [15:30]
+#EXTINF:-1 group-title="Atom TV",Lyn (Bayanlar) - Vålerenga Fotball (Bayanlar) [15:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284852/1/mediaplaylist.m3u8?s=7ccc30e8d3220f47423f49b4ff6ca31c43b49c43290f51409fc061da03978981&t=1780231892770&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/4ab8cfe605a13aa6d0b0cdb0bc7df58f.png | https://stream.prod.wisegaming.com/logos/4ada6059ccee299203425d9e41486eb0.png
+https://edge2.xmediaget.com/hls-live/19284827/1/mediaplaylist.m3u8?s=7ad14c128784b7dc797dc78f924893c0a655e54ff02c3540969f0a900d0a2b9d&t=1780237687177&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/71721.png | https://stream.prod.wisegaming.com/logos/13425.png
 
-#EXTINF:-1 group-title="Atom TV",AC Oulu - FF Jaro [16:00]
+#EXTINF:-1 group-title="Atom TV",IFK Värnamo - Nordic United [16:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284897/1/mediaplaylist.m3u8?s=7506be8936fac8e83421f95d54617d548af75effda0f73a1b4c0aa236832278b&t=1780231893423&ai=5000&av=1&ui=0
-# İki logo: https://stream.prod.wisegaming.com/logos/d466af4567ef1b286405399140c8e503.png | https://stream.prod.wisegaming.com/logos/83034b36849ddadf8651b028a9a0d24c.png
+https://edge2.xmediaget.com/hls-live/19285192/1/mediaplaylist.m3u8?s=d14501b30c1f06c6d72855267911b4a42351e12296a54ab4eba6dda7c76dcb33&t=1780237688385&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/11429.png | https://stream.prod.wisegaming.com/logos/67686ad6cd495b6dc7c829f4c058eea7.png
+
+#EXTINF:-1 group-title="Atom TV",Hillerod - Hvidovre IF [16:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19284980/1/mediaplaylist.m3u8?s=c87ee6326cf0f3c340d737afaddb38d7020aeebbda02cef487a85c0ba0d7cd86&t=1780237689409&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/415631283054911bef5521f1e3d95212.png | https://stream.prod.wisegaming.com/logos/160d13afb5c9357173df682f088e366c.png
+
+#EXTINF:-1 group-title="Atom TV",FK Jelgava - BFC Daugavpils [16:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19284977/1/mediaplaylist.m3u8?s=5889e393343a138c9e528540abad55caffaa2074bc9123a3d85ce1e13fadfc3c&t=1780237690168&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/4e143b21b8a58988108ef893c29b49a0.png | https://stream.prod.wisegaming.com/logos/e9625f3cbdb8cb97aadfc6a16345ac60.png
 
 #EXTINF:-1 group-title="Atom TV",Arnavutluk (Bayanlar) - Litvanya (Bayanlar) [16:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
-https://edge2.xmediaget.com/hls-live/19284906/1/mediaplaylist.m3u8?s=8945b830c313a9d0dbfe1d28a25572160dd21f5ff30a4a138f92476adf9ea408&t=1780231894044&ai=5000&av=1&ui=0
+https://edge2.xmediaget.com/hls-live/19284906/1/mediaplaylist.m3u8?s=4a1b9a4139595cf81620acc2945a96a563509319c84284708e3fd82248e6196c&t=1780237691080&ai=5000&av=1&ui=0
 # İki logo: https://stream.prod.wisegaming.com/logos/358925.png | https://stream.prod.wisegaming.com/logos/55361.png
+
+#EXTINF:-1 group-title="Atom TV",AC Horsens - Kolding IF [16:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19284970/1/mediaplaylist.m3u8?s=40e2d287579573a76efad1b502d05c0c5dd2ab94ce28ebfe9c82a656d88cc5f5&t=1780237703032&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/3094.png | https://stream.prod.wisegaming.com/logos/ec6befd184490e84554faa93bea40e1e.png
+
+#EXTINF:-1 group-title="Atom TV",İsviçre - Ürdün [16:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19284951/1/mediaplaylist.m3u8?s=b908fb7e502ac4b9954cd9c18b85096f0a1730ca1b42183e36dcfdbeea9f2aae&t=1780237703827&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/12399.png | https://stream.prod.wisegaming.com/logos/13419.png
+
+#EXTINF:-1 group-title="Atom TV",AC Oulu - FF Jaro [16:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19284897/1/mediaplaylist.m3u8?s=243c24c1afc35925cc73af0c90776b538a1aaf6cdc0fcb871ee3b803fa76c3e8&t=1780237704605&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/d466af4567ef1b286405399140c8e503.png | https://stream.prod.wisegaming.com/logos/83034b36849ddadf8651b028a9a0d24c.png
+
+#EXTINF:-1 group-title="Atom TV",Esbjerg fB - Lyngby Boldklub [16:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19284972/1/mediaplaylist.m3u8?s=a7f4ed04b7c0996a15ffd70a12991452ee20ada8d1ad9f66a193c6ebd9f5da52&t=1780237705437&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/3096.png | https://stream.prod.wisegaming.com/logos/3110.png
+
+#EXTINF:-1 group-title="Atom TV",Kalinina/Yastremskaya - Danilina/Krunic [16:15]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285165/1/mediaplaylist.m3u8?s=50ebc8e0fa5cfd85828a6d89ec42146103b5f91883573a18273228b171c7c2b2&t=1780237706207&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/7a37ff5ba8a93e7e4be7eaaf017fa0ab.png | https://stream.prod.wisegaming.com/logos/921eef1dc5f399800bd514972dad8818.png
+
+#EXTINF:-1 group-title="Atom TV",Boa Esporte Clube - Guarani EC Minas Gerais [16:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285208/1/mediaplaylist.m3u8?s=4731c3d528b38e158262d53558b0fc1b0fcea39ed746ba32e66bcc17f20f5fce&t=1780237707613&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/2672.png | https://stream.prod.wisegaming.com/logos/152223.png
+
+#EXTINF:-1 group-title="Atom TV",Kanada - Norveç [16:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285209/1/mediaplaylist.m3u8?s=6ee4daee7185ae687f38d62cb414762c808c087b36b56b0c4f9a605c0ad00d63&t=1780237708421&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/41593.png | https://stream.prod.wisegaming.com/logos/44803.png
+
+#EXTINF:-1 group-title="Atom TV",Jesper De Jong - Alexander Zverev [16:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285186/1/mediaplaylist.m3u8?s=1c7a78ef1b4974de7049c6a84877ffa16d97c377dbba7c4030d285c35f45de29&t=1780237709242&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/0ff35828e9da65f2c778248a11803924.png | https://stream.prod.wisegaming.com/logos/4fe8d7f20479db8cbe512df94d872952.png
+
+#EXTINF:-1 group-title="Atom TV",BC Žalgiris - Panevezys Lietkabelis [16:50]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285316/1/mediaplaylist.m3u8?s=0c1adb016d873f97b82960e4bcd1bec8f316ffad9e97d04c41092e397077bf74&t=1780237710025&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/c52daa35a2cb29157c1c27dc83f53e17.png | https://stream.prod.wisegaming.com/logos/31243.png
+
+#EXTINF:-1 group-title="Atom TV",Levanger FK - IK Junkeren [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285502/1/mediaplaylist.m3u8?s=04869cbfba0ba8a771b2be91c0b99f416bc30091d483fe1c7cf8d7b42ec0a758&t=1780237710790&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/12041.png | https://stream.prod.wisegaming.com/logos/24209.png
+
+#EXTINF:-1 group-title="Atom TV",Çekya - Kosova [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285367/1/mediaplaylist.m3u8?s=67227baa8c802b81d24e246bf0eda18af9f72445a1bbed6039689b32415f2c3c&t=1780237711647&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/fbb4d877e769ce92d4399466c5f2b0b0.png | https://stream.prod.wisegaming.com/logos/61321.png
+
+#EXTINF:-1 group-title="Atom TV",Karlbergs BK - FBK Karlstad [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285398/1/mediaplaylist.m3u8?s=26870fdf42c2ec465aba53a49307ca8ff130452f776189cadc7563bdf2746c01&t=1780237713098&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/13917.png | https://stream.prod.wisegaming.com/logos/650185.png
+
+#EXTINF:-1 group-title="Atom TV",Kvik Halden FK - Lysekloster Idrettslag [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285498/1/mediaplaylist.m3u8?s=0ec5542a747f34ab4c6b7c5ffeb1807d00486f1dd414fc05a6062b84490f2aab&t=1780237717771&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/12039.png | https://stream.prod.wisegaming.com/logos/54203.png
+
+#EXTINF:-1 group-title="Atom TV",Íþróttafélagið Völsungur - KF Aegir Thorlakshofn [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285408/1/mediaplaylist.m3u8?s=15219adb9a66b751cfd5bd3705ffaf80d6488d10f80549c7fe52fdec64d37deb&t=1780237718541&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/700bcf7d4e3bbd226bb49c04e251350b.png | https://stream.prod.wisegaming.com/logos/281e0e0acf6c0c6a29f73d6fd062e618.png
+
+#EXTINF:-1 group-title="Atom TV",Notodden FK - FK Jerv [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285499/1/mediaplaylist.m3u8?s=70a8a61cd18c6429050362690be1c1f00bee38214003f4d07d6b74cef5239675&t=1780237724170&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/493f374fa9d62d0bf894cade5cb927d7.png | https://stream.prod.wisegaming.com/logos/40f5eda9cb256a50823ebcd7f788f0d5.png
+
+#EXTINF:-1 group-title="Atom TV",Ungmennafelag Njardvikur - Grotta [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285407/1/mediaplaylist.m3u8?s=b17d26cd49a02d108a90ace38266dd6c134a035048f487ba91c7a48bdcfd1b2b&t=1780237725051&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/027139409bd76ce91fcf988920781cc3.png | https://stream.prod.wisegaming.com/logos/a6013c2058c72ec53a16c0c9b0370f91.png
+
+#EXTINF:-1 group-title="Atom TV",Íþróttafélag Reykjavíkur - Vestri [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285406/1/mediaplaylist.m3u8?s=e7766fe7cb4a743ce4bc00ec4ba43ca96eeb25f8232602a50159708a1c36eb98&t=1780237725981&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/14091.png | https://stream.prod.wisegaming.com/logos/ca90af22002a65884daea97a28140f50.png
+
+#EXTINF:-1 group-title="Atom TV",Red Bull Bragantino - Sport Club Internacional [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285354/1/mediaplaylist.m3u8?s=0fc6f56d53170b70e45dce297b9ac7c403f4035d6c3fa7512dcac7a476428d50&t=1780237726756&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/1106df23c41cbbe9705ca83fc414f30e.png | https://stream.prod.wisegaming.com/logos/966400e6bf5268cde4e88e40bc71d433.png
+
+#EXTINF:-1 group-title="Atom TV",FK Arendal - Sotra SK [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285503/1/mediaplaylist.m3u8?s=13fa2992ae0939e82b08254ac6dad0b99f6ea6fc5ef8cd4d89071e53cdf5f3cc&t=1780237727539&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/7b18829646138a7cbc8f37d339913e41.png | https://stream.prod.wisegaming.com/logos/2654445.png
+
+#EXTINF:-1 group-title="Atom TV",Levante UD (Bayanlar) - Badalona (Bayanlar) [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285501/1/mediaplaylist.m3u8?s=4d392779bcf99cd3f1ef19cd9cde199e67216be446544911620fb1eb3a407fce&t=1780237728327&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/34243.png | https://stream.prod.wisegaming.com/logos/2ec13912a69d1e3947e338ccd8a8821a.png
+
+#EXTINF:-1 group-title="Atom TV",Brighton & Hove Albion (Bayanlar) - Manchester City (Bayanlar) [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285328/1/mediaplaylist.m3u8?s=7977e159cff56edbc26c80d0a331d70a8b7653830e243f7822953758c3872cb8&t=1780237729693&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/320191.png | https://stream.prod.wisegaming.com/logos/50247.png
+
+#EXTINF:-1 group-title="Atom TV",Paide Linnameeskond - FC Kuressaare [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285401/1/mediaplaylist.m3u8?s=d0cbdc599b9a71fc6e60b247d3c5c1ecc6ad5f6a5a758ff79b809320a4c43321&t=1780237730486&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/8f90de30f284c02de3cea95e5dc703ec.png | https://stream.prod.wisegaming.com/logos/b9a9d6d0a02a782d1c756308c29b0487.png
+
+#EXTINF:-1 group-title="Atom TV",São Bernardo Futebol Clube - Novorizontino [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285555/1/mediaplaylist.m3u8?s=cc53310ef3c93cf32d50d403c1298c102e7cac6a780c6f2ddfef487312d8fe61&t=1780237731252&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/6df8d81fabfb5afc0977a61539882fc1.png | https://stream.prod.wisegaming.com/logos/57177.png
+
+#EXTINF:-1 group-title="Atom TV",Londrina Esporte Clube - Vila Nova [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285369/1/mediaplaylist.m3u8?s=c78f1ec48f3c0cc2f3016fedb59ba2dc61681e594a26f93da637e998d7993da8&t=1780237732055&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/45393.png | https://stream.prod.wisegaming.com/logos/edde703aa27d7084ac3b7e36e87a7953.png
+
+#EXTINF:-1 group-title="Atom TV",RCD Espanyol (Bayanlar) - Sevilla FC (Bayanlar) [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285505/1/mediaplaylist.m3u8?s=cdeb094e12783c1fefae306522fb4e75b0ce95b63eb68f0af3e3746fa012c0b7&t=1780237732818&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/9b9c68388f7b15af5770bdd28cab2d2c.png | https://stream.prod.wisegaming.com/logos/31507.png
+
+#EXTINF:-1 group-title="Atom TV",Athletic Bilbao (Bayanlar) - Alhama CF (Bayanlar) [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv505.top/
+https://edge2.xmediaget.com/hls-live/19285504/1/mediaplaylist.m3u8?s=6e71b0d90cb362f5a02704582cadea512763a464e7747097962c7029b502455a&t=1780237737504&ai=5000&av=1&ui=0
+# İki logo: https://stream.prod.wisegaming.com/logos/31951.png | https://stream.prod.wisegaming.com/logos/1b05e3ab126bb49b7aea0061438fe301.png
 
 #EXTINF:-1 group-title="Atom TV",BEIN SPORTS 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
