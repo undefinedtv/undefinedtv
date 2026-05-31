@@ -1,8 +1,4 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,03:30 | OKC Thunder - SA Spurs | NBA Play-Off Konferans Final
-https://andro.226503.xyz/checklist/androstreamlivenba.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,04:00 | S.Han - H.Holm | MVP Boxing
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,10:00 | Kadinlar Yari Final Maç 1 | Kadinlar Yari Final
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,11:00 | Kadinlar Yari Final Maç 2 | Kadinlar Yari Final
@@ -15,6 +11,8 @@ https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:15 | İtalya GP | Bilinmiyor
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,13:25 | Japonya - İzlanda | Dünya Hazırlık Maçları Ülkeler
+https://andro.226503.xyz/checklist/androstreamliveexn3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:00 | Kadinlar 3 üncülük Maçi | Kadinlar 3 üncülük
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Kadinlar Final | Kadinlar Final
@@ -23,6 +21,10 @@ https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Erkekler 3 üncülük Maçi | Erkekler 3 üncülük
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | İsviçre - Ürdün | Dünya Hazırlık Maçları Ülkeler
+https://andro.226503.xyz/checklist/androstreamliveexn4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Çekya - Kosova | Dünya Hazırlık Maçları Ülkeler
+https://andro.226503.xyz/checklist/androstreamliveexn5.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Erkekler Final | Erkekler Final
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Beşiktaş - Nilüfer Bld. | Hentbol Erkekler Süper Ligi Play-Off
