@@ -1,20 +1,8 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Sirbistan - Polonya | Voleybol Kadinlar Milletler Ligi
-https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Antrenman Turlari F1 | Monako GP
-https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Antrenman Turlari F1 (Yedek) | Monako GP
-https://andro.226503.xyz/checklist/androstreamlivenba.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Antrenman | Macaristan GP
-https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,16:10 | Siralama Turlari F1 | Monako GP
-https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,16:10 | Siralama Turlari F1 (Yedek) | Monako GP
-https://andro.226503.xyz/checklist/androstreamlivenba.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Tacikistan - Hindistan | Dünya Ülkeler Hazırlık Maçı
-https://andro.226503.xyz/checklist/androstreamliveexn7.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Antrenman Turlari F1 | Monako GP
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Antrenman Turlari F1 (Yedek) | Monako GP
+https://andro.226503.xyz/checklist/androstreamlivenba.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Belarus - Suriye | Dünya Ülkeler Hazırlık Maçı
 https://andro.226503.xyz/checklist/androstreamlivetb7.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Gürcistan - Bahreyn | Dünya Ülkeler Hazırlık Maçı
@@ -23,6 +11,8 @@ https://andro.226503.xyz/checklist/androstreamlivetb6.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetb5.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:45 | Siralama Turlari F1 | Monako GP
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:45 | Siralama Turlari F1 (Yedek) | Monako GP
+https://andro.226503.xyz/checklist/androstreamlivenba.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | San Marino - Bangladeş | Dünya Ülkeler Hazırlık Maçı
 https://andro.226503.xyz/checklist/androstreamlivetb4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Moldovya - Bulgaristan | Dünya Ülkeler Hazırlık Maçı
@@ -37,8 +27,6 @@ https://andro.226503.xyz/checklist/androstreamlivets.m3u8
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:45 | Macaristan - Finlandiya | Dünya Ülkeler Hazırlık Maçı
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Benin - Nijer | Dünya Ülkeler Hazırlık Maçı
-https://andro.226503.xyz/checklist/androstreamlivetb1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Orta Afrika Cumhuriyeti - Togo | Dünya Ülkeler Hazırlık Maçı
 https://andro.226503.xyz/checklist/androstreamliveexn2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Azerbaycan - Malta (Azeri) | Dünya Ülkeler Hazırlık Maçı
@@ -49,6 +37,8 @@ https://andro.226503.xyz/checklist/androstreamlivetb7.m3u8
 https://andro.226503.xyz/checklist/androstreamliveexn3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Olimpia Milano - Basket Brescia | İtalya Basketbol Ligi Play Off Yarı Final
 https://andro.226503.xyz/checklist/androstreamliveexn4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:15 | Slovanye U21 - Albenia U21 | Dünya Ülkeler Hazırlık Maçı
+https://andro.226503.xyz/checklist/androstreamlivetb6.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Angola - Moritanya | Dünya Ülkeler Hazırlık Maçı
 https://andro.226503.xyz/checklist/androstreamliveexn6.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Joventut Badalona - Baskonia | İspanya Basketbol Ligi Play-Off Çeyrek Final
