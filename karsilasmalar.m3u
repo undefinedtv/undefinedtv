@@ -1,8 +1,4 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,01:00 | Venezuela - Türkiye | Hazirlik Ülkeler
-https://andro.226503.xyz/checklist/androstreamliveatv.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,01:00 | Brezilya - Misir | Hazirlik
-https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,03:00 | J.Chaves - Y.Duben | UFC Dövüş Serisi
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,03:00 | Arjantin - Honduras | Hazirlik
@@ -45,10 +41,14 @@ https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,15:00 | Macaristan GP | Bilinmiyor
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | F.Cobolli - A.Zverev | Roland Garros Erkekler Final
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Monako GP | Bilinmiyor
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Dominik Cumhuriyeti - Hollanda | Voleybol Kadinlar Milletler Ligi
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Anadolu Efes - Fenerbahçe Beko | Basketbol Süper Ligi Play-Off Yari Final
+https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:30 | Brezilya - İtalya | Voleybol Kadinlar Milletler Ligi
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Türkiye - Çekya | CEV Beach Volley Milletler Ligi Kupasi Erkekler Ön Eleme
@@ -57,7 +57,15 @@ https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Hirvatistan - Slovenya | Hazirlik
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Türkiye - Çekya | CEV Beach Volley Milletler Ligi Kupasi Erkekler Ön Eleme Maç 2
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Las Palmas - Malaga | İspanya La Liga 2 Play-Off Yari Final
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Çekya - Türkiye | CEV Beach Volley Milletler Ligi Kupasi Erkekler Ön Eleme Maç 2
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Bulgaristan - Türkiye | Voleybol Kadinlar Milletler Ligi
+https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Bahçeşehir Klj - Beşiktaş GAİN | Basketbol Süper Ligi Play-Off Yari Final
+https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:45 | Hollanda - Özbekistan | Hazirlik
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:10 | Fransa - Kuzey İrlanda | Hazirlik
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
