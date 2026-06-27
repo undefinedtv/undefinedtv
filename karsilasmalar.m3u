@@ -1,20 +1,10 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,13:30 | Antrenman Turlari-3 | Formula 1 Avusturya GP
-https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,14:00 | Beşiktaş - Fenerbahçe İstanbul Jet | Tekerlekli Sandalye Basketbol Süper Ligi Final
-https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,14:40 | Siralama Turlari | Hollanda GP
-https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Sprint Yarişlari | Hollanda GP
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | A.Rakhman Yahkyaev - J.Walker | UFC Dövüş Serisi
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Siralama Turlari | Avusturya GP
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,17:00 | Yariş 2 | İngiltere
-https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,17:30 | Bulgaristan - Kanada | Voleybol Erkekler Milletler Ligi
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | ABD - Japonya | Voleybol Erkekler Milletler Ligi
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,18:00 | Polonya - Almanya | Voleybol Erkekler Milletler Ligi
@@ -26,7 +16,7 @@ https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | A.Almabayev - C.Johnson | UFC Dövüş Serisi
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:15 | Yeni Zelanda - Türkiye | FIBA U17 Dünya Kupasi
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+https://andro.226503.xyz/checklist/androstreamlivetb7.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:30 | N.Sadykhov - M.Camilo | UFC Dövüş Serisi
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | S.Magomedov - M.Pereira | UFC Dövüş Serisi
@@ -41,23 +31,59 @@ https://andro.226503.xyz/checklist/androstreamlivetrtsy.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:30 | N.Bagley - A.Lee | Cage Warriors
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Panama - İngiltere | FIFA 2026 Dünya Kupasi
+#EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Panama - İngiltere (Türkçe) | FIFA 2026 Dünya Kupası
 https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Hirvatistan - Gana | FIFA 2026 Dünya Kupasi
+#EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Panama – İngiltərə (Azerice) | Fifa 2026 Dünya Kuboku
+https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Panama – England (English) | FIFA World Cup 2026
+https://andro.226503.xyz/checklist/androstreamliveexn1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Panama – England (Deustch) | FIFA-Fußball-Weltmeisterschaft 2026
+https://andro.226503.xyz/checklist/androstreamliveexn6.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Hırvatistan - Gana (Türkçe) | FIFA 2026 Dünya Kupası
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,02:30 | Demokratik Kongo - Özbekistan | FIFA 2026 Dünya Kupasi
-https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,02:30 | Kolombiya - Portekiz | FIFA 2026 Dünya Kupasi
+#EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Xorvatiya – Qana (Azerice) | Fifa 2026 Dünya Kuboku
+https://andro.226503.xyz/checklist/androstreamliveexn4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Croatia – Ghana (English) | FIFA World Cup 2026
+https://andro.226503.xyz/checklist/androstreamliveexn2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Kroatien – Ghana (Deustch) | FIFA-Fußball-Weltmeisterschaft 2026
+https://andro.226503.xyz/checklist/androstreamliveexn3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,02:30 | Kolombiya - Portekiz (Türkçe) | FIFA 2026 Dünya Kupası
 https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,02:30 | Kolumbiya – Portuqaliya (Azerice) | Fifa 2026 Dünya Kuboku
+https://andro.226503.xyz/checklist/androstreamliveexn4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,02:30 | Colombia – Portugal (English) | FIFA World Cup 2026
+https://andro.226503.xyz/checklist/androstreamliveexn1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,02:30 | Kolumbien – Portugal (Deustch) | FIFA-Fußball-Weltmeisterschaft 2026
+https://andro.226503.xyz/checklist/androstreamliveexn3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,02:30 | Demokratik Kongo - Özbekistan (Türkçe) | FIFA 2026 Dünya Kupasi
+https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,02:30 | Konqo Demokratik Respublikası – Özbəkistan (Azerice) | Fifa 2026 Dünya Kuboku
+https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,02:30 | DR Congo – Uzbekistan (English) | FIFA World Cup 2026
+https://andro.226503.xyz/checklist/androstreamliveexn2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,02:30 | Demokratische Republik Kongo – Usbekistan (Deustch) | FIFA-Fußball-Weltmeisterschaft 2026
+https://andro.226503.xyz/checklist/androstreamliveexn6.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,03:00 | A.McKee - S.Isbulaev | PFL Dövüş Serisi
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,05:00 | Cezayir - Avusturya | FIFA 2026 Dünya Kupasi
-https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,05:00 | Ürdün - Arjantin | FIFA 2026 Dünya Kupasi
+#EXTINF:-1 group-title="Maç Yayınları" ,05:00 | Ürdün - Arjantin (Türkçe) | FIFA 2026 Dünya Kupası
 https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,05:00 | İordaniya – Argentina (Azerice) | Fifa 2026 Dünya Kuboku
+https://andro.226503.xyz/checklist/androstreamliveexn4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,05:00 | Jordan – Argentina (English) | FIFA World Cup 2026
+https://andro.226503.xyz/checklist/androstreamliveexn1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,05:00 | Jordanien – Argentinien (Deustch) | FIFA-Fußball-Weltmeisterschaft 2026
+https://andro.226503.xyz/checklist/androstreamliveexn3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,05:00 | Cezayir - Avusturya (Türkçe) | FIFA 2026 Dünya Kupası
+https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,05:00 | Əlcəzair – Avstriya (Azerice) | Fifa 2026 Dünya Kuboku
+https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,05:00 | Algeria – Austria (English) | FIFA World Cup 2026
+https://andro.226503.xyz/checklist/androstreamliveexn2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,05:00 | Algerien – Österreich (Deustch) | FIFA-Fußball-Weltmeisterschaft 2026
+https://andro.226503.xyz/checklist/androstreamliveexn6.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Hollanda GP | Bilinmiyor
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,12:55 | Monako GP | Bilinmiyor
+#EXTINF:-1 group-title="Maç Yayınları" ,12:55 | Monako GP | Formula 1 GP
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:15 | Hollanda GP | Bilinmiyor
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
