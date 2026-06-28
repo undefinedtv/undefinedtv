@@ -1,8 +1,8 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,12:00 | Hollanda GP | Bilinmiyor
-https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,12:55 | Monako GP | Formula 1 GP
+#EXTINF:-1 group-title="Maç Yayınları" ,12:55 | Monako GP | Bilinmiyor
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,13:00 | Z.Bergs - U.Humbert | ATP Eastbourne
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,13:15 | Hollanda GP | Bilinmiyor
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:00 | Bulgaristan - Ukrayna | Voleybol Erkekler Milletler Ligi
@@ -11,10 +11,14 @@ https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Avusturya GP | Bilinmiyor
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,17:30 | Kanada - Brezilya | Voleybol Erkekler Milletler Ligi
-https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,17:30 | Belçika - Türkiye | Voleybol Erkekler Milletler Ligi
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,17:30 | Kanada - Brezilya | Voleybol Erkekler Milletler Ligi
+https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,18:30 | Prieto/Fallada - Martin/Fernandez | Premier Padel Kadinlar Final
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Coello/Tapia - Chingotto/Galan | Premier Padel Erkekler Final
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:15 | Türkiye - Slovenya | FIBA U17 Dünya Kupasi
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Polonya - Arjantin | Voleybol Erkekler Milletler Ligi
@@ -22,4 +26,10 @@ https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:30 | Slovenya - İtalya | Voleybol Erkekler Milletler Ligi
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Güney Afrika - Kanada | FIFA 2026 Dünya Kupasi Son 16
+https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,01:00 | E.Santos - J.Valenzuela | Zuffa Boxing
+https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Brezilya - Japonya | FIFA 2026 Dünya Kupasi Son 16
+https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,23:30 | Almanya - Paraguay | FIFA 2026 Dünya Kupasi Son 16
 https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
