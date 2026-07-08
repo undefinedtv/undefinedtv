@@ -15,8 +15,16 @@ https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Polmans/Hunter - Arevalo/Ostapenko | Wimbledon Karişik Çiftler Final
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,20:00 | Qarabağ FK - IF Vestri | UEFA Avrupa Ligi Eleme Turu 1
+https://andro.226503.xyz/checklist/androstreamlivecbcs.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Sirbistan - Fransa | Voleybol Kadinlar Milletler Ligi
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Dynamo Kyiv - FC Universitatea Cluj | UEFA Avrupa Ligi Eleme Turu 1
+https://andro.226503.xyz/checklist/androstreamlivetb1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | CSKA Sofia - Derry City | UEFA Avrupa Ligi Eleme Turu 1
+https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | FK Vojvodina - Ferencváros | UEFA Avrupa Ligi Eleme Turu 1
+https://andro.226503.xyz/checklist/androstreamlivetb3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Fransa - Fas (Türkçe) | FIFA 2026 Dünya Kupasi Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,23:00 | Fransa - Mərakeş (Azerice) | FIFA 2026 Dünya Kuboku – 1/4 final
@@ -47,5 +55,11 @@ https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Almanya - Hollanda | Voleybol Kadinlar Milletler Ligi
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | İspanya - Belçika | FIFA 2026 Dünya Kupasi Çeyrek Final
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | İspanya - Belçika (Türkçe) | FIFA 2026 Dünya Kupasi Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | İspaniya - Belçika (Azerice) | FIFA 2026 Dünya Kuboku – 1/4 final
+https://andro.226503.xyz/checklist/androstreamliveexn4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Spain - Belgium (English) | FIFA 2026 World Cup Quarter-final
+https://andro.226503.xyz/checklist/androstreamliveexn1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Spanien - Belgien (Deutsch) | FIFA Fußball-Weltmeisterschaft 2026 – Viertelfinale
+https://andro.226503.xyz/checklist/androstreamliveexn6.m3u8
