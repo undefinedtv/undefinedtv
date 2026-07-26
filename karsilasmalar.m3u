@@ -1,6 +1,4 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,09:40 | Macaristan GP | Bilinmiyor
-https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,10:30 | Çin - İtalya | Voleybol Kadinlar Milletler Ligi 3 üncülük
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,11:10 | Macaristan GP | Bilinmiyor
@@ -9,6 +7,8 @@ https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Türkiye - Brezilya | Voleybol Kadinlar Milletler Ligi Final
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,15:50 | Yariş Başliyor | Bilinmiyor
+https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Macaristan GP | Bilinmiyor
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,16:30 | Trabzonspor - E.Frankfurt | Hazirlik
@@ -17,10 +17,12 @@ https://andro.226503.xyz/checklist/androstreamliveht.m3u8
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:30 | L.Van Assche - A.Blockx | ATP Estoril Final
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:30 | Finish Line | Bilinmiyor
+https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Bahia - Corinthians | Brezilya Serie A
-https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Cruzeiro - Botafogo RJ | Brezilya Serie A
 https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Cruzeiro - Botafogo RJ | Brezilya Serie A
+https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,00:00 | E.Berlanda - S.Butler | Zuffa Boxing
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,01:30 | Palmeiras - Atletico Mineiro | Brezilya Serie A
