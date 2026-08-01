@@ -1,10 +1,4 @@
 
-#EXTINF:-1 group-title="Maç Yayınları" ,03:00 | A.Tabilo - B.Shelton | ATP Washington Çeyrek Final
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,05:30 | C.Wong - A.Gea | ATP Los Cabos Yari Final
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,07:00 | C.Norrie - D.Shapovalov | ATP Los Cabos Yari Final
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,10:00 | Slovenya - Polonya | Voleybol Erkekler Milletler Ligi Yari Final
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,12:45 | Chelsea - Tottenham | Hazirlik
@@ -13,10 +7,14 @@ https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Manchester City - Inter | Hazirlik
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,16:00 | Manchester Utd - Atletico Madrid | Hazirlik
+https://andro.226503.xyz/checklist/androstreamliveexn2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,14:30 | Japonya - ABD | Voleybol Erkekler Milletler Ligi Yari Final
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Real Madrid - Fiorentina | Hazirlik
 https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Kasımpaşa - Hull City | Hazirlik
+https://andro.226503.xyz/checklist/androstreamlivetv85.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:10 | L.Szabova - L.Pudilova | MMA Kafes Dövüşü
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,19:30 | Aberdeen - Hearts | İskoçya Premier Lig
@@ -33,6 +31,8 @@ https://andro.226503.xyz/checklist/androstreamlivetrts.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | U.Medic - D.Rodriguez | UFC Dövüş Serisi
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Porto - Torreense | Portekiz - Süper Kupa
+https://andro.226503.xyz/checklist/androstreamliveexn3.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Belgrano - Argentinos Jrs. | Arjantin Primera Division
 https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,00:00 | Estudiantes - Df. Justicia | Arjantin Primera Division
