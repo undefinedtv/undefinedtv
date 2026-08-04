@@ -24,22 +24,14 @@ headers = {
 }
 
 TV_CHANNELS = [
-        ("bein-sports-1",     "BEIN SPORTS 1"),
-        ("bein-sports-2",     "BEIN SPORTS 2"),
-        ("bein-sports-3",     "BEIN SPORTS 3"),
-        ("bein-sports-4",     "BEIN SPORTS 4"),
-        ("bein-sports-5",     "BEIN SPORTS 5"),
-        ("bein-sports-max-1", "BEIN SPORTS MAX 1"),
-        ("bein-sports-max-2", "BEIN SPORTS MAX 2"),
-        ("s-sport",           "S SPORT"),
-        ("s-sport-2",         "S SPORT 2"),
-        ("tivibu-spor-1",     "TİVİBU SPOR 1"),
-        ("tivibu-spor-2",     "TİVİBU SPOR 2"),
-        ("tivibu-spor-3",     "TİVİBU SPOR 3"),
-        ("trt-spor",          "TRT SPOR"),
-        ("trt-yildiz",        "TRT YILDIZ"),
-        ("trt-1",              "TRT 1"),
-        ("a-spor",             "ASPOR"),
+    ("bein-sports-1", "BEIN SPORTS 1", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png"),
+    ("bein-sports-2", "BEIN SPORTS 2", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/BeIN_Sports_2_HD.svg/200px-BeIN_Sports_2_HD.svg.png"),
+    ("bein-sports-3", "BEIN SPORTS 3", "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/BeIN_Sports_3_HD.svg/200px-BeIN_Sports_3_HD.svg.png"),
+    ("bein-sports-4", "BEIN SPORTS 4", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BeIN_Sports_4_HD.svg/200px-BeIN_Sports_4_HD.svg.png"),
+    ("s-sport",       "S SPORT", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png"),
+    ("s-sport-2",     "S SPORT 2", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png"),
+    ("trt-spor",      "TRT SPOR", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TRT_Spor_logo.svg/200px-TRT_Spor_logo.svg.png"),
+    ("aspor",         "ASPOR", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/A_Spor_logo.svg/200px-A_Spor_logo.svg.png"),
 ]
 
 def get_base_domain():
@@ -103,34 +95,6 @@ def get_matches():
         print(f"Hata: {e}")
         return []
 
-def get_stream_from_id(video_id, base_domain):
-    """Sadece ID döndüğünde streamsport365'ten gerçek URL'i çek."""
-    try:
-        resp = requests.post(
-            "https://streamsport365.com/cinema",
-            headers={
-                'Accept': '*/*',
-                'Content-Type': 'application/json',
-                'Origin': base_domain,
-                'Referer': base_domain,
-            },
-            json={
-                "AppId": "5000",
-                "AppVer": "1",
-                "VpcVer": "1.0.12",
-                "Language": "en",
-                "Token": "",
-                "VideoId": str(video_id)
-            },
-            timeout=10
-        )
-        data = resp.json()
-        url = data.get("URL", "").replace('\\/', '/')
-        return url if url else None
-    except Exception as e:
-        print(f"  [DEBUG] streamsport365 hatası: {e}")
-        return None
-
 def get_m3u8(resource_id, base_domain):
     try:
         h = headers.copy()
@@ -138,26 +102,18 @@ def get_m3u8(resource_id, base_domain):
         resp = requests.get(f"{base_domain}/matches?id={resource_id}", headers=h, timeout=10)
         fetch_m = re.search(r'fetch\(\s*["\']([^"\']+)["\']', resp.text)
         if not fetch_m: return None
-
+        
         fetch_url = fetch_m.group(1).strip()
         if not fetch_url.endswith(resource_id): fetch_url += resource_id
 
         h['Origin'] = base_domain
         resp2 = requests.get(fetch_url, headers=h, timeout=10)
         data = resp2.text
-
         for pat in [r'"deismackanal":"(.*?)"', r'"stream":\s*"(.*?)"', r'"url":\s*"(.*?\.m3u8[^"]*)"', r'(https?://[^\s"\']+\.m3u8[^\s"\']*)']:
             mm = re.search(pat, data)
-            if mm:
-                result = mm.group(1).replace('\\/', '/').replace('\\', '')
-                # Sadece ID döndüyse (http içermiyorsa) ikinci API'ye sor
-                if result and not result.startswith('http'):
-                    result = get_stream_from_id(result, base_domain)
-                return result
+            if mm: return mm.group(1).replace('\\/', '/').replace('\\', '')
         return None
-    except Exception as e:
-        print(f"  [DEBUG] Exception: {e}")
-        return None
+    except: return None
 
 def build_m3u(working_matches, working_channels, base_domain):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -168,7 +124,7 @@ def build_m3u(working_matches, working_channels, base_domain):
             display_name = f"{m['home']} - {m['away']} [{m['time']}]"
             group_title = f"CANLI MAÇLAR - {m['league']}"
             
-            f.write(f'#EXTINF:-1 group-title="Atom TV",{display_name}\n')
+            f.write(f'#EXTINF:-1 tvg-logo="{m["logo"]}" group-title="{group_title}",{display_name}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
             f.write(f'#EXTVLCOPT:http-referrer={base_domain}/\n')
             f.write(f"{m['url']}\n")
@@ -176,7 +132,7 @@ def build_m3u(working_matches, working_channels, base_domain):
 
         # ── TV KANALLARI
         for ch in working_channels:
-            f.write(f'#EXTINF:-1 group-title="Atom TV",{ch["name"]}\n')
+            f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="TV Kanalları",{ch["name"]}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
             f.write(f'#EXTVLCOPT:http-referrer={base_domain}/\n')
             f.write(f"{ch['url']}\n\n")
@@ -202,10 +158,10 @@ def main():
 
     tv_items = []
     print(f"\n{YELLOW}Kanallar test ediliyor...{RESET}")
-    for cid, name in TV_CHANNELS:
+    for cid, name, logo in TV_CHANNELS:
         url = get_m3u8(cid, base_domain)
         if url:
-            tv_items.append({'name': name, 'url': url})
+            tv_items.append({'name': name, 'logo': logo, 'url': url})
             print(f"  ✓ {name}")
 
     build_m3u(working_matches, tv_items, base_domain)
