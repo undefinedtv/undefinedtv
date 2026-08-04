@@ -52,7 +52,7 @@ legal_icerik = oku_m3u(legal)
 
 # Birleştir
 birlesik_icerik = (
-    empty_icerik + karsilasmalar_icerik + rec_icerik + zz_icerik +
+    empty_icerik + karsilasmalar_icerik  + zz_icerik +
     atom_icerik + selcuk_icerik + andro_icerik + tabii_icerik 
 )
 
