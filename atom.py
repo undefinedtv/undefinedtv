@@ -122,7 +122,7 @@ def build_m3u(working_matches, working_channels, base_domain):
         # ── CANLI MAÇLAR (Yeni Format)
         for m in working_matches:
             display_name = f"{m['home']} - {m['away']} [{m['time']}]"
-            group_title = f"CANLI MAÇLAR - {m['league']}"
+            group_title = f"Atom TV}"
             
             f.write(f'#EXTINF:-1 tvg-logo="{m["logo"]}" group-title="{group_title}",{display_name}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
@@ -132,7 +132,7 @@ def build_m3u(working_matches, working_channels, base_domain):
 
         # ── TV KANALLARI
         for ch in working_channels:
-            f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="TV Kanalları",{ch["name"]}\n')
+            f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="Atom TV",{ch["name"]}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
             f.write(f'#EXTVLCOPT:http-referrer={base_domain}/\n')
             f.write(f"{ch['url']}\n\n")
