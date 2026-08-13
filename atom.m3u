@@ -126,12 +126,6 @@
 19979352
 # İki logo: https://1xlite-38349.pro/resized/size16/sfiles/logo_teams/741639cda4eac8fc96181472d79a680a.png | https://1xlite-38349.pro/resized/size16/sfiles/logo_teams/e3a1a765345b1fc005de01f9c0e4838c.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-38349.pro/resized/size16/sfiles/logo_teams/0871dc756cfa7e5b8a618b9e53eb3539.png" group-title="Atom TV",Sohyun Park - Jasmijn Gimbrere [11:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
-19979553
-# İki logo: https://1xlite-38349.pro/resized/size16/sfiles/logo_teams/0871dc756cfa7e5b8a618b9e53eb3539.png | https://1xlite-38349.pro/resized/size16/sfiles/logo_teams/1294249.png
-
 #EXTINF:-1 tvg-logo="https://1xlite-38349.pro/resized/size16/sfiles/logo_teams/33459.png" group-title="Atom TV",Alberto Barroso Campos - Tiago Pereira [11:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
@@ -149,6 +143,12 @@
 #EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
 19979580
 # İki logo: https://1xlite-38349.pro/resized/size16/sfiles/logo_teams/96bd34a0b1efd7bdbef20871b430c65b.PNG | https://1xlite-38349.pro/resized/size16/sfiles/logo_teams/a3dbe2c3d08d2a2a56db5b2891547687.png
+
+#EXTINF:-1 tvg-logo="https://1xlite-38349.pro/resized/size16/sfiles/logo_teams/2178aa91c5fc43d28deb8d4c19ef7c17.png" group-title="Atom TV",Jan Kumstat - Max Houkes [11:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
+19979625
+# İki logo: https://1xlite-38349.pro/resized/size16/sfiles/logo_teams/2178aa91c5fc43d28deb8d4c19ef7c17.png | https://1xlite-38349.pro/resized/size16/sfiles/logo_teams/3f690e2125e6f6c1c30971cde2858b52.png
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png" group-title="Atom TV",BEIN SPORTS 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
