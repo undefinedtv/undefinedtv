@@ -3,8 +3,8 @@ import re
 import os
 
 # --- KONFIGÜRASYON ---
-BASE_DOMAIN_PATTERN = "zeustv{}.vip"
-START_INDEX = 266
+BASE_DOMAIN_PATTERN = "zeustv{}.cfd"
+START_INDEX = 269
 END_INDEX = 500
 REQUEST_TIMEOUT = 5  
 MASTER_M3U_FILENAME = "zz.m3u" 
