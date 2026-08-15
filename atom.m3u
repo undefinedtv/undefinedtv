@@ -36,12 +36,6 @@
 19999326
 # İki logo: https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/9f5e9ba0d2d928ee637ac3b99ca32cbe.png | https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/1766.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/55fe2eb18ca4104b6f672630bf103443.png" group-title="Atom TV",North Star FC - Caboolture [09:15]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
-19999327
-# İki logo: https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/55fe2eb18ca4104b6f672630bf103443.png | https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/57cc239b73b27fcb972157c77a24d135.png
-
 #EXTINF:-1 tvg-logo="https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/5e0846b50493e17a462b75d86f8a4119.png" group-title="Atom TV",Redlands United FutbolClub - Logan Lightning FC [09:15]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
@@ -66,17 +60,17 @@
 19999751
 # İki logo: https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/24805.png | https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/51c45e57ed8648796a935af773a6efd6.png
 
+#EXTINF:-1 tvg-logo="https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/f36595dcf47d6d2a8eb40406e77bec63.png" group-title="Atom TV",Manly United FC - NWS Spirit [10:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
+19999578
+# İki logo: https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/f36595dcf47d6d2a8eb40406e77bec63.png | https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/4c2fef5fba760e596ea82ed56e5dc94f.png
+
 #EXTINF:-1 tvg-logo="https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/0cfcfe25eea6c9b86bd87cb8a683145b.png" group-title="Atom TV",Inter Lions FC - Bankstown City Lions [10:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
 19999721
 # İki logo: https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/0cfcfe25eea6c9b86bd87cb8a683145b.png | https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/318237b835e664b46dc64f116c35fed0.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/398cfbf18abf67a8a1a27bbe2fc0b250.png" group-title="Atom TV",Armadale F.C. - Dianella White Eagles SC [10:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
-19999583
-# İki logo: https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/398cfbf18abf67a8a1a27bbe2fc0b250.png | https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/f577a999ca4d96f39f02f604c548bb85.png
 
 #EXTINF:-1 tvg-logo="https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/108127.png" group-title="Atom TV",University of Western Australia-Nedlands - Subiaco FutbolClub [10:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
@@ -90,11 +84,11 @@
 19999786
 # İki logo: https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/ad1577134a7022364f6c2d37c795fd8b.png | https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/101897.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/f36595dcf47d6d2a8eb40406e77bec63.png" group-title="Atom TV",Manly United FC - NWS Spirit [10:00]
+#EXTINF:-1 tvg-logo="https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/398cfbf18abf67a8a1a27bbe2fc0b250.png" group-title="Atom TV",Armadale F.C. - Dianella White Eagles SC [10:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
-19999578
-# İki logo: https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/f36595dcf47d6d2a8eb40406e77bec63.png | https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/4c2fef5fba760e596ea82ed56e5dc94f.png
+19999583
+# İki logo: https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/398cfbf18abf67a8a1a27bbe2fc0b250.png | https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/f577a999ca4d96f39f02f604c548bb85.png
 
 #EXTINF:-1 tvg-logo="https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/50b496d6bade3b13916beadc2e80c040.png" group-title="Atom TV",Sydney Olympic - Sydney United [10:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
@@ -167,6 +161,12 @@
 #EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
 19999915
 # İki logo: https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/31121.png | https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/296179.png
+
+#EXTINF:-1 tvg-logo="https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/651c1efc7c12325c795e87b5dc2118a7.png" group-title="Atom TV",Monaro Panthers FC - Canberra Croatia [10:45]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
+19999962
+# İki logo: https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/651c1efc7c12325c795e87b5dc2118a7.png | https://1xlite-84484.pro/resized/size16/sfiles/logo_teams/6cd02d1607f1f88fadfe09d9977abce6.png
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png" group-title="Atom TV",BEIN SPORTS 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
