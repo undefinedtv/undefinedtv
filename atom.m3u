@@ -72,6 +72,12 @@
 20035623
 # İki logo: https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/886945543a6fecf6f4a4cd1fd9c4e283.png | https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/548f2189d34f659047f3158a58033e04.png
 
+#EXTINF:-1 tvg-logo="https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/7f29d24ee81612147b8ff842c2eb2852.png" group-title="Atom TV",San Antonio Bulo Bulo - Club Aurora [22:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
+20035605
+# İki logo: https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/7f29d24ee81612147b8ff842c2eb2852.png | https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/3627130b52ed702e9806721c019e5b99.png
+
 #EXTINF:-1 tvg-logo="https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/ec3f9d38eed874d15217e0aa556f933e.png" group-title="Atom TV",Zverev/Melo - Navone/Tabilo [22:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
@@ -90,11 +96,11 @@
 20035785
 # İki logo: https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/abfa67065c4254e011a9daf91eeeaae2.png | https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/f7c8010c981006520eabf5c5271ba6ef.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/7f29d24ee81612147b8ff842c2eb2852.png" group-title="Atom TV",San Antonio Bulo Bulo - Club Aurora [22:00]
+#EXTINF:-1 tvg-logo="https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/56d7d7d154c4dc660a48012906569e88.png" group-title="Atom TV",Ostapenko/Hsieh - Klepac/Lumsden [22:50]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv512.top/
-20035605
-# İki logo: https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/7f29d24ee81612147b8ff842c2eb2852.png | https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/3627130b52ed702e9806721c019e5b99.png
+20036005
+# İki logo: https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/56d7d7d154c4dc660a48012906569e88.png | https://1xlite-82373.pro/resized/size16/sfiles/logo_teams/18eb9ed25088ca36696ce12577d4c458.png
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png" group-title="Atom TV",BEIN SPORTS 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
