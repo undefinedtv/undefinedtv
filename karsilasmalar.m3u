@@ -1,16 +1,10 @@
 
 #EXTINF:-1 group-title="Maç Yayınları" ,21:30 | Erzurumspor - Galatasaray | Trendyol Süper Lig
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,17:30 | Sprint Siralama Turlari | Hollanda GP
-https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,18:45 | Hirvatistan - Türkiye | Basketbol DBB Super Cup Yari Final
-https://andro.226503.xyz/checklist/androstreamliveht.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Al Riyadh - Al Nassr | Suudi Arabistan Pro Lig
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Türkiye - Letonya | CEV Kadinlar Avrupa Şampiyonasi
-https://andro.226503.xyz/checklist/androstreamlivetrt1.m3u8
-#EXTINF:-1 group-title="Maç Yayınları" ,19:00 | Antrenman Seansi | Hollanda GP
-https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:30 | Erzurumspor - Galatasaray (Yedek) | Trendyol Süper Lig
+https://andro.226503.xyz/checklist/androstreamliveexn1.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,21:30 | Erzurumspor - Galatasaray (Yabancı) | Trendyol Süper Lig
+https://andro.226503.xyz/checklist/androstreamliveexn2.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,20:00 | S.Bejlek - M.Keys | WTA Cincinnati Çeyrek Final
 https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,21:00 | Al Qadsiah - Al Ittihad | Suudi Arabistan Pro Lig
@@ -27,6 +21,8 @@ https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
 https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Arsenal - Coventry | İngiltere Premier Lig
 https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
+#EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Arsenal - Coventry (Azerice) | İngiltere Premier Lig
+https://andro.226503.xyz/checklist/androstreamliveidm.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | Real Betis - Real Sociedad | İspanya La Liga
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 group-title="Maç Yayınları" ,22:00 | T.Fritz - B.Nakashima | ATP Cincinnati Çeyrek Final
