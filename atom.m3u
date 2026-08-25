@@ -1,17 +1,5 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/ac3b056b19db21518c1176379cb9527a.png" group-title="Atom TV",Alina Semenyaka - Olga Khaldeeva [08:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv513.top/
-20101932
-# İki logo: https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/ac3b056b19db21518c1176379cb9527a.png | https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/708796327acc9f5ccad03cf0d28990c0.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/d6bcfbf4c3637c31b2dd4f0a1b862bb5.png" group-title="Atom TV",Kirill Zaykin - Alexey Akimov [08:09]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv513.top/
-20101988
-# İki logo: https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/d6bcfbf4c3637c31b2dd4f0a1b862bb5.png | https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/5c06b519b85ad620041bdf6808414538.png
-
 #EXTINF:-1 tvg-logo="https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/99dfdcb19e68da6656d27c48f07df2bf.png" group-title="Atom TV",Atlant Orel - Berkut Volgograd [08:15]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv513.top/
@@ -24,23 +12,35 @@
 20102487
 # İki logo: https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/2382f01fc5b1a15a3397e4441eeee259.png | https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/6ee05fe961cd6117e517c08087e17e29.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/feb6098873f78e3435e04a5cb461e7ce.png" group-title="Atom TV",University of Taipei - I-Shou University [09:00]
+#EXTINF:-1 tvg-logo="https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/ea4d5262e6ffdcc55053ffb9d7e8e43c.png" group-title="Atom TV",Duc Giang Lao Cai (Gençler) Bayanlar - Thong Tin (Youth) Women [09:55]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv513.top/
-20102458
-# İki logo: https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/feb6098873f78e3435e04a5cb461e7ce.png | https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/809a1023e6ff1e446f1d23c20292f383.png
+20102899
+# İki logo: https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/ea4d5262e6ffdcc55053ffb9d7e8e43c.png | https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/6d73d2deb337bcc88f3bbf5837a9fc94.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/30347.png" group-title="Atom TV",İran (Bayanlar) - İrak (Bayanlar) [09:00]
+#EXTINF:-1 tvg-logo="https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/831f1d96275ccc7870e045c23ae3c633.png" group-title="Atom TV",Nha La - Lucky [10:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv513.top/
-20102431
-# İki logo: https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/30347.png | https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/2d21aca76426e2c037652a700ea75802.png
+20103206
+# İki logo: https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/831f1d96275ccc7870e045c23ae3c633.png | https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/67b7a1602c66367b074d801a5f64ae54.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/f46eedf3ece92e62436b9c2ba1222d33.png" group-title="Atom TV",Singapur 3x3 U23 - Türkmenistan 3x3 U23 [09:45]
+#EXTINF:-1 tvg-logo="https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/d0399bcbc9412c07ed2503dd132cac7c.png" group-title="Atom TV",Sichuan Yuanda (Bayanlar) - Beijing Great Wall (Women) [10:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv513.top/
-20102766
-# İki logo: https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/f46eedf3ece92e62436b9c2ba1222d33.png | https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/d49a91bf1bdf188d9b6b8b60fcdf1a33.png
+20103264
+# İki logo: https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/d0399bcbc9412c07ed2503dd132cac7c.png | https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/bbe4003f37a6444904c9486f84b0bcf0.png
+
+#EXTINF:-1 tvg-logo="https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/2750b79e6de8e00c9f48fdb4f01bbb0d.png" group-title="Atom TV",Haruka Kaji - Amandine Hesse [10:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv513.top/
+20103196
+# İki logo: https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/2750b79e6de8e00c9f48fdb4f01bbb0d.png | https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/16305.png
+
+#EXTINF:-1 tvg-logo="https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/83c753272e8b66415e5ce015dbd19c06.png" group-title="Atom TV",Golovina/Dencheva - Kostova/Reami [10:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv513.top/
+20103074
+# İki logo: https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/83c753272e8b66415e5ce015dbd19c06.png | https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/68fe12a89762786d54023744e24f8641.png
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png" group-title="Atom TV",BEIN SPORTS 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
