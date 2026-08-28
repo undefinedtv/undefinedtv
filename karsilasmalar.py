@@ -19,6 +19,27 @@ LOGO_MAP = {
     'tenis': 'https://www.citypng.com/public/uploads/preview/hd-green-tennis-ball-transparent-png-704081694878789ibeew9de6z.png'
 }
 
+CHANNEL_ID_MAP = {
+    "androstreamlivebirazb2": "androstreamlivebs2",
+    "androstreamlivebirazb3": "androstreamlivebs3",
+    "androstreamlivebirazb4": "androstreamlivebs4",
+    "androstreamlivebirazb5": "androstreamlivebs5",
+    "androstreamlivebirazbsm1": "androstreamlivebsm1",
+    "androstreamlivebirazbsm2": "androstreamlivebsm2",
+    "androstreamlivebirazss1": "androstreamlivess1",
+    "androstreamlivebirazss2": "androstreamlivess2",
+    "androstreamlivebirazts": "androstreamlivets",
+    "androstreamlivebirazts1": "androstreamlivets1",
+    "androstreamlivebirazts2": "androstreamlivets2",
+    "androstreamlivebirazts3": "androstreamlivets3",
+    "androstreamlivebirazts4": "androstreamlivets4",
+    "androstreamlivebirazsm1": "androstreamlivesm1",
+    "androstreamlivebirazsm2": "androstreamlivesm2",
+    "androstreamlivebiraztrt1": "androstreamlivetrt1",
+    "androstreamlivebiraztrtspor": "androstreamlivetrts",
+    "androstreamlivebiraztv8": "androstreamlivetv8"
+}
+
 def get_active_domain():
     """Aktif domain'i bulur."""
     print("🔍 Aktif domain aranıyor...")
@@ -144,7 +165,8 @@ def create_m3u(matches, base_url):
             continue
 
         match_id = url.split("id=")[1]
-
+        match_id = CHANNEL_ID_MAP.get(match_id, match_id)
+        
         # Başlık: saat | takım1 - takım2 | lig
         display_title = f"{time} | {title} | {league}"
 
