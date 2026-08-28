@@ -27,8 +27,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -U setuptools wheel Kekik httpx parsel requests cloudscraper beautifulsoup4 pycryptodome aiohttp
           pip install PyGithub
-          pip install PyGithub playwright
-          playwright install --with-deps
           
       - name: zz.py Çalıştır
         continue-on-error: true
