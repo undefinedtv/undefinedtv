@@ -155,7 +155,7 @@ def create_m3u(matches, base_url):
         extinf = f'#EXTINF:-1 tvg-id="match" tvg-name="{display_title}"'
         if logo:
             extinf += f' tvg-logo="{logo}"'
-        extinf += f' group-title="Canlı Maçlar",{display_title}'
+        extinf += f' group-title="Maç Yayınları",{display_title}'
 
         lines.append(extinf)
         lines.append(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}')
