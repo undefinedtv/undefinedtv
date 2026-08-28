@@ -1,7 +1,8 @@
+import os
 from github import Github
 
 # GitHub Token
-TOKEN = "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"
+TOKEN = os.environ["GITHUB_TOKEN"]
 REPO = "undefinedtv/undefined_tv"
 HEDEF_DOSYA = "test.m3u"
 
