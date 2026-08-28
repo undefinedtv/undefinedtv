@@ -174,7 +174,7 @@ def create_m3u(matches, base_url):
         logo = LOGO_MAP.get(sport, "")
 
         # EXTINF satırını oluştur
-        extinf = f'#EXTINF:-1 tvg-id="match" tvg-name="{display_title}"'
+        extinf = f'#EXTINF:-1 '
         if logo:
             extinf += f' tvg-logo="{logo}"'
         extinf += f' group-title="Maç Yayınları",{display_title}'
