@@ -22,7 +22,7 @@ LOGO_MAP = {
 def get_active_domain():
     """Aktif domain'i bulur."""
     print("🔍 Aktif domain aranıyor...")
-    for i in range(44, 44):
+    for i in range(43, 45):
         url = f"https://birazcikspor44.xyz/"
         try:
             r = requests.get(url, timeout=5, headers=headers)
