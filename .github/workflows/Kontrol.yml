@@ -5,7 +5,7 @@ concurrency:
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'  
+    - cron: '0 */1 * * *'  
 jobs:
   BirlesikGuncelleme:
     runs-on: ubuntu-latest
@@ -37,9 +37,6 @@ jobs:
       - name: atom.py Çalıştır
         continue-on-error: true
         run: python atom.py
-      - name: selcuk.py Çalıştır
-        continue-on-error: true
-        run: python selcuk.py
       - name: karsilasmalar.py Çalıştır
         continue-on-error: true
         run: python karsilasmalar.py
