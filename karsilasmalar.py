@@ -177,11 +177,12 @@ def create_m3u(matches, base_url):
         extinf = f'#EXTINF:-1 '
         if logo:
             extinf += f' tvg-logo="{logo}"'
-        extinf += f' group-title="Maç Yayınları",{display_title}'
+        extinf += f' group-title="Maç Yayınları" ,{display_title}'
 
         lines.append(extinf)
         lines.append(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}')
         lines.append(f'{base_url}{match_id}.m3u8')
+        lines.append("")
 
     with open("karsilasmalar.m3u", "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
