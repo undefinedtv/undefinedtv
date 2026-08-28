@@ -1,7 +1,7 @@
 from github import Github
 
 # GitHub Token
-TOKEN = "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"
+TOKEN = "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"
 REPO = "undefinedtv/undefined_tv"
 HEDEF_DOSYA = "test.m3u"
 
