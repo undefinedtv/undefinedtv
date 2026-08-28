@@ -1,150 +1,208 @@
+import requests
 import re
 import sys
-import requests
-from datetime import datetime, timedelta
-from urllib.parse import urlparse, parse_qs, urljoin
-from playwright.sync_api import sync_playwright
 
-# Constants
-JUSTINTV_DOMAIN = "https://tvjustin.com/"
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
-FIXED_GROUP_TITLE = "Maç Yayınları"
+headers = {
+    'Accept': '*/*',
+    'Accept-Encoding': 'gzip, deflate',
+    'Accept-Language': 'tr-TR,tr;q=0.8',
+    'Connection': 'keep-alive',
+    'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36',
+    'Referer': 'https://url24.link/'
+}
 
-def adjust_time_in_text(text, hours_to_add=5):
-    """Finds HH:MM patterns in text and adds specified hours."""
-    def time_replacer(match):
-        time_str = match.group(0)
+# Spor dallarına göre logo URL'leri
+LOGO_MAP = {
+    'futbol': 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg',
+    'basketbol': 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png',
+    'voleybol': 'https://static.wikia.nocookie.net/volleyball/images/b/ba/Istockphoto-516141000-612x612.jpg',
+    'tenis': 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Tennis_Racket_and_Balls.jpg'
+}
+
+def get_active_domain():
+    """Aktif domain'i bulur."""
+    print("🔍 Aktif domain aranıyor...")
+    for i in range(44, 44):
+        url = f"https://birazcikspor44.xyz/"
         try:
-            time_obj = datetime.strptime(time_str, "%H:%M")
-            new_time = time_obj + timedelta(hours=hours_to_add)
-            return new_time.strftime("%H:%M")
-        except ValueError:
-            return time_str
+            r = requests.get(url, timeout=5, headers=headers)
+            if r.status_code == 200:
+                print(f"✅ Aktif domain bulundu: {url}")
+                return url
+        except:
+            continue
+    print("⚠️ Aktif domain bulunamadı.")
+    return None
 
-    return re.sub(r'\d{2}:\d{2}', time_replacer, text)
+def get_sport_from_league(league):
+    """Lig adından spor dalını tahmin eder."""
+    league_lower = league.lower()
+    if any(k in league_lower for k in ['fiba', 'basketbol', 'nba', 'basket']):
+        return 'basketbol'
+    elif any(k in league_lower for k in ['voleybol', 'volley', 'voley']):
+        return 'voleybol'
+    elif any(k in league_lower for k in ['atp', 'wta', 'tenis', 'tenn']):
+        return 'tenis'
+    else:
+        return 'futbol'  # Varsayılan olarak futbol
 
-def scrape_default_channel_info(page):
+def get_karsilasmalar(active_domain):
+    """
+    script.js içindeki 'karsilasmalar' dizisini parse eder.
+    Her maça 'sport' alanı eklenir.
+    """
+    print("📥 script.js indiriliyor...")
     try:
-        page.goto(JUSTINTV_DOMAIN, timeout=25000, wait_until='domcontentloaded')
-        iframe_selector = "iframe#customIframe"
-        page.wait_for_selector(iframe_selector, timeout=15000)
-        iframe_element = page.query_selector(iframe_selector)
-        if not iframe_element: return None, None
-        
-        iframe_src = iframe_element.get_attribute('src')
-        event_url = urljoin(JUSTINTV_DOMAIN, iframe_src)
-        parsed_event_url = urlparse(event_url)
-        query_params = parse_qs(parsed_event_url.query)
-        stream_id = query_params.get('id', [None])[0]
-        return event_url, stream_id
-    except Exception:
-        return None, None
-
-def extract_base_m3u8_url(page, event_url):
-    try:
-        page.goto(event_url, timeout=20000, wait_until="domcontentloaded")
-        content = page.content()
-        base_url_match = re.search(r"['\"](https?://[^'\"]+/checklist/)['\"]", content)
-        return base_url_match.group(1) if base_url_match else None
-    except Exception:
-        return None
-
-def is_link_working(url):
-    headers = {
-        "User-Agent": USER_AGENT,
-        "Referer": JUSTINTV_DOMAIN,
-        "Origin": JUSTINTV_DOMAIN.rstrip('/')
-    }
-    try:
-        response = requests.head(url, headers=headers, timeout=5)
-        return response.status_code == 200
-    except Exception:
-        return False
-
-def scrape_all_channels(page):
-    print(f"\n📡 Collecting channels from {JUSTINTV_DOMAIN}...")
-    channels = []
-    seen_ids = set()
-    
-    try:
-        page.goto(JUSTINTV_DOMAIN, timeout=45000, wait_until='networkidle')
-        page.wait_for_timeout(3000)
-        channel_elements = page.query_selector_all(".mac[data-url]")
-        
-        for element in channel_elements:
-            data_url = element.get_attribute('data-url')
-            if not data_url: continue
-            
-            parsed_data_url = urlparse(data_url)
-            stream_id = parse_qs(parsed_data_url.query).get('id', [None])[0]
-            
-            if stream_id and stream_id not in seen_ids:
-                name_element = element.query_selector(".takimlar")
-                channel_name = name_element.inner_text().replace('CANLI', '').strip() if name_element else "Unknown"
-                
-                time_element = element.query_selector(".saat")
-                time_str = time_element.inner_text().strip() if time_element else ""
-                
-                # Apply the +5 hours offset and format the title with time first
-                if time_str and time_str != "CANLI":
-                    adjusted_time = adjust_time_in_text(time_str, 5)
-                    final_name = f"[{adjusted_time}] {channel_name}"
-                else:
-                    final_name = channel_name
-                
-                channels.append({
-                    'name': final_name,
-                    'id': stream_id
-                })
-                seen_ids.add(stream_id)
-
-        # Sort alphabetically (which now effectively sorts by time for match entries)
-        channels.sort(key=lambda x: x['name'])
-        return channels
+        r = requests.get(active_domain + "script.js", timeout=10, headers=headers)
+        r.encoding = 'utf-8'  # Türkçe karakterlerin düzgün gelmesi için
+        js_content = r.text
     except Exception as e:
-        print(f"Error during scraping: {e}")
+        print(f"❌ script.js alınamadı: {e}")
         return []
 
+    # karsilasmalar dizisini yakala
+    pattern = r'const\s+karsilasmalar\s*=\s*\[(.*?)\];'
+    m = re.search(pattern, js_content, re.DOTALL)
+    if not m:
+        print("⚠️ karsilasmalar dizisi bulunamadı.")
+        return []
+
+    content = m.group(1)
+    objects = re.findall(r'\{.*?\}', content, re.DOTALL)
+
+    matches = []
+    for obj in objects:
+        def get_field(field):
+            f = re.search(rf'"{field}"\s*:\s*"([^"]*)"', obj)
+            return f.group(1) if f else ""
+
+        def get_bool(field):
+            f = re.search(rf'"{field}"\s*:\s*(true|false)', obj)
+            return True if f and f.group(1) == "true" else False
+
+        time = get_field("time")
+        league = get_field("league")
+        title = get_field("title")
+        url = get_field("url")
+        live = get_bool("live")
+
+        if url:
+            matches.append({
+                "time": time,
+                "league": league,
+                "title": title,
+                "url": url,
+                "live": live,
+                "sport": get_sport_from_league(league)  # Spor dalını tahmin et
+            })
+
+    print(f"✅ {len(matches)} maç bulundu (karsilasmalar).")
+    return matches
+
+def get_base_url(active_domain, first_match):
+    """İlk maçın event.html sayfasından base_url'i çıkarır."""
+    print("🔗 Base URL alınıyor...")
+    try:
+        match_url = first_match.get("url", "")
+        if "id=" not in match_url:
+            print("⚠️ Maç url'sinde id parametresi yok.")
+            return None
+        first_id = match_url.split("id=")[1]
+
+        event_url = active_domain + "event.html?id=" + first_id
+        r = requests.get(event_url, timeout=10, headers=headers)
+        r.encoding = 'utf-8'
+        event_source = r.text
+
+        b = re.search(r'const\s+baseurls\s*=\s*\[\s*"([^"]+)"', event_source)
+        if not b:
+            print("⚠️ Base URL bulunamadı.")
+            return None
+
+        base_url = b.group(1)
+        if not base_url.endswith('/'):
+            base_url += '/'
+        print(f"✅ Base URL bulundu: {base_url}")
+        return base_url
+    except Exception as e:
+        print(f"❌ Base URL alınırken hata: {e}")
+        return None
+
+def create_m3u(matches, base_url):
+    """Maç listesinden M3U dosyası oluşturur."""
+    print("📝 M3U dosyası oluşturuluyor...")
+    lines = ["#EXTM3U"]
+
+    for match in matches:
+        time = match.get("time", "")
+        league = match.get("league", "")
+        title = match.get("title", "")
+        url = match.get("url", "")
+        sport = match.get("sport", "futbol")
+
+        if "id=" not in url:
+            continue
+
+        match_id = url.split("id=")[1]
+
+        # Başlık: saat | takım1 - takım2 | lig
+        display_title = f"{time} | {title} | {league}"
+
+        # Spor dalına göre logo seç
+        logo = LOGO_MAP.get(sport, "")
+
+        # EXTINF satırını oluştur
+        extinf = f'#EXTINF:-1 tvg-id="match" tvg-name="{display_title}"'
+        if logo:
+            extinf += f' tvg-logo="{logo}"'
+        extinf += f' group-title="Canlı Maçlar",{display_title}'
+
+        lines.append(extinf)
+        lines.append(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}')
+        lines.append(f'{base_url}{match_id}.m3u8')
+
+    with open("karsilasmalar.m3u", "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
+    print(f"✅ karsilasmalar.m3u başarıyla oluşturuldu ({len(matches)} maç)")
+
+def create_empty_m3u():
+    """Hata durumunda boş/placeholder M3U dosyası oluşturur."""
+    try:
+        with open("karsilasmalar.m3u", "w", encoding="utf-8") as f:
+            f.write("#EXTM3U\n")
+            f.write("# Maç listesi şu anda kullanılamıyor\n")
+        print("✅ Placeholder M3U dosyası oluşturuldu")
+    except Exception as e:
+        print(f"❌ M3U dosyası oluşturulamadı: {e}")
+
 def main():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(user_agent=USER_AGENT)
-        page = context.new_page()
+    try:
+        active_domain = get_active_domain()
+        if not active_domain:
+            create_empty_m3u()
+            return 1
 
-        default_event_url, _ = scrape_default_channel_info(page)
-        if not default_event_url: 
-            sys.exit(1)
+        # Sadece karsilasmalar dizisini kullan
+        matches = get_karsilasmalar(active_domain)
+        if not matches:
+            print("⚠️ Maç listesi alınamadı, placeholder oluşturuluyor...")
+            create_empty_m3u()
+            return 1
 
-        base_m3u8_url = extract_base_m3u8_url(page, default_event_url)
-        if not base_m3u8_url: 
-            sys.exit(1)
+        base_url = get_base_url(active_domain, matches[0])
+        if not base_url:
+            print("⚠️ Base URL alınamadı, placeholder oluşturuluyor...")
+            create_empty_m3u()
+            return 1
 
-        channels = scrape_all_channels(page)
-        
-        output_filename = "karsilasmalar.m3u"
-        count = 0
-        
-        with open(output_filename, "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n\n")
-            
-            for c in channels:
-                stream_url = f"{base_m3u8_url}{c['id']}.m3u8"
-                
-                print(f"🔍 Validating: {c['name']}...", end=" ", flush=True)
-                
-                if is_link_working(stream_url):
-                    print("✅ 200 OK")
-                    f.write(f'#EXTINF:-1 tvg-name="{c["name"]}" group-title="{FIXED_GROUP_TITLE}",{c["name"]}\n')
-                    f.write(f"#EXT-X-USER-AGENT:{USER_AGENT}\n")
-                    f.write(f"#EXT-X-REFERER:{JUSTINTV_DOMAIN}\n")
-                    f.write(f"#EXT-X-ORIGIN:{JUSTINTV_DOMAIN.rstrip('/')}\n")
-                    f.write(f"{stream_url}\n\n")
-                    count += 1
-                else:
-                    print("❌ Offline")
-        
-        print(f"\n✅ Finished! {count} live channels saved. Format: [TIME] NAME.")
-        browser.close()
+        create_m3u(matches, base_url)
+        return 0
+
+    except Exception as e:
+        print(f"❌ Beklenmeyen hata: {str(e)}")
+        create_empty_m3u()
+        return 1
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
