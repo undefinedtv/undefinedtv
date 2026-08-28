@@ -131,7 +131,7 @@ def get_base_url(active_domain, first_match):
 def create_m3u(matches, base_url):
     """Maç listesinden M3U dosyası oluşturur."""
     print("📝 M3U dosyası oluşturuluyor...")
-    lines = ["#EXTM3U"]
+    lines = [""]
 
     for match in matches:
         time = match.get("time", "")
