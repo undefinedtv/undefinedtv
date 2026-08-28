@@ -39,13 +39,7 @@ jobs:
         run: python atom.py
       - name: karsilasmalar.py Çalıştır
         continue-on-error: true
-        run: python karsilasmalar.py
-      - name: xspor.py Çalıştır
-        continue-on-error: true
-        run: python xspor.py        
-      - name: rec.py Çalıştır
-        continue-on-error: true
-        run: python rec.py   
+        run: python karsilasmalar.py 
       - name: birlestir.py Çalıştır
         continue-on-error: true
         run: python birlestir.py        
