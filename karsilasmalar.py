@@ -13,10 +13,10 @@ headers = {
 
 # Spor dallarına göre logo URL'leri
 LOGO_MAP = {
-    'futbol': 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg',
-    'basketbol': 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png',
-    'voleybol': 'https://static.wikia.nocookie.net/volleyball/images/b/ba/Istockphoto-516141000-612x612.jpg',
-    'tenis': 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Tennis_Racket_and_Balls.jpg'
+    'futbol': 'https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png',
+    'basketbol': 'https://www.citypng.com/public/uploads/preview/hd-realistic-basketball-ball-png-704081694878791vsyyyp96la.png',
+    'voleybol': 'https://www.citypng.com/public/uploads/preview/hd-yellow-blue-and-white-volleyball-ball-png-70408169487874060mrdnzifk.png',
+    'tenis': 'https://www.citypng.com/public/uploads/preview/hd-green-tennis-ball-transparent-png-704081694878789ibeew9de6z.png'
 }
 
 def get_active_domain():
