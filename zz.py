@@ -2,19 +2,20 @@ import requests
 import re
 import os
 import urllib3
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 
 # SSL uyarılarını gizle (verify=False kullanıldığında)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- KONFIGÜRASYON ---
-BASE_DOMAIN_PATTERN = "zeustv{}.cfd"   # Ana desen
-ALT_DOMAIN_PATTERN = "zeus{}.cfd"      # Alternatif desen
+BASE_DOMAIN_PATTERN = "zeustv{}.cfd"   # Tek desen
 START_INDEX = 269
-END_INDEX = 300
+END_INDEX = 275
 REQUEST_TIMEOUT = 10                   # Daha uzun timeout
 MASTER_M3U_FILENAME = "zz.m3u"
+
+# Varsayılan (fallback) domain ve base URL
+DEFAULT_DOMAIN = "https://zeustv269.cfd"
+DEFAULT_BASE_URL = "https://zeus324232.cfd/"
 
 # Güncel kanal ID listesi (JSON'dan alındı)
 CHANNEL_IDS = [
@@ -39,18 +40,9 @@ def log(message, level="INFO"):
     print(f"[{level}] {message}")
 
 def get_session():
-    """Yeniden deneme özellikli bir HTTP oturumu oluşturur."""
+    """Başlıkları içeren basit bir HTTP oturumu oluşturur."""
     session = requests.Session()
-    retry = Retry(
-        total=3,                    # Toplam 3 deneme
-        backoff_factor=1,           # Denemeler arası bekleme (1, 2, 4 sn)
-        status_forcelist=[500, 502, 503, 504],
-        allowed_methods=["GET"]     # Sadece GET isteklerinde tekrar dene
-    )
-    adapter = HTTPAdapter(max_retries=retry)
-    session.mount('http://', adapter)
-    session.mount('https://', adapter)
-    session.headers.update(HEADERS) # Oturuma başlıkları ekle
+    session.headers.update(HEADERS)
     return session
 
 def get_base_url_from_page(session, active_domain, channel_id='b1'):
@@ -103,42 +95,37 @@ def get_base_url_from_page(session, active_domain, channel_id='b1'):
 
 def find_working_domain_and_url(session):
     log(f"Domain taraması başlıyor: {BASE_DOMAIN_PATTERN.format(START_INDEX)} - {BASE_DOMAIN_PATTERN.format(END_INDEX)}", "INFO")
-    log(f"Ayrıca alternatif desen: {ALT_DOMAIN_PATTERN.format(START_INDEX)} - {ALT_DOMAIN_PATTERN.format(END_INDEX)}", "INFO")
 
-    patterns = [BASE_DOMAIN_PATTERN, ALT_DOMAIN_PATTERN]
+    for i in range(START_INDEX, END_INDEX + 1):
+        domain = BASE_DOMAIN_PATTERN.format(i)
+        url = f"https://{domain}"
+        log(f"Test ediliyor: {url}", "DEBUG")
 
-    for pattern in patterns:
-        log(f"--- Desen deneniyor: {pattern} ---", "INFO")
-        for i in range(START_INDEX, END_INDEX + 1):
-            domain = pattern.format(i)
-            url = f"https://{domain}"
-            log(f"Test ediliyor: {url}", "DEBUG")
+        try:
+            response = session.get(url + "/", timeout=REQUEST_TIMEOUT, allow_redirects=True, verify=False)
+            status = response.status_code
+            log(f"  -> HTTP {status}", "DEBUG")
 
-            try:
-                response = session.get(url + "/", timeout=REQUEST_TIMEOUT, allow_redirects=True, verify=False)
-                status = response.status_code
-                log(f"  -> HTTP {status}", "DEBUG")
+            if status == 200:
+                log(f"✅ Aktif domain bulundu: {url}", "SUCCESS")
+                base_video_url = get_base_url_from_page(session, url, 'b1')
 
-                if status == 200:
-                    log(f"✅ Aktif domain bulundu: {url}", "SUCCESS")
-                    base_video_url = get_base_url_from_page(session, url, 'b1')
-
-                    if base_video_url:
-                        log(f"🎯 Kullanılacak domain: {url}, Base URL: {base_video_url}", "SUCCESS")
-                        return url, base_video_url
-                    else:
-                        log(f"⚠️ Domain aktif ({url}) fakat streamUrl alınamadı. Sonraki domaine geçiliyor...", "WARNING")
+                if base_video_url:
+                    log(f"🎯 Kullanılacak domain: {url}, Base URL: {base_video_url}", "SUCCESS")
+                    return url, base_video_url
                 else:
-                    log(f"ℹ️ {url} durum kodu: {status} (atlanıyor)", "DEBUG")
+                    log(f"⚠️ Domain aktif ({url}) fakat streamUrl alınamadı. Sonraki domaine geçiliyor...", "WARNING")
+            else:
+                log(f"ℹ️ {url} durum kodu: {status} (atlanıyor)", "DEBUG")
 
-            except requests.exceptions.SSLError as e:
-                log(f"SSL Hatası ({url}): {e}", "WARNING")
-            except requests.exceptions.ConnectionError as e:
-                log(f"Bağlantı Hatası ({url}): {e}", "DEBUG")
-            except requests.exceptions.Timeout:
-                log(f"Timeout ({url})", "DEBUG")
-            except Exception as e:
-                log(f"Beklenmeyen Hata ({url}): {e}", "DEBUG")
+        except requests.exceptions.SSLError as e:
+            log(f"SSL Hatası ({url}): {e}", "WARNING")
+        except requests.exceptions.ConnectionError as e:
+            log(f"Bağlantı Hatası ({url}): {e}", "DEBUG")
+        except requests.exceptions.Timeout:
+            log(f"Timeout ({url})", "DEBUG")
+        except Exception as e:
+            log(f"Beklenmeyen Hata ({url}): {e}", "DEBUG")
 
     log("❌ Hiçbir aktif domain bulunamadı.", "ERROR")
     return None, None
@@ -147,7 +134,7 @@ def create_master_m3u(base_video_url):
     log(f"'{MASTER_M3U_FILENAME}' dosyası oluşturuluyor...", "INFO")
     try:
         with open(MASTER_M3U_FILENAME, 'w', encoding='utf-8') as f:
-            f.write("\n")
+            f.write("\n")  
             for channel_id in CHANNEL_IDS:
                 stream_url = f"{base_video_url}{channel_id}/index.txt"
                 channel_name = channel_id.upper()
@@ -163,8 +150,12 @@ def main():
     active_domain, base_video_url = find_working_domain_and_url(session)
 
     if not base_video_url:
-        log("❌ Video base URL'si alınamadığı için işlem durduruldu.", "ERROR")
-        return
+        log("❌ Tarama sonucu aktif domain bulunamadı. Varsayılan domain kullanılıyor...", "WARNING")
+        active_domain = DEFAULT_DOMAIN
+        base_video_url = DEFAULT_BASE_URL
+        # Opsiyonel: Varsayılan domain ile de sayfayı kontrol etmeyi deneyebiliriz,
+        # ancak istek üzerine doğrudan varsayılanı kullanıyoruz.
+        log(f"ℹ️ Varsayılan domain: {active_domain}, Base URL: {base_video_url}", "INFO")
 
     create_master_m3u(base_video_url)
     log("🚀 Tüm işlemler sorunsuz tamamlandı!", "SUCCESS")
