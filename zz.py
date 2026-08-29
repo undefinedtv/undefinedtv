@@ -129,7 +129,7 @@ def create_master_m3u(base_video_url):
     log(f"'{MASTER_M3U_FILENAME}' dosyası oluşturuluyor...", "INFO")
     try:
         with open(MASTER_M3U_FILENAME, 'w', encoding='utf-8') as f:
-            f.write("#EXTM3U\n")  # M3U başlığı eklendi
+            f.write("\n")  # M3U başlığı eklendi
             for channel_id in CHANNEL_IDS:
                 stream_url = f"{base_video_url}{channel_id}/index.txt"
                 channel_name = channel_id.upper()
