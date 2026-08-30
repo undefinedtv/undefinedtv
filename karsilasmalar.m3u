@@ -3,6 +3,10 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://andro.226503.xyz/checklist/androstreamlivebiraz1.m3u8
 
+#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,19:00 | Eyüpspor - Alanyaspor (Yedek) | Trendyol Süper Lig
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://andro.226503.xyz/checklist/androstreamliveexn2.m3u8
+
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,21:30 | Samsunspor - Fenerbahçe | Trendyol Süper Lig
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://andro.226503.xyz/checklist/androstreamlivebiraz1.m3u8
@@ -11,113 +15,41 @@ https://andro.226503.xyz/checklist/androstreamlivebiraz1.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
 
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,13:15 | Aragon GP | Moto Gp
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,13:15 | Utrecht - PSV | Hollanda Eredivisie
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,14:00 | Aberdeen - Glasgow Rangers | İskoçya Premier Lig
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamliveexn1.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,14:30 | St.Pauli - Kaiserslautern | Almanya Bundesliga 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivech20158409.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,14:30 | SV Darmstadt 98 - Hannover 96 | Almanya Bundesliga 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivech20158408.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,14:30 | 1. FC Magdeburg - Holstein Kiel | Almanya Bundesliga 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivech20158410.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,14:30 | Saarbrucken FC - Hansa Rostock | Almanya Bundesliga 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivesifir.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,15:00 | Aragon GP | Moto Gp
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,15:30 | Feyenoord - ADO Den Haag | Hollanda Eredivisie
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/hd-realistic-basketball-ball-png-704081694878791vsyyyp96la.png" group-title="Maç Yayınları" ,15:45 | Polonya - Almanya | FIBA Dünya Kupasi Elemeleri
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,16:00 | Paris FC - Nice | Fransa Ligue 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,16:00 | Chelsea - Brighton | İngiltere Premier Lig
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,16:00 | Chelsea - Brighton (Yedek) | İngiltere Premier Lig
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamliveidm.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,16:00 | Leeds United - Brentford | İngiltere Premier Lig
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,16:00 | Sunderland - Fulham | İngiltere Premier Lig
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,16:30 | Freiburg - Werder Bremen | Almanya Bundesliga
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,17:00 | Atletico PR - Fluminense | Brezilya Serie A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,17:30 | Viktoria Köln - Munster | Almanya Bundesliga 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivesifir.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,17:35 | Cezayir - Türkiye | Akdeniz Oyunlari 3x3 Kadinlar
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,17:45 | SC Telstar - Ajax | Hollanda Eredivisie
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
-
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,18:00 | Real Madrid - Malaga | İspanya La Liga
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 
+#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,18:00 | Real Madrid - Malaga (Düşük Gecikme) | İspanya La Liga
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://andro.226503.xyz/checklist/androstreamlivech20160112.m3u8
+
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,18:00 | Real Madrid - Malaga (Yedek) | İspanya La Liga
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
+https://andro.226503.xyz/checklist/androstreamliveidm.m3u8
 
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,18:00 | İtalya - Türkiye | Akdeniz Oyunlari Kadinlar Final
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+https://andro.226503.xyz/checklist/androstreamlivetb5.m3u8
 
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,18:15 | Rennes - Le Mans | Fransa Ligue 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
 
+#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,18:15 | Rennes - Le Mans (Yedek) | Fransa Ligue 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://andro.226503.xyz/checklist/androstreamlivech20160275.m3u8
+
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,18:30 | Augsburg - Schalke 04 | Almanya Bundesliga
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+https://andro.226503.xyz/checklist/androstreamlivech20160401.m3u8
 
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,18:30 | Manchester Utd - Ipswich Town | İngiltere Premier Lig
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 
-#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/hd-realistic-basketball-ball-png-704081694878791vsyyyp96la.png" group-title="Maç Yayınları" ,18:30 | İsveç - Fransa | FIBA Dünya Kupasi Elemeleri
+#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,18:30 | Manchester Utd - Ipswich Town (Yedek) | İngiltere Premier Lig
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivessplus1.m3u8
+https://andro.226503.xyz/checklist/androstreamlivech20160387.m3u8
 
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,19:00 | Esenler Erokspor - Iğdirspor | Trendyol 1. Lig
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
@@ -129,11 +61,15 @@ https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
 
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,19:25 | Türkiye - Güney Kibris | Akdeniz Oyunlari 3x3 Kadinlar
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
+https://andro.226503.xyz/checklist/androstreamlivetb6.m3u8
 
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,19:30 | Napoli - Como | İtalya Serie A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
+
+#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,19:30 | Napoli - Como (Yedek) | İtalya Serie A
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://andro.226503.xyz/checklist/androstreamlivech20160873.m3u8
 
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,20:30 | Deportivo - Valencia | İspanya La Liga
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
@@ -142,6 +78,10 @@ https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,20:30 | Deportivo - Valencia (Yedek) | İspanya La Liga
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://andro.226503.xyz/checklist/androstreamliveidm.m3u8
+
+#EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,20:30 | Viktoria Köln - Munster | Almanya Bundesliga 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://andro.226503.xyz/checklist/androstreamlivesifir.m3u8
 
 #EXTINF:-1  tvg-logo="https://www.citypng.com/public/uploads/preview/classic-football-ball-icon-701751694971327nyrhdxj8hy.png" group-title="Maç Yayınları" ,21:00 | Al Qadsiah - Al Faysaly | Suudi Arabistan Pro Lig
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
