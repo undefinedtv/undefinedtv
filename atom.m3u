@@ -1,118 +1,40 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/0f87a9699bf2a0e68b4bfbc72bd69641.png" group-title="Atom TV",Toulouse FC - Lille OSC [21:45]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
+https://corestream.ardastream.live//bein4/tracks-v1a1/mono.m3u8
+# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/0f87a9699bf2a0e68b4bfbc72bd69641.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/14ddf5b24769883b988ae18b4093404e.png
+
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/396cc6589a4d80eb0feb1845e1eaa43e.png" group-title="Atom TV",América de Cali - Alianza Valledupar [00:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
+20205264
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/396cc6589a4d80eb0feb1845e1eaa43e.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/c693dd46774b2f700419f74cf8e5d171.png
+
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/aa5f5294b65f900935fb35db83a46dda.png" group-title="Atom TV",Mirra Andreeva - Eva Lys [00:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
+20205384
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/aa5f5294b65f900935fb35db83a46dda.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/b2c0deff4da2f73cb03db1c9e6bf784a.png
+
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/77f58aa0b5ec3f1649d454edba71f4cd.png" group-title="Atom TV",Bouzkova/Sorribes Tormo - Kessler/Mcnally [00:10]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
+20205391
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/77f58aa0b5ec3f1649d454edba71f4cd.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/077bb5204f4dbdef8c25ba5542717a28.png
+
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/8a15a9a99e322f46e5c6cdd376f33d7d.png" group-title="Atom TV",Recoleta - Cerro Porteño [00:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
+20205473
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/8a15a9a99e322f46e5c6cdd376f33d7d.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/b4f83cfb661f7099da53af2a2b70c54d.png
+
 #EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/2a6f858fbe0abbfe98ff4354e2775aca.png" group-title="Atom TV",Tianjin Pioneers - Qingdao Guoxin Haitian Eagle [15:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
 20200988
 # İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/2a6f858fbe0abbfe98ff4354e2775aca.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/93a68b1258f368bba32be35f651eb471.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/4863fd72b11d8cdd39548db6d982d0c2.png" group-title="Atom TV",Felix Auger Aliassime - Karen Khachanov [17:45]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20202382
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/4863fd72b11d8cdd39548db6d982d0c2.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/40ff05c3ed29111a429aec7a08c3ad2c.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/3dc7ade758f6a15afd08b5478c989d73.png" group-title="Atom TV",Jan-Lennard Struff - Francisco Cerundolo [18:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20202365
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/3dc7ade758f6a15afd08b5478c989d73.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/8c1570d1ad19842f22ef44827169dd66.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/507301479b45e46f7357c0151c65bab6.png" group-title="Atom TV",Dynamo Pardubice - GKS Tychy [19:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20202894
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/507301479b45e46f7357c0151c65bab6.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/8240.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/b0a722707992268b1bdf3085293830ff.png" group-title="Atom TV",Buran Voronezh - CSK VVS Samara [19:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20202878
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/b0a722707992268b1bdf3085293830ff.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/b3fc3f24f7947b768e9b72e0b73212d8.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/14541.png" group-title="Atom TV",Almanya (Bayanlar) - Türkiye (Bayanlar) [19:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20202881
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/14541.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/14987.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/d19bee6db62296d7914ca8eb36fea692.png" group-title="Atom TV",FC Dynamo Moskova - Akhmat [19:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203142
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/d19bee6db62296d7914ca8eb36fea692.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/258b0b33dc55283eae137e64da1c6645.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/82287df18e17dabad5f6c3d4b05f8452.png" group-title="Atom TV",Neom SC - Al Khaleej Khor Fakkan [19:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203138
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/82287df18e17dabad5f6c3d4b05f8452.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/67966b5f34aaaeef4b8102438adab329.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/3d3f9d9ce8629517bb04d383315445ee.png" group-title="Atom TV",Moser Medical Graz99ers - Fribourg-Gottéron [19:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203272
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/3d3f9d9ce8629517bb04d383315445ee.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/eaf6bcc50fb5b68fb8dc0f71b56655d8.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/4d384b613c5bcd6b11ef6402d28c669d.png" group-title="Atom TV",AC Omonia - AEP Paphos F.C. [19:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203207
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/4d384b613c5bcd6b11ef6402d28c669d.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/7325518e97f9917f26c5d209238dfe5c.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/f16b712125a1a1d23a0ec25330068233.png" group-title="Atom TV",Gleason/Eikeri - Wang/Uchijima [19:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203217
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/f16b712125a1a1d23a0ec25330068233.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/24a3053d03b286d8b17f4c7bfc1f87ea.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/99412544bfef17b2d2fde84e4ed78653.png" group-title="Atom TV",Lilli Tagger - Amanda Anisimova [19:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203216
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/99412544bfef17b2d2fde84e4ed78653.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/543a2e1e35ec29172f8aa6c170470d84.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/2116549.png" group-title="Atom TV",Ivan Ivanov - Mark Lajal [19:40]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203320
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/2116549.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/e96bc8674a90aba57606bdd1e8a9fd8e.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/226829.png" group-title="Atom TV",B.B.Bodrumspor - Esenler Erokspor [20:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203455
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/226829.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/935647.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/5026.png" group-title="Atom TV",Bursaspor - İstanbulspor [20:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203456
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/5026.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/250091.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/715fbafc73d2871aa5efd3396ba77a65.png" group-title="Atom TV",Mjällby AIF - Djurgårdens IF [20:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203470
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/715fbafc73d2871aa5efd3396ba77a65.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/5704.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/0083cceda5fa02953d16d620cd216d50.png" group-title="Atom TV",Al Ahly Cairo - Smouha Sporting Club [20:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203472
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/0083cceda5fa02953d16d620cd216d50.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/2e6f1347a9217dbd2adc7b8e879bf651.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/6dbfcf5848a26deb2a2ee73f44732a86.png" group-title="Atom TV",Perez/Schuurs - Zarazua/Tikhonova [20:05]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203481
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/6dbfcf5848a26deb2a2ee73f44732a86.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/06f0287673fce189fa84d958fd19679c.png
-
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/6be43ef204188a357ab3810364328e98.png" group-title="Atom TV",Detiuc/Khromacheva - Dabrowski/Stefani [20:05]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203691
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/6be43ef204188a357ab3810364328e98.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/7157e9e211fd7bfbf5e1569702f47a31.png
 
 #EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/23879.png" group-title="Atom TV",EC Red Bull Salzburg - Kölner Haie [20:15]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
@@ -120,77 +42,101 @@
 20203630
 # İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/23879.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/60fcc74ebd3f32a7c70a4028a4f32e08.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/a15a721c577a0d8914a045b42868f4d8.png" group-title="Atom TV",EC KAC - Bordeaux [20:15]
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/ea48e6f8e1b91be7bf9fbd11a7bc78c4.png" group-title="Atom TV",Alexei Popyrin - Alejandro Tabilo [21:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203629
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/a15a721c577a0d8914a045b42868f4d8.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/ba1d7f7b104f9287e4bb655ba66fded7.png
+20204257
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/ea48e6f8e1b91be7bf9fbd11a7bc78c4.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/92533aab353c6ca07f02dd1d8c5938a6.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/72053bca3e995b59e843b08e3f55812a.png" group-title="Atom TV",Butvilas/Kasnikowski - Watanabe/Fancutt [20:30]
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/fb4bfb1c77f90ff96057f9b7673b8608.png" group-title="Atom TV",Tristan Schoolkate - Flavio Cobolli [21:45]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203891
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/72053bca3e995b59e843b08e3f55812a.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/135239f4b7e9aeb8f9f4034df9c8a89d.png
+20204364
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/fb4bfb1c77f90ff96057f9b7673b8608.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/7a5e769327f6343336fd7ff91e517e90.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/18421.png" group-title="Atom TV",Hapoel Tel Aviv F.C. - Beitar Jerusalem F.C. [20:30]
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/88779e9a13ae16630c9cc5de70c4b761.png" group-title="Atom TV",Qinwen Zheng - Yulia Putintseva [22:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203710
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/18421.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/291ef2f337ec49f041cb9d99602bca56.png
+20204487
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/88779e9a13ae16630c9cc5de70c4b761.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/18870e78e1539d9ca30f888f958d4046.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/de6a717bd01d9b53147f981548de0f98.png" group-title="Atom TV",Lock/Lock - Bertola/Kym [20:30]
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/94504e6cda6bcb24f1ccd27de6487031.png" group-title="Atom TV",Cristina Bucsa - Himeno Sakatsume [22:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203881
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/de6a717bd01d9b53147f981548de0f98.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/319525726af1c6ee465965b897c7a0f1.png
+20204529
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/94504e6cda6bcb24f1ccd27de6487031.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/8fb55e4d4cdf630c6e771d89468b97b9.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/57285f329e6f038734840bf2dd1a04c0.png" group-title="Atom TV",Győri ETO - Ferencvárosi TC [20:30]
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/2789c0aff3fea99631c5beba1398a09e.png" group-title="Atom TV",Alexander Blockx - Marco Trungelliti [22:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203715
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/57285f329e6f038734840bf2dd1a04c0.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/8b53bb3e51453f2b54c0e6cb2760fcf0.png
+20204533
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/2789c0aff3fea99631c5beba1398a09e.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/979b4741805122c070ed6e79ee230b45.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/2b7d9a9f081b747caced4aaad6f6890e.png" group-title="Atom TV",Almanya - Sırbistan [20:40]
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/e6ad328bb48f998b1a92ddaba189d77e.png" group-title="Atom TV",Guo/Mladenovic - Linette/Chwalinska [22:15]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203802
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/2b7d9a9f081b747caced4aaad6f6890e.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/4adac0619ab89c05eaf9e946b9d6ac14.png
+20204578
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/e6ad328bb48f998b1a92ddaba189d77e.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/636349ea95f13e54c160a0d02406087b.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/15098aa9aea85dfbc284ff1ab8dcc401.png" group-title="Atom TV",Taylor Harry Fritz - Mattia Bellucci [20:45]
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/1f2dd499ea28e1168dbd4a73899ecec3.png" group-title="Atom TV",Deportivo Rayo Zuliano - Carabobo FC [22:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203941
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/15098aa9aea85dfbc284ff1ab8dcc401.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/a3d065a5a887a5c6874140f161bbc7b0.png
+20204662
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/1f2dd499ea28e1168dbd4a73899ecec3.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/56b11c23ac71e2f6934a7e0feb46dd5e.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/11809.png" group-title="Atom TV",Avusturya - Meksika [20:55]
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/b85e2e3631e4b873b1d74975e6dd4e93.png" group-title="Atom TV",Anzoategui - Monagas SC [23:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203970
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/11809.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/12701.png
+20204865
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/b85e2e3631e4b873b1d74975e6dd4e93.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/f6a1f737cfe80aedc6d492be8de85295.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/3080.png" group-title="Atom TV",F.C. Copenhagen - FC Nordsjælland [21:00]
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/84d222d979378874fccb46ea37d17a0f.png" group-title="Atom TV",Valparaiso Beacons (Bayanlar) - Purdue Fort Wayne Mastodons (Bayanlar) [23:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203887
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/3080.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/bafe4a253175a3e1747c75e9d3502bd0.png
+20204956
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/84d222d979378874fccb46ea37d17a0f.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/80d416fa406f39d4010ff3960aa19777.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/0dedcc1230376e450a43c39d33cba132.png" group-title="Atom TV",ES Sétif - Ben Aknoun [21:00]
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/3c9ca827acd8995daf4ffa96a0d63836.png" group-title="Atom TV",JS El Biar - Olympique Akbou [23:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203981
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/0dedcc1230376e450a43c39d33cba132.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/dee804ffbe00fb63d6eb1b014e7a0e03.png
+20204909
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/3c9ca827acd8995daf4ffa96a0d63836.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/d53b14a3305671372d558bcf2f2ef2eb.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/c3284d68a0593b6cf67daa7d20375f36.png" group-title="Atom TV",Albion Montevideo - C.A. Progreso [21:00]
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/12767.png" group-title="Atom TV",Gürcistan - Suriye [23:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203922
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/c3284d68a0593b6cf67daa7d20375f36.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/2ce9d370b4f4150ae92f85d0d48a908e.png
+20204874
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/12767.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/26049.png
 
-#EXTINF:-1 tvg-logo="https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/977b8e5a94ccf3476644ca72a47b7f58.png" group-title="Atom TV",Piter/Siskova - Pridankina/Tang [21:15]
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/0f66ac97b4751f424e5e97f3e25c32c0.png" group-title="Atom TV",Akron Zips (Bayanlar) - Marshall Thundering Herd (Bayanlar) [23:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
-20203966
-# İki logo: https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/977b8e5a94ccf3476644ca72a47b7f58.png | https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/a260166b682e3b07d0462076d7619bc8.png
+20204951
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/0f66ac97b4751f424e5e97f3e25c32c0.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/107465.png
+
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/7eea779e153b7dfd75782b76fde16f7a.png" group-title="Atom TV",Vinotinto Ecuador - San Antonio Ibarra [23:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
+20205110
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/7eea779e153b7dfd75782b76fde16f7a.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/48d80e0c0a5c0223d6ae2f4d4b9169a6.png
+
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/76e1163000e5a909bf18a7e5c3a678f7.png" group-title="Atom TV",City College of New York Beavers - Centenary University [23:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
+20205171
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/76e1163000e5a909bf18a7e5c3a678f7.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/f4f57edd523a79fb52ec75b59479be4f.png
+
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/4fd4ba43d7a3bdf505c96b8d082e9fce.png" group-title="Atom TV",Birrell/Stearns - Tararudee/Shibahara [23:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
+20205163
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/4fd4ba43d7a3bdf505c96b8d082e9fce.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/c33a59d2aadfb45fd0120f15b57dfda8.png
+
+#EXTINF:-1 tvg-logo="https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/d1e357659a43a5097bf3688dcfc96f2a.png" group-title="Atom TV",Benjamin Bonzi - Ignacio Buse [23:45]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.atomsportv514.top/
+20205288
+# İki logo: https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/d1e357659a43a5097bf3688dcfc96f2a.png | https://1xlite-9853.pro/resized/size16/sfiles/logo_teams/3be71828ecee41d3b144238650b4d40e.png
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png" group-title="Atom TV",BEIN SPORTS 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
